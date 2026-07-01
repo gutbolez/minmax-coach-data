@@ -17,7 +17,7 @@
       "summoners": "Flash + Ignite",
       "keystone": "Deathfire Touch",
       "core": [
-        3118,
+        2503,
         3100
       ],
       "boots": 3158
@@ -27,7 +27,7 @@
       "keystone": "Electrocute",
       "core": [
         3146,
-        3152
+        4645
       ],
       "boots": 3020
     },
@@ -41,7 +41,7 @@
       "boots": 3008
     },
     "Alistar": {
-      "summoners": "Flash + Ignite",
+      "summoners": "Flash + Heal",
       "keystone": "Glacial Augment",
       "core": [
         3876,
@@ -68,8 +68,8 @@
       "boots": 3047
     },
     "Anivia": {
-      "summoners": "Flash + Ghost",
-      "keystone": "Deathfire Touch",
+      "summoners": "Flash + Ignite",
+      "keystone": "Arcane Comet",
       "core": [
         6657,
         3003
@@ -116,8 +116,8 @@
       "summoners": "Flash + Ignite",
       "keystone": "Electrocute",
       "core": [
-        3152,
-        4645
+        6655,
+        4646
       ],
       "boots": 3020
     },
@@ -126,7 +126,7 @@
       "keystone": "Summon Aery",
       "core": [
         3115,
-        3089
+        3116
       ],
       "boots": 3020
     },
@@ -198,9 +198,9 @@
       "keystone": "Hail of Blades",
       "core": [
         3877,
-        6610
+        6692
       ],
-      "boots": 3158
+      "boots": 3047
     },
     "Cassiopeia": {
       "summoners": "Flash + Barrier",
@@ -213,7 +213,7 @@
     },
     "Cho'Gath": {
       "summoners": "Flash + Ignite",
-      "keystone": "Grasp of the Undying",
+      "keystone": "Arcane Comet",
       "core": [
         3084,
         3068
@@ -230,7 +230,7 @@
       "boots": 3008
     },
     "Darius": {
-      "summoners": "Flash + Exhaust",
+      "summoners": "Flash + Ignite",
       "keystone": "Conqueror",
       "core": [
         3142,
@@ -288,12 +288,12 @@
       "keystone": "Electrocute",
       "core": [
         3100,
-        3041
-      ],
-      "boots": 3020
+        3041,
+        3089
+      ]
     },
     "Ezreal": {
-      "summoners": "Flash + Barrier",
+      "summoners": "Flash + Exhaust",
       "keystone": "Press the Attack",
       "core": [
         3078,
@@ -335,16 +335,16 @@
         3152,
         4005
       ],
-      "boots": 3020
+      "boots": 3111
     },
     "Gangplank": {
       "summoners": "Flash + Ignite",
       "keystone": "Deathfire Touch",
       "core": [
         3508,
-        6676,
-        3031
-      ]
+        6676
+      ],
+      "boots": 3008
     },
     "Garen": {
       "summoners": "Flash + Ignite",
@@ -379,7 +379,7 @@
       "core": [
         6697,
         6676,
-        6673
+        3036
       ]
     },
     "Gwen": {
@@ -395,13 +395,13 @@
       "summoners": "Ghost + Smite",
       "keystone": "Stormraider's Surge",
       "core": [
-        6699,
-        3161
+        3161,
+        2517
       ],
       "boots": 3158
     },
     "Heimerdinger": {
-      "summoners": "Flash + Barrier",
+      "summoners": "Flash + Ignite",
       "keystone": "Conqueror",
       "core": [
         2503,
@@ -410,7 +410,7 @@
       "boots": 3020
     },
     "Hwei": {
-      "summoners": "Flash + Barrier",
+      "summoners": "Flash + Ghost",
       "keystone": "Arcane Comet",
       "core": [
         6655,
@@ -440,14 +440,14 @@
       "summoners": "Flash + Smite",
       "keystone": "Glacial Augment",
       "core": [
-        3107,
-        6620
+        6620,
+        3107
       ],
       "boots": 3158
     },
     "Janna": {
       "summoners": "Flash + Heal",
-      "keystone": "Summon Aery",
+      "keystone": "Arcane Comet",
       "core": [
         3870,
         3107
@@ -485,8 +485,8 @@
       "summoners": "Flash + Ghost",
       "keystone": "Deathfire Touch",
       "core": [
-        3142,
-        3097
+        6697,
+        6676
       ],
       "boots": 3009
     },
@@ -557,14 +557,14 @@
       "summoners": "Flash + Ignite",
       "keystone": "Dark Harvest",
       "core": [
-        6672,
-        3153
+        3100,
+        4645
       ],
-      "boots": 3008
+      "boots": 3020
     },
     "Kayle": {
       "summoners": "Flash + Exhaust",
-      "keystone": "Press the Attack",
+      "keystone": "Fleet Footwork",
       "core": [
         3115,
         3100
@@ -600,7 +600,7 @@
     },
     "Kindred": {
       "summoners": "Flash + Smite",
-      "keystone": "Lethal Tempo",
+      "keystone": "Press the Attack",
       "core": [
         6672,
         6676
@@ -614,16 +614,16 @@
         3748,
         3181
       ],
-      "boots": 3047
+      "boots": 3111
     },
     "Kog'Maw": {
       "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
       "core": [
-        2510,
-        4645
+        3124,
+        3085
       ],
-      "boots": 3020
+      "boots": 3008
     },
     "LeBlanc": {
       "summoners": "Flash + Ignite",
@@ -644,7 +644,7 @@
       "boots": 3047
     },
     "Leona": {
-      "summoners": "Flash + Ignite",
+      "summoners": "Flash + Heal",
       "keystone": "Aftershock",
       "core": [
         3877,
@@ -659,7 +659,7 @@
         6653,
         4633
       ],
-      "boots": 3111
+      "boots": 3020
     },
     "Lissandra": {
       "summoners": "Flash + Ignite",
@@ -704,14 +704,14 @@
         3871,
         6655
       ],
-      "boots": 3158
+      "boots": 3020
     },
     "Malphite": {
       "summoners": "Flash + Ignite",
       "keystone": "Arcane Comet",
       "core": [
-        3118,
-        3068
+        3068,
+        3110
       ],
       "boots": 3047
     },
@@ -725,7 +725,7 @@
       "boots": 3158
     },
     "Maokai": {
-      "summoners": "Flash + Exhaust",
+      "summoners": "Flash + Ignite",
       "keystone": "Aftershock",
       "core": [
         3876,
@@ -797,7 +797,7 @@
       ]
     },
     "Nami": {
-      "summoners": "Flash + Ignite",
+      "summoners": "Flash + Heal",
       "keystone": "Summon Aery",
       "core": [
         3870,
@@ -848,7 +848,7 @@
         6676,
         3031
       ],
-      "boots": 3008
+      "boots": 3111
     },
     "Nocturne": {
       "summoners": "Flash + Smite",
@@ -869,7 +869,7 @@
       "boots": 3047
     },
     "Olaf": {
-      "summoners": "Exhaust + Ghost",
+      "summoners": "Ghost + Ignite",
       "keystone": "Conqueror",
       "core": [
         3074,
@@ -881,7 +881,7 @@
       "summoners": "Flash + Barrier",
       "keystone": "Arcane Comet",
       "core": [
-        2503,
+        6655,
         3152
       ],
       "boots": 3158
@@ -914,7 +914,7 @@
       "boots": 3009
     },
     "Pyke": {
-      "summoners": "Flash + Ignite",
+      "summoners": "Flash + Heal",
       "keystone": "Hail of Blades",
       "core": [
         3869,
@@ -935,10 +935,10 @@
       "summoners": "Flash + Smite",
       "keystone": "First Strike",
       "core": [
-        6697,
-        6676
+        6698,
+        3814
       ],
-      "boots": 3009
+      "boots": 3008
     },
     "Rakan": {
       "summoners": "Flash + Heal",
@@ -977,8 +977,8 @@
       "boots": 3158
     },
     "Renata Glasc": {
-      "summoners": "Flash + Heal",
-      "keystone": "Summon Aery",
+      "summoners": "Flash + Ignite",
+      "keystone": "Guardian",
       "core": [
         3876,
         4005
@@ -992,16 +992,16 @@
         6692,
         3071
       ],
-      "boots": 3111
+      "boots": 3047
     },
     "Rengar": {
       "summoners": "Flash + Smite",
       "keystone": "Fleet Footwork",
       "core": [
         3179,
-        6698
-      ],
-      "boots": 3008
+        6698,
+        3814
+      ]
     },
     "Riven": {
       "summoners": "Flash + Ignite",
@@ -1019,7 +1019,7 @@
         6653,
         8010
       ],
-      "boots": 3009
+      "boots": 3047
     },
     "Ryze": {
       "summoners": "Flash + Ghost",
@@ -1106,8 +1106,8 @@
       "summoners": "Flash + Ignite",
       "keystone": "Deathfire Touch",
       "core": [
-        6653,
-        3116
+        3116,
+        6653
       ],
       "boots": 3009
     },
@@ -1133,10 +1133,10 @@
       "summoners": "Flash + Smite",
       "keystone": "Grasp of the Undying",
       "core": [
-        2525,
-        2524
+        3084,
+        2525
       ],
-      "boots": 3047
+      "boots": 3111
     },
     "Smolder": {
       "summoners": "Flash + Barrier",
@@ -1151,7 +1151,7 @@
       "summoners": "Flash + Heal",
       "keystone": "Summon Aery",
       "core": [
-        3870,
+        3877,
         6620
       ],
       "boots": 3009
@@ -1160,7 +1160,7 @@
       "summoners": "Flash + Heal",
       "keystone": "Guardian",
       "core": [
-        3869,
+        3870,
         6617
       ],
       "boots": 3009
@@ -1196,10 +1196,10 @@
       "summoners": "Flash + Exhaust",
       "keystone": "Guardian",
       "core": [
-        3876,
+        3877,
         3084
       ],
-      "boots": 3047
+      "boots": 3111
     },
     "Taliyah": {
       "summoners": "Flash + Ignite",
@@ -1301,7 +1301,7 @@
       "boots": 3047
     },
     "Urgot": {
-      "summoners": "Flash + Ignite",
+      "summoners": "Flash + Ghost",
       "keystone": "Press the Attack",
       "core": [
         3071,
@@ -1322,19 +1322,19 @@
       "summoners": "Flash + Exhaust",
       "keystone": "Lethal Tempo",
       "core": [
-        3153,
+        6672,
         3124
       ],
       "boots": 3006
     },
     "Veigar": {
-      "summoners": "Flash + Exhaust",
+      "summoners": "Flash + Ignite",
       "keystone": "Summon Aery",
       "core": [
         6657,
         3003
       ],
-      "boots": 3020
+      "boots": 3158
     },
     "Vel'Koz": {
       "summoners": "Flash + Heal",
@@ -1386,13 +1386,13 @@
       "keystone": "Deathfire Touch",
       "core": [
         3152,
-        4646
+        3041
       ],
-      "boots": 3020
+      "boots": 3158
     },
     "Volibear": {
       "summoners": "Flash + Ignite",
-      "keystone": "Grasp of the Undying",
+      "keystone": "Press the Attack",
       "core": [
         2510,
         6675
@@ -1472,7 +1472,7 @@
       "boots": 3047
     },
     "Yunara": {
-      "summoners": "Flash + Barrier",
+      "summoners": "Flash + Ghost",
       "keystone": "Lethal Tempo",
       "core": [
         6672,
@@ -1517,11 +1517,11 @@
       "boots": 3008
     },
     "Zeri": {
-      "summoners": "Flash + Cleanse",
+      "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
       "core": [
         3097,
-        3085
+        3046
       ],
       "boots": 3008
     },
@@ -1535,17 +1535,17 @@
       "boots": 3020
     },
     "Zilean": {
-      "summoners": "Flash + Ignite",
+      "summoners": "Flash + Exhaust",
       "keystone": "Guardian",
       "core": [
         3876,
         2065
       ],
-      "boots": 3009
+      "boots": 3158
     },
     "Zoe": {
       "summoners": "Flash + Ignite",
-      "keystone": "Summon Aery",
+      "keystone": "Dark Harvest",
       "core": [
         6655,
         3100
