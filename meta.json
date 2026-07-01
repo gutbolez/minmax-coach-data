@@ -506,7 +506,7 @@
         6662,
         2502
       ],
-      "boots": 3111
+      "boots": 3047
     },
     "Kai'Sa": {
       "summoners": "Flash + Barrier",
@@ -518,7 +518,7 @@
       "boots": 3006
     },
     "Kalista": {
-      "summoners": "Flash + Barrier",
+      "summoners": "Flash + Exhaust",
       "keystone": "Lethal Tempo",
       "core": [
         3087,
@@ -833,8 +833,13 @@
       "boots": 3158
     },
     "Nidalee": {
-      "summoners": "Flash + Ignite",
-      "keystone": "Electrocute"
+      "summoners": "Flash + Smite",
+      "keystone": "Conqueror",
+      "core": [
+        3100,
+        3152
+      ],
+      "boots": 3020
     },
     "Nilah": {
       "summoners": "Flash + Ignite",
@@ -1278,7 +1283,7 @@
       "boots": 3158
     },
     "Twitch": {
-      "summoners": "Flash + Ignite",
+      "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
       "core": [
         6676,
