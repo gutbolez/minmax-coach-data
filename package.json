@@ -1,0 +1,16 @@
+{
+  "name": "minmax-coach-data",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Build/rune/summoner meta for Min-Max Coach, published as meta.json.",
+  "scripts": {
+    "ingest": "node scripts/ingest.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright": "^1.61.1"
+  }
+}

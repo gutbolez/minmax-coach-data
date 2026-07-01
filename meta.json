@@ -1,0 +1,1560 @@
+{
+  "patch": "16.13.1",
+  "tier": "diamond_plus",
+  "source": "lolalytics (scraped); champion roster from Riot Data Dragon",
+  "note": "Every champion present. Live scrape overlays a class default; curated.json overrides both.",
+  "champions": {
+    "Aatrox": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Conqueror",
+      "core": [
+        3161,
+        6610
+      ],
+      "boots": 3111
+    },
+    "Ahri": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Deathfire Touch",
+      "core": [
+        3118,
+        3100
+      ],
+      "boots": 3158
+    },
+    "Akali": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Electrocute",
+      "core": [
+        3146,
+        3152
+      ],
+      "boots": 3020
+    },
+    "Akshan": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Press the Attack",
+      "core": [
+        6676,
+        3031
+      ],
+      "boots": 3008
+    },
+    "Alistar": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Glacial Augment",
+      "core": [
+        3876,
+        3050
+      ],
+      "boots": 3009
+    },
+    "Ambessa": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Electrocute",
+      "core": [
+        6692,
+        3161
+      ],
+      "boots": 3111
+    },
+    "Amumu": {
+      "summoners": "Flash + Smite",
+      "keystone": "Aftershock",
+      "core": [
+        6653,
+        3068
+      ],
+      "boots": 3047
+    },
+    "Anivia": {
+      "summoners": "Flash + Ghost",
+      "keystone": "Deathfire Touch",
+      "core": [
+        6657,
+        3003
+      ],
+      "boots": 3158
+    },
+    "Annie": {
+      "summoners": "Flash + Teleport",
+      "keystone": "Electrocute",
+      "core": [
+        3118,
+        3152
+      ],
+      "boots": 3020
+    },
+    "Aphelios": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Conqueror",
+      "core": [
+        6676,
+        3031
+      ],
+      "boots": 3008
+    },
+    "Ashe": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Lethal Tempo",
+      "core": [
+        2523,
+        3046
+      ],
+      "boots": 3008
+    },
+    "Aurelion Sol": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Arcane Comet",
+      "core": [
+        3116,
+        6653
+      ],
+      "boots": 3111
+    },
+    "Aurora": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Electrocute",
+      "core": [
+        3152,
+        4645
+      ],
+      "boots": 3020
+    },
+    "Azir": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Summon Aery",
+      "core": [
+        3115,
+        3089
+      ],
+      "boots": 3020
+    },
+    "Bard": {
+      "summoners": "Flash + Heal",
+      "keystone": "Electrocute",
+      "core": [
+        3876,
+        3742
+      ],
+      "boots": 3009
+    },
+    "Bel'Veth": {
+      "summoners": "Flash + Smite",
+      "keystone": "Press the Attack",
+      "core": [
+        6672,
+        6631,
+        6333
+      ]
+    },
+    "Blitzcrank": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Glacial Augment",
+      "core": [
+        3877,
+        3190
+      ],
+      "boots": 3009
+    },
+    "Brand": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Dark Harvest",
+      "core": [
+        3871,
+        6653
+      ],
+      "boots": 3020
+    },
+    "Braum": {
+      "summoners": "Flash + Heal",
+      "keystone": "Guardian",
+      "core": [
+        3876,
+        2524
+      ],
+      "boots": 3111
+    },
+    "Briar": {
+      "summoners": "Flash + Smite",
+      "keystone": "Press the Attack",
+      "core": [
+        3748,
+        3071
+      ],
+      "boots": 3047
+    },
+    "Caitlyn": {
+      "summoners": "Flash + Barrier",
+      "keystone": "First Strike",
+      "core": [
+        2523,
+        3031
+      ],
+      "boots": 3006
+    },
+    "Camille": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Hail of Blades",
+      "core": [
+        3877,
+        6610
+      ],
+      "boots": 3158
+    },
+    "Cassiopeia": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Stormraider's Surge",
+      "core": [
+        6657,
+        3003
+      ],
+      "boots": 3008
+    },
+    "Cho'Gath": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Grasp of the Undying",
+      "core": [
+        3084,
+        3068
+      ],
+      "boots": 3047
+    },
+    "Corki": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Conqueror",
+      "core": [
+        3078,
+        3004
+      ],
+      "boots": 3008
+    },
+    "Darius": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Conqueror",
+      "core": [
+        3142,
+        3742
+      ],
+      "boots": 3111
+    },
+    "Diana": {
+      "summoners": "Flash + Smite",
+      "keystone": "Conqueror",
+      "core": [
+        2510,
+        4633
+      ],
+      "boots": 3020
+    },
+    "Dr. Mundo": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Grasp of the Undying",
+      "core": [
+        3083,
+        3084
+      ],
+      "boots": 3009
+    },
+    "Draven": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Lethal Tempo",
+      "core": [
+        6697,
+        2523,
+        3031
+      ]
+    },
+    "Ekko": {
+      "summoners": "Flash + Smite",
+      "keystone": "Hail of Blades",
+      "core": [
+        2510,
+        4645,
+        3089
+      ]
+    },
+    "Elise": {
+      "summoners": "Flash + Smite",
+      "keystone": "Dark Harvest",
+      "core": [
+        3100,
+        4645
+      ],
+      "boots": 3020
+    },
+    "Evelynn": {
+      "summoners": "Flash + Smite",
+      "keystone": "Electrocute",
+      "core": [
+        3100,
+        3041
+      ],
+      "boots": 3020
+    },
+    "Ezreal": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Press the Attack",
+      "core": [
+        3078,
+        3004
+      ],
+      "boots": 3008
+    },
+    "Fiddlesticks": {
+      "summoners": "Flash + Smite",
+      "keystone": "First Strike",
+      "core": [
+        3118,
+        3152
+      ],
+      "boots": 3020
+    },
+    "Fiora": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Conqueror",
+      "core": [
+        3074,
+        3078
+      ],
+      "boots": 3008
+    },
+    "Fizz": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Electrocute",
+      "core": [
+        3100,
+        3041
+      ],
+      "boots": 3020
+    },
+    "Galio": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Electrocute",
+      "core": [
+        3152,
+        4005
+      ],
+      "boots": 3020
+    },
+    "Gangplank": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Deathfire Touch",
+      "core": [
+        3508,
+        6676,
+        3031
+      ]
+    },
+    "Garen": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Stormraider's Surge",
+      "core": [
+        6631,
+        3142
+      ],
+      "boots": 3006
+    },
+    "Gnar": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Fleet Footwork",
+      "core": [
+        3078,
+        3071
+      ],
+      "boots": 3047
+    },
+    "Gragas": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Stormraider's Surge",
+      "core": [
+        3152,
+        3100
+      ],
+      "boots": 3020
+    },
+    "Graves": {
+      "summoners": "Flash + Smite",
+      "keystone": "Fleet Footwork",
+      "core": [
+        6697,
+        6676,
+        6673
+      ]
+    },
+    "Gwen": {
+      "summoners": "Teleport + Ignite",
+      "keystone": "First Strike",
+      "core": [
+        2510,
+        3115
+      ],
+      "boots": 3020
+    },
+    "Hecarim": {
+      "summoners": "Ghost + Smite",
+      "keystone": "Stormraider's Surge",
+      "core": [
+        6699,
+        3161
+      ],
+      "boots": 3158
+    },
+    "Heimerdinger": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Conqueror",
+      "core": [
+        2503,
+        3089
+      ],
+      "boots": 3020
+    },
+    "Hwei": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Arcane Comet",
+      "core": [
+        6655,
+        4645
+      ],
+      "boots": 3020
+    },
+    "Illaoi": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Grasp of the Undying",
+      "core": [
+        6662,
+        3071
+      ],
+      "boots": 3047
+    },
+    "Irelia": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Conqueror",
+      "core": [
+        3153,
+        3181
+      ],
+      "boots": 3111
+    },
+    "Ivern": {
+      "summoners": "Flash + Smite",
+      "keystone": "Glacial Augment",
+      "core": [
+        3107,
+        6620
+      ],
+      "boots": 3158
+    },
+    "Janna": {
+      "summoners": "Flash + Heal",
+      "keystone": "Summon Aery",
+      "core": [
+        3870,
+        3107
+      ],
+      "boots": 3009
+    },
+    "Jarvan IV": {
+      "summoners": "Flash + Smite",
+      "keystone": "Conqueror",
+      "core": [
+        6698,
+        6696,
+        6333
+      ]
+    },
+    "Jax": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Lethal Tempo",
+      "core": [
+        3078,
+        6610
+      ],
+      "boots": 3158
+    },
+    "Jayce": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Stormraider's Surge",
+      "core": [
+        3142,
+        3004
+      ],
+      "boots": 3009
+    },
+    "Jhin": {
+      "summoners": "Flash + Ghost",
+      "keystone": "Deathfire Touch",
+      "core": [
+        3142,
+        3097
+      ],
+      "boots": 3009
+    },
+    "Jinx": {
+      "summoners": "Flash + Ghost",
+      "keystone": "Lethal Tempo",
+      "core": [
+        2523,
+        3046
+      ],
+      "boots": 3008
+    },
+    "K'Sante": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Grasp of the Undying",
+      "core": [
+        6662,
+        2502
+      ],
+      "boots": 3111
+    },
+    "Kai'Sa": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Lethal Tempo",
+      "core": [
+        6672,
+        3124
+      ],
+      "boots": 3006
+    },
+    "Kalista": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Lethal Tempo",
+      "core": [
+        3087,
+        3124
+      ],
+      "boots": 3008
+    },
+    "Karma": {
+      "summoners": "Flash + Heal",
+      "keystone": "Summon Aery",
+      "core": [
+        3871,
+        6620
+      ],
+      "boots": 3158
+    },
+    "Karthus": {
+      "summoners": "Flash + Smite",
+      "keystone": "Deathfire Touch",
+      "core": [
+        2503,
+        6653
+      ],
+      "boots": 3020
+    },
+    "Kassadin": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Deathfire Touch",
+      "core": [
+        6657,
+        3004
+      ],
+      "boots": 3047
+    },
+    "Katarina": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Dark Harvest",
+      "core": [
+        6672,
+        3153
+      ],
+      "boots": 3008
+    },
+    "Kayle": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Press the Attack",
+      "core": [
+        3115,
+        3100
+      ],
+      "boots": 3009
+    },
+    "Kayn": {
+      "summoners": "Smite + Ignite",
+      "keystone": "Hail of Blades",
+      "core": [
+        6699,
+        3071
+      ],
+      "boots": 3111
+    },
+    "Kennen": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Electrocute",
+      "core": [
+        3152,
+        3157
+      ],
+      "boots": 3020
+    },
+    "Kha'Zix": {
+      "summoners": "Flash + Smite",
+      "keystone": "Stormraider's Surge",
+      "core": [
+        3179,
+        6699,
+        2520
+      ]
+    },
+    "Kindred": {
+      "summoners": "Flash + Smite",
+      "keystone": "Lethal Tempo",
+      "core": [
+        6672,
+        6676
+      ],
+      "boots": 3047
+    },
+    "Kled": {
+      "summoners": "Ignite + Barrier",
+      "keystone": "Grasp of the Undying",
+      "core": [
+        3748,
+        3181
+      ],
+      "boots": 3047
+    },
+    "Kog'Maw": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Lethal Tempo",
+      "core": [
+        2510,
+        4645
+      ],
+      "boots": 3020
+    },
+    "LeBlanc": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Electrocute",
+      "core": [
+        6655,
+        3041
+      ],
+      "boots": 3020
+    },
+    "Lee Sin": {
+      "summoners": "Flash + Smite",
+      "keystone": "Conqueror",
+      "core": [
+        6692,
+        6610
+      ],
+      "boots": 3047
+    },
+    "Leona": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Aftershock",
+      "core": [
+        3877,
+        3190
+      ],
+      "boots": 3047
+    },
+    "Lillia": {
+      "summoners": "Flash + Smite",
+      "keystone": "Conqueror",
+      "core": [
+        6653,
+        4633
+      ],
+      "boots": 3111
+    },
+    "Lissandra": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Arcane Comet",
+      "core": [
+        3118,
+        3152
+      ],
+      "boots": 3020
+    },
+    "Locke": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Electrocute",
+      "core": [
+        3100,
+        3041
+      ],
+      "boots": 3020
+    },
+    "Lucian": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Press the Attack",
+      "core": [
+        3508,
+        6675
+      ],
+      "boots": 3008
+    },
+    "Lulu": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Summon Aery",
+      "core": [
+        3870,
+        3504
+      ],
+      "boots": 3158
+    },
+    "Lux": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Arcane Comet",
+      "core": [
+        3871,
+        6655
+      ],
+      "boots": 3158
+    },
+    "Malphite": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Arcane Comet",
+      "core": [
+        3118,
+        3068
+      ],
+      "boots": 3047
+    },
+    "Malzahar": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Deathfire Touch",
+      "core": [
+        2503,
+        3116
+      ],
+      "boots": 3158
+    },
+    "Maokai": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Aftershock",
+      "core": [
+        3876,
+        2524
+      ],
+      "boots": 3009
+    },
+    "Master Yi": {
+      "summoners": "Flash + Smite",
+      "keystone": "Hail of Blades",
+      "core": [
+        6672,
+        3124
+      ],
+      "boots": 3008
+    },
+    "Mel": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "First Strike",
+      "core": [
+        6655,
+        3152
+      ],
+      "boots": 3020
+    },
+    "Milio": {
+      "summoners": "Flash + Heal",
+      "keystone": "Summon Aery",
+      "core": [
+        3870,
+        3504
+      ],
+      "boots": 3158
+    },
+    "Miss Fortune": {
+      "summoners": "Flash + Barrier",
+      "keystone": "First Strike",
+      "core": [
+        3072,
+        6676,
+        3031
+      ]
+    },
+    "Mordekaiser": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Conqueror",
+      "core": [
+        3116,
+        4633
+      ],
+      "boots": 3047
+    },
+    "Morgana": {
+      "summoners": "Flash + Heal",
+      "keystone": "Deathfire Touch",
+      "core": [
+        3871,
+        3116
+      ],
+      "boots": 3158
+    },
+    "Naafiri": {
+      "summoners": "Flash + Smite",
+      "keystone": "Conqueror",
+      "core": [
+        6699,
+        6696,
+        6694
+      ]
+    },
+    "Nami": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Summon Aery",
+      "core": [
+        3870,
+        6616
+      ],
+      "boots": 3158
+    },
+    "Nasus": {
+      "summoners": "Flash + Smite",
+      "keystone": "Fleet Footwork",
+      "core": [
+        2525,
+        6662
+      ],
+      "boots": 3009
+    },
+    "Nautilus": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Aftershock",
+      "core": [
+        3869,
+        3190
+      ],
+      "boots": 3009
+    },
+    "Neeko": {
+      "summoners": "Flash + Heal",
+      "keystone": "Electrocute",
+      "core": [
+        3869,
+        3152
+      ],
+      "boots": 3158
+    },
+    "Nidalee": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Electrocute"
+    },
+    "Nilah": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Conqueror",
+      "core": [
+        6676,
+        3031
+      ],
+      "boots": 3008
+    },
+    "Nocturne": {
+      "summoners": "Flash + Smite",
+      "keystone": "Hail of Blades",
+      "core": [
+        6698,
+        6696,
+        6699
+      ]
+    },
+    "Nunu & Willump": {
+      "summoners": "Flash + Smite",
+      "keystone": "Stormraider's Surge",
+      "core": [
+        6653,
+        3742
+      ],
+      "boots": 3047
+    },
+    "Olaf": {
+      "summoners": "Exhaust + Ghost",
+      "keystone": "Conqueror",
+      "core": [
+        3074,
+        6333
+      ],
+      "boots": 3047
+    },
+    "Orianna": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Arcane Comet",
+      "core": [
+        2503,
+        3152
+      ],
+      "boots": 3158
+    },
+    "Ornn": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Grasp of the Undying",
+      "core": [
+        6664,
+        2502
+      ],
+      "boots": 3111
+    },
+    "Pantheon": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Electrocute",
+      "core": [
+        3877,
+        6610
+      ],
+      "boots": 3111
+    },
+    "Poppy": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Hail of Blades",
+      "core": [
+        3877,
+        3742
+      ],
+      "boots": 3009
+    },
+    "Pyke": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Hail of Blades",
+      "core": [
+        3869,
+        3142
+      ],
+      "boots": 3009
+    },
+    "Qiyana": {
+      "summoners": "Flash + Smite",
+      "keystone": "First Strike",
+      "core": [
+        6698,
+        6699
+      ],
+      "boots": 3158
+    },
+    "Quinn": {
+      "summoners": "Flash + Smite",
+      "keystone": "First Strike",
+      "core": [
+        6697,
+        6676
+      ],
+      "boots": 3009
+    },
+    "Rakan": {
+      "summoners": "Flash + Heal",
+      "keystone": "Electrocute",
+      "core": [
+        3869,
+        3190
+      ],
+      "boots": 3158
+    },
+    "Rammus": {
+      "summoners": "Flash + Smite",
+      "keystone": "Aftershock",
+      "core": [
+        3075,
+        6665
+      ],
+      "boots": 3111
+    },
+    "Rek'Sai": {
+      "summoners": "Flash + Smite",
+      "keystone": "Hail of Blades",
+      "core": [
+        6631,
+        3161
+      ],
+      "boots": 3111
+    },
+    "Rell": {
+      "summoners": "Flash + Heal",
+      "keystone": "Aftershock",
+      "core": [
+        3869,
+        3190
+      ],
+      "boots": 3158
+    },
+    "Renata Glasc": {
+      "summoners": "Flash + Heal",
+      "keystone": "Summon Aery",
+      "core": [
+        3876,
+        4005
+      ],
+      "boots": 3158
+    },
+    "Renekton": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Press the Attack",
+      "core": [
+        6692,
+        3071
+      ],
+      "boots": 3111
+    },
+    "Rengar": {
+      "summoners": "Flash + Smite",
+      "keystone": "Fleet Footwork",
+      "core": [
+        3179,
+        6698
+      ],
+      "boots": 3008
+    },
+    "Riven": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Conqueror",
+      "core": [
+        6696,
+        6333
+      ],
+      "boots": 3158
+    },
+    "Rumble": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Deathfire Touch",
+      "core": [
+        6653,
+        8010
+      ],
+      "boots": 3009
+    },
+    "Ryze": {
+      "summoners": "Flash + Ghost",
+      "keystone": "Stormraider's Surge",
+      "core": [
+        6657,
+        3003
+      ],
+      "boots": 3008
+    },
+    "Samira": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Conqueror",
+      "core": [
+        6676,
+        3031
+      ],
+      "boots": 3008
+    },
+    "Sejuani": {
+      "summoners": "Flash + Smite",
+      "keystone": "Aftershock",
+      "core": [
+        3084,
+        2502
+      ],
+      "boots": 3111
+    },
+    "Senna": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Deathfire Touch",
+      "core": [
+        3087,
+        3071
+      ],
+      "boots": 3008
+    },
+    "Seraphine": {
+      "summoners": "Flash + Heal",
+      "keystone": "Arcane Comet",
+      "core": [
+        3877,
+        4005
+      ],
+      "boots": 3158
+    },
+    "Sett": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Conqueror",
+      "core": [
+        6631,
+        2501
+      ],
+      "boots": 3009
+    },
+    "Shaco": {
+      "summoners": "Smite + Ignite",
+      "keystone": "Arcane Comet",
+      "core": [
+        2503,
+        4005
+      ],
+      "boots": 3158
+    },
+    "Shen": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Grasp of the Undying",
+      "core": [
+        3748,
+        2510
+      ],
+      "boots": 3111
+    },
+    "Shyvana": {
+      "summoners": "Flash + Smite",
+      "keystone": "Press the Attack",
+      "core": [
+        6672,
+        2510
+      ],
+      "boots": 3008
+    },
+    "Singed": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Deathfire Touch",
+      "core": [
+        6653,
+        3116
+      ],
+      "boots": 3009
+    },
+    "Sion": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Grasp of the Undying",
+      "core": [
+        3084,
+        2502
+      ],
+      "boots": 3047
+    },
+    "Sivir": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Lethal Tempo",
+      "core": [
+        3508,
+        6675
+      ],
+      "boots": 3006
+    },
+    "Skarner": {
+      "summoners": "Flash + Smite",
+      "keystone": "Grasp of the Undying",
+      "core": [
+        2525,
+        2524
+      ],
+      "boots": 3047
+    },
+    "Smolder": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Deathfire Touch",
+      "core": [
+        6697,
+        3508
+      ],
+      "boots": 3008
+    },
+    "Sona": {
+      "summoners": "Flash + Heal",
+      "keystone": "Summon Aery",
+      "core": [
+        3870,
+        6620
+      ],
+      "boots": 3009
+    },
+    "Soraka": {
+      "summoners": "Flash + Heal",
+      "keystone": "Guardian",
+      "core": [
+        3869,
+        6617
+      ],
+      "boots": 3009
+    },
+    "Swain": {
+      "summoners": "Flash + Heal",
+      "keystone": "Deathfire Touch",
+      "core": [
+        3876,
+        3116
+      ],
+      "boots": 3047
+    },
+    "Sylas": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Electrocute",
+      "core": [
+        3100,
+        3152
+      ],
+      "boots": 3020
+    },
+    "Syndra": {
+      "summoners": "Flash + Ghost",
+      "keystone": "First Strike",
+      "core": [
+        6655,
+        4646
+      ],
+      "boots": 3020
+    },
+    "Tahm Kench": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Guardian",
+      "core": [
+        3876,
+        3084
+      ],
+      "boots": 3047
+    },
+    "Taliyah": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Electrocute",
+      "core": [
+        2503,
+        3152
+      ],
+      "boots": 3158
+    },
+    "Talon": {
+      "summoners": "Flash + Smite",
+      "keystone": "Fleet Footwork",
+      "core": [
+        3179,
+        6699,
+        3814
+      ]
+    },
+    "Taric": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Glacial Augment",
+      "core": [
+        3870,
+        3190
+      ],
+      "boots": 3047
+    },
+    "Teemo": {
+      "summoners": "Flash + Ghost",
+      "keystone": "Press the Attack",
+      "core": [
+        3087,
+        6653
+      ],
+      "boots": 3008
+    },
+    "Thresh": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Guardian",
+      "core": [
+        3876,
+        3190
+      ],
+      "boots": 3009
+    },
+    "Tristana": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Press the Attack",
+      "core": [
+        2523,
+        3031
+      ],
+      "boots": 3006
+    },
+    "Trundle": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Lethal Tempo",
+      "core": [
+        3074,
+        3078
+      ],
+      "boots": 3111
+    },
+    "Tryndamere": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Hail of Blades",
+      "core": [
+        3508,
+        3036
+      ],
+      "boots": 3008
+    },
+    "Twisted Fate": {
+      "summoners": "Flash + Ghost",
+      "keystone": "Unsealed Spellbook",
+      "core": [
+        6657,
+        3100
+      ],
+      "boots": 3158
+    },
+    "Twitch": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Lethal Tempo",
+      "core": [
+        6676,
+        2512
+      ],
+      "boots": 3006
+    },
+    "Udyr": {
+      "summoners": "Flash + Smite",
+      "keystone": "Stormraider's Surge",
+      "core": [
+        3161,
+        6333
+      ],
+      "boots": 3047
+    },
+    "Urgot": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Press the Attack",
+      "core": [
+        3071,
+        3053
+      ],
+      "boots": 3008
+    },
+    "Varus": {
+      "summoners": "Flash + Ghost",
+      "keystone": "Press the Attack",
+      "core": [
+        3087,
+        3124
+      ],
+      "boots": 3008
+    },
+    "Vayne": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Lethal Tempo",
+      "core": [
+        3153,
+        3124
+      ],
+      "boots": 3006
+    },
+    "Veigar": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Summon Aery",
+      "core": [
+        6657,
+        3003
+      ],
+      "boots": 3020
+    },
+    "Vel'Koz": {
+      "summoners": "Flash + Heal",
+      "keystone": "Arcane Comet",
+      "core": [
+        3871,
+        6655
+      ],
+      "boots": 3158
+    },
+    "Vex": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Electrocute",
+      "core": [
+        6655,
+        3157
+      ],
+      "boots": 3020
+    },
+    "Vi": {
+      "summoners": "Flash + Smite",
+      "keystone": "Hail of Blades",
+      "core": [
+        3078,
+        6610
+      ],
+      "boots": 3047
+    },
+    "Viego": {
+      "summoners": "Flash + Smite",
+      "keystone": "Hail of Blades",
+      "core": [
+        6676,
+        6673,
+        3031
+      ]
+    },
+    "Viktor": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Deathfire Touch",
+      "core": [
+        2503,
+        3100
+      ],
+      "boots": 3020
+    },
+    "Vladimir": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Deathfire Touch",
+      "core": [
+        3152,
+        4646
+      ],
+      "boots": 3020
+    },
+    "Volibear": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Grasp of the Undying",
+      "core": [
+        2510,
+        6675
+      ],
+      "boots": 3111
+    },
+    "Warwick": {
+      "summoners": "Flash + Smite",
+      "keystone": "Lethal Tempo",
+      "core": [
+        6631,
+        3153
+      ],
+      "boots": 3047
+    },
+    "Wukong": {
+      "summoners": "Flash + Smite",
+      "keystone": "Conqueror",
+      "core": [
+        3078,
+        6610,
+        3071
+      ]
+    },
+    "Xayah": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Conqueror",
+      "core": [
+        3508,
+        6675
+      ],
+      "boots": 3006
+    },
+    "Xerath": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Dark Harvest",
+      "core": [
+        6655,
+        3041
+      ],
+      "boots": 3020
+    },
+    "Xin Zhao": {
+      "summoners": "Flash + Smite",
+      "keystone": "Hail of Blades",
+      "core": [
+        6610,
+        3071
+      ],
+      "boots": 3111
+    },
+    "Yasuo": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Lethal Tempo",
+      "core": [
+        3153,
+        3031
+      ],
+      "boots": 3006
+    },
+    "Yone": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Lethal Tempo",
+      "core": [
+        3153,
+        3031
+      ],
+      "boots": 3006
+    },
+    "Yorick": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Grasp of the Undying",
+      "core": [
+        3078,
+        3071
+      ],
+      "boots": 3047
+    },
+    "Yunara": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Lethal Tempo",
+      "core": [
+        6672,
+        2512
+      ],
+      "boots": 3008
+    },
+    "Yuumi": {
+      "summoners": "Exhaust + Ignite",
+      "keystone": "Summon Aery",
+      "core": [
+        3870,
+        3504,
+        3222
+      ]
+    },
+    "Zaahen": {
+      "summoners": "Flash + Exhaust",
+      "keystone": "Hail of Blades",
+      "core": [
+        3078,
+        6631
+      ],
+      "boots": 3111
+    },
+    "Zac": {
+      "summoners": "Flash + Smite",
+      "keystone": "Aftershock",
+      "core": [
+        3068,
+        3065
+      ],
+      "boots": 3158
+    },
+    "Zed": {
+      "summoners": "Flash + Teleport",
+      "keystone": "First Strike",
+      "core": [
+        6699,
+        6696
+      ],
+      "boots": 3008
+    },
+    "Zeri": {
+      "summoners": "Flash + Cleanse",
+      "keystone": "Lethal Tempo",
+      "core": [
+        3097,
+        3085
+      ],
+      "boots": 3008
+    },
+    "Ziggs": {
+      "summoners": "Flash + Barrier",
+      "keystone": "Arcane Comet",
+      "core": [
+        6655,
+        3152
+      ],
+      "boots": 3020
+    },
+    "Zilean": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Guardian",
+      "core": [
+        3876,
+        2065
+      ],
+      "boots": 3009
+    },
+    "Zoe": {
+      "summoners": "Flash + Ignite",
+      "keystone": "Summon Aery",
+      "core": [
+        6655,
+        3100
+      ],
+      "boots": 3020
+    },
+    "Zyra": {
+      "summoners": "Flash + Heal",
+      "keystone": "Arcane Comet",
+      "core": [
+        3871,
+        6653
+      ],
+      "boots": 3020
+    }
+  }
+}

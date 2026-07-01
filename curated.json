@@ -1,0 +1,4 @@
+{
+  "_comment": "Manual overrides. Anything you put here WINS over the live lolalytics scrape, so use it only to force a value you disagree with. Empty by default so live data drives every champion. Shape: \"Caitlyn\": { \"summoners\": \"Flash + Barrier\", \"keystone\": \"Press the Attack\", \"core\": [6672,3031,3094], \"boots\": 3006 }",
+  "champions": {}
+}
