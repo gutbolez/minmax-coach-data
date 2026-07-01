@@ -75,12 +75,14 @@ const EXTRACT = () => {
       : [];
   const idOf = (i) => { const m = i.src.match(/\/(\d+)\.webp/); return m ? Number(m[1]) : 0; };
   const summoners = recommended(findBlock("Summoner Spells"), "spell64").slice(0, 2).map((i) => i.alt);
-  const ks = recommended(findBlock("Primary Runes"), "rune68")[0];
+  const primary = recommended(findBlock("Primary Runes"), "rune68");
+  const secondary = recommended(findBlock("Secondary"), "rune68");
+  const runePage = [...primary, ...secondary].map((i) => i.alt);
   const coreBlock = findBlock("Core Build");
-  const core = coreBlock
-    ? [...coreBlock.querySelectorAll("img[src*='item64']")].map((i) => idOf(i))
-    : [];
-  return { summoners, keystone: ks ? ks.alt : null, core, title: document.title };
+  const core = coreBlock ? [...coreBlock.querySelectorAll("img[src*='item64']")].map(idOf) : [];
+  const startBlock = findBlock("Starting Items");
+  const starting = startBlock ? [...startBlock.querySelectorAll("img[src*='item64']")].map((i) => i.alt) : [];
+  return { summoners, keystone: primary[0] ? primary[0].alt : null, runePage, core, starting, title: document.title };
 };
 
 async function scrape(context, champ, bootsSet) {
@@ -106,10 +108,14 @@ async function scrape(context, champ, bootsSet) {
       out.summoners = `${d.summoners[0]} + ${d.summoners[1]}`;
     }
     if (d.keystone) out.keystone = d.keystone;
+    // Full rune page (keystone + primary + secondary): a copyable summary.
+    if (d.runePage && d.runePage.length > 1) out.runes = d.runePage.join(" · ");
     const coreItems = d.core.filter((id) => !bootsSet.has(id));
     if (coreItems.length) out.core = coreItems.slice(0, 3);
     const boots = d.core.find((id) => bootsSet.has(id));
     if (boots) out.boots = boots;
+    const start = (d.starting || []).filter(Boolean).slice(0, 3);
+    if (start.length) out.starting = start.join(" + ");
     return out;
   } catch {
     return {};
@@ -163,8 +169,10 @@ async function main() {
       out[champ.name] = {
         summoners: override.summoners || live.summoners || base.summoners,
         keystone: override.keystone || live.keystone || base.keystone,
+        ...((override.runes || live.runes) ? { runes: override.runes || live.runes } : {}),
         ...((override.core || live.core) ? { core: override.core || live.core } : {}),
         ...((override.boots || live.boots) ? { boots: override.boots || live.boots } : {}),
+        ...((override.starting || live.starting) ? { starting: override.starting || live.starting } : {}),
       };
       if ((idx % 20) === 0) console.log(`  ${idx}/${champs.length}...`);
     }

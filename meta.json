@@ -7,1559 +7,1905 @@
     "Aatrox": {
       "summoners": "Flash + Ignite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Demolish · Unflinching",
       "core": [
         3161,
         6610
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Ahri": {
       "summoners": "Flash + Ignite",
       "keystone": "Deathfire Touch",
+      "runes": "Deathfire Touch · Manaflow Band · Transcendence · Scorch · Taste of Blood · Ultimate Hunter",
       "core": [
         2503,
         3100
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Akali": {
       "summoners": "Flash + Ignite",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Sudden Impact · Grisly Mementos · Ultimate Hunter · Bone Plating · Overgrowth",
       "core": [
         3146,
         4645
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Akshan": {
       "summoners": "Flash + Ignite",
       "keystone": "Press the Attack",
+      "runes": "Press the Attack · Presence of Mind · Legend: Alacrity · Cut Down · Shield Bash · Revitalize",
       "core": [
         6676,
         3031
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Alistar": {
       "summoners": "Flash + Heal",
       "keystone": "Glacial Augment",
+      "runes": "Glacial Augment · Hextech Flashtraption · Biscuit Delivery · Cosmic Insight · Nimbus Cloak · Celerity",
       "core": [
         3876,
         3050
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "World Atlas + Health Potion"
     },
     "Ambessa": {
       "summoners": "Flash + Ignite",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Sudden Impact · Sixth Sense · Ultimate Hunter · Triple Tonic · Jack Of All Trades",
       "core": [
         6692,
         3161
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Amumu": {
       "summoners": "Flash + Smite",
       "keystone": "Aftershock",
+      "runes": "Aftershock · Font of Life · Bone Plating · Unflinching · Cheap Shot · Ultimate Hunter",
       "core": [
         6653,
         3068
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Mosstomper Seedling + Health Potion"
     },
     "Anivia": {
       "summoners": "Flash + Ignite",
       "keystone": "Arcane Comet",
+      "runes": "Arcane Comet · Manaflow Band · Celerity · Gathering Storm · Presence of Mind · Coup de Grace",
       "core": [
         6657,
         3003
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Annie": {
       "summoners": "Flash + Teleport",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Taste of Blood · Grisly Mementos · Relentless Hunter · Axiom Arcanist · Celerity",
       "core": [
         3118,
         3152
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Aphelios": {
       "summoners": "Flash + Barrier",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Coup de Grace · Cash Back · Triple Tonic",
       "core": [
         6676,
         3031
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Ashe": {
       "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Triumph · Legend: Bloodline · Cut Down · Magical Footwear · Triple Tonic",
       "core": [
         2523,
         3046
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Aurelion Sol": {
       "summoners": "Flash + Exhaust",
       "keystone": "Arcane Comet",
+      "runes": "Arcane Comet · Manaflow Band · Absolute Focus · Gathering Storm · Presence of Mind · Cut Down",
       "core": [
         3116,
         6653
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Aurora": {
       "summoners": "Flash + Ignite",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Sudden Impact · Sixth Sense · Ultimate Hunter · Manaflow Band · Scorch",
       "core": [
         6655,
         4646
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Azir": {
       "summoners": "Flash + Ignite",
       "keystone": "Summon Aery",
+      "runes": "Summon Aery · Manaflow Band · Absolute Focus · Scorch · Presence of Mind · Cut Down",
       "core": [
         3115,
         3116
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Bard": {
       "summoners": "Flash + Heal",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Cheap Shot · Deep Ward · Treasure Hunter · Magical Footwear · Jack Of All Trades",
       "core": [
         3876,
         3742
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "World Atlas + Health Potion"
     },
     "Bel'Veth": {
       "summoners": "Flash + Smite",
       "keystone": "Press the Attack",
+      "runes": "Press the Attack · Triumph · Legend: Bloodline · Last Stand · Cash Back · Triple Tonic",
       "core": [
         6672,
         6631,
         6333
-      ]
+      ],
+      "starting": "Mosstomper Seedling"
     },
     "Blitzcrank": {
       "summoners": "Flash + Ignite",
       "keystone": "Glacial Augment",
+      "runes": "Glacial Augment · Hextech Flashtraption · Biscuit Delivery · Cosmic Insight · Nimbus Cloak · Celerity",
       "core": [
         3877,
         3190
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "World Atlas + Health Potion"
     },
     "Brand": {
       "summoners": "Flash + Exhaust",
       "keystone": "Dark Harvest",
+      "runes": "Dark Harvest · Taste of Blood · Grisly Mementos · Treasure Hunter · Manaflow Band · Scorch",
       "core": [
         3871,
         6653
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "World Atlas + Health Potion"
     },
     "Braum": {
       "summoners": "Flash + Heal",
       "keystone": "Guardian",
+      "runes": "Guardian · Font of Life · Bone Plating · Overgrowth · Magical Footwear · Cosmic Insight",
       "core": [
         3876,
         2524
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "World Atlas + Health Potion"
     },
     "Briar": {
       "summoners": "Flash + Smite",
       "keystone": "Press the Attack",
+      "runes": "Press the Attack · Triumph · Legend: Alacrity · Coup de Grace · Magical Footwear · Cosmic Insight",
       "core": [
         3748,
         3071
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Mosstomper Seedling"
     },
     "Caitlyn": {
       "summoners": "Flash + Barrier",
       "keystone": "First Strike",
+      "runes": "First Strike · Cash Back · Triple Tonic · Cosmic Insight · Absolute Focus · Gathering Storm",
       "core": [
         2523,
         3031
       ],
-      "boots": 3006
+      "boots": 3006,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Camille": {
       "summoners": "Flash + Ignite",
       "keystone": "Hail of Blades",
+      "runes": "Hail of Blades · Sudden Impact · Sixth Sense · Relentless Hunter · Shield Bash · Bone Plating",
       "core": [
         3877,
         6692
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "World Atlas + Health Potion"
     },
     "Cassiopeia": {
       "summoners": "Flash + Barrier",
       "keystone": "Stormraider's Surge",
+      "runes": "Stormraider's Surge · Manaflow Band · Celerity · Gathering Storm · Legend: Haste · Last Stand",
       "core": [
         6657,
         3003
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Cho'Gath": {
       "summoners": "Flash + Ignite",
       "keystone": "Arcane Comet",
+      "runes": "Arcane Comet · Axiom Arcanist · Transcendence · Scorch · Magical Footwear · Approach Velocity",
       "core": [
         3084,
         3068
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Doran's Shield + Health Potion"
     },
     "Corki": {
       "summoners": "Flash + Exhaust",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Bloodline · Cut Down · Magical Footwear · Jack Of All Trades",
       "core": [
         3078,
         3004
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Bow + Health Potion"
     },
     "Darius": {
       "summoners": "Flash + Ignite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Second Wind · Revitalize",
       "core": [
         3142,
         3742
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Diana": {
       "summoners": "Flash + Smite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Cut Down · Sudden Impact · Treasure Hunter",
       "core": [
         2510,
         4633
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Scorchclaw Pup"
     },
     "Dr. Mundo": {
       "summoners": "Flash + Ignite",
       "keystone": "Grasp of the Undying",
+      "runes": "Grasp of the Undying · Demolish · Second Wind · Overgrowth · Cash Back · Biscuit Delivery",
       "core": [
         3083,
         3084
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "Doran's Helm + Health Potion"
     },
     "Draven": {
       "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Triumph · Legend: Bloodline · Last Stand · Cash Back · Cosmic Insight",
       "core": [
         6697,
         2523,
         3031
-      ]
+      ],
+      "starting": "Doran's Bow + Health Potion"
     },
     "Ekko": {
       "summoners": "Flash + Smite",
       "keystone": "Hail of Blades",
+      "runes": "Hail of Blades · Sudden Impact · Sixth Sense · Treasure Hunter · Triumph · Legend: Haste",
       "core": [
         2510,
         4645,
         3089
-      ]
+      ],
+      "starting": "Gustwalker Hatchling + Health Potion"
     },
     "Elise": {
       "summoners": "Flash + Smite",
       "keystone": "Dark Harvest",
+      "runes": "Dark Harvest · Sudden Impact · Sixth Sense · Relentless Hunter · Triumph · Coup de Grace",
       "core": [
         3100,
         4645
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Scorchclaw Pup + Health Potion"
     },
     "Evelynn": {
       "summoners": "Flash + Smite",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Sudden Impact · Sixth Sense · Ultimate Hunter · Triumph · Coup de Grace",
       "core": [
         3100,
         3041,
         3089
-      ]
+      ],
+      "starting": "Mosstomper Seedling + Health Potion"
     },
     "Ezreal": {
       "summoners": "Flash + Exhaust",
       "keystone": "Press the Attack",
+      "runes": "Press the Attack · Triumph · Legend: Haste · Coup de Grace · Cash Back · Jack Of All Trades",
       "core": [
         3078,
         3004
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Fiddlesticks": {
       "summoners": "Flash + Smite",
       "keystone": "First Strike",
+      "runes": "First Strike · Cash Back · Triple Tonic · Cosmic Insight · Cheap Shot · Ultimate Hunter",
       "core": [
         3118,
         3152
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Gustwalker Hatchling + Health Potion"
     },
     "Fiora": {
       "summoners": "Flash + Ignite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Nimbus Cloak · Gathering Storm",
       "core": [
         3074,
         3078
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Fizz": {
       "summoners": "Flash + Ignite",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Sudden Impact · Grisly Mementos · Relentless Hunter · Manaflow Band · Transcendence",
       "core": [
         3100,
         3041
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Galio": {
       "summoners": "Flash + Ignite",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Sudden Impact · Grisly Mementos · Treasure Hunter · Manaflow Band · Absolute Focus",
       "core": [
         3152,
         4005
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Gangplank": {
       "summoners": "Flash + Ignite",
       "keystone": "Deathfire Touch",
+      "runes": "Deathfire Touch · Nimbus Cloak · Transcendence · Scorch · Second Wind · Overgrowth",
       "core": [
         3508,
         6676
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Helm + Health Potion"
     },
     "Garen": {
       "summoners": "Flash + Ignite",
       "keystone": "Stormraider's Surge",
+      "runes": "Stormraider's Surge · Axiom Arcanist · Celerity · Gathering Storm · Bone Plating · Unflinching",
       "core": [
         6631,
         3142
       ],
-      "boots": 3006
+      "boots": 3006,
+      "starting": "Doran's Bow + Health Potion"
     },
     "Gnar": {
       "summoners": "Flash + Barrier",
       "keystone": "Fleet Footwork",
+      "runes": "Fleet Footwork · Triumph · Legend: Alacrity · Last Stand · Bone Plating · Overgrowth",
       "core": [
         3078,
         3071
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Gragas": {
       "summoners": "Flash + Ignite",
       "keystone": "Stormraider's Surge",
+      "runes": "Stormraider's Surge · Manaflow Band · Transcendence · Gathering Storm · Cash Back · Triple Tonic",
       "core": [
         3152,
         3100
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Sapphire Crystal + Refillable Potion"
     },
     "Graves": {
       "summoners": "Flash + Smite",
       "keystone": "Fleet Footwork",
+      "runes": "Fleet Footwork · Triumph · Legend: Alacrity · Coup de Grace · Cash Back · Triple Tonic",
       "core": [
         6697,
         6676,
         3036
-      ]
+      ],
+      "starting": "Scorchclaw Pup"
     },
     "Gwen": {
       "summoners": "Teleport + Ignite",
       "keystone": "First Strike",
+      "runes": "First Strike · Cash Back · Biscuit Delivery · Jack Of All Trades · Transcendence · Gathering Storm",
       "core": [
         2510,
         3115
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Hecarim": {
       "summoners": "Ghost + Smite",
       "keystone": "Stormraider's Surge",
+      "runes": "Stormraider's Surge · Nimbus Cloak · Celerity · Waterwalking · Triumph · Legend: Haste",
       "core": [
         3161,
         2517
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "Gustwalker Hatchling"
     },
     "Heimerdinger": {
       "summoners": "Flash + Ignite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Presence of Mind · Legend: Haste · Coup de Grace · Axiom Arcanist · Transcendence",
       "core": [
         2503,
         3089
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Hwei": {
       "summoners": "Flash + Ghost",
       "keystone": "Arcane Comet",
+      "runes": "Arcane Comet · Manaflow Band · Transcendence · Gathering Storm · Second Wind · Overgrowth",
       "core": [
         6655,
         4645
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Illaoi": {
       "summoners": "Flash + Ignite",
       "keystone": "Grasp of the Undying",
+      "runes": "Grasp of the Undying · Demolish · Bone Plating · Overgrowth · Presence of Mind · Last Stand",
       "core": [
         6662,
         3071
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Irelia": {
       "summoners": "Flash + Ignite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Triple Tonic · Jack Of All Trades",
       "core": [
         3153,
         3181
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Ivern": {
       "summoners": "Flash + Smite",
       "keystone": "Glacial Augment",
+      "runes": "Glacial Augment · Cash Back · Triple Tonic · Cosmic Insight · Cheap Shot · Ultimate Hunter",
       "core": [
         6620,
         3107
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "Gustwalker Hatchling"
     },
     "Janna": {
       "summoners": "Flash + Heal",
       "keystone": "Arcane Comet",
+      "runes": "Arcane Comet · Axiom Arcanist · Celerity · Gathering Storm · Font of Life · Revitalize",
       "core": [
         3870,
         3107
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "World Atlas + Health Potion"
     },
     "Jarvan IV": {
       "summoners": "Flash + Smite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Haste · Cut Down · Magical Footwear · Cosmic Insight",
       "core": [
         6698,
         6696,
         6333
-      ]
+      ],
+      "starting": "Mosstomper Seedling"
     },
     "Jax": {
       "summoners": "Flash + Ignite",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Presence of Mind · Legend: Alacrity · Last Stand · Triple Tonic · Jack Of All Trades",
       "core": [
         3078,
         6610
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Jayce": {
       "summoners": "Flash + Ignite",
       "keystone": "Stormraider's Surge",
+      "runes": "Stormraider's Surge · Manaflow Band · Absolute Focus · Scorch · Cash Back · Jack Of All Trades",
       "core": [
         3142,
         3004
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Jhin": {
       "summoners": "Flash + Ghost",
       "keystone": "Deathfire Touch",
+      "runes": "Deathfire Touch · Manaflow Band · Celerity · Gathering Storm · Magical Footwear · Jack Of All Trades",
       "core": [
         6697,
         6676
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "Doran's Helm + Health Potion"
     },
     "Jinx": {
       "summoners": "Flash + Ghost",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Presence of Mind · Legend: Alacrity · Coup de Grace · Absolute Focus · Gathering Storm",
       "core": [
         2523,
         3046
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Bow + Health Potion"
     },
     "K'Sante": {
       "summoners": "Flash + Ignite",
       "keystone": "Grasp of the Undying",
+      "runes": "Grasp of the Undying · Demolish · Conditioning · Overgrowth · Legend: Haste · Last Stand",
       "core": [
         6662,
         2502
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Doran's Helm + Health Potion"
     },
     "Kai'Sa": {
       "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Cut Down · Cash Back · Biscuit Delivery",
       "core": [
         6672,
         3124
       ],
-      "boots": 3006
+      "boots": 3006,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Kalista": {
       "summoners": "Flash + Exhaust",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Coup de Grace · Bone Plating · Overgrowth",
       "core": [
         3087,
         3124
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Bow + Health Potion"
     },
     "Karma": {
       "summoners": "Flash + Heal",
       "keystone": "Summon Aery",
+      "runes": "Summon Aery · Axiom Arcanist · Celerity · Gathering Storm · Font of Life · Revitalize",
       "core": [
         3871,
         6620
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "World Atlas + Health Potion"
     },
     "Karthus": {
       "summoners": "Flash + Smite",
       "keystone": "Deathfire Touch",
+      "runes": "Deathfire Touch · Axiom Arcanist · Transcendence · Gathering Storm · Triumph · Last Stand",
       "core": [
         2503,
         6653
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Gustwalker Hatchling + Health Potion"
     },
     "Kassadin": {
       "summoners": "Flash + Barrier",
       "keystone": "Deathfire Touch",
+      "runes": "Deathfire Touch · Axiom Arcanist · Transcendence · Gathering Storm · Sudden Impact · Ultimate Hunter",
       "core": [
         6657,
         3004
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Dark Seal + Refillable Potion"
     },
     "Katarina": {
       "summoners": "Flash + Ignite",
       "keystone": "Dark Harvest",
+      "runes": "Dark Harvest · Sudden Impact · Sixth Sense · Relentless Hunter · Triumph · Coup de Grace",
       "core": [
         3100,
         4645
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Dark Seal + Refillable Potion"
     },
     "Kayle": {
       "summoners": "Flash + Exhaust",
       "keystone": "Fleet Footwork",
+      "runes": "Fleet Footwork · Presence of Mind · Legend: Alacrity · Last Stand · Celerity · Gathering Storm",
       "core": [
         3115,
         3100
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Kayn": {
       "summoners": "Smite + Ignite",
       "keystone": "Hail of Blades",
+      "runes": "Hail of Blades · Sudden Impact · Sixth Sense · Relentless Hunter · Cash Back · Triple Tonic",
       "core": [
         6699,
         3071
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Scorchclaw Pup + Health Potion"
     },
     "Kennen": {
       "summoners": "Flash + Ignite",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Taste of Blood · Grisly Mementos · Ultimate Hunter · Biscuit Delivery · Cosmic Insight",
       "core": [
         3152,
         3157
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Bow + Health Potion"
     },
     "Kha'Zix": {
       "summoners": "Flash + Smite",
       "keystone": "Stormraider's Surge",
+      "runes": "Stormraider's Surge · Nimbus Cloak · Transcendence · Waterwalking · Cash Back · Triple Tonic",
       "core": [
         3179,
         6699,
         2520
-      ]
+      ],
+      "starting": "Mosstomper Seedling + Health Potion"
     },
     "Kindred": {
       "summoners": "Flash + Smite",
       "keystone": "Press the Attack",
+      "runes": "Press the Attack · Triumph · Legend: Alacrity · Cut Down · Cash Back · Jack Of All Trades",
       "core": [
         6672,
         6676
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Mosstomper Seedling + Health Potion"
     },
     "Kled": {
       "summoners": "Ignite + Barrier",
       "keystone": "Grasp of the Undying",
+      "runes": "Grasp of the Undying · Demolish · Second Wind · Overgrowth · Cash Back · Biscuit Delivery",
       "core": [
         3748,
         3181
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Doran's Helm + Health Potion"
     },
     "Kog'Maw": {
       "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Coup de Grace · Magical Footwear · Triple Tonic",
       "core": [
         3124,
         3085
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Blade + Health Potion"
     },
     "LeBlanc": {
       "summoners": "Flash + Ignite",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Sudden Impact · Sixth Sense · Treasure Hunter · Transcendence · Gathering Storm",
       "core": [
         6655,
         3041
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Lee Sin": {
       "summoners": "Flash + Smite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Coup de Grace · Magical Footwear · Cosmic Insight",
       "core": [
         6692,
         6610
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Scorchclaw Pup + Health Potion"
     },
     "Leona": {
       "summoners": "Flash + Heal",
       "keystone": "Aftershock",
+      "runes": "Aftershock · Font of Life · Second Wind · Overgrowth · Triumph · Legend: Haste",
       "core": [
         3877,
         3190
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "World Atlas + Health Potion"
     },
     "Lillia": {
       "summoners": "Flash + Smite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Haste · Cut Down · Cash Back · Cosmic Insight",
       "core": [
         6653,
         4633
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Mosstomper Seedling + Health Potion"
     },
     "Lissandra": {
       "summoners": "Flash + Ignite",
       "keystone": "Arcane Comet",
+      "runes": "Arcane Comet · Manaflow Band · Transcendence · Scorch · Cash Back · Cosmic Insight",
       "core": [
         3118,
         3152
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Locke": {
       "summoners": "Flash + Ignite",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Sudden Impact · Grisly Mementos · Treasure Hunter · Triumph · Cut Down",
       "core": [
         3100,
         3041
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Lucian": {
       "summoners": "Flash + Exhaust",
       "keystone": "Press the Attack",
+      "runes": "Press the Attack · Triumph · Legend: Alacrity · Cut Down · Cash Back · Triple Tonic",
       "core": [
         3508,
         6675
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Lulu": {
       "summoners": "Flash + Ignite",
       "keystone": "Summon Aery",
+      "runes": "Summon Aery · Manaflow Band · Transcendence · Scorch · Biscuit Delivery · Cosmic Insight",
       "core": [
         3870,
         3504
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "World Atlas + Health Potion"
     },
     "Lux": {
       "summoners": "Flash + Exhaust",
       "keystone": "Arcane Comet",
+      "runes": "Arcane Comet · Manaflow Band · Transcendence · Gathering Storm · Magical Footwear · Jack Of All Trades",
       "core": [
         3871,
         6655
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "World Atlas + Health Potion"
     },
     "Malphite": {
       "summoners": "Flash + Ignite",
       "keystone": "Arcane Comet",
+      "runes": "Arcane Comet · Manaflow Band · Transcendence · Scorch · Second Wind · Overgrowth",
       "core": [
         3068,
         3110
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Malzahar": {
       "summoners": "Flash + Ignite",
       "keystone": "Deathfire Touch",
+      "runes": "Deathfire Touch · Manaflow Band · Transcendence · Gathering Storm · Magical Footwear · Cosmic Insight",
       "core": [
         2503,
         3116
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "Sapphire Crystal + Refillable Potion"
     },
     "Maokai": {
       "summoners": "Flash + Ignite",
       "keystone": "Aftershock",
+      "runes": "Aftershock · Font of Life · Conditioning · Overgrowth · Triumph · Legend: Haste",
       "core": [
         3876,
         2524
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "World Atlas + Health Potion"
     },
     "Master Yi": {
       "summoners": "Flash + Smite",
       "keystone": "Hail of Blades",
+      "runes": "Hail of Blades · Sudden Impact · Sixth Sense · Relentless Hunter · Cash Back · Jack Of All Trades",
       "core": [
         6672,
         3124
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Mosstomper Seedling"
     },
     "Mel": {
       "summoners": "Flash + Exhaust",
       "keystone": "First Strike",
+      "runes": "First Strike · Magical Footwear · Biscuit Delivery · Cosmic Insight · Transcendence · Gathering Storm",
       "core": [
         6655,
         3152
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Milio": {
       "summoners": "Flash + Heal",
       "keystone": "Summon Aery",
+      "runes": "Summon Aery · Manaflow Band · Transcendence · Gathering Storm · Font of Life · Revitalize",
       "core": [
         3870,
         3504
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "World Atlas + Health Potion"
     },
     "Miss Fortune": {
       "summoners": "Flash + Barrier",
       "keystone": "First Strike",
+      "runes": "First Strike · Cash Back · Biscuit Delivery · Jack Of All Trades · Manaflow Band · Gathering Storm",
       "core": [
         3072,
         6676,
         3031
-      ]
+      ],
+      "starting": "Doran's Blade + Health Potion"
     },
     "Mordekaiser": {
       "summoners": "Flash + Ignite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Transcendence · Gathering Storm",
       "core": [
         3116,
         4633
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Morgana": {
       "summoners": "Flash + Heal",
       "keystone": "Deathfire Touch",
+      "runes": "Deathfire Touch · Manaflow Band · Transcendence · Gathering Storm · Magical Footwear · Approach Velocity",
       "core": [
         3871,
         3116
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "World Atlas + Health Potion"
     },
     "Naafiri": {
       "summoners": "Flash + Smite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Haste · Cut Down · Sudden Impact · Treasure Hunter",
       "core": [
         6699,
         6696,
         6694
-      ]
+      ],
+      "starting": "Gustwalker Hatchling"
     },
     "Nami": {
       "summoners": "Flash + Heal",
       "keystone": "Summon Aery",
+      "runes": "Summon Aery · Manaflow Band · Transcendence · Gathering Storm · Font of Life · Revitalize",
       "core": [
         3870,
         6616
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "World Atlas + Health Potion"
     },
     "Nasus": {
       "summoners": "Flash + Smite",
       "keystone": "Fleet Footwork",
+      "runes": "Fleet Footwork · Triumph · Legend: Haste · Cut Down · Magical Footwear · Approach Velocity",
       "core": [
         2525,
         6662
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "Gustwalker Hatchling"
     },
     "Nautilus": {
       "summoners": "Flash + Exhaust",
       "keystone": "Aftershock",
+      "runes": "Aftershock · Shield Bash · Second Wind · Revitalize · Triumph · Legend: Haste",
       "core": [
         3869,
         3190
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "World Atlas + Health Potion"
     },
     "Neeko": {
       "summoners": "Flash + Heal",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Cheap Shot · Deep Ward · Ultimate Hunter · Manaflow Band · Gathering Storm",
       "core": [
         3869,
         3152
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "World Atlas + Health Potion"
     },
     "Nidalee": {
       "summoners": "Flash + Smite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Haste · Cut Down · Magical Footwear · Cosmic Insight",
       "core": [
         3100,
         3152
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Scorchclaw Pup"
     },
     "Nilah": {
       "summoners": "Flash + Ignite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Cash Back · Cosmic Insight",
       "core": [
         6676,
         3031
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Doran's Helm + Health Potion"
     },
     "Nocturne": {
       "summoners": "Flash + Smite",
       "keystone": "Hail of Blades",
+      "runes": "Hail of Blades · Sudden Impact · Grisly Mementos · Ultimate Hunter · Triumph · Legend: Alacrity",
       "core": [
         6698,
         6696,
         6699
-      ]
+      ],
+      "starting": "Scorchclaw Pup"
     },
     "Nunu & Willump": {
       "summoners": "Flash + Smite",
       "keystone": "Stormraider's Surge",
+      "runes": "Stormraider's Surge · Axiom Arcanist · Transcendence · Waterwalking · Cheap Shot · Relentless Hunter",
       "core": [
         6653,
         3742
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Scorchclaw Pup"
     },
     "Olaf": {
       "summoners": "Ghost + Ignite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Cash Back · Triple Tonic",
       "core": [
         3074,
         6333
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Orianna": {
       "summoners": "Flash + Barrier",
       "keystone": "Arcane Comet",
+      "runes": "Arcane Comet · Manaflow Band · Celerity · Gathering Storm · Bone Plating · Overgrowth",
       "core": [
         6655,
         3152
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Ornn": {
       "summoners": "Flash + Ignite",
       "keystone": "Grasp of the Undying",
+      "runes": "Grasp of the Undying · Font of Life · Second Wind · Overgrowth · Manaflow Band · Transcendence",
       "core": [
         6664,
         2502
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Doran's Shield + Health Potion"
     },
     "Pantheon": {
       "summoners": "Flash + Ignite",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Sudden Impact · Sixth Sense · Relentless Hunter · Hextech Flashtraption · Cosmic Insight",
       "core": [
         3877,
         6610
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "World Atlas + Health Potion"
     },
     "Poppy": {
       "summoners": "Flash + Ignite",
       "keystone": "Hail of Blades",
+      "runes": "Hail of Blades · Sudden Impact · Deep Ward · Relentless Hunter · Triumph · Coup de Grace",
       "core": [
         3877,
         3742
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "World Atlas + Health Potion"
     },
     "Pyke": {
       "summoners": "Flash + Heal",
       "keystone": "Hail of Blades",
+      "runes": "Hail of Blades · Sudden Impact · Grisly Mementos · Relentless Hunter · Cash Back · Cosmic Insight",
       "core": [
         3869,
         3142
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "World Atlas + Health Potion"
     },
     "Qiyana": {
       "summoners": "Flash + Smite",
       "keystone": "First Strike",
+      "runes": "First Strike · Cash Back · Triple Tonic · Cosmic Insight · Sudden Impact · Treasure Hunter",
       "core": [
         6698,
         6699
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "Gustwalker Hatchling + Health Potion"
     },
     "Quinn": {
       "summoners": "Flash + Smite",
       "keystone": "First Strike",
+      "runes": "First Strike · Cash Back · Triple Tonic · Cosmic Insight · Triumph · Cut Down",
       "core": [
         6698,
         3814
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Mosstomper Seedling"
     },
     "Rakan": {
       "summoners": "Flash + Heal",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Sudden Impact · Deep Ward · Ultimate Hunter · Nimbus Cloak · Celerity",
       "core": [
         3869,
         3190
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "World Atlas + Health Potion"
     },
     "Rammus": {
       "summoners": "Flash + Smite",
       "keystone": "Aftershock",
+      "runes": "Aftershock · Font of Life · Conditioning · Overgrowth · Triumph · Legend: Alacrity",
       "core": [
         3075,
         6665
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Scorchclaw Pup + Health Potion"
     },
     "Rek'Sai": {
       "summoners": "Flash + Smite",
       "keystone": "Hail of Blades",
+      "runes": "Hail of Blades · Sudden Impact · Sixth Sense · Treasure Hunter · Cash Back · Triple Tonic",
       "core": [
         6631,
         3161
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Mosstomper Seedling"
     },
     "Rell": {
       "summoners": "Flash + Heal",
       "keystone": "Aftershock",
+      "runes": "Aftershock · Font of Life · Second Wind · Unflinching · Triumph · Legend: Haste",
       "core": [
         3869,
         3190
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "World Atlas + Health Potion"
     },
     "Renata Glasc": {
       "summoners": "Flash + Ignite",
       "keystone": "Guardian",
+      "runes": "Guardian · Font of Life · Bone Plating · Unflinching · Cheap Shot · Ultimate Hunter",
       "core": [
         3876,
         4005
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "World Atlas + Health Potion"
     },
     "Renekton": {
       "summoners": "Flash + Ignite",
       "keystone": "Press the Attack",
+      "runes": "Press the Attack · Triumph · Legend: Haste · Last Stand · Bone Plating · Overgrowth",
       "core": [
         6692,
         3071
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Rengar": {
       "summoners": "Flash + Smite",
       "keystone": "Fleet Footwork",
+      "runes": "Fleet Footwork · Triumph · Legend: Alacrity · Cut Down · Cash Back · Triple Tonic",
       "core": [
         3179,
         6698,
         3814
-      ]
+      ],
+      "starting": "Gustwalker Hatchling + Health Potion"
     },
     "Riven": {
       "summoners": "Flash + Ignite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Haste · Last Stand · Triple Tonic · Jack Of All Trades",
       "core": [
         6696,
         6333
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "Doran's Helm + Health Potion"
     },
     "Rumble": {
       "summoners": "Flash + Exhaust",
       "keystone": "Deathfire Touch",
+      "runes": "Deathfire Touch · Nimbus Cloak · Transcendence · Scorch · Second Wind · Unflinching",
       "core": [
         6653,
         8010
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Ryze": {
       "summoners": "Flash + Ghost",
       "keystone": "Stormraider's Surge",
+      "runes": "Stormraider's Surge · Manaflow Band · Transcendence · Gathering Storm · Legend: Haste · Cut Down",
       "core": [
         6657,
         3003
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Samira": {
       "summoners": "Flash + Barrier",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Bloodline · Coup de Grace · Cash Back · Biscuit Delivery",
       "core": [
         6676,
         3031
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Sejuani": {
       "summoners": "Flash + Smite",
       "keystone": "Aftershock",
+      "runes": "Aftershock · Font of Life · Conditioning · Overgrowth · Triumph · Legend: Alacrity",
       "core": [
         3084,
         2502
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Scorchclaw Pup"
     },
     "Senna": {
       "summoners": "Flash + Barrier",
       "keystone": "Deathfire Touch",
+      "runes": "Deathfire Touch · Manaflow Band · Celerity · Scorch · Magical Footwear · Jack Of All Trades",
       "core": [
         3087,
         3071
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Helm + Health Potion"
     },
     "Seraphine": {
       "summoners": "Flash + Heal",
       "keystone": "Arcane Comet",
+      "runes": "Arcane Comet · Manaflow Band · Transcendence · Scorch · Triple Tonic · Jack Of All Trades",
       "core": [
         3877,
         4005
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "World Atlas + Health Potion"
     },
     "Sett": {
       "summoners": "Flash + Ignite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Demolish · Overgrowth",
       "core": [
         6631,
         2501
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Shaco": {
       "summoners": "Smite + Ignite",
       "keystone": "Arcane Comet",
+      "runes": "Arcane Comet · Axiom Arcanist · Transcendence · Gathering Storm · Legend: Haste · Cut Down",
       "core": [
         2503,
         4005
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "Gustwalker Hatchling"
     },
     "Shen": {
       "summoners": "Flash + Ignite",
       "keystone": "Grasp of the Undying",
+      "runes": "Grasp of the Undying · Shield Bash · Second Wind · Overgrowth · Biscuit Delivery · Approach Velocity",
       "core": [
         3748,
         2510
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Doran's Helm + Health Potion"
     },
     "Shyvana": {
       "summoners": "Flash + Smite",
       "keystone": "Press the Attack",
+      "runes": "Press the Attack · Triumph · Legend: Haste · Coup de Grace · Cash Back · Approach Velocity",
       "core": [
         6672,
         2510
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Scorchclaw Pup + Health Potion"
     },
     "Singed": {
       "summoners": "Flash + Ignite",
       "keystone": "Deathfire Touch",
+      "runes": "Deathfire Touch · Nimbus Cloak · Celerity · Scorch · Triumph · Last Stand",
       "core": [
         3116,
         6653
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "Dark Seal + Refillable Potion"
     },
     "Sion": {
       "summoners": "Flash + Ignite",
       "keystone": "Grasp of the Undying",
+      "runes": "Grasp of the Undying · Shield Bash · Second Wind · Overgrowth · Manaflow Band · Scorch",
       "core": [
         3084,
         2502
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Long Sword + Refillable Potion"
     },
     "Sivir": {
       "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Presence of Mind · Legend: Alacrity · Cut Down · Magical Footwear · Cosmic Insight",
       "core": [
         3508,
         6675
       ],
-      "boots": 3006
+      "boots": 3006,
+      "starting": "Cull + Health Potion"
     },
     "Skarner": {
       "summoners": "Flash + Smite",
       "keystone": "Grasp of the Undying",
+      "runes": "Grasp of the Undying · Shield Bash · Conditioning · Overgrowth · Magical Footwear · Approach Velocity",
       "core": [
         3084,
         2525
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Gustwalker Hatchling + Health Potion"
     },
     "Smolder": {
       "summoners": "Flash + Barrier",
       "keystone": "Deathfire Touch",
+      "runes": "Deathfire Touch · Nimbus Cloak · Celerity · Gathering Storm · Magical Footwear · Jack Of All Trades",
       "core": [
         6697,
         3508
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Sona": {
       "summoners": "Flash + Heal",
       "keystone": "Summon Aery",
+      "runes": "Summon Aery · Manaflow Band · Celerity · Gathering Storm · Presence of Mind · Legend: Haste",
       "core": [
         3877,
         6620
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "World Atlas + Health Potion"
     },
     "Soraka": {
       "summoners": "Flash + Heal",
       "keystone": "Guardian",
+      "runes": "Guardian · Font of Life · Bone Plating · Revitalize · Axiom Arcanist · Scorch",
       "core": [
         3870,
         6617
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "World Atlas + Health Potion"
     },
     "Swain": {
       "summoners": "Flash + Heal",
       "keystone": "Deathfire Touch",
+      "runes": "Deathfire Touch · Axiom Arcanist · Transcendence · Scorch · Magical Footwear · Jack Of All Trades",
       "core": [
         3876,
         3116
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "World Atlas + Health Potion"
     },
     "Sylas": {
       "summoners": "Flash + Ignite",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Sudden Impact · Sixth Sense · Treasure Hunter · Triumph · Cut Down",
       "core": [
         3100,
         3152
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Syndra": {
       "summoners": "Flash + Ghost",
       "keystone": "First Strike",
+      "runes": "First Strike · Cash Back · Triple Tonic · Jack Of All Trades · Presence of Mind · Legend: Haste",
       "core": [
         6655,
         4646
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Tahm Kench": {
       "summoners": "Flash + Exhaust",
       "keystone": "Guardian",
+      "runes": "Guardian · Font of Life · Second Wind · Revitalize · Magical Footwear · Cosmic Insight",
       "core": [
         3877,
         3084
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "World Atlas + Health Potion"
     },
     "Taliyah": {
       "summoners": "Flash + Ignite",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Cheap Shot · Grisly Mementos · Treasure Hunter · Bone Plating · Unflinching",
       "core": [
         2503,
         3152
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Talon": {
       "summoners": "Flash + Smite",
       "keystone": "Fleet Footwork",
+      "runes": "Fleet Footwork · Triumph · Legend: Alacrity · Coup de Grace · Magical Footwear · Cosmic Insight",
       "core": [
         3179,
         6699,
         3814
-      ]
+      ],
+      "starting": "Scorchclaw Pup"
     },
     "Taric": {
       "summoners": "Flash + Exhaust",
       "keystone": "Glacial Augment",
+      "runes": "Glacial Augment · Hextech Flashtraption · Biscuit Delivery · Cosmic Insight · Bone Plating · Unflinching",
       "core": [
         3870,
         3190
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "World Atlas + Health Potion"
     },
     "Teemo": {
       "summoners": "Flash + Ghost",
       "keystone": "Press the Attack",
+      "runes": "Press the Attack · Absorb Life · Legend: Alacrity · Last Stand · Nimbus Cloak · Celerity",
       "core": [
         3087,
         6653
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Thresh": {
       "summoners": "Flash + Exhaust",
       "keystone": "Guardian",
+      "runes": "Guardian · Font of Life · Second Wind · Unflinching · Biscuit Delivery · Cosmic Insight",
       "core": [
         3876,
         3190
       ],
-      "boots": 3009
+      "boots": 3009,
+      "starting": "World Atlas + Health Potion"
     },
     "Tristana": {
       "summoners": "Flash + Barrier",
       "keystone": "Press the Attack",
+      "runes": "Press the Attack · Triumph · Legend: Bloodline · Cut Down · Cash Back · Triple Tonic",
       "core": [
         2523,
         3031
       ],
-      "boots": 3006
+      "boots": 3006,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Trundle": {
       "summoners": "Flash + Ignite",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Coup de Grace · Conditioning · Revitalize",
       "core": [
         3074,
         3078
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Doran's Bow + Health Potion"
     },
     "Tryndamere": {
       "summoners": "Flash + Ignite",
       "keystone": "Hail of Blades",
+      "runes": "Hail of Blades · Sudden Impact · Sixth Sense · Ultimate Hunter · Legend: Alacrity · Last Stand",
       "core": [
         3508,
         3036
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Twisted Fate": {
       "summoners": "Flash + Ghost",
       "keystone": "Unsealed Spellbook",
+      "runes": "Unsealed Spellbook · Cash Back · Triple Tonic · Jack Of All Trades · Demolish · Second Wind",
       "core": [
         6657,
         3100
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Twitch": {
       "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Coup de Grace · Sudden Impact · Treasure Hunter",
       "core": [
         6676,
         2512
       ],
-      "boots": 3006
+      "boots": 3006,
+      "starting": "Doran's Bow + Health Potion"
     },
     "Udyr": {
       "summoners": "Flash + Smite",
       "keystone": "Stormraider's Surge",
+      "runes": "Stormraider's Surge · Nimbus Cloak · Celerity · Waterwalking · Cash Back · Cosmic Insight",
       "core": [
         3161,
         6333
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Mosstomper Seedling"
     },
     "Urgot": {
       "summoners": "Flash + Ghost",
       "keystone": "Press the Attack",
+      "runes": "Press the Attack · Triumph · Legend: Bloodline · Cut Down · Magical Footwear · Triple Tonic",
       "core": [
         3071,
         3053
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Varus": {
       "summoners": "Flash + Ghost",
       "keystone": "Press the Attack",
+      "runes": "Press the Attack · Triumph · Legend: Bloodline · Coup de Grace · Biscuit Delivery · Cosmic Insight",
       "core": [
         3087,
         3124
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Helm + Health Potion"
     },
     "Vayne": {
       "summoners": "Flash + Exhaust",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Triumph · Legend: Bloodline · Coup de Grace · Taste of Blood · Treasure Hunter",
       "core": [
         6672,
         3124
       ],
-      "boots": 3006
+      "boots": 3006,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Veigar": {
       "summoners": "Flash + Ignite",
       "keystone": "Summon Aery",
+      "runes": "Summon Aery · Axiom Arcanist · Celerity · Scorch · Legend: Haste · Coup de Grace",
       "core": [
         6657,
         3003
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "Tear of the Goddess + Health Potion"
     },
     "Vel'Koz": {
       "summoners": "Flash + Heal",
       "keystone": "Arcane Comet",
+      "runes": "Arcane Comet · Manaflow Band · Transcendence · Scorch · Legend: Haste · Cut Down",
       "core": [
         3871,
         6655
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "World Atlas + Health Potion"
     },
     "Vex": {
       "summoners": "Flash + Ignite",
       "keystone": "Electrocute",
+      "runes": "Electrocute · Cheap Shot · Sixth Sense · Ultimate Hunter · Manaflow Band · Transcendence",
       "core": [
         6655,
         3157
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Vi": {
       "summoners": "Flash + Smite",
       "keystone": "Hail of Blades",
+      "runes": "Hail of Blades · Sudden Impact · Grisly Mementos · Relentless Hunter · Triumph · Legend: Alacrity",
       "core": [
         3078,
         6610
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Scorchclaw Pup"
     },
     "Viego": {
       "summoners": "Flash + Smite",
       "keystone": "Hail of Blades",
+      "runes": "Hail of Blades · Sudden Impact · Sixth Sense · Treasure Hunter · Triumph · Legend: Alacrity",
       "core": [
         6676,
         6673,
         3031
-      ]
+      ],
+      "starting": "Mosstomper Seedling"
     },
     "Viktor": {
       "summoners": "Flash + Ignite",
       "keystone": "Deathfire Touch",
+      "runes": "Deathfire Touch · Manaflow Band · Transcendence · Scorch · Shield Bash · Bone Plating",
       "core": [
         2503,
         3100
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Vladimir": {
       "summoners": "Flash + Ignite",
       "keystone": "Deathfire Touch",
+      "runes": "Deathfire Touch · Nimbus Cloak · Transcendence · Scorch · Legend: Haste · Cut Down",
       "core": [
         3152,
         3041
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "Dark Seal + Refillable Potion"
     },
     "Volibear": {
       "summoners": "Flash + Ignite",
       "keystone": "Press the Attack",
+      "runes": "Press the Attack · Presence of Mind · Legend: Alacrity · Last Stand · Cash Back · Jack Of All Trades",
       "core": [
         2510,
         6675
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Doran's Bow + Health Potion"
     },
     "Warwick": {
       "summoners": "Flash + Smite",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Last Stand · Magical Footwear · Cosmic Insight",
       "core": [
         6631,
         3153
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Mosstomper Seedling + Health Potion"
     },
     "Wukong": {
       "summoners": "Flash + Smite",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Sudden Impact · Ultimate Hunter",
       "core": [
         3078,
         6610,
         3071
-      ]
+      ],
+      "starting": "Scorchclaw Pup + Health Potion"
     },
     "Xayah": {
       "summoners": "Flash + Barrier",
       "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Cut Down · Cash Back · Triple Tonic",
       "core": [
         3508,
         6675
       ],
-      "boots": 3006
+      "boots": 3006,
+      "starting": "Doran's Bow + Health Potion"
     },
     "Xerath": {
       "summoners": "Flash + Exhaust",
       "keystone": "Dark Harvest",
+      "runes": "Dark Harvest · Cheap Shot · Sixth Sense · Ultimate Hunter · Cash Back · Triple Tonic",
       "core": [
         6655,
         3041
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Xin Zhao": {
       "summoners": "Flash + Smite",
       "keystone": "Hail of Blades",
+      "runes": "Hail of Blades · Sudden Impact · Grisly Mementos · Relentless Hunter · Triple Tonic · Approach Velocity",
       "core": [
         6610,
         3071
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Scorchclaw Pup"
     },
     "Yasuo": {
       "summoners": "Flash + Exhaust",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Cut Down · Shield Bash · Bone Plating",
       "core": [
         3153,
         3031
       ],
-      "boots": 3006
+      "boots": 3006,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Yone": {
       "summoners": "Flash + Ignite",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Cut Down · Demolish · Unflinching",
       "core": [
         3153,
         3031
       ],
-      "boots": 3006
+      "boots": 3006,
+      "starting": "Doran's Bow + Health Potion"
     },
     "Yorick": {
       "summoners": "Flash + Ignite",
       "keystone": "Grasp of the Undying",
+      "runes": "Grasp of the Undying · Demolish · Second Wind · Unflinching · Biscuit Delivery · Approach Velocity",
       "core": [
         3078,
         3071
       ],
-      "boots": 3047
+      "boots": 3047,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Yunara": {
       "summoners": "Flash + Ghost",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Triumph · Legend: Bloodline · Cut Down · Cash Back · Triple Tonic",
       "core": [
         6672,
         2512
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Bow + Health Potion"
     },
     "Yuumi": {
       "summoners": "Exhaust + Ignite",
       "keystone": "Summon Aery",
+      "runes": "Summon Aery · Axiom Arcanist · Transcendence · Gathering Storm · Font of Life · Revitalize",
       "core": [
         3870,
         3504,
         3222
-      ]
+      ],
+      "starting": "World Atlas + Control Ward"
     },
     "Zaahen": {
       "summoners": "Flash + Exhaust",
       "keystone": "Hail of Blades",
+      "runes": "Hail of Blades · Sudden Impact · Grisly Mementos · Ultimate Hunter · Nimbus Cloak · Transcendence",
       "core": [
         3078,
         6631
       ],
-      "boots": 3111
+      "boots": 3111,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Zac": {
       "summoners": "Flash + Smite",
       "keystone": "Aftershock",
+      "runes": "Aftershock · Font of Life · Conditioning · Revitalize · Triumph · Legend: Haste",
       "core": [
         3068,
         3065
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "Mosstomper Seedling"
     },
     "Zed": {
       "summoners": "Flash + Teleport",
       "keystone": "First Strike",
+      "runes": "First Strike · Cash Back · Triple Tonic · Jack Of All Trades · Legend: Haste · Cut Down",
       "core": [
         6699,
         6696
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Blade + Health Potion"
     },
     "Zeri": {
       "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
+      "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Last Stand · Conditioning · Overgrowth",
       "core": [
         3097,
         3046
       ],
-      "boots": 3008
+      "boots": 3008,
+      "starting": "Doran's Bow + Health Potion"
     },
     "Ziggs": {
       "summoners": "Flash + Barrier",
       "keystone": "Arcane Comet",
+      "runes": "Arcane Comet · Manaflow Band · Transcendence · Gathering Storm · Magical Footwear · Biscuit Delivery",
       "core": [
         6655,
         3152
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Zilean": {
       "summoners": "Flash + Exhaust",
       "keystone": "Guardian",
+      "runes": "Guardian · Font of Life · Bone Plating · Overgrowth · Deep Ward · Ultimate Hunter",
       "core": [
         3876,
         2065
       ],
-      "boots": 3158
+      "boots": 3158,
+      "starting": "World Atlas + Health Potion"
     },
     "Zoe": {
       "summoners": "Flash + Ignite",
       "keystone": "Dark Harvest",
+      "runes": "Dark Harvest · Taste of Blood · Deep Ward · Relentless Hunter · Presence of Mind · Cut Down",
       "core": [
         6655,
         3100
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "Doran's Ring + Health Potion"
     },
     "Zyra": {
       "summoners": "Flash + Heal",
       "keystone": "Arcane Comet",
+      "runes": "Arcane Comet · Manaflow Band · Transcendence · Scorch · Taste of Blood · Relentless Hunter",
       "core": [
         3871,
         6653
       ],
-      "boots": 3020
+      "boots": 3020,
+      "starting": "World Atlas + Health Potion"
     }
   }
 }
