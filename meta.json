@@ -1,7 +1,7 @@
 {
   "patch": "16.13.1",
   "tier": "diamond_plus",
-  "source": "lolalytics (scraped); champion roster from Riot Data Dragon",
+  "source": "builds/runes from lolalytics; counters from op.gg; roster from Riot Data Dragon",
   "note": "Every champion present. Live scrape overlays a class default; curated.json overrides both.",
   "champions": {
     "Aatrox": {
@@ -13,7 +13,33 @@
         6610
       ],
       "boots": 3111,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Riven",
+          "wr": 55.6
+        },
+        {
+          "c": "Warwick",
+          "wr": 54.8
+        },
+        {
+          "c": "Kayle",
+          "wr": 54.5
+        },
+        {
+          "c": "Malphite",
+          "wr": 54.2
+        },
+        {
+          "c": "Irelia",
+          "wr": 54
+        },
+        {
+          "c": "Singed",
+          "wr": 54
+        }
+      ]
     },
     "Ahri": {
       "summoners": "Flash + Ignite",
@@ -24,7 +50,33 @@
         3100
       ],
       "boots": 3158,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Vex",
+          "wr": 53.7
+        },
+        {
+          "c": "Zoe",
+          "wr": 52.8
+        },
+        {
+          "c": "Veigar",
+          "wr": 52.5
+        },
+        {
+          "c": "Naafiri",
+          "wr": 52.2
+        },
+        {
+          "c": "Katarina",
+          "wr": 52.2
+        },
+        {
+          "c": "Annie",
+          "wr": 52.1
+        }
+      ]
     },
     "Akali": {
       "summoners": "Flash + Ignite",
@@ -35,7 +87,33 @@
         3152
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Sion",
+          "wr": 57.3
+        },
+        {
+          "c": "Annie",
+          "wr": 57.2
+        },
+        {
+          "c": "Veigar",
+          "wr": 57.1
+        },
+        {
+          "c": "Lissandra",
+          "wr": 57
+        },
+        {
+          "c": "Riven",
+          "wr": 56.2
+        },
+        {
+          "c": "Galio",
+          "wr": 55.4
+        }
+      ]
     },
     "Akshan": {
       "summoners": "Flash + Ignite",
@@ -46,7 +124,33 @@
         3031
       ],
       "boots": 3008,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Katarina",
+          "wr": 58
+        },
+        {
+          "c": "Vex",
+          "wr": 55.9
+        },
+        {
+          "c": "Diana",
+          "wr": 55.2
+        },
+        {
+          "c": "Naafiri",
+          "wr": 54.8
+        },
+        {
+          "c": "Malphite",
+          "wr": 54.7
+        },
+        {
+          "c": "Fizz",
+          "wr": 53.7
+        }
+      ]
     },
     "Alistar": {
       "summoners": "Flash + Heal",
@@ -57,18 +161,70 @@
         3050
       ],
       "boots": 3009,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Senna",
+          "wr": 54.9
+        },
+        {
+          "c": "Vel'Koz",
+          "wr": 54.5
+        },
+        {
+          "c": "Janna",
+          "wr": 54.2
+        },
+        {
+          "c": "Maokai",
+          "wr": 53.9
+        },
+        {
+          "c": "Zilean",
+          "wr": 52.6
+        },
+        {
+          "c": "Seraphine",
+          "wr": 52.3
+        }
+      ]
     },
     "Ambessa": {
       "summoners": "Flash + Ignite",
       "keystone": "Electrocute",
-      "runes": "Electrocute · Sudden Impact · Grisly Mementos · Ultimate Hunter · Triple Tonic · Jack Of All Trades",
+      "runes": "Electrocute · Sudden Impact · Sixth Sense · Ultimate Hunter · Triple Tonic · Jack Of All Trades",
       "core": [
         6692,
         3161
       ],
       "boots": 3111,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Irelia",
+          "wr": 57.8
+        },
+        {
+          "c": "Vayne",
+          "wr": 57
+        },
+        {
+          "c": "Gwen",
+          "wr": 56.9
+        },
+        {
+          "c": "Shen",
+          "wr": 55
+        },
+        {
+          "c": "Pantheon",
+          "wr": 54.8
+        },
+        {
+          "c": "Urgot",
+          "wr": 54.4
+        }
+      ]
     },
     "Amumu": {
       "summoners": "Flash + Smite",
@@ -79,7 +235,33 @@
         3068
       ],
       "boots": 3047,
-      "starting": "Mosstomper Seedling + Health Potion"
+      "starting": "Mosstomper Seedling + Health Potion",
+      "counters": [
+        {
+          "c": "Talon",
+          "wr": 61.9
+        },
+        {
+          "c": "Kha'Zix",
+          "wr": 58
+        },
+        {
+          "c": "Sylas",
+          "wr": 57.8
+        },
+        {
+          "c": "Master Yi",
+          "wr": 56.2
+        },
+        {
+          "c": "Lee Sin",
+          "wr": 51.9
+        },
+        {
+          "c": "Naafiri",
+          "wr": 51.5
+        }
+      ]
     },
     "Anivia": {
       "summoners": "Flash + Ignite",
@@ -90,7 +272,33 @@
         3003
       ],
       "boots": 3158,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Hwei",
+          "wr": 55
+        },
+        {
+          "c": "Diana",
+          "wr": 54.6
+        },
+        {
+          "c": "Ahri",
+          "wr": 54.6
+        },
+        {
+          "c": "Vladimir",
+          "wr": 52.9
+        },
+        {
+          "c": "Katarina",
+          "wr": 52.6
+        },
+        {
+          "c": "Zoe",
+          "wr": 52.4
+        }
+      ]
     },
     "Annie": {
       "summoners": "Flash + Ignite",
@@ -101,18 +309,70 @@
         3152
       ],
       "boots": 3158,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Kassadin",
+          "wr": 55.2
+        },
+        {
+          "c": "Aurora",
+          "wr": 54
+        },
+        {
+          "c": "Ekko",
+          "wr": 53.6
+        },
+        {
+          "c": "Xerath",
+          "wr": 53.6
+        },
+        {
+          "c": "Katarina",
+          "wr": 53
+        },
+        {
+          "c": "Hwei",
+          "wr": 52.5
+        }
+      ]
     },
     "Aphelios": {
       "summoners": "Flash + Barrier",
       "keystone": "Conqueror",
-      "runes": "Conqueror · Triumph · Legend: Alacrity · Coup de Grace · Cash Back · Triple Tonic",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Cut Down · Cash Back · Triple Tonic",
       "core": [
         6676,
         3031
       ],
       "boots": 3008,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Yasuo",
+          "wr": 63.4
+        },
+        {
+          "c": "Syndra",
+          "wr": 57.5
+        },
+        {
+          "c": "Hwei",
+          "wr": 57.4
+        },
+        {
+          "c": "Ziggs",
+          "wr": 57
+        },
+        {
+          "c": "Xerath",
+          "wr": 56.8
+        },
+        {
+          "c": "Seraphine",
+          "wr": 54.7
+        }
+      ]
     },
     "Ashe": {
       "summoners": "Flash + Barrier",
@@ -123,7 +383,33 @@
         3046
       ],
       "boots": 3008,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Bow + Health Potion",
+      "counters": [
+        {
+          "c": "Katarina",
+          "wr": 59
+        },
+        {
+          "c": "Nilah",
+          "wr": 58.2
+        },
+        {
+          "c": "Xerath",
+          "wr": 57.7
+        },
+        {
+          "c": "Yasuo",
+          "wr": 56.9
+        },
+        {
+          "c": "Karthus",
+          "wr": 56.1
+        },
+        {
+          "c": "Swain",
+          "wr": 55.9
+        }
+      ]
     },
     "Aurelion Sol": {
       "summoners": "Flash + Exhaust",
@@ -134,7 +420,33 @@
         6653
       ],
       "boots": 3111,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Tear of the Goddess + Health Potion",
+      "counters": [
+        {
+          "c": "Galio",
+          "wr": 58.6
+        },
+        {
+          "c": "Hwei",
+          "wr": 57.1
+        },
+        {
+          "c": "Vladimir",
+          "wr": 56.4
+        },
+        {
+          "c": "Zed",
+          "wr": 53.6
+        },
+        {
+          "c": "Twisted Fate",
+          "wr": 53.3
+        },
+        {
+          "c": "Yone",
+          "wr": 53.1
+        }
+      ]
     },
     "Aurora": {
       "summoners": "Flash + Ignite",
@@ -145,21 +457,73 @@
         4646
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Veigar",
+          "wr": 59.2
+        },
+        {
+          "c": "Fizz",
+          "wr": 56.9
+        },
+        {
+          "c": "Talon",
+          "wr": 56.7
+        },
+        {
+          "c": "Katarina",
+          "wr": 56.3
+        },
+        {
+          "c": "Malzahar",
+          "wr": 55
+        },
+        {
+          "c": "Syndra",
+          "wr": 54.3
+        }
+      ]
     },
     "Azir": {
       "summoners": "Flash + Ignite",
-      "keystone": "Lethal Tempo",
-      "runes": "Lethal Tempo · Presence of Mind · Legend: Alacrity · Cut Down · Absolute Focus · Scorch",
+      "keystone": "Summon Aery",
+      "runes": "Summon Aery · Manaflow Band · Absolute Focus · Gathering Storm · Presence of Mind · Legend: Alacrity",
       "core": [
         3115,
-        3116
+        4645
       ],
-      "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "boots": 3111,
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Twisted Fate",
+          "wr": 59.1
+        },
+        {
+          "c": "Vladimir",
+          "wr": 57.1
+        },
+        {
+          "c": "Syndra",
+          "wr": 56.8
+        },
+        {
+          "c": "Sylas",
+          "wr": 56
+        },
+        {
+          "c": "Galio",
+          "wr": 55.7
+        },
+        {
+          "c": "Viktor",
+          "wr": 55.7
+        }
+      ]
     },
     "Bard": {
-      "summoners": "Flash + Exhaust",
+      "summoners": "Flash + Heal",
       "keystone": "Electrocute",
       "runes": "Electrocute · Cheap Shot · Deep Ward · Treasure Hunter · Magical Footwear · Jack Of All Trades",
       "core": [
@@ -167,51 +531,181 @@
         3742
       ],
       "boots": 3009,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Poppy",
+          "wr": 56.9
+        },
+        {
+          "c": "Tahm Kench",
+          "wr": 55.1
+        },
+        {
+          "c": "Rell",
+          "wr": 54.7
+        },
+        {
+          "c": "Morgana",
+          "wr": 54.3
+        },
+        {
+          "c": "Renata Glasc",
+          "wr": 54.1
+        },
+        {
+          "c": "Nautilus",
+          "wr": 53.7
+        }
+      ]
     },
     "Bel'Veth": {
       "summoners": "Ghost + Smite",
       "keystone": "Press the Attack",
-      "runes": "Press the Attack · Triumph · Legend: Bloodline · Last Stand · Cash Back · Biscuit Delivery",
+      "runes": "Press the Attack · Triumph · Legend: Bloodline · Last Stand · Cash Back · Triple Tonic",
       "core": [
         6672,
         6631,
         6333
       ],
-      "starting": "Mosstomper Seedling + Health Potion"
+      "starting": "Mosstomper Seedling + Health Potion",
+      "counters": [
+        {
+          "c": "Udyr",
+          "wr": 57
+        },
+        {
+          "c": "Rek'Sai",
+          "wr": 54.8
+        },
+        {
+          "c": "Nidalee",
+          "wr": 53.3
+        },
+        {
+          "c": "Fiddlesticks",
+          "wr": 52.3
+        },
+        {
+          "c": "Master Yi",
+          "wr": 52.1
+        },
+        {
+          "c": "Kindred",
+          "wr": 51
+        }
+      ]
     },
     "Blitzcrank": {
       "summoners": "Flash + Ignite",
-      "keystone": "Glacial Augment",
-      "runes": "Glacial Augment · Hextech Flashtraption · Biscuit Delivery · Cosmic Insight · Nimbus Cloak · Celerity",
+      "keystone": "Unsealed Spellbook",
+      "runes": "Unsealed Spellbook · Hextech Flashtraption · Biscuit Delivery · Cosmic Insight · Nimbus Cloak · Celerity",
       "core": [
         3877,
         3190
       ],
       "boots": 3009,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Zilean",
+          "wr": 56.1
+        },
+        {
+          "c": "Rakan",
+          "wr": 55
+        },
+        {
+          "c": "Braum",
+          "wr": 54.6
+        },
+        {
+          "c": "Poppy",
+          "wr": 54.6
+        },
+        {
+          "c": "Alistar",
+          "wr": 54.6
+        },
+        {
+          "c": "Pantheon",
+          "wr": 54.1
+        }
+      ]
     },
     "Brand": {
       "summoners": "Flash + Exhaust",
       "keystone": "Dark Harvest",
-      "runes": "Dark Harvest · Taste of Blood · Grisly Mementos · Treasure Hunter · Manaflow Band · Scorch",
+      "runes": "Dark Harvest · Taste of Blood · Grisly Mementos · Treasure Hunter · Cash Back · Biscuit Delivery",
       "core": [
         3871,
         3116
       ],
       "boots": 3020,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Janna",
+          "wr": 57.3
+        },
+        {
+          "c": "Camille",
+          "wr": 57.2
+        },
+        {
+          "c": "Milio",
+          "wr": 56.7
+        },
+        {
+          "c": "Pyke",
+          "wr": 56.5
+        },
+        {
+          "c": "Braum",
+          "wr": 55.7
+        },
+        {
+          "c": "Karma",
+          "wr": 54.8
+        }
+      ]
     },
     "Braum": {
       "summoners": "Flash + Heal",
       "keystone": "Guardian",
-      "runes": "Guardian · Font of Life · Bone Plating · Overgrowth · Magical Footwear · Biscuit Delivery",
+      "runes": "Guardian · Font of Life · Bone Plating · Overgrowth · Magical Footwear · Cosmic Insight",
       "core": [
         3876,
         2524
       ],
       "boots": 3111,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Senna",
+          "wr": 55.4
+        },
+        {
+          "c": "Seraphine",
+          "wr": 52.9
+        },
+        {
+          "c": "Zilean",
+          "wr": 52.5
+        },
+        {
+          "c": "Sona",
+          "wr": 52.4
+        },
+        {
+          "c": "Janna",
+          "wr": 51.7
+        },
+        {
+          "c": "Pyke",
+          "wr": 51.5
+        }
+      ]
     },
     "Briar": {
       "summoners": "Flash + Smite",
@@ -222,7 +716,33 @@
         3071
       ],
       "boots": 3047,
-      "starting": "Mosstomper Seedling"
+      "starting": "Gustwalker Hatchling + Health Potion",
+      "counters": [
+        {
+          "c": "Nunu & Willump",
+          "wr": 55.7
+        },
+        {
+          "c": "Nasus",
+          "wr": 54.2
+        },
+        {
+          "c": "Ambessa",
+          "wr": 54.1
+        },
+        {
+          "c": "Qiyana",
+          "wr": 54
+        },
+        {
+          "c": "Fiddlesticks",
+          "wr": 54
+        },
+        {
+          "c": "Graves",
+          "wr": 53.6
+        }
+      ]
     },
     "Caitlyn": {
       "summoners": "Flash + Barrier",
@@ -233,7 +753,33 @@
         3031
       ],
       "boots": 3006,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Swain",
+          "wr": 58.2
+        },
+        {
+          "c": "Seraphine",
+          "wr": 57.6
+        },
+        {
+          "c": "Xerath",
+          "wr": 57.5
+        },
+        {
+          "c": "Karthus",
+          "wr": 57.4
+        },
+        {
+          "c": "Lux",
+          "wr": 57.3
+        },
+        {
+          "c": "Nilah",
+          "wr": 57
+        }
+      ]
     },
     "Camille": {
       "summoners": "Flash + Ignite",
@@ -244,7 +790,33 @@
         6610
       ],
       "boots": 3009,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Poppy",
+          "wr": 58.1
+        },
+        {
+          "c": "Janna",
+          "wr": 57.4
+        },
+        {
+          "c": "Rell",
+          "wr": 56.2
+        },
+        {
+          "c": "Thresh",
+          "wr": 55.9
+        },
+        {
+          "c": "Taric",
+          "wr": 55.8
+        },
+        {
+          "c": "Zyra",
+          "wr": 55.4
+        }
+      ]
     },
     "Cassiopeia": {
       "summoners": "Flash + Barrier",
@@ -255,7 +827,33 @@
         3003
       ],
       "boots": 3008,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Syndra",
+          "wr": 60.9
+        },
+        {
+          "c": "Akali",
+          "wr": 57.1
+        },
+        {
+          "c": "Diana",
+          "wr": 57
+        },
+        {
+          "c": "Galio",
+          "wr": 55.7
+        },
+        {
+          "c": "LeBlanc",
+          "wr": 55.3
+        },
+        {
+          "c": "Hwei",
+          "wr": 54.1
+        }
+      ]
     },
     "Cho'Gath": {
       "summoners": "Flash + Ghost",
@@ -266,7 +864,33 @@
         3068
       ],
       "boots": 3047,
-      "starting": "Doran's Shield + Health Potion"
+      "starting": "Doran's Shield + Health Potion",
+      "counters": [
+        {
+          "c": "Gwen",
+          "wr": 55.9
+        },
+        {
+          "c": "Nasus",
+          "wr": 55.5
+        },
+        {
+          "c": "Gragas",
+          "wr": 54.9
+        },
+        {
+          "c": "Urgot",
+          "wr": 54
+        },
+        {
+          "c": "Ornn",
+          "wr": 53.7
+        },
+        {
+          "c": "Singed",
+          "wr": 52.8
+        }
+      ]
     },
     "Corki": {
       "summoners": "Flash + Exhaust",
@@ -277,7 +901,33 @@
         3004
       ],
       "boots": 3008,
-      "starting": "Doran's Bow + Health Potion"
+      "starting": "Doran's Bow + Health Potion",
+      "counters": [
+        {
+          "c": "Jinx",
+          "wr": 60.9
+        },
+        {
+          "c": "Vayne",
+          "wr": 56.1
+        },
+        {
+          "c": "Xayah",
+          "wr": 53.2
+        },
+        {
+          "c": "Ashe",
+          "wr": 53
+        },
+        {
+          "c": "Zeri",
+          "wr": 52.5
+        },
+        {
+          "c": "Senna",
+          "wr": 52.2
+        }
+      ]
     },
     "Darius": {
       "summoners": "Flash + Ignite",
@@ -288,7 +938,33 @@
         3742
       ],
       "boots": 3111,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Anivia",
+          "wr": 59.1
+        },
+        {
+          "c": "Vayne",
+          "wr": 55.4
+        },
+        {
+          "c": "Varus",
+          "wr": 55.2
+        },
+        {
+          "c": "Dr. Mundo",
+          "wr": 54.9
+        },
+        {
+          "c": "Urgot",
+          "wr": 54.5
+        },
+        {
+          "c": "Gragas",
+          "wr": 54.5
+        }
+      ]
     },
     "Diana": {
       "summoners": "Flash + Smite",
@@ -299,10 +975,36 @@
         4633
       ],
       "boots": 3020,
-      "starting": "Scorchclaw Pup"
+      "starting": "Scorchclaw Pup",
+      "counters": [
+        {
+          "c": "Kindred",
+          "wr": 59.3
+        },
+        {
+          "c": "Evelynn",
+          "wr": 58.5
+        },
+        {
+          "c": "Udyr",
+          "wr": 57.2
+        },
+        {
+          "c": "Zac",
+          "wr": 55
+        },
+        {
+          "c": "Nasus",
+          "wr": 55
+        },
+        {
+          "c": "Rammus",
+          "wr": 54.2
+        }
+      ]
     },
     "Dr. Mundo": {
-      "summoners": "Flash + Ignite",
+      "summoners": "Flash + Ghost",
       "keystone": "Grasp of the Undying",
       "runes": "Grasp of the Undying · Demolish · Second Wind · Overgrowth · Cash Back · Biscuit Delivery",
       "core": [
@@ -310,7 +1012,33 @@
         3084
       ],
       "boots": 3009,
-      "starting": "Doran's Helm + Health Potion"
+      "starting": "Doran's Helm + Health Potion",
+      "counters": [
+        {
+          "c": "Gwen",
+          "wr": 57
+        },
+        {
+          "c": "Vayne",
+          "wr": 56.8
+        },
+        {
+          "c": "Kled",
+          "wr": 55.8
+        },
+        {
+          "c": "Tahm Kench",
+          "wr": 55.4
+        },
+        {
+          "c": "Olaf",
+          "wr": 55.1
+        },
+        {
+          "c": "Aatrox",
+          "wr": 54.9
+        }
+      ]
     },
     "Draven": {
       "summoners": "Flash + Barrier",
@@ -321,18 +1049,70 @@
         2523,
         3031
       ],
-      "starting": "Doran's Bow + Health Potion"
+      "starting": "Doran's Bow + Health Potion",
+      "counters": [
+        {
+          "c": "Lux",
+          "wr": 59.2
+        },
+        {
+          "c": "Veigar",
+          "wr": 58.5
+        },
+        {
+          "c": "Vel'Koz",
+          "wr": 58.2
+        },
+        {
+          "c": "Swain",
+          "wr": 58.2
+        },
+        {
+          "c": "Syndra",
+          "wr": 57.7
+        },
+        {
+          "c": "Kog'Maw",
+          "wr": 56.6
+        }
+      ]
     },
     "Ekko": {
       "summoners": "Flash + Smite",
       "keystone": "Hail of Blades",
-      "runes": "Hail of Blades · Sudden Impact · Sixth Sense · Treasure Hunter · Triumph · Coup de Grace",
+      "runes": "Hail of Blades · Sudden Impact · Sixth Sense · Treasure Hunter · Triumph · Legend: Haste",
       "core": [
         2510,
         4645,
         3089
       ],
-      "starting": "Gustwalker Hatchling + Health Potion"
+      "starting": "Gustwalker Hatchling + Health Potion",
+      "counters": [
+        {
+          "c": "Bel'Veth",
+          "wr": 55.3
+        },
+        {
+          "c": "Kha'Zix",
+          "wr": 55.3
+        },
+        {
+          "c": "Nunu & Willump",
+          "wr": 55.1
+        },
+        {
+          "c": "Evelynn",
+          "wr": 54.4
+        },
+        {
+          "c": "Shaco",
+          "wr": 53.9
+        },
+        {
+          "c": "Karthus",
+          "wr": 53.6
+        }
+      ]
     },
     "Elise": {
       "summoners": "Flash + Smite",
@@ -343,7 +1123,33 @@
         4645
       ],
       "boots": 3020,
-      "starting": "Gustwalker Hatchling + Health Potion"
+      "starting": "Gustwalker Hatchling + Health Potion",
+      "counters": [
+        {
+          "c": "Shyvana",
+          "wr": 57
+        },
+        {
+          "c": "Shaco",
+          "wr": 56.4
+        },
+        {
+          "c": "Nasus",
+          "wr": 56
+        },
+        {
+          "c": "Nunu & Willump",
+          "wr": 55.9
+        },
+        {
+          "c": "Nocturne",
+          "wr": 54.5
+        },
+        {
+          "c": "Hecarim",
+          "wr": 54
+        }
+      ]
     },
     "Evelynn": {
       "summoners": "Flash + Smite",
@@ -354,7 +1160,33 @@
         3041,
         3089
       ],
-      "starting": "Scorchclaw Pup + Health Potion"
+      "starting": "Scorchclaw Pup + Health Potion",
+      "counters": [
+        {
+          "c": "Hecarim",
+          "wr": 57.9
+        },
+        {
+          "c": "Bel'Veth",
+          "wr": 57.9
+        },
+        {
+          "c": "Shaco",
+          "wr": 56.1
+        },
+        {
+          "c": "Elise",
+          "wr": 52.8
+        },
+        {
+          "c": "Rek'Sai",
+          "wr": 52.6
+        },
+        {
+          "c": "Wukong",
+          "wr": 52.6
+        }
+      ]
     },
     "Ezreal": {
       "summoners": "Flash + Exhaust",
@@ -365,7 +1197,33 @@
         3004
       ],
       "boots": 3008,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Vladimir",
+          "wr": 59.7
+        },
+        {
+          "c": "Nilah",
+          "wr": 56.8
+        },
+        {
+          "c": "Lux",
+          "wr": 56.7
+        },
+        {
+          "c": "Katarina",
+          "wr": 56.3
+        },
+        {
+          "c": "Senna",
+          "wr": 55.7
+        },
+        {
+          "c": "Seraphine",
+          "wr": 55.6
+        }
+      ]
     },
     "Fiddlesticks": {
       "summoners": "Flash + Smite",
@@ -376,7 +1234,29 @@
         3152
       ],
       "boots": 3020,
-      "starting": "Gustwalker Hatchling"
+      "starting": "Gustwalker Hatchling",
+      "counters": [
+        {
+          "c": "Nidalee",
+          "wr": 55.6
+        },
+        {
+          "c": "Wukong",
+          "wr": 53.7
+        },
+        {
+          "c": "Vi",
+          "wr": 52.7
+        },
+        {
+          "c": "Master Yi",
+          "wr": 51
+        },
+        {
+          "c": "Ekko",
+          "wr": 50.5
+        }
+      ]
     },
     "Fiora": {
       "summoners": "Flash + Ignite",
@@ -387,7 +1267,33 @@
         3078
       ],
       "boots": 3111,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Malphite",
+          "wr": 55.9
+        },
+        {
+          "c": "Akali",
+          "wr": 55
+        },
+        {
+          "c": "Zaahen",
+          "wr": 54.3
+        },
+        {
+          "c": "Kennen",
+          "wr": 54.1
+        },
+        {
+          "c": "Darius",
+          "wr": 53
+        },
+        {
+          "c": "Gangplank",
+          "wr": 52.7
+        }
+      ]
     },
     "Fizz": {
       "summoners": "Flash + Ignite",
@@ -398,7 +1304,33 @@
         3041
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Riven",
+          "wr": 58.7
+        },
+        {
+          "c": "Diana",
+          "wr": 56.4
+        },
+        {
+          "c": "Vex",
+          "wr": 54.1
+        },
+        {
+          "c": "Talon",
+          "wr": 53.9
+        },
+        {
+          "c": "Lissandra",
+          "wr": 53.8
+        },
+        {
+          "c": "Ekko",
+          "wr": 53.3
+        }
+      ]
     },
     "Galio": {
       "summoners": "Flash + Ignite",
@@ -409,7 +1341,33 @@
         4005
       ],
       "boots": 3111,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Hwei",
+          "wr": 56.9
+        },
+        {
+          "c": "Talon",
+          "wr": 56.1
+        },
+        {
+          "c": "Veigar",
+          "wr": 55.1
+        },
+        {
+          "c": "Anivia",
+          "wr": 54.4
+        },
+        {
+          "c": "Syndra",
+          "wr": 53.7
+        },
+        {
+          "c": "Vex",
+          "wr": 53.6
+        }
+      ]
     },
     "Gangplank": {
       "summoners": "Flash + Ignite",
@@ -420,7 +1378,33 @@
         6676
       ],
       "boots": 3008,
-      "starting": "Doran's Helm + Health Potion"
+      "starting": "Doran's Helm + Health Potion",
+      "counters": [
+        {
+          "c": "Gwen",
+          "wr": 55.7
+        },
+        {
+          "c": "Kayle",
+          "wr": 54.7
+        },
+        {
+          "c": "Zaahen",
+          "wr": 53.5
+        },
+        {
+          "c": "Ryze",
+          "wr": 53
+        },
+        {
+          "c": "Volibear",
+          "wr": 53
+        },
+        {
+          "c": "Tryndamere",
+          "wr": 52.5
+        }
+      ]
     },
     "Garen": {
       "summoners": "Flash + Ignite",
@@ -431,7 +1415,33 @@
         3142
       ],
       "boots": 3006,
-      "starting": "Doran's Bow + Health Potion"
+      "starting": "Doran's Bow + Health Potion",
+      "counters": [
+        {
+          "c": "Kayle",
+          "wr": 56
+        },
+        {
+          "c": "Kled",
+          "wr": 54.7
+        },
+        {
+          "c": "Cho'Gath",
+          "wr": 54.6
+        },
+        {
+          "c": "Fiora",
+          "wr": 54
+        },
+        {
+          "c": "Quinn",
+          "wr": 53.9
+        },
+        {
+          "c": "Gangplank",
+          "wr": 53.7
+        }
+      ]
     },
     "Gnar": {
       "summoners": "Flash + Barrier",
@@ -442,7 +1452,33 @@
         3071
       ],
       "boots": 3047,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Poppy",
+          "wr": 57.6
+        },
+        {
+          "c": "Illaoi",
+          "wr": 56.8
+        },
+        {
+          "c": "Olaf",
+          "wr": 56.7
+        },
+        {
+          "c": "Irelia",
+          "wr": 55.5
+        },
+        {
+          "c": "Cho'Gath",
+          "wr": 55.4
+        },
+        {
+          "c": "Kayle",
+          "wr": 55.4
+        }
+      ]
     },
     "Gragas": {
       "summoners": "Flash + Ignite",
@@ -453,18 +1489,70 @@
         3100
       ],
       "boots": 3020,
-      "starting": "Sapphire Crystal + Refillable Potion"
+      "starting": "Sapphire Crystal + Refillable Potion",
+      "counters": [
+        {
+          "c": "Singed",
+          "wr": 56.5
+        },
+        {
+          "c": "Shen",
+          "wr": 55.1
+        },
+        {
+          "c": "Dr. Mundo",
+          "wr": 53.8
+        },
+        {
+          "c": "Urgot",
+          "wr": 53.4
+        },
+        {
+          "c": "Yorick",
+          "wr": 53.4
+        },
+        {
+          "c": "Vladimir",
+          "wr": 53.1
+        }
+      ]
     },
     "Graves": {
       "summoners": "Flash + Smite",
       "keystone": "Fleet Footwork",
-      "runes": "Fleet Footwork · Triumph · Legend: Alacrity · Coup de Grace · Cash Back · Triple Tonic",
+      "runes": "Fleet Footwork · Triumph · Legend: Alacrity · Cut Down · Cash Back · Triple Tonic",
       "core": [
         6697,
         6676,
         6673
       ],
-      "starting": "Scorchclaw Pup"
+      "starting": "Scorchclaw Pup",
+      "counters": [
+        {
+          "c": "Zyra",
+          "wr": 57.7
+        },
+        {
+          "c": "Gwen",
+          "wr": 56.9
+        },
+        {
+          "c": "Ivern",
+          "wr": 54.9
+        },
+        {
+          "c": "Evelynn",
+          "wr": 54.6
+        },
+        {
+          "c": "Fiddlesticks",
+          "wr": 54.6
+        },
+        {
+          "c": "Taliyah",
+          "wr": 54.5
+        }
+      ]
     },
     "Gwen": {
       "summoners": "Teleport + Ignite",
@@ -475,7 +1563,33 @@
         3115
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Yasuo",
+          "wr": 60.4
+        },
+        {
+          "c": "Singed",
+          "wr": 59.9
+        },
+        {
+          "c": "Riven",
+          "wr": 58.3
+        },
+        {
+          "c": "Jax",
+          "wr": 54.2
+        },
+        {
+          "c": "Jayce",
+          "wr": 53.6
+        },
+        {
+          "c": "Fiora",
+          "wr": 53.1
+        }
+      ]
     },
     "Hecarim": {
       "summoners": "Ghost + Smite",
@@ -486,7 +1600,33 @@
         2517
       ],
       "boots": 3158,
-      "starting": "Gustwalker Hatchling"
+      "starting": "Gustwalker Hatchling",
+      "counters": [
+        {
+          "c": "Warwick",
+          "wr": 56.1
+        },
+        {
+          "c": "Rammus",
+          "wr": 53.6
+        },
+        {
+          "c": "Nasus",
+          "wr": 53.5
+        },
+        {
+          "c": "Skarner",
+          "wr": 53.3
+        },
+        {
+          "c": "Sylas",
+          "wr": 53.3
+        },
+        {
+          "c": "Zyra",
+          "wr": 53.2
+        }
+      ]
     },
     "Heimerdinger": {
       "summoners": "Flash + Barrier",
@@ -494,10 +1634,16 @@
       "runes": "Conqueror · Presence of Mind · Legend: Haste · Last Stand · Axiom Arcanist · Transcendence",
       "core": [
         2503,
-        3116
+        3089
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Garen",
+          "wr": 53.1
+        }
+      ]
     },
     "Hwei": {
       "summoners": "Flash + Barrier",
@@ -505,10 +1651,36 @@
       "runes": "Arcane Comet · Manaflow Band · Celerity · Gathering Storm · Second Wind · Overgrowth",
       "core": [
         2503,
-        6653
+        3152
       ],
       "boots": 3158,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Katarina",
+          "wr": 54.2
+        },
+        {
+          "c": "Riven",
+          "wr": 54.2
+        },
+        {
+          "c": "Zoe",
+          "wr": 54.1
+        },
+        {
+          "c": "Talon",
+          "wr": 53.6
+        },
+        {
+          "c": "Locke",
+          "wr": 52.7
+        },
+        {
+          "c": "Xerath",
+          "wr": 52.3
+        }
+      ]
     },
     "Illaoi": {
       "summoners": "Flash + Ignite",
@@ -519,18 +1691,70 @@
         3071
       ],
       "boots": 3047,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Fiora",
+          "wr": 59.4
+        },
+        {
+          "c": "Singed",
+          "wr": 55.8
+        },
+        {
+          "c": "Gangplank",
+          "wr": 55.4
+        },
+        {
+          "c": "Mordekaiser",
+          "wr": 54.4
+        },
+        {
+          "c": "Darius",
+          "wr": 53.9
+        },
+        {
+          "c": "Riven",
+          "wr": 53.4
+        }
+      ]
     },
     "Irelia": {
       "summoners": "Flash + Ignite",
       "keystone": "Conqueror",
-      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Triple Tonic · Jack Of All Trades",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Triple Tonic · Cosmic Insight",
       "core": [
         3153,
         3181
       ],
       "boots": 3111,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Warwick",
+          "wr": 60.3
+        },
+        {
+          "c": "Riven",
+          "wr": 58.6
+        },
+        {
+          "c": "Tryndamere",
+          "wr": 58.1
+        },
+        {
+          "c": "Fiora",
+          "wr": 57.5
+        },
+        {
+          "c": "Malphite",
+          "wr": 57.1
+        },
+        {
+          "c": "Nasus",
+          "wr": 56.5
+        }
+      ]
     },
     "Ivern": {
       "summoners": "Flash + Smite",
@@ -541,18 +1765,58 @@
         3107
       ],
       "boots": 3158,
-      "starting": "Gustwalker Hatchling"
+      "starting": "Gustwalker Hatchling",
+      "counters": [
+        {
+          "c": "Viego",
+          "wr": 50.9
+        },
+        {
+          "c": "Jarvan IV",
+          "wr": 50.8
+        },
+        {
+          "c": "Shaco",
+          "wr": 50.6
+        }
+      ]
     },
     "Janna": {
       "summoners": "Flash + Heal",
       "keystone": "Summon Aery",
-      "runes": "Summon Aery · Manaflow Band · Celerity · Gathering Storm · Font of Life · Bone Plating",
+      "runes": "Summon Aery · Manaflow Band · Celerity · Gathering Storm · Cheap Shot · Deep Ward",
       "core": [
         3870,
         3107
       ],
       "boots": 3009,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Sona",
+          "wr": 52.9
+        },
+        {
+          "c": "Thresh",
+          "wr": 52.3
+        },
+        {
+          "c": "Poppy",
+          "wr": 51.8
+        },
+        {
+          "c": "Lux",
+          "wr": 51.5
+        },
+        {
+          "c": "Leona",
+          "wr": 51.4
+        },
+        {
+          "c": "Seraphine",
+          "wr": 50.6
+        }
+      ]
     },
     "Jarvan IV": {
       "summoners": "Flash + Smite",
@@ -563,7 +1827,33 @@
         6696
       ],
       "boots": 3047,
-      "starting": "Mosstomper Seedling"
+      "starting": "Scorchclaw Pup + Health Potion",
+      "counters": [
+        {
+          "c": "Elise",
+          "wr": 53.5
+        },
+        {
+          "c": "Talon",
+          "wr": 53.5
+        },
+        {
+          "c": "Zyra",
+          "wr": 53.5
+        },
+        {
+          "c": "Rammus",
+          "wr": 52.5
+        },
+        {
+          "c": "Warwick",
+          "wr": 52.2
+        },
+        {
+          "c": "Ekko",
+          "wr": 52.2
+        }
+      ]
     },
     "Jax": {
       "summoners": "Flash + Ignite",
@@ -574,29 +1864,107 @@
         6610
       ],
       "boots": 3158,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Vladimir",
+          "wr": 57.9
+        },
+        {
+          "c": "Kennen",
+          "wr": 57.5
+        },
+        {
+          "c": "Garen",
+          "wr": 54.6
+        },
+        {
+          "c": "Illaoi",
+          "wr": 54.3
+        },
+        {
+          "c": "Gangplank",
+          "wr": 54.3
+        },
+        {
+          "c": "Tahm Kench",
+          "wr": 54.3
+        }
+      ]
     },
     "Jayce": {
       "summoners": "Flash + Ignite",
-      "keystone": "Stormraider's Surge",
-      "runes": "Stormraider's Surge · Manaflow Band · Absolute Focus · Scorch · Cash Back · Jack Of All Trades",
+      "keystone": "Electrocute",
+      "runes": "Electrocute · Sudden Impact · Sixth Sense · Treasure Hunter · Cash Back · Jack Of All Trades",
       "core": [
         3142,
         3004
       ],
       "boots": 3009,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Poppy",
+          "wr": 55.6
+        },
+        {
+          "c": "Quinn",
+          "wr": 55.5
+        },
+        {
+          "c": "Ornn",
+          "wr": 54.9
+        },
+        {
+          "c": "Yorick",
+          "wr": 54
+        },
+        {
+          "c": "Anivia",
+          "wr": 53.9
+        },
+        {
+          "c": "Teemo",
+          "wr": 53.8
+        }
+      ]
     },
     "Jhin": {
       "summoners": "Flash + Ghost",
       "keystone": "Deathfire Touch",
-      "runes": "Deathfire Touch · Manaflow Band · Absolute Focus · Gathering Storm · Magical Footwear · Jack Of All Trades",
+      "runes": "Deathfire Touch · Manaflow Band · Celerity · Gathering Storm · Cash Back · Jack Of All Trades",
       "core": [
         6697,
         6676
       ],
       "boots": 3009,
-      "starting": "Doran's Helm + Health Potion"
+      "starting": "Doran's Helm + Health Potion",
+      "counters": [
+        {
+          "c": "Veigar",
+          "wr": 56.7
+        },
+        {
+          "c": "Yasuo",
+          "wr": 56.6
+        },
+        {
+          "c": "Katarina",
+          "wr": 56.5
+        },
+        {
+          "c": "Karthus",
+          "wr": 55.3
+        },
+        {
+          "c": "Vel'Koz",
+          "wr": 54.5
+        },
+        {
+          "c": "Senna",
+          "wr": 53.9
+        }
+      ]
     },
     "Jinx": {
       "summoners": "Flash + Ghost",
@@ -607,7 +1975,33 @@
         3046
       ],
       "boots": 3008,
-      "starting": "Doran's Bow + Health Potion"
+      "starting": "Doran's Bow + Health Potion",
+      "counters": [
+        {
+          "c": "Lux",
+          "wr": 57.3
+        },
+        {
+          "c": "Karthus",
+          "wr": 55.6
+        },
+        {
+          "c": "Seraphine",
+          "wr": 55.5
+        },
+        {
+          "c": "Vel'Koz",
+          "wr": 52.6
+        },
+        {
+          "c": "Xerath",
+          "wr": 51.6
+        },
+        {
+          "c": "Ziggs",
+          "wr": 51.2
+        }
+      ]
     },
     "K'Sante": {
       "summoners": "Flash + Ignite",
@@ -618,7 +2012,33 @@
         2502
       ],
       "boots": 3111,
-      "starting": "Doran's Helm + Health Potion"
+      "starting": "Doran's Helm + Health Potion",
+      "counters": [
+        {
+          "c": "Kennen",
+          "wr": 61.9
+        },
+        {
+          "c": "Kled",
+          "wr": 60.9
+        },
+        {
+          "c": "Vayne",
+          "wr": 57
+        },
+        {
+          "c": "Kayle",
+          "wr": 56.9
+        },
+        {
+          "c": "Akali",
+          "wr": 56.6
+        },
+        {
+          "c": "Garen",
+          "wr": 56.4
+        }
+      ]
     },
     "Kai'Sa": {
       "summoners": "Flash + Barrier",
@@ -629,7 +2049,33 @@
         3124
       ],
       "boots": 3006,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Swain",
+          "wr": 59.3
+        },
+        {
+          "c": "Karthus",
+          "wr": 58.2
+        },
+        {
+          "c": "Nilah",
+          "wr": 57.9
+        },
+        {
+          "c": "Kog'Maw",
+          "wr": 56.5
+        },
+        {
+          "c": "Veigar",
+          "wr": 56.1
+        },
+        {
+          "c": "Vladimir",
+          "wr": 56
+        }
+      ]
     },
     "Kalista": {
       "summoners": "Flash + Exhaust",
@@ -640,7 +2086,33 @@
         3124
       ],
       "boots": 3008,
-      "starting": "Doran's Bow + Health Potion"
+      "starting": "Doran's Bow + Health Potion",
+      "counters": [
+        {
+          "c": "Draven",
+          "wr": 57.1
+        },
+        {
+          "c": "Xayah",
+          "wr": 55.3
+        },
+        {
+          "c": "Seraphine",
+          "wr": 54.5
+        },
+        {
+          "c": "Ziggs",
+          "wr": 52.5
+        },
+        {
+          "c": "Tristana",
+          "wr": 52.4
+        },
+        {
+          "c": "Aphelios",
+          "wr": 51.8
+        }
+      ]
     },
     "Karma": {
       "summoners": "Flash + Heal",
@@ -651,7 +2123,33 @@
         6620
       ],
       "boots": 3158,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Rell",
+          "wr": 56.9
+        },
+        {
+          "c": "Elise",
+          "wr": 54.5
+        },
+        {
+          "c": "Nautilus",
+          "wr": 54.2
+        },
+        {
+          "c": "Zilean",
+          "wr": 54.2
+        },
+        {
+          "c": "Galio",
+          "wr": 54.1
+        },
+        {
+          "c": "Leona",
+          "wr": 54
+        }
+      ]
     },
     "Karthus": {
       "summoners": "Flash + Smite",
@@ -662,7 +2160,33 @@
         6653
       ],
       "boots": 3020,
-      "starting": "Gustwalker Hatchling + Health Potion"
+      "starting": "Gustwalker Hatchling + Health Potion",
+      "counters": [
+        {
+          "c": "Kayn",
+          "wr": 59.3
+        },
+        {
+          "c": "Diana",
+          "wr": 55.5
+        },
+        {
+          "c": "Rengar",
+          "wr": 54.8
+        },
+        {
+          "c": "Nocturne",
+          "wr": 52.2
+        },
+        {
+          "c": "Graves",
+          "wr": 52.2
+        },
+        {
+          "c": "Naafiri",
+          "wr": 51
+        }
+      ]
     },
     "Kassadin": {
       "summoners": "Flash + Barrier",
@@ -670,10 +2194,36 @@
       "runes": "Deathfire Touch · Axiom Arcanist · Transcendence · Gathering Storm · Sudden Impact · Ultimate Hunter",
       "core": [
         6657,
-        3004
+        3003
       ],
-      "boots": 3047,
-      "starting": "Dark Seal + Refillable Potion"
+      "boots": 3111,
+      "starting": "Dark Seal + Refillable Potion",
+      "counters": [
+        {
+          "c": "Tristana",
+          "wr": 58
+        },
+        {
+          "c": "Talon",
+          "wr": 57
+        },
+        {
+          "c": "LeBlanc",
+          "wr": 55.4
+        },
+        {
+          "c": "Sylas",
+          "wr": 54.7
+        },
+        {
+          "c": "Zed",
+          "wr": 53.7
+        },
+        {
+          "c": "Ryze",
+          "wr": 53.4
+        }
+      ]
     },
     "Katarina": {
       "summoners": "Flash + Ignite",
@@ -684,7 +2234,33 @@
         3153
       ],
       "boots": 3008,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Riven",
+          "wr": 55.7
+        },
+        {
+          "c": "Gragas",
+          "wr": 53.7
+        },
+        {
+          "c": "Pantheon",
+          "wr": 52.3
+        },
+        {
+          "c": "Galio",
+          "wr": 52
+        },
+        {
+          "c": "Vladimir",
+          "wr": 51.8
+        },
+        {
+          "c": "Viktor",
+          "wr": 51.4
+        }
+      ]
     },
     "Kayle": {
       "summoners": "Flash + Ghost",
@@ -695,7 +2271,33 @@
         3100
       ],
       "boots": 3009,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Irelia",
+          "wr": 56.6
+        },
+        {
+          "c": "Camille",
+          "wr": 56.2
+        },
+        {
+          "c": "Malphite",
+          "wr": 54.7
+        },
+        {
+          "c": "Yasuo",
+          "wr": 52.8
+        },
+        {
+          "c": "Zaahen",
+          "wr": 51.6
+        },
+        {
+          "c": "Akali",
+          "wr": 51
+        }
+      ]
     },
     "Kayn": {
       "summoners": "Smite + Ignite",
@@ -706,54 +2308,184 @@
         3071
       ],
       "boots": 3111,
-      "starting": "Scorchclaw Pup + Health Potion"
+      "starting": "Scorchclaw Pup + Health Potion",
+      "counters": [
+        {
+          "c": "Bel'Veth",
+          "wr": 59.8
+        },
+        {
+          "c": "Nunu & Willump",
+          "wr": 57.5
+        },
+        {
+          "c": "Ivern",
+          "wr": 55.6
+        },
+        {
+          "c": "Jax",
+          "wr": 54.7
+        },
+        {
+          "c": "Poppy",
+          "wr": 54.1
+        },
+        {
+          "c": "Nocturne",
+          "wr": 53.8
+        }
+      ]
     },
     "Kennen": {
       "summoners": "Flash + Ignite",
-      "keystone": "Electrocute",
-      "runes": "Electrocute · Taste of Blood · Grisly Mementos · Ultimate Hunter · Biscuit Delivery · Cosmic Insight",
+      "keystone": "First Strike",
+      "runes": "First Strike · Cash Back · Triple Tonic · Cosmic Insight · Nimbus Cloak · Transcendence",
       "core": [
         3152,
-        3157
+        4645
       ],
       "boots": 3020,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Malphite",
+          "wr": 56.8
+        },
+        {
+          "c": "Gangplank",
+          "wr": 56.7
+        },
+        {
+          "c": "Teemo",
+          "wr": 56.3
+        },
+        {
+          "c": "Dr. Mundo",
+          "wr": 54.8
+        },
+        {
+          "c": "Jayce",
+          "wr": 52.4
+        },
+        {
+          "c": "Aatrox",
+          "wr": 51.8
+        }
+      ]
     },
     "Kha'Zix": {
       "summoners": "Flash + Smite",
       "keystone": "Stormraider's Surge",
-      "runes": "Stormraider's Surge · Nimbus Cloak · Transcendence · Waterwalking · Cash Back · Cosmic Insight",
+      "runes": "Stormraider's Surge · Nimbus Cloak · Transcendence · Waterwalking · Cash Back · Triple Tonic",
       "core": [
         3179,
         6699,
         2520
       ],
-      "starting": "Mosstomper Seedling + Health Potion"
+      "starting": "Mosstomper Seedling + Health Potion",
+      "counters": [
+        {
+          "c": "Sejuani",
+          "wr": 59.6
+        },
+        {
+          "c": "Bel'Veth",
+          "wr": 54.3
+        },
+        {
+          "c": "Karthus",
+          "wr": 54.2
+        },
+        {
+          "c": "Naafiri",
+          "wr": 53.8
+        },
+        {
+          "c": "Nasus",
+          "wr": 53.6
+        },
+        {
+          "c": "Nunu & Willump",
+          "wr": 52.9
+        }
+      ]
     },
     "Kindred": {
       "summoners": "Flash + Smite",
-      "keystone": "Lethal Tempo",
-      "runes": "Lethal Tempo · Triumph · Legend: Bloodline · Cut Down · Cash Back · Jack Of All Trades",
+      "keystone": "Press the Attack",
+      "runes": "Press the Attack · Triumph · Legend: Alacrity · Cut Down · Cash Back · Jack Of All Trades",
       "core": [
         6672,
         6676
       ],
-      "boots": 3047,
-      "starting": "Mosstomper Seedling + Health Potion"
+      "boots": 3111,
+      "starting": "Mosstomper Seedling + Health Potion",
+      "counters": [
+        {
+          "c": "Nunu & Willump",
+          "wr": 58.2
+        },
+        {
+          "c": "Shaco",
+          "wr": 58.2
+        },
+        {
+          "c": "Udyr",
+          "wr": 56.5
+        },
+        {
+          "c": "Naafiri",
+          "wr": 55.7
+        },
+        {
+          "c": "Shyvana",
+          "wr": 54.7
+        },
+        {
+          "c": "Evelynn",
+          "wr": 52.9
+        }
+      ]
     },
     "Kled": {
-      "summoners": "Ignite + Barrier",
+      "summoners": "Flash + Barrier",
       "keystone": "Grasp of the Undying",
-      "runes": "Grasp of the Undying · Demolish · Second Wind · Overgrowth · Cash Back · Biscuit Delivery",
+      "runes": "Grasp of the Undying · Demolish · Second Wind · Overgrowth · Biscuit Delivery · Cosmic Insight",
       "core": [
         3748,
         3181
       ],
       "boots": 3047,
-      "starting": "Doran's Helm + Health Potion"
+      "starting": "Doran's Helm + Health Potion",
+      "counters": [
+        {
+          "c": "Shen",
+          "wr": 55.5
+        },
+        {
+          "c": "Fiora",
+          "wr": 54.6
+        },
+        {
+          "c": "Riven",
+          "wr": 54.4
+        },
+        {
+          "c": "Mordekaiser",
+          "wr": 54
+        },
+        {
+          "c": "Gangplank",
+          "wr": 53.9
+        },
+        {
+          "c": "Urgot",
+          "wr": 53.1
+        }
+      ]
     },
     "Kog'Maw": {
-      "summoners": "Flash + Barrier",
+      "summoners": "Flash + Exhaust",
       "keystone": "Lethal Tempo",
       "runes": "Lethal Tempo · Triumph · Legend: Bloodline · Coup de Grace · Magical Footwear · Triple Tonic",
       "core": [
@@ -761,7 +2493,29 @@
         6675
       ],
       "boots": 3008,
-      "starting": "Doran's Bow + Health Potion"
+      "starting": "Doran's Bow + Health Potion",
+      "counters": [
+        {
+          "c": "Senna",
+          "wr": 54.8
+        },
+        {
+          "c": "Seraphine",
+          "wr": 52.6
+        },
+        {
+          "c": "Jinx",
+          "wr": 52.3
+        },
+        {
+          "c": "Twitch",
+          "wr": 51.9
+        },
+        {
+          "c": "Caitlyn",
+          "wr": 51.4
+        }
+      ]
     },
     "LeBlanc": {
       "summoners": "Flash + Ignite",
@@ -772,7 +2526,33 @@
         3041
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Annie",
+          "wr": 59.3
+        },
+        {
+          "c": "Taliyah",
+          "wr": 57.6
+        },
+        {
+          "c": "Akshan",
+          "wr": 56
+        },
+        {
+          "c": "Naafiri",
+          "wr": 55.9
+        },
+        {
+          "c": "Diana",
+          "wr": 54.3
+        },
+        {
+          "c": "Anivia",
+          "wr": 54.1
+        }
+      ]
     },
     "Lee Sin": {
       "summoners": "Flash + Smite",
@@ -783,7 +2563,33 @@
         6610
       ],
       "boots": 3047,
-      "starting": "Scorchclaw Pup + Health Potion"
+      "starting": "Scorchclaw Pup + Health Potion",
+      "counters": [
+        {
+          "c": "Shaco",
+          "wr": 55.3
+        },
+        {
+          "c": "Naafiri",
+          "wr": 54.2
+        },
+        {
+          "c": "Fiddlesticks",
+          "wr": 53.9
+        },
+        {
+          "c": "Bel'Veth",
+          "wr": 53.7
+        },
+        {
+          "c": "Aatrox",
+          "wr": 53.6
+        },
+        {
+          "c": "Rek'Sai",
+          "wr": 53.6
+        }
+      ]
     },
     "Leona": {
       "summoners": "Flash + Heal",
@@ -794,7 +2600,33 @@
         3190
       ],
       "boots": 3047,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Soraka",
+          "wr": 52.6
+        },
+        {
+          "c": "Tahm Kench",
+          "wr": 52.3
+        },
+        {
+          "c": "Taric",
+          "wr": 52
+        },
+        {
+          "c": "Senna",
+          "wr": 51.4
+        },
+        {
+          "c": "Rell",
+          "wr": 51.3
+        },
+        {
+          "c": "Shaco",
+          "wr": 50.4
+        }
+      ]
     },
     "Lillia": {
       "summoners": "Flash + Smite",
@@ -805,18 +2637,70 @@
         4633
       ],
       "boots": 3111,
-      "starting": "Mosstomper Seedling + Health Potion"
+      "starting": "Mosstomper Seedling + Health Potion",
+      "counters": [
+        {
+          "c": "Kindred",
+          "wr": 58.4
+        },
+        {
+          "c": "Rengar",
+          "wr": 56.3
+        },
+        {
+          "c": "Talon",
+          "wr": 55.5
+        },
+        {
+          "c": "Kha'Zix",
+          "wr": 54.3
+        },
+        {
+          "c": "Briar",
+          "wr": 53.5
+        },
+        {
+          "c": "Udyr",
+          "wr": 53
+        }
+      ]
     },
     "Lissandra": {
       "summoners": "Flash + Ignite",
       "keystone": "Arcane Comet",
-      "runes": "Arcane Comet · Manaflow Band · Transcendence · Scorch · Cash Back · Cosmic Insight",
+      "runes": "Arcane Comet · Manaflow Band · Transcendence · Scorch · Triple Tonic · Cosmic Insight",
       "core": [
         3118,
         3152
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Zoe",
+          "wr": 57.3
+        },
+        {
+          "c": "Qiyana",
+          "wr": 56.1
+        },
+        {
+          "c": "Anivia",
+          "wr": 55.3
+        },
+        {
+          "c": "Xerath",
+          "wr": 54.8
+        },
+        {
+          "c": "Vladimir",
+          "wr": 52.7
+        },
+        {
+          "c": "Hwei",
+          "wr": 52.4
+        }
+      ]
     },
     "Locke": {
       "summoners": "Flash + Ignite",
@@ -827,7 +2711,33 @@
         3041
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Garen",
+          "wr": 57.2
+        },
+        {
+          "c": "Lissandra",
+          "wr": 52.8
+        },
+        {
+          "c": "Akali",
+          "wr": 52.7
+        },
+        {
+          "c": "Katarina",
+          "wr": 52.7
+        },
+        {
+          "c": "Aurelion Sol",
+          "wr": 52.6
+        },
+        {
+          "c": "Riven",
+          "wr": 52.4
+        }
+      ]
     },
     "Lucian": {
       "summoners": "Flash + Exhaust",
@@ -838,7 +2748,33 @@
         6675
       ],
       "boots": 3008,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Veigar",
+          "wr": 60.6
+        },
+        {
+          "c": "Hwei",
+          "wr": 56.2
+        },
+        {
+          "c": "Swain",
+          "wr": 56.1
+        },
+        {
+          "c": "Vel'Koz",
+          "wr": 55.7
+        },
+        {
+          "c": "Senna",
+          "wr": 55.3
+        },
+        {
+          "c": "Seraphine",
+          "wr": 54.7
+        }
+      ]
     },
     "Lulu": {
       "summoners": "Flash + Heal",
@@ -849,18 +2785,70 @@
         3504
       ],
       "boots": 3158,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Poppy",
+          "wr": 55
+        },
+        {
+          "c": "Thresh",
+          "wr": 54.5
+        },
+        {
+          "c": "Fiddlesticks",
+          "wr": 54.4
+        },
+        {
+          "c": "Senna",
+          "wr": 54.1
+        },
+        {
+          "c": "Maokai",
+          "wr": 53.8
+        },
+        {
+          "c": "Sona",
+          "wr": 53.6
+        }
+      ]
     },
     "Lux": {
       "summoners": "Flash + Heal",
       "keystone": "Arcane Comet",
-      "runes": "Arcane Comet · Manaflow Band · Transcendence · Scorch · Magical Footwear · Cosmic Insight",
+      "runes": "Arcane Comet · Manaflow Band · Transcendence · Scorch · Magical Footwear · Jack Of All Trades",
       "core": [
         3871,
         6655
       ],
       "boots": 3020,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Poppy",
+          "wr": 60.3
+        },
+        {
+          "c": "Maokai",
+          "wr": 59.9
+        },
+        {
+          "c": "Sona",
+          "wr": 56.5
+        },
+        {
+          "c": "Rell",
+          "wr": 56
+        },
+        {
+          "c": "Tahm Kench",
+          "wr": 55.8
+        },
+        {
+          "c": "Braum",
+          "wr": 54.9
+        }
+      ]
     },
     "Malphite": {
       "summoners": "Flash + Ignite",
@@ -871,7 +2859,33 @@
         3110
       ],
       "boots": 3047,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Anivia",
+          "wr": 57.8
+        },
+        {
+          "c": "Vladimir",
+          "wr": 55.8
+        },
+        {
+          "c": "Dr. Mundo",
+          "wr": 55.7
+        },
+        {
+          "c": "Ornn",
+          "wr": 55
+        },
+        {
+          "c": "Gwen",
+          "wr": 54.4
+        },
+        {
+          "c": "Gragas",
+          "wr": 54.3
+        }
+      ]
     },
     "Malzahar": {
       "summoners": "Flash + Ignite",
@@ -882,7 +2896,33 @@
         3116
       ],
       "boots": 3158,
-      "starting": "Sapphire Crystal + Refillable Potion"
+      "starting": "Sapphire Crystal + Refillable Potion",
+      "counters": [
+        {
+          "c": "Sion",
+          "wr": 60.3
+        },
+        {
+          "c": "Irelia",
+          "wr": 56
+        },
+        {
+          "c": "Xerath",
+          "wr": 55
+        },
+        {
+          "c": "Azir",
+          "wr": 54.3
+        },
+        {
+          "c": "Talon",
+          "wr": 54
+        },
+        {
+          "c": "Viktor",
+          "wr": 54
+        }
+      ]
     },
     "Maokai": {
       "summoners": "Flash + Ignite",
@@ -893,7 +2933,33 @@
         2524
       ],
       "boots": 3009,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Soraka",
+          "wr": 56.9
+        },
+        {
+          "c": "Senna",
+          "wr": 56.8
+        },
+        {
+          "c": "Janna",
+          "wr": 56.1
+        },
+        {
+          "c": "Braum",
+          "wr": 55.2
+        },
+        {
+          "c": "Morgana",
+          "wr": 54.7
+        },
+        {
+          "c": "Zilean",
+          "wr": 53.3
+        }
+      ]
     },
     "Master Yi": {
       "summoners": "Flash + Smite",
@@ -904,10 +2970,36 @@
         3124
       ],
       "boots": 3008,
-      "starting": "Mosstomper Seedling"
+      "starting": "Mosstomper Seedling",
+      "counters": [
+        {
+          "c": "Ivern",
+          "wr": 55.6
+        },
+        {
+          "c": "Shaco",
+          "wr": 55
+        },
+        {
+          "c": "Nidalee",
+          "wr": 54.5
+        },
+        {
+          "c": "Udyr",
+          "wr": 54.4
+        },
+        {
+          "c": "Kindred",
+          "wr": 54.3
+        },
+        {
+          "c": "Karthus",
+          "wr": 53.8
+        }
+      ]
     },
     "Mel": {
-      "summoners": "Flash + Exhaust",
+      "summoners": "Flash + Ignite",
       "keystone": "First Strike",
       "runes": "First Strike · Magical Footwear · Biscuit Delivery · Cosmic Insight · Transcendence · Gathering Storm",
       "core": [
@@ -915,29 +3007,107 @@
         3152
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Vladimir",
+          "wr": 60.8
+        },
+        {
+          "c": "Galio",
+          "wr": 60.7
+        },
+        {
+          "c": "Diana",
+          "wr": 60.4
+        },
+        {
+          "c": "Fizz",
+          "wr": 60.2
+        },
+        {
+          "c": "Katarina",
+          "wr": 60.1
+        },
+        {
+          "c": "Zed",
+          "wr": 59.9
+        }
+      ]
     },
     "Milio": {
       "summoners": "Flash + Heal",
       "keystone": "Summon Aery",
-      "runes": "Summon Aery · Manaflow Band · Transcendence · Scorch · Bone Plating · Revitalize",
+      "runes": "Summon Aery · Manaflow Band · Transcendence · Gathering Storm · Bone Plating · Revitalize",
       "core": [
         3870,
         3504
       ],
       "boots": 3158,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Poppy",
+          "wr": 57.9
+        },
+        {
+          "c": "Zilean",
+          "wr": 54.5
+        },
+        {
+          "c": "Blitzcrank",
+          "wr": 54.4
+        },
+        {
+          "c": "Taric",
+          "wr": 54
+        },
+        {
+          "c": "Tahm Kench",
+          "wr": 53.9
+        },
+        {
+          "c": "Sona",
+          "wr": 53.5
+        }
+      ]
     },
     "Miss Fortune": {
       "summoners": "Flash + Barrier",
       "keystone": "Deathfire Touch",
-      "runes": "Deathfire Touch · Manaflow Band · Celerity · Gathering Storm · Cash Back · Jack Of All Trades",
+      "runes": "Deathfire Touch · Manaflow Band · Celerity · Gathering Storm · Magical Footwear · Jack Of All Trades",
       "core": [
         3072,
         6676,
         3031
       ],
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Lux",
+          "wr": 60.6
+        },
+        {
+          "c": "Hwei",
+          "wr": 59.2
+        },
+        {
+          "c": "Yasuo",
+          "wr": 57.8
+        },
+        {
+          "c": "Nilah",
+          "wr": 56.5
+        },
+        {
+          "c": "Ziggs",
+          "wr": 56.2
+        },
+        {
+          "c": "Senna",
+          "wr": 54.8
+        }
+      ]
     },
     "Mordekaiser": {
       "summoners": "Flash + Ignite",
@@ -948,18 +3118,70 @@
         4633
       ],
       "boots": 3047,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Singed",
+          "wr": 58.9
+        },
+        {
+          "c": "Gragas",
+          "wr": 57.9
+        },
+        {
+          "c": "Kayle",
+          "wr": 57
+        },
+        {
+          "c": "Pantheon",
+          "wr": 56.5
+        },
+        {
+          "c": "Gnar",
+          "wr": 56
+        },
+        {
+          "c": "Yone",
+          "wr": 55.5
+        }
+      ]
     },
     "Morgana": {
       "summoners": "Flash + Heal",
-      "keystone": "Deathfire Touch",
-      "runes": "Deathfire Touch · Manaflow Band · Transcendence · Gathering Storm · Magical Footwear · Approach Velocity",
+      "keystone": "Glacial Augment",
+      "runes": "Glacial Augment · Cash Back · Biscuit Delivery · Cosmic Insight · Manaflow Band · Transcendence",
       "core": [
         3871,
         3116
       ],
       "boots": 3158,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Sona",
+          "wr": 59.7
+        },
+        {
+          "c": "Neeko",
+          "wr": 59.5
+        },
+        {
+          "c": "Zilean",
+          "wr": 56.4
+        },
+        {
+          "c": "Janna",
+          "wr": 56
+        },
+        {
+          "c": "Tahm Kench",
+          "wr": 55.4
+        },
+        {
+          "c": "Milio",
+          "wr": 54.6
+        }
+      ]
     },
     "Naafiri": {
       "summoners": "Flash + Smite",
@@ -970,7 +3192,33 @@
         6696,
         6694
       ],
-      "starting": "Scorchclaw Pup + Health Potion"
+      "starting": "Scorchclaw Pup + Health Potion",
+      "counters": [
+        {
+          "c": "Udyr",
+          "wr": 56.5
+        },
+        {
+          "c": "Diana",
+          "wr": 56
+        },
+        {
+          "c": "Shyvana",
+          "wr": 55.7
+        },
+        {
+          "c": "Nocturne",
+          "wr": 55.3
+        },
+        {
+          "c": "Hecarim",
+          "wr": 54.1
+        },
+        {
+          "c": "Zyra",
+          "wr": 54
+        }
+      ]
     },
     "Nami": {
       "summoners": "Flash + Ignite",
@@ -981,7 +3229,33 @@
         6616
       ],
       "boots": 3158,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Poppy",
+          "wr": 56.7
+        },
+        {
+          "c": "Galio",
+          "wr": 55.6
+        },
+        {
+          "c": "Maokai",
+          "wr": 55.2
+        },
+        {
+          "c": "Rakan",
+          "wr": 54.5
+        },
+        {
+          "c": "Neeko",
+          "wr": 54.4
+        },
+        {
+          "c": "Thresh",
+          "wr": 53.8
+        }
+      ]
     },
     "Nasus": {
       "summoners": "Flash + Smite",
@@ -992,22 +3266,107 @@
         6662
       ],
       "boots": 3009,
-      "starting": "Gustwalker Hatchling"
+      "starting": "Gustwalker Hatchling",
+      "counters": [
+        {
+          "c": "Lillia",
+          "wr": 53.1
+        },
+        {
+          "c": "Nidalee",
+          "wr": 52.4
+        },
+        {
+          "c": "Nunu & Willump",
+          "wr": 52.2
+        },
+        {
+          "c": "Bel'Veth",
+          "wr": 52
+        },
+        {
+          "c": "Sylas",
+          "wr": 51
+        },
+        {
+          "c": "Aatrox",
+          "wr": 50.6
+        }
+      ]
     },
     "Nautilus": {
       "summoners": "Flash + Exhaust",
       "keystone": "Aftershock",
-      "runes": "Aftershock · Shield Bash · Second Wind · Revitalize · Triumph · Legend: Haste",
+      "runes": "Aftershock · Shield Bash · Second Wind · Overgrowth · Triumph · Legend: Haste",
       "core": [
         3869,
         3190
       ],
       "boots": 3009,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Fiddlesticks",
+          "wr": 57.6
+        },
+        {
+          "c": "Rell",
+          "wr": 57.4
+        },
+        {
+          "c": "Shen",
+          "wr": 55.5
+        },
+        {
+          "c": "Galio",
+          "wr": 55.4
+        },
+        {
+          "c": "Tahm Kench",
+          "wr": 55.1
+        },
+        {
+          "c": "Braum",
+          "wr": 54.2
+        }
+      ]
     },
     "Neeko": {
-      "summoners": "Flash + Ignite",
-      "keystone": "Electrocute"
+      "summoners": "Flash + Heal",
+      "keystone": "Electrocute",
+      "runes": "Electrocute · Cheap Shot · Deep Ward · Ultimate Hunter · Manaflow Band · Gathering Storm",
+      "core": [
+        3871,
+        3152
+      ],
+      "boots": 3020,
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Soraka",
+          "wr": 59.7
+        },
+        {
+          "c": "Zilean",
+          "wr": 56.1
+        },
+        {
+          "c": "Vel'Koz",
+          "wr": 55.9
+        },
+        {
+          "c": "Leona",
+          "wr": 54
+        },
+        {
+          "c": "Rell",
+          "wr": 53.9
+        },
+        {
+          "c": "Milio",
+          "wr": 53.4
+        }
+      ]
     },
     "Nidalee": {
       "summoners": "Flash + Smite",
@@ -1018,11 +3377,62 @@
         3152
       ],
       "boots": 3020,
-      "starting": "Scorchclaw Pup"
+      "starting": "Scorchclaw Pup",
+      "counters": [
+        {
+          "c": "Taliyah",
+          "wr": 58.2
+        },
+        {
+          "c": "Udyr",
+          "wr": 57.5
+        },
+        {
+          "c": "Nocturne",
+          "wr": 53.5
+        },
+        {
+          "c": "Vi",
+          "wr": 53.3
+        },
+        {
+          "c": "Lillia",
+          "wr": 52.5
+        },
+        {
+          "c": "Shyvana",
+          "wr": 52
+        }
+      ]
     },
     "Nilah": {
       "summoners": "Flash + Ignite",
-      "keystone": "Electrocute"
+      "keystone": "Conqueror",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Cash Back · Cosmic Insight",
+      "core": [
+        6676,
+        3031,
+        6673
+      ],
+      "starting": "Doran's Helm + Health Potion",
+      "counters": [
+        {
+          "c": "Xayah",
+          "wr": 57.3
+        },
+        {
+          "c": "Sivir",
+          "wr": 51.4
+        },
+        {
+          "c": "Senna",
+          "wr": 50.9
+        },
+        {
+          "c": "Jhin",
+          "wr": 50.5
+        }
+      ]
     },
     "Nocturne": {
       "summoners": "Flash + Smite",
@@ -1033,18 +3443,70 @@
         6696,
         6699
       ],
-      "starting": "Scorchclaw Pup + Health Potion"
+      "starting": "Scorchclaw Pup",
+      "counters": [
+        {
+          "c": "Aatrox",
+          "wr": 54.8
+        },
+        {
+          "c": "Wukong",
+          "wr": 53.7
+        },
+        {
+          "c": "Skarner",
+          "wr": 53.3
+        },
+        {
+          "c": "Fiddlesticks",
+          "wr": 53.2
+        },
+        {
+          "c": "Master Yi",
+          "wr": 53.1
+        },
+        {
+          "c": "Nunu & Willump",
+          "wr": 52.7
+        }
+      ]
     },
     "Nunu & Willump": {
       "summoners": "Flash + Smite",
-      "keystone": "Aftershock",
-      "runes": "Aftershock · Font of Life · Conditioning · Revitalize · Triumph · Legend: Haste",
+      "keystone": "Electrocute",
+      "runes": "Electrocute · Cheap Shot · Grisly Mementos · Relentless Hunter · Triumph · Legend: Haste",
       "core": [
         6653,
         3742
       ],
       "boots": 3047,
-      "starting": "Scorchclaw Pup"
+      "starting": "Mosstomper Seedling + Health Potion",
+      "counters": [
+        {
+          "c": "Bel'Veth",
+          "wr": 63.4
+        },
+        {
+          "c": "Master Yi",
+          "wr": 54
+        },
+        {
+          "c": "Zac",
+          "wr": 52.4
+        },
+        {
+          "c": "Rengar",
+          "wr": 51.9
+        },
+        {
+          "c": "Jarvan IV",
+          "wr": 51.7
+        },
+        {
+          "c": "Rek'Sai",
+          "wr": 51.6
+        }
+      ]
     },
     "Olaf": {
       "summoners": "Ghost + Ignite",
@@ -1055,7 +3517,33 @@
         6333
       ],
       "boots": 3047,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Kayle",
+          "wr": 58.2
+        },
+        {
+          "c": "Ambessa",
+          "wr": 54.8
+        },
+        {
+          "c": "Vayne",
+          "wr": 54.7
+        },
+        {
+          "c": "Camille",
+          "wr": 54.6
+        },
+        {
+          "c": "Illaoi",
+          "wr": 53.6
+        },
+        {
+          "c": "Riven",
+          "wr": 53.5
+        }
+      ]
     },
     "Orianna": {
       "summoners": "Flash + Ghost",
@@ -1066,18 +3554,70 @@
         3152
       ],
       "boots": 3158,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Veigar",
+          "wr": 59.1
+        },
+        {
+          "c": "Ahri",
+          "wr": 56.6
+        },
+        {
+          "c": "Syndra",
+          "wr": 56.1
+        },
+        {
+          "c": "Locke",
+          "wr": 55.3
+        },
+        {
+          "c": "Fizz",
+          "wr": 55.1
+        },
+        {
+          "c": "Twisted Fate",
+          "wr": 54.7
+        }
+      ]
     },
     "Ornn": {
       "summoners": "Flash + Ignite",
       "keystone": "Grasp of the Undying",
-      "runes": "Grasp of the Undying · Font of Life · Second Wind · Overgrowth · Biscuit Delivery · Cosmic Insight",
+      "runes": "Grasp of the Undying · Font of Life · Second Wind · Overgrowth · Manaflow Band · Transcendence",
       "core": [
         6664,
         2502
       ],
       "boots": 3111,
-      "starting": "Doran's Shield + Health Potion"
+      "starting": "Doran's Shield + Health Potion",
+      "counters": [
+        {
+          "c": "Shen",
+          "wr": 56.7
+        },
+        {
+          "c": "Warwick",
+          "wr": 55.8
+        },
+        {
+          "c": "Kayle",
+          "wr": 55.3
+        },
+        {
+          "c": "Gwen",
+          "wr": 54.5
+        },
+        {
+          "c": "Yone",
+          "wr": 54.4
+        },
+        {
+          "c": "Vladimir",
+          "wr": 53.4
+        }
+      ]
     },
     "Pantheon": {
       "summoners": "Flash + Ignite",
@@ -1088,18 +3628,58 @@
         6610
       ],
       "boots": 3111,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Janna",
+          "wr": 58.7
+        },
+        {
+          "c": "Poppy",
+          "wr": 55.6
+        },
+        {
+          "c": "Thresh",
+          "wr": 55.5
+        },
+        {
+          "c": "Rell",
+          "wr": 54.7
+        },
+        {
+          "c": "Nautilus",
+          "wr": 54.7
+        },
+        {
+          "c": "Alistar",
+          "wr": 54.1
+        }
+      ]
     },
     "Poppy": {
       "summoners": "Flash + Ignite",
       "keystone": "Hail of Blades",
       "runes": "Hail of Blades · Sudden Impact · Deep Ward · Relentless Hunter · Triumph · Coup de Grace",
       "core": [
-        3877,
+        3876,
         3742
       ],
       "boots": 3009,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Soraka",
+          "wr": 52.9
+        },
+        {
+          "c": "Braum",
+          "wr": 51
+        },
+        {
+          "c": "Leona",
+          "wr": 50.9
+        }
+      ]
     },
     "Pyke": {
       "summoners": "Flash + Heal",
@@ -1110,7 +3690,33 @@
         3142
       ],
       "boots": 3009,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Elise",
+          "wr": 55.6
+        },
+        {
+          "c": "Renata Glasc",
+          "wr": 54.6
+        },
+        {
+          "c": "Poppy",
+          "wr": 54.4
+        },
+        {
+          "c": "Maokai",
+          "wr": 53.8
+        },
+        {
+          "c": "Soraka",
+          "wr": 53.5
+        },
+        {
+          "c": "Leona",
+          "wr": 53.4
+        }
+      ]
     },
     "Qiyana": {
       "summoners": "Flash + Smite",
@@ -1121,18 +3727,70 @@
         6699
       ],
       "boots": 3158,
-      "starting": "Gustwalker Hatchling + Health Potion"
+      "starting": "Scorchclaw Pup",
+      "counters": [
+        {
+          "c": "Nunu & Willump",
+          "wr": 55.8
+        },
+        {
+          "c": "Sylas",
+          "wr": 55.1
+        },
+        {
+          "c": "Sejuani",
+          "wr": 55
+        },
+        {
+          "c": "Nocturne",
+          "wr": 54.9
+        },
+        {
+          "c": "Nidalee",
+          "wr": 54.6
+        },
+        {
+          "c": "Kha'Zix",
+          "wr": 54.2
+        }
+      ]
     },
     "Quinn": {
       "summoners": "Flash + Smite",
       "keystone": "First Strike",
-      "runes": "First Strike · Cash Back · Triple Tonic · Cosmic Insight · Triumph · Cut Down",
+      "runes": "First Strike · Cash Back · Triple Tonic · Cosmic Insight · Legend: Alacrity · Cut Down",
       "core": [
         6698,
         3814
       ],
       "boots": 3008,
-      "starting": "Mosstomper Seedling"
+      "starting": "Mosstomper Seedling",
+      "counters": [
+        {
+          "c": "Nocturne",
+          "wr": 56.2
+        },
+        {
+          "c": "Jarvan IV",
+          "wr": 56
+        },
+        {
+          "c": "Hecarim",
+          "wr": 56
+        },
+        {
+          "c": "Ekko",
+          "wr": 55.4
+        },
+        {
+          "c": "Viego",
+          "wr": 54.9
+        },
+        {
+          "c": "Naafiri",
+          "wr": 54.4
+        }
+      ]
     },
     "Rakan": {
       "summoners": "Flash + Heal",
@@ -1143,7 +3801,33 @@
         3190
       ],
       "boots": 3158,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Neeko",
+          "wr": 56.6
+        },
+        {
+          "c": "Janna",
+          "wr": 53.8
+        },
+        {
+          "c": "Brand",
+          "wr": 53.8
+        },
+        {
+          "c": "Sona",
+          "wr": 53.7
+        },
+        {
+          "c": "Morgana",
+          "wr": 53.1
+        },
+        {
+          "c": "Renata Glasc",
+          "wr": 52.7
+        }
+      ]
     },
     "Rammus": {
       "summoners": "Flash + Smite",
@@ -1154,7 +3838,25 @@
         6665
       ],
       "boots": 3111,
-      "starting": "Scorchclaw Pup + Health Potion"
+      "starting": "Scorchclaw Pup + Health Potion",
+      "counters": [
+        {
+          "c": "Wukong",
+          "wr": 55.2
+        },
+        {
+          "c": "Briar",
+          "wr": 53.1
+        },
+        {
+          "c": "Kha'Zix",
+          "wr": 52.2
+        },
+        {
+          "c": "Lee Sin",
+          "wr": 51.5
+        }
+      ]
     },
     "Rek'Sai": {
       "summoners": "Flash + Smite",
@@ -1165,18 +3867,70 @@
         3161
       ],
       "boots": 3111,
-      "starting": "Scorchclaw Pup"
+      "starting": "Mosstomper Seedling",
+      "counters": [
+        {
+          "c": "Nidalee",
+          "wr": 58.5
+        },
+        {
+          "c": "Hecarim",
+          "wr": 54.2
+        },
+        {
+          "c": "Kindred",
+          "wr": 54
+        },
+        {
+          "c": "Nasus",
+          "wr": 53.9
+        },
+        {
+          "c": "Vi",
+          "wr": 53.2
+        },
+        {
+          "c": "Talon",
+          "wr": 52.7
+        }
+      ]
     },
     "Rell": {
       "summoners": "Flash + Heal",
-      "keystone": "Aftershock",
-      "runes": "Aftershock · Font of Life · Bone Plating · Unflinching · Triumph · Legend: Haste",
+      "keystone": "Glacial Augment",
+      "runes": "Glacial Augment · Hextech Flashtraption · Biscuit Delivery · Cosmic Insight · Triumph · Legend: Haste",
       "core": [
         3869,
         3190
       ],
       "boots": 3158,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Brand",
+          "wr": 52.6
+        },
+        {
+          "c": "Seraphine",
+          "wr": 52.6
+        },
+        {
+          "c": "Janna",
+          "wr": 52.3
+        },
+        {
+          "c": "Zyra",
+          "wr": 52.3
+        },
+        {
+          "c": "Senna",
+          "wr": 52.2
+        },
+        {
+          "c": "Taric",
+          "wr": 51.7
+        }
+      ]
     },
     "Renata Glasc": {
       "summoners": "Flash + Heal",
@@ -1187,7 +3941,33 @@
         3190
       ],
       "boots": 3158,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Rell",
+          "wr": 60.6
+        },
+        {
+          "c": "Soraka",
+          "wr": 58
+        },
+        {
+          "c": "Alistar",
+          "wr": 53.9
+        },
+        {
+          "c": "Thresh",
+          "wr": 53.5
+        },
+        {
+          "c": "Janna",
+          "wr": 52.3
+        },
+        {
+          "c": "Braum",
+          "wr": 51.5
+        }
+      ]
     },
     "Renekton": {
       "summoners": "Flash + Ignite",
@@ -1198,7 +3978,33 @@
         3071
       ],
       "boots": 3047,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Dr. Mundo",
+          "wr": 59.4
+        },
+        {
+          "c": "Illaoi",
+          "wr": 58.5
+        },
+        {
+          "c": "Gwen",
+          "wr": 57.4
+        },
+        {
+          "c": "Kled",
+          "wr": 57.2
+        },
+        {
+          "c": "Olaf",
+          "wr": 57
+        },
+        {
+          "c": "Urgot",
+          "wr": 56.7
+        }
+      ]
     },
     "Rengar": {
       "summoners": "Flash + Smite",
@@ -1207,9 +4013,35 @@
       "core": [
         3179,
         6698,
-        6699
+        3814
       ],
-      "starting": "Gustwalker Hatchling + Health Potion"
+      "starting": "Gustwalker Hatchling + Health Potion",
+      "counters": [
+        {
+          "c": "Aatrox",
+          "wr": 57.4
+        },
+        {
+          "c": "Rammus",
+          "wr": 56.1
+        },
+        {
+          "c": "Naafiri",
+          "wr": 54.5
+        },
+        {
+          "c": "Hecarim",
+          "wr": 54
+        },
+        {
+          "c": "Zac",
+          "wr": 53.2
+        },
+        {
+          "c": "Sejuani",
+          "wr": 53.1
+        }
+      ]
     },
     "Riven": {
       "summoners": "Flash + Ignite",
@@ -1220,18 +4052,70 @@
         6333
       ],
       "boots": 3158,
-      "starting": "Doran's Helm + Health Potion"
+      "starting": "Doran's Helm + Health Potion",
+      "counters": [
+        {
+          "c": "Volibear",
+          "wr": 55.2
+        },
+        {
+          "c": "Urgot",
+          "wr": 55
+        },
+        {
+          "c": "Zaahen",
+          "wr": 55
+        },
+        {
+          "c": "Cho'Gath",
+          "wr": 54.4
+        },
+        {
+          "c": "Renekton",
+          "wr": 54.2
+        },
+        {
+          "c": "Jayce",
+          "wr": 53.9
+        }
+      ]
     },
     "Rumble": {
       "summoners": "Flash + Exhaust",
       "keystone": "Deathfire Touch",
-      "runes": "Deathfire Touch · Nimbus Cloak · Transcendence · Scorch · Shield Bash · Second Wind",
+      "runes": "Deathfire Touch · Nimbus Cloak · Transcendence · Scorch · Cheap Shot · Ultimate Hunter",
       "core": [
         6653,
         8010
       ],
       "boots": 3047,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Ornn",
+          "wr": 58.3
+        },
+        {
+          "c": "Yone",
+          "wr": 56.3
+        },
+        {
+          "c": "Dr. Mundo",
+          "wr": 55.2
+        },
+        {
+          "c": "Olaf",
+          "wr": 54.9
+        },
+        {
+          "c": "Shen",
+          "wr": 54.7
+        },
+        {
+          "c": "Sion",
+          "wr": 54.5
+        }
+      ]
     },
     "Ryze": {
       "summoners": "Flash + Ghost",
@@ -1242,7 +4126,33 @@
         3003
       ],
       "boots": 3008,
-      "starting": "Tear of the Goddess + Health Potion"
+      "starting": "Tear of the Goddess + Health Potion",
+      "counters": [
+        {
+          "c": "Syndra",
+          "wr": 58.4
+        },
+        {
+          "c": "Veigar",
+          "wr": 58
+        },
+        {
+          "c": "Hwei",
+          "wr": 57.4
+        },
+        {
+          "c": "Anivia",
+          "wr": 57.3
+        },
+        {
+          "c": "Ahri",
+          "wr": 57.1
+        },
+        {
+          "c": "Ekko",
+          "wr": 56.7
+        }
+      ]
     },
     "Samira": {
       "summoners": "Flash + Barrier",
@@ -1253,7 +4163,33 @@
         3031
       ],
       "boots": 3008,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Vel'Koz",
+          "wr": 55.2
+        },
+        {
+          "c": "Nilah",
+          "wr": 54.2
+        },
+        {
+          "c": "Senna",
+          "wr": 53.5
+        },
+        {
+          "c": "Jinx",
+          "wr": 53.4
+        },
+        {
+          "c": "Smolder",
+          "wr": 53.3
+        },
+        {
+          "c": "Seraphine",
+          "wr": 53.2
+        }
+      ]
     },
     "Sejuani": {
       "summoners": "Flash + Smite",
@@ -1264,7 +4200,33 @@
         2502
       ],
       "boots": 3111,
-      "starting": "Scorchclaw Pup"
+      "starting": "Scorchclaw Pup",
+      "counters": [
+        {
+          "c": "Jarvan IV",
+          "wr": 56
+        },
+        {
+          "c": "Kayn",
+          "wr": 55.4
+        },
+        {
+          "c": "Naafiri",
+          "wr": 53.3
+        },
+        {
+          "c": "Talon",
+          "wr": 53.1
+        },
+        {
+          "c": "Sylas",
+          "wr": 53
+        },
+        {
+          "c": "Diana",
+          "wr": 52.7
+        }
+      ]
     },
     "Senna": {
       "summoners": "Flash + Barrier",
@@ -1275,7 +4237,33 @@
         3071
       ],
       "boots": 3008,
-      "starting": "Doran's Helm + Health Potion"
+      "starting": "Doran's Helm + Health Potion",
+      "counters": [
+        {
+          "c": "Karthus",
+          "wr": 56.8
+        },
+        {
+          "c": "Aurelion Sol",
+          "wr": 55.1
+        },
+        {
+          "c": "Veigar",
+          "wr": 54.6
+        },
+        {
+          "c": "Hwei",
+          "wr": 53.2
+        },
+        {
+          "c": "Seraphine",
+          "wr": 52.8
+        },
+        {
+          "c": "Brand",
+          "wr": 51.5
+        }
+      ]
     },
     "Seraphine": {
       "summoners": "Flash + Heal",
@@ -1286,7 +4274,33 @@
         6620
       ],
       "boots": 3158,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Fiddlesticks",
+          "wr": 56.1
+        },
+        {
+          "c": "Poppy",
+          "wr": 54.1
+        },
+        {
+          "c": "Taric",
+          "wr": 52.4
+        },
+        {
+          "c": "Zyra",
+          "wr": 51.7
+        },
+        {
+          "c": "Thresh",
+          "wr": 51.2
+        },
+        {
+          "c": "Sona",
+          "wr": 51.2
+        }
+      ]
     },
     "Sett": {
       "summoners": "Flash + Ignite",
@@ -1297,18 +4311,70 @@
         2501
       ],
       "boots": 3009,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Riven",
+          "wr": 56.6
+        },
+        {
+          "c": "Malphite",
+          "wr": 56.5
+        },
+        {
+          "c": "Singed",
+          "wr": 56
+        },
+        {
+          "c": "Illaoi",
+          "wr": 54.8
+        },
+        {
+          "c": "Vayne",
+          "wr": 54.8
+        },
+        {
+          "c": "Gragas",
+          "wr": 54.4
+        }
+      ]
     },
     "Shaco": {
       "summoners": "Smite + Ignite",
       "keystone": "Arcane Comet",
-      "runes": "Arcane Comet · Axiom Arcanist · Transcendence · Gathering Storm · Cash Back · Approach Velocity",
+      "runes": "Arcane Comet · Axiom Arcanist · Transcendence · Gathering Storm · Legend: Haste · Cut Down",
       "core": [
         2503,
         4005
       ],
       "boots": 3158,
-      "starting": "Gustwalker Hatchling"
+      "starting": "Gustwalker Hatchling",
+      "counters": [
+        {
+          "c": "Nunu & Willump",
+          "wr": 56.5
+        },
+        {
+          "c": "Rek'Sai",
+          "wr": 53.9
+        },
+        {
+          "c": "Diana",
+          "wr": 53
+        },
+        {
+          "c": "Nidalee",
+          "wr": 53
+        },
+        {
+          "c": "Aatrox",
+          "wr": 52.9
+        },
+        {
+          "c": "Nocturne",
+          "wr": 52.7
+        }
+      ]
     },
     "Shen": {
       "summoners": "Flash + Ignite",
@@ -1319,7 +4385,33 @@
         2510
       ],
       "boots": 3111,
-      "starting": "Doran's Helm + Health Potion"
+      "starting": "Doran's Helm + Health Potion",
+      "counters": [
+        {
+          "c": "Gwen",
+          "wr": 53.6
+        },
+        {
+          "c": "Riven",
+          "wr": 53.1
+        },
+        {
+          "c": "Aatrox",
+          "wr": 52.5
+        },
+        {
+          "c": "Olaf",
+          "wr": 52.3
+        },
+        {
+          "c": "Sett",
+          "wr": 52.1
+        },
+        {
+          "c": "Singed",
+          "wr": 52.1
+        }
+      ]
     },
     "Shyvana": {
       "summoners": "Flash + Smite",
@@ -1330,7 +4422,33 @@
         2510
       ],
       "boots": 3008,
-      "starting": "Scorchclaw Pup + Health Potion"
+      "starting": "Scorchclaw Pup + Health Potion",
+      "counters": [
+        {
+          "c": "Sylas",
+          "wr": 59.7
+        },
+        {
+          "c": "Kha'Zix",
+          "wr": 56.5
+        },
+        {
+          "c": "Udyr",
+          "wr": 56.5
+        },
+        {
+          "c": "Nunu & Willump",
+          "wr": 55.6
+        },
+        {
+          "c": "Evelynn",
+          "wr": 55.1
+        },
+        {
+          "c": "Warwick",
+          "wr": 54.7
+        }
+      ]
     },
     "Singed": {
       "summoners": "Flash + Ignite",
@@ -1341,40 +4459,144 @@
         6653
       ],
       "boots": 3009,
-      "starting": "Dark Seal + Refillable Potion"
+      "starting": "Dark Seal + Refillable Potion",
+      "counters": [
+        {
+          "c": "Olaf",
+          "wr": 57.2
+        },
+        {
+          "c": "Gangplank",
+          "wr": 55.1
+        },
+        {
+          "c": "Teemo",
+          "wr": 55
+        },
+        {
+          "c": "Kayle",
+          "wr": 54.4
+        },
+        {
+          "c": "Camille",
+          "wr": 53.6
+        },
+        {
+          "c": "Fiora",
+          "wr": 53
+        }
+      ]
     },
     "Sion": {
       "summoners": "Flash + Ignite",
       "keystone": "Grasp of the Undying",
-      "runes": "Grasp of the Undying · Shield Bash · Second Wind · Overgrowth · Manaflow Band · Scorch",
+      "runes": "Grasp of the Undying · Shield Bash · Second Wind · Overgrowth · Manaflow Band · Gathering Storm",
       "core": [
         6664,
         2502
       ],
       "boots": 3111,
-      "starting": "Doran's Shield + Health Potion"
+      "starting": "Doran's Shield + Health Potion",
+      "counters": [
+        {
+          "c": "Shen",
+          "wr": 59.2
+        },
+        {
+          "c": "Trundle",
+          "wr": 57.8
+        },
+        {
+          "c": "Urgot",
+          "wr": 56.3
+        },
+        {
+          "c": "Zaahen",
+          "wr": 56.3
+        },
+        {
+          "c": "Poppy",
+          "wr": 56.1
+        },
+        {
+          "c": "Fiora",
+          "wr": 55.4
+        }
+      ]
     },
     "Sivir": {
       "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
       "runes": "Lethal Tempo · Presence of Mind · Legend: Alacrity · Cut Down · Magical Footwear · Cosmic Insight",
       "core": [
-        3508,
+        3032,
         6675
       ],
-      "boots": 3006,
-      "starting": "Cull + Health Potion"
+      "boots": 3008,
+      "starting": "Cull + Health Potion",
+      "counters": [
+        {
+          "c": "Ziggs",
+          "wr": 55.6
+        },
+        {
+          "c": "Twitch",
+          "wr": 55.1
+        },
+        {
+          "c": "Aphelios",
+          "wr": 54.7
+        },
+        {
+          "c": "Kog'Maw",
+          "wr": 54.4
+        },
+        {
+          "c": "Seraphine",
+          "wr": 54.1
+        },
+        {
+          "c": "Jinx",
+          "wr": 54.1
+        }
+      ]
     },
     "Skarner": {
       "summoners": "Flash + Smite",
       "keystone": "Grasp of the Undying",
       "runes": "Grasp of the Undying · Shield Bash · Conditioning · Overgrowth · Magical Footwear · Approach Velocity",
       "core": [
-        2525,
-        2524
+        3084,
+        2502
       ],
-      "boots": 3047,
-      "starting": "Gustwalker Hatchling + Health Potion"
+      "boots": 3111,
+      "starting": "Gustwalker Hatchling + Health Potion",
+      "counters": [
+        {
+          "c": "Rengar",
+          "wr": 56.5
+        },
+        {
+          "c": "Vi",
+          "wr": 55.6
+        },
+        {
+          "c": "Jarvan IV",
+          "wr": 52.6
+        },
+        {
+          "c": "Master Yi",
+          "wr": 51.8
+        },
+        {
+          "c": "Talon",
+          "wr": 51.2
+        },
+        {
+          "c": "Shaco",
+          "wr": 50.6
+        }
+      ]
     },
     "Smolder": {
       "summoners": "Flash + Barrier",
@@ -1385,18 +4607,70 @@
         3508
       ],
       "boots": 3008,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Brand",
+          "wr": 57.3
+        },
+        {
+          "c": "Nilah",
+          "wr": 55.8
+        },
+        {
+          "c": "Ziggs",
+          "wr": 55.5
+        },
+        {
+          "c": "Kog'Maw",
+          "wr": 54.3
+        },
+        {
+          "c": "Jinx",
+          "wr": 54.1
+        },
+        {
+          "c": "Senna",
+          "wr": 53.8
+        }
+      ]
     },
     "Sona": {
       "summoners": "Flash + Heal",
       "keystone": "Summon Aery",
-      "runes": "Summon Aery · Manaflow Band · Celerity · Gathering Storm · Magical Footwear · Jack Of All Trades",
+      "runes": "Summon Aery · Manaflow Band · Celerity · Gathering Storm · Legend: Haste · Cut Down",
       "core": [
         3877,
         3119
       ],
       "boots": 3009,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Alistar",
+          "wr": 55.1
+        },
+        {
+          "c": "Senna",
+          "wr": 53.6
+        },
+        {
+          "c": "Nautilus",
+          "wr": 52.6
+        },
+        {
+          "c": "Thresh",
+          "wr": 51.9
+        },
+        {
+          "c": "Leona",
+          "wr": 50.9
+        },
+        {
+          "c": "Vel'Koz",
+          "wr": 50.3
+        }
+      ]
     },
     "Soraka": {
       "summoners": "Flash + Heal",
@@ -1407,18 +4681,70 @@
         6617
       ],
       "boots": 3009,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Vel'Koz",
+          "wr": 54.9
+        },
+        {
+          "c": "Blitzcrank",
+          "wr": 54.6
+        },
+        {
+          "c": "Zilean",
+          "wr": 54.1
+        },
+        {
+          "c": "Rakan",
+          "wr": 53.5
+        },
+        {
+          "c": "Senna",
+          "wr": 53
+        },
+        {
+          "c": "Thresh",
+          "wr": 52.4
+        }
+      ]
     },
     "Swain": {
       "summoners": "Flash + Heal",
       "keystone": "Deathfire Touch",
-      "runes": "Deathfire Touch · Axiom Arcanist · Transcendence · Gathering Storm · Magical Footwear · Jack Of All Trades",
+      "runes": "Deathfire Touch · Axiom Arcanist · Transcendence · Gathering Storm · Magical Footwear · Biscuit Delivery",
       "core": [
         3876,
         3116
       ],
       "boots": 3047,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Janna",
+          "wr": 58.2
+        },
+        {
+          "c": "Braum",
+          "wr": 56.8
+        },
+        {
+          "c": "Thresh",
+          "wr": 56.2
+        },
+        {
+          "c": "Xerath",
+          "wr": 55.3
+        },
+        {
+          "c": "Rell",
+          "wr": 54.9
+        },
+        {
+          "c": "Senna",
+          "wr": 54.8
+        }
+      ]
     },
     "Sylas": {
       "summoners": "Flash + Ignite",
@@ -1429,21 +4755,73 @@
         3152
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Ivern",
+          "wr": 58.6
+        },
+        {
+          "c": "Taliyah",
+          "wr": 57.7
+        },
+        {
+          "c": "Briar",
+          "wr": 54.3
+        },
+        {
+          "c": "Kindred",
+          "wr": 54
+        },
+        {
+          "c": "Rammus",
+          "wr": 53.8
+        },
+        {
+          "c": "Warwick",
+          "wr": 53.6
+        }
+      ]
     },
     "Syndra": {
       "summoners": "Flash + Ghost",
       "keystone": "First Strike",
       "runes": "First Strike · Cash Back · Triple Tonic · Jack Of All Trades · Presence of Mind · Legend: Haste",
       "core": [
-        6655,
-        4646
+        2503,
+        4629
       ],
-      "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "boots": 3158,
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Irelia",
+          "wr": 55.4
+        },
+        {
+          "c": "Aurelion Sol",
+          "wr": 53.1
+        },
+        {
+          "c": "Vex",
+          "wr": 53.1
+        },
+        {
+          "c": "Locke",
+          "wr": 52.8
+        },
+        {
+          "c": "Ekko",
+          "wr": 52.8
+        },
+        {
+          "c": "Fizz",
+          "wr": 52.4
+        }
+      ]
     },
     "Tahm Kench": {
-      "summoners": "Flash + Exhaust",
+      "summoners": "Flash + Heal",
       "keystone": "Grasp of the Undying",
       "runes": "Grasp of the Undying · Shield Bash · Second Wind · Overgrowth · Magical Footwear · Cosmic Insight",
       "core": [
@@ -1451,10 +4829,36 @@
         3084
       ],
       "boots": 3111,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Blitzcrank",
+          "wr": 57.9
+        },
+        {
+          "c": "Senna",
+          "wr": 56.1
+        },
+        {
+          "c": "Sona",
+          "wr": 55
+        },
+        {
+          "c": "Alistar",
+          "wr": 54.4
+        },
+        {
+          "c": "Lulu",
+          "wr": 51.7
+        },
+        {
+          "c": "Thresh",
+          "wr": 51.4
+        }
+      ]
     },
     "Taliyah": {
-      "summoners": "Flash + Ignite",
+      "summoners": "Flash + Barrier",
       "keystone": "Stormraider's Surge",
       "runes": "Stormraider's Surge · Manaflow Band · Celerity · Gathering Storm · Bone Plating · Unflinching",
       "core": [
@@ -1462,7 +4866,33 @@
         4645
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Syndra",
+          "wr": 55.2
+        },
+        {
+          "c": "Katarina",
+          "wr": 54.3
+        },
+        {
+          "c": "Twisted Fate",
+          "wr": 54.1
+        },
+        {
+          "c": "Locke",
+          "wr": 54
+        },
+        {
+          "c": "Lissandra",
+          "wr": 53
+        },
+        {
+          "c": "Xerath",
+          "wr": 51.8
+        }
+      ]
     },
     "Talon": {
       "summoners": "Flash + Smite",
@@ -1471,9 +4901,35 @@
       "core": [
         3179,
         6699,
-        3142
+        3814
       ],
-      "starting": "Scorchclaw Pup"
+      "starting": "Scorchclaw Pup",
+      "counters": [
+        {
+          "c": "Aatrox",
+          "wr": 54.9
+        },
+        {
+          "c": "Zyra",
+          "wr": 53.5
+        },
+        {
+          "c": "Karthus",
+          "wr": 53.4
+        },
+        {
+          "c": "Rammus",
+          "wr": 53.3
+        },
+        {
+          "c": "Udyr",
+          "wr": 53.1
+        },
+        {
+          "c": "Bel'Veth",
+          "wr": 52.8
+        }
+      ]
     },
     "Taric": {
       "summoners": "Flash + Exhaust",
@@ -1483,30 +4939,96 @@
         3870,
         3190
       ],
-      "boots": 3047,
-      "starting": "World Atlas + Health Potion"
+      "boots": 3158,
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Braum",
+          "wr": 55.5
+        },
+        {
+          "c": "Rakan",
+          "wr": 51.7
+        },
+        {
+          "c": "Nami",
+          "wr": 51.1
+        }
+      ]
     },
     "Teemo": {
       "summoners": "Flash + Ghost",
       "keystone": "Press the Attack",
-      "runes": "Press the Attack · Absorb Life · Legend: Alacrity · Last Stand · Nimbus Cloak · Scorch",
+      "runes": "Press the Attack · Absorb Life · Legend: Alacrity · Cut Down · Celerity · Scorch",
       "core": [
         3087,
         6653
       ],
       "boots": 3008,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Urgot",
+          "wr": 57.1
+        },
+        {
+          "c": "Akali",
+          "wr": 55.9
+        },
+        {
+          "c": "Malphite",
+          "wr": 55.3
+        },
+        {
+          "c": "Ornn",
+          "wr": 55.3
+        },
+        {
+          "c": "Yasuo",
+          "wr": 54.7
+        },
+        {
+          "c": "Dr. Mundo",
+          "wr": 53.8
+        }
+      ]
     },
     "Thresh": {
       "summoners": "Flash + Exhaust",
       "keystone": "Guardian",
-      "runes": "Guardian · Font of Life · Second Wind · Unflinching · Biscuit Delivery · Cosmic Insight",
+      "runes": "Guardian · Font of Life · Second Wind · Overgrowth · Biscuit Delivery · Cosmic Insight",
       "core": [
         3876,
         3190
       ],
-      "boots": 3009,
-      "starting": "World Atlas + Health Potion"
+      "boots": 3158,
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Fiddlesticks",
+          "wr": 60.2
+        },
+        {
+          "c": "Amumu",
+          "wr": 53.1
+        },
+        {
+          "c": "Alistar",
+          "wr": 51.6
+        },
+        {
+          "c": "Taric",
+          "wr": 51.4
+        },
+        {
+          "c": "Leona",
+          "wr": 50.9
+        },
+        {
+          "c": "Senna",
+          "wr": 50.6
+        }
+      ]
     },
     "Tristana": {
       "summoners": "Flash + Barrier",
@@ -1517,7 +5039,33 @@
         3031
       ],
       "boots": 3006,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Karthus",
+          "wr": 60
+        },
+        {
+          "c": "Nilah",
+          "wr": 59
+        },
+        {
+          "c": "Veigar",
+          "wr": 58.1
+        },
+        {
+          "c": "Xerath",
+          "wr": 55.1
+        },
+        {
+          "c": "Aurelion Sol",
+          "wr": 54.8
+        },
+        {
+          "c": "Brand",
+          "wr": 52.7
+        }
+      ]
     },
     "Trundle": {
       "summoners": "Flash + Ignite",
@@ -1528,7 +5076,29 @@
         3078
       ],
       "boots": 3111,
-      "starting": "Doran's Bow + Health Potion"
+      "starting": "Doran's Bow + Health Potion",
+      "counters": [
+        {
+          "c": "Shen",
+          "wr": 60.2
+        },
+        {
+          "c": "Garen",
+          "wr": 56.3
+        },
+        {
+          "c": "Yone",
+          "wr": 54
+        },
+        {
+          "c": "Malphite",
+          "wr": 52
+        },
+        {
+          "c": "Jax",
+          "wr": 52
+        }
+      ]
     },
     "Tryndamere": {
       "summoners": "Flash + Ignite",
@@ -1539,7 +5109,33 @@
         3036
       ],
       "boots": 3008,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Pantheon",
+          "wr": 57.1
+        },
+        {
+          "c": "Kled",
+          "wr": 55.6
+        },
+        {
+          "c": "Gragas",
+          "wr": 55.2
+        },
+        {
+          "c": "Malphite",
+          "wr": 54.2
+        },
+        {
+          "c": "Aatrox",
+          "wr": 53.6
+        },
+        {
+          "c": "Darius",
+          "wr": 53.4
+        }
+      ]
     },
     "Twisted Fate": {
       "summoners": "Flash + Ghost",
@@ -1550,18 +5146,70 @@
         3100
       ],
       "boots": 3158,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Talon",
+          "wr": 53.8
+        },
+        {
+          "c": "Fizz",
+          "wr": 53.5
+        },
+        {
+          "c": "Annie",
+          "wr": 52.3
+        },
+        {
+          "c": "Zoe",
+          "wr": 52.3
+        },
+        {
+          "c": "Ekko",
+          "wr": 51.3
+        },
+        {
+          "c": "Zed",
+          "wr": 50.9
+        }
+      ]
     },
     "Twitch": {
       "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
-      "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Coup de Grace · Sudden Impact · Treasure Hunter",
+      "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Coup de Grace · Cash Back · Cosmic Insight",
       "core": [
         6676,
         2512
       ],
       "boots": 3006,
-      "starting": "Doran's Bow + Health Potion"
+      "starting": "Doran's Bow + Health Potion",
+      "counters": [
+        {
+          "c": "Swain",
+          "wr": 60.9
+        },
+        {
+          "c": "Yasuo",
+          "wr": 56.5
+        },
+        {
+          "c": "Nilah",
+          "wr": 56.4
+        },
+        {
+          "c": "Vel'Koz",
+          "wr": 53.8
+        },
+        {
+          "c": "Samira",
+          "wr": 53
+        },
+        {
+          "c": "Veigar",
+          "wr": 52.8
+        }
+      ]
     },
     "Udyr": {
       "summoners": "Flash + Smite",
@@ -1572,18 +5220,62 @@
         6333
       ],
       "boots": 3009,
-      "starting": "Mosstomper Seedling"
+      "starting": "Mosstomper Seedling",
+      "counters": [
+        {
+          "c": "Jarvan IV",
+          "wr": 53.5
+        },
+        {
+          "c": "Lee Sin",
+          "wr": 51.8
+        },
+        {
+          "c": "Nasus",
+          "wr": 51.8
+        },
+        {
+          "c": "Hecarim",
+          "wr": 50.4
+        }
+      ]
     },
     "Urgot": {
       "summoners": "Flash + Ghost",
       "keystone": "Press the Attack",
-      "runes": "Press the Attack · Triumph · Legend: Bloodline · Cut Down · Magical Footwear · Triple Tonic",
+      "runes": "Press the Attack · Triumph · Legend: Bloodline · Cut Down · Magical Footwear · Approach Velocity",
       "core": [
         3071,
         3053
       ],
       "boots": 3008,
-      "starting": "Cull + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Kennen",
+          "wr": 53.3
+        },
+        {
+          "c": "Jax",
+          "wr": 52.8
+        },
+        {
+          "c": "Yorick",
+          "wr": 51.2
+        },
+        {
+          "c": "Illaoi",
+          "wr": 51.1
+        },
+        {
+          "c": "Kayle",
+          "wr": 51
+        },
+        {
+          "c": "Shen",
+          "wr": 50.9
+        }
+      ]
     },
     "Varus": {
       "summoners": "Flash + Ghost",
@@ -1594,7 +5286,33 @@
         3124
       ],
       "boots": 3008,
-      "starting": "Doran's Helm + Health Potion"
+      "starting": "Doran's Helm + Health Potion",
+      "counters": [
+        {
+          "c": "Seraphine",
+          "wr": 58.8
+        },
+        {
+          "c": "Ziggs",
+          "wr": 58.4
+        },
+        {
+          "c": "Xayah",
+          "wr": 56.5
+        },
+        {
+          "c": "Senna",
+          "wr": 56.2
+        },
+        {
+          "c": "Samira",
+          "wr": 55.8
+        },
+        {
+          "c": "Jinx",
+          "wr": 55.4
+        }
+      ]
     },
     "Vayne": {
       "summoners": "Flash + Exhaust",
@@ -1605,29 +5323,107 @@
         2512
       ],
       "boots": 3008,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Seraphine",
+          "wr": 56.5
+        },
+        {
+          "c": "Kog'Maw",
+          "wr": 56
+        },
+        {
+          "c": "Aphelios",
+          "wr": 55.6
+        },
+        {
+          "c": "Smolder",
+          "wr": 54.5
+        },
+        {
+          "c": "Draven",
+          "wr": 53.9
+        },
+        {
+          "c": "Ashe",
+          "wr": 53.5
+        }
+      ]
     },
     "Veigar": {
       "summoners": "Flash + Ignite",
-      "keystone": "Summon Aery",
-      "runes": "Summon Aery · Axiom Arcanist · Celerity · Scorch · Legend: Haste · Coup de Grace",
+      "keystone": "First Strike",
+      "runes": "First Strike · Cash Back · Triple Tonic · Cosmic Insight · Legend: Haste · Cut Down",
       "core": [
         6657,
         3003
       ],
-      "boots": 3158,
-      "starting": "Tear of the Goddess + Health Potion"
+      "boots": 3111,
+      "starting": "Tear of the Goddess + Health Potion",
+      "counters": [
+        {
+          "c": "Xerath",
+          "wr": 56.6
+        },
+        {
+          "c": "Qiyana",
+          "wr": 55.5
+        },
+        {
+          "c": "Katarina",
+          "wr": 55.2
+        },
+        {
+          "c": "Fizz",
+          "wr": 54.2
+        },
+        {
+          "c": "Akshan",
+          "wr": 54.1
+        },
+        {
+          "c": "Zoe",
+          "wr": 52.7
+        }
+      ]
     },
     "Vel'Koz": {
       "summoners": "Flash + Heal",
       "keystone": "Arcane Comet",
-      "runes": "Arcane Comet · Manaflow Band · Transcendence · Gathering Storm · Legend: Haste · Cut Down",
+      "runes": "Arcane Comet · Manaflow Band · Transcendence · Scorch · Legend: Haste · Cut Down",
       "core": [
         3871,
         6655
       ],
       "boots": 3020,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Leona",
+          "wr": 55
+        },
+        {
+          "c": "Nautilus",
+          "wr": 54.3
+        },
+        {
+          "c": "Pyke",
+          "wr": 53.8
+        },
+        {
+          "c": "Karma",
+          "wr": 53.4
+        },
+        {
+          "c": "Zyra",
+          "wr": 52.7
+        },
+        {
+          "c": "Janna",
+          "wr": 52.5
+        }
+      ]
     },
     "Vex": {
       "summoners": "Flash + Ignite",
@@ -1638,7 +5434,33 @@
         3157
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Zoe",
+          "wr": 55.6
+        },
+        {
+          "c": "Diana",
+          "wr": 55.3
+        },
+        {
+          "c": "Katarina",
+          "wr": 52.8
+        },
+        {
+          "c": "Ryze",
+          "wr": 52.3
+        },
+        {
+          "c": "Twisted Fate",
+          "wr": 51.7
+        },
+        {
+          "c": "Veigar",
+          "wr": 51.6
+        }
+      ]
     },
     "Vi": {
       "summoners": "Flash + Smite",
@@ -1649,7 +5471,33 @@
         6610
       ],
       "boots": 3047,
-      "starting": "Scorchclaw Pup"
+      "starting": "Scorchclaw Pup",
+      "counters": [
+        {
+          "c": "Nunu & Willump",
+          "wr": 55.1
+        },
+        {
+          "c": "Zyra",
+          "wr": 55.1
+        },
+        {
+          "c": "Talon",
+          "wr": 54.9
+        },
+        {
+          "c": "Briar",
+          "wr": 54.5
+        },
+        {
+          "c": "Diana",
+          "wr": 54.4
+        },
+        {
+          "c": "Nocturne",
+          "wr": 54
+        }
+      ]
     },
     "Viego": {
       "summoners": "Flash + Smite",
@@ -1660,7 +5508,33 @@
         6673,
         3031
       ],
-      "starting": "Mosstomper Seedling"
+      "starting": "Mosstomper Seedling",
+      "counters": [
+        {
+          "c": "Nidalee",
+          "wr": 55.4
+        },
+        {
+          "c": "Nasus",
+          "wr": 54.4
+        },
+        {
+          "c": "Qiyana",
+          "wr": 54.2
+        },
+        {
+          "c": "Fiddlesticks",
+          "wr": 54.1
+        },
+        {
+          "c": "Rek'Sai",
+          "wr": 53.8
+        },
+        {
+          "c": "Darius",
+          "wr": 53.8
+        }
+      ]
     },
     "Viktor": {
       "summoners": "Flash + Ignite",
@@ -1671,7 +5545,33 @@
         3100
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Syndra",
+          "wr": 54.1
+        },
+        {
+          "c": "Kassadin",
+          "wr": 54
+        },
+        {
+          "c": "Veigar",
+          "wr": 53.8
+        },
+        {
+          "c": "Akali",
+          "wr": 53.3
+        },
+        {
+          "c": "Locke",
+          "wr": 53.3
+        },
+        {
+          "c": "Twisted Fate",
+          "wr": 52.8
+        }
+      ]
     },
     "Vladimir": {
       "summoners": "Flash + Ignite",
@@ -1682,7 +5582,33 @@
         3041
       ],
       "boots": 3158,
-      "starting": "Dark Seal + Refillable Potion"
+      "starting": "Dark Seal + Refillable Potion",
+      "counters": [
+        {
+          "c": "Diana",
+          "wr": 55.4
+        },
+        {
+          "c": "Syndra",
+          "wr": 54.3
+        },
+        {
+          "c": "Malzahar",
+          "wr": 54.2
+        },
+        {
+          "c": "Zoe",
+          "wr": 53.8
+        },
+        {
+          "c": "Aurora",
+          "wr": 52.8
+        },
+        {
+          "c": "Riven",
+          "wr": 52.4
+        }
+      ]
     },
     "Volibear": {
       "summoners": "Flash + Ignite",
@@ -1693,18 +5619,70 @@
         6675
       ],
       "boots": 3111,
-      "starting": "Doran's Bow + Health Potion"
+      "starting": "Doran's Bow + Health Potion",
+      "counters": [
+        {
+          "c": "Jax",
+          "wr": 61.1
+        },
+        {
+          "c": "Vayne",
+          "wr": 58
+        },
+        {
+          "c": "K'Sante",
+          "wr": 55.4
+        },
+        {
+          "c": "Urgot",
+          "wr": 54.6
+        },
+        {
+          "c": "Garen",
+          "wr": 54.2
+        },
+        {
+          "c": "Ornn",
+          "wr": 54.1
+        }
+      ]
     },
     "Warwick": {
       "summoners": "Flash + Smite",
       "keystone": "Lethal Tempo",
-      "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Last Stand · Magical Footwear · Cosmic Insight",
+      "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Last Stand · Sudden Impact · Sixth Sense",
       "core": [
         6631,
         3153
       ],
       "boots": 3047,
-      "starting": "Scorchclaw Pup"
+      "starting": "Scorchclaw Pup + Health Potion",
+      "counters": [
+        {
+          "c": "Nocturne",
+          "wr": 56.7
+        },
+        {
+          "c": "Nasus",
+          "wr": 53
+        },
+        {
+          "c": "Shaco",
+          "wr": 53
+        },
+        {
+          "c": "Vi",
+          "wr": 52.8
+        },
+        {
+          "c": "Briar",
+          "wr": 52.2
+        },
+        {
+          "c": "Kayn",
+          "wr": 51.7
+        }
+      ]
     },
     "Wukong": {
       "summoners": "Flash + Smite",
@@ -1715,7 +5693,33 @@
         3071
       ],
       "boots": 3047,
-      "starting": "Scorchclaw Pup"
+      "starting": "Scorchclaw Pup",
+      "counters": [
+        {
+          "c": "Aatrox",
+          "wr": 59.4
+        },
+        {
+          "c": "Jax",
+          "wr": 57.6
+        },
+        {
+          "c": "Ivern",
+          "wr": 57.1
+        },
+        {
+          "c": "Shyvana",
+          "wr": 56
+        },
+        {
+          "c": "Zyra",
+          "wr": 55.3
+        },
+        {
+          "c": "Shaco",
+          "wr": 54.4
+        }
+      ]
     },
     "Xayah": {
       "summoners": "Flash + Barrier",
@@ -1726,7 +5730,33 @@
         6675
       ],
       "boots": 3006,
-      "starting": "Doran's Bow + Health Potion"
+      "starting": "Doran's Bow + Health Potion",
+      "counters": [
+        {
+          "c": "Kog'Maw",
+          "wr": 57.2
+        },
+        {
+          "c": "Hwei",
+          "wr": 57.2
+        },
+        {
+          "c": "Seraphine",
+          "wr": 55
+        },
+        {
+          "c": "Ashe",
+          "wr": 54.7
+        },
+        {
+          "c": "Brand",
+          "wr": 53.7
+        },
+        {
+          "c": "Twitch",
+          "wr": 52.7
+        }
+      ]
     },
     "Xerath": {
       "summoners": "Flash + Exhaust",
@@ -1737,7 +5767,33 @@
         3041
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Fizz",
+          "wr": 54.7
+        },
+        {
+          "c": "Katarina",
+          "wr": 54.5
+        },
+        {
+          "c": "Diana",
+          "wr": 53.6
+        },
+        {
+          "c": "Qiyana",
+          "wr": 53.6
+        },
+        {
+          "c": "Ekko",
+          "wr": 53.2
+        },
+        {
+          "c": "Zoe",
+          "wr": 52.8
+        }
+      ]
     },
     "Xin Zhao": {
       "summoners": "Flash + Smite",
@@ -1748,7 +5804,33 @@
         3071
       ],
       "boots": 3111,
-      "starting": "Scorchclaw Pup"
+      "starting": "Scorchclaw Pup",
+      "counters": [
+        {
+          "c": "Udyr",
+          "wr": 58.8
+        },
+        {
+          "c": "Nasus",
+          "wr": 58.5
+        },
+        {
+          "c": "Warwick",
+          "wr": 57.6
+        },
+        {
+          "c": "Bel'Veth",
+          "wr": 57.3
+        },
+        {
+          "c": "Elise",
+          "wr": 56.3
+        },
+        {
+          "c": "Shaco",
+          "wr": 56.2
+        }
+      ]
     },
     "Yasuo": {
       "summoners": "Flash + Exhaust",
@@ -1759,7 +5841,33 @@
         3031
       ],
       "boots": 3006,
-      "starting": "Doran's Bow + Health Potion"
+      "starting": "Doran's Bow + Health Potion",
+      "counters": [
+        {
+          "c": "Riven",
+          "wr": 63.1
+        },
+        {
+          "c": "Lissandra",
+          "wr": 58.8
+        },
+        {
+          "c": "Vladimir",
+          "wr": 57.9
+        },
+        {
+          "c": "Pantheon",
+          "wr": 56.8
+        },
+        {
+          "c": "Kassadin",
+          "wr": 56.1
+        },
+        {
+          "c": "Taliyah",
+          "wr": 55.6
+        }
+      ]
     },
     "Yone": {
       "summoners": "Flash + Ignite",
@@ -1770,7 +5878,33 @@
         3031
       ],
       "boots": 3006,
-      "starting": "Doran's Bow + Health Potion"
+      "starting": "Doran's Bow + Health Potion",
+      "counters": [
+        {
+          "c": "Kled",
+          "wr": 59.1
+        },
+        {
+          "c": "Anivia",
+          "wr": 58.2
+        },
+        {
+          "c": "Gangplank",
+          "wr": 56.9
+        },
+        {
+          "c": "Akali",
+          "wr": 56.1
+        },
+        {
+          "c": "Tryndamere",
+          "wr": 55.5
+        },
+        {
+          "c": "Urgot",
+          "wr": 54.9
+        }
+      ]
     },
     "Yorick": {
       "summoners": "Flash + Ignite",
@@ -1781,10 +5915,36 @@
         3142
       ],
       "boots": 3009,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Shen",
+          "wr": 59.6
+        },
+        {
+          "c": "Yone",
+          "wr": 57.3
+        },
+        {
+          "c": "Singed",
+          "wr": 57
+        },
+        {
+          "c": "Olaf",
+          "wr": 55.1
+        },
+        {
+          "c": "Yasuo",
+          "wr": 54.9
+        },
+        {
+          "c": "Gangplank",
+          "wr": 54.9
+        }
+      ]
     },
     "Yunara": {
-      "summoners": "Flash + Ghost",
+      "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
       "runes": "Lethal Tempo · Triumph · Legend: Bloodline · Cut Down · Cash Back · Triple Tonic",
       "core": [
@@ -1792,7 +5952,33 @@
         2512
       ],
       "boots": 3008,
-      "starting": "Doran's Bow + Health Potion"
+      "starting": "Doran's Bow + Health Potion",
+      "counters": [
+        {
+          "c": "Hwei",
+          "wr": 61.3
+        },
+        {
+          "c": "Swain",
+          "wr": 60.1
+        },
+        {
+          "c": "Seraphine",
+          "wr": 57.8
+        },
+        {
+          "c": "Vel'Koz",
+          "wr": 56.7
+        },
+        {
+          "c": "Ziggs",
+          "wr": 56.5
+        },
+        {
+          "c": "Twitch",
+          "wr": 55.6
+        }
+      ]
     },
     "Yuumi": {
       "summoners": "Exhaust + Ignite",
@@ -1803,7 +5989,33 @@
         3504,
         3222
       ],
-      "starting": "World Atlas + Control Ward"
+      "starting": "World Atlas + Control Ward",
+      "counters": [
+        {
+          "c": "Taric",
+          "wr": 61.9
+        },
+        {
+          "c": "Poppy",
+          "wr": 59.5
+        },
+        {
+          "c": "Nautilus",
+          "wr": 58.9
+        },
+        {
+          "c": "Thresh",
+          "wr": 57.7
+        },
+        {
+          "c": "Rakan",
+          "wr": 57.7
+        },
+        {
+          "c": "Leona",
+          "wr": 57.4
+        }
+      ]
     },
     "Zaahen": {
       "summoners": "Flash + Exhaust",
@@ -1814,7 +6026,33 @@
         6631
       ],
       "boots": 3111,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Teemo",
+          "wr": 58.6
+        },
+        {
+          "c": "Illaoi",
+          "wr": 55.7
+        },
+        {
+          "c": "Gwen",
+          "wr": 55.5
+        },
+        {
+          "c": "Camille",
+          "wr": 54.5
+        },
+        {
+          "c": "Gnar",
+          "wr": 53.9
+        },
+        {
+          "c": "Urgot",
+          "wr": 53.2
+        }
+      ]
     },
     "Zac": {
       "summoners": "Flash + Smite",
@@ -1825,7 +6063,33 @@
         3065
       ],
       "boots": 3158,
-      "starting": "Mosstomper Seedling"
+      "starting": "Mosstomper Seedling",
+      "counters": [
+        {
+          "c": "Kindred",
+          "wr": 57.6
+        },
+        {
+          "c": "Nasus",
+          "wr": 57.6
+        },
+        {
+          "c": "Evelynn",
+          "wr": 55.5
+        },
+        {
+          "c": "Lillia",
+          "wr": 55.1
+        },
+        {
+          "c": "Ekko",
+          "wr": 53.6
+        },
+        {
+          "c": "Talon",
+          "wr": 52.5
+        }
+      ]
     },
     "Zed": {
       "summoners": "Flash + Teleport",
@@ -1836,10 +6100,36 @@
         2520
       ],
       "boots": 3008,
-      "starting": "Doran's Blade + Health Potion"
+      "starting": "Doran's Blade + Health Potion",
+      "counters": [
+        {
+          "c": "Riven",
+          "wr": 58.5
+        },
+        {
+          "c": "Katarina",
+          "wr": 54
+        },
+        {
+          "c": "Talon",
+          "wr": 53.8
+        },
+        {
+          "c": "Malphite",
+          "wr": 53
+        },
+        {
+          "c": "Sylas",
+          "wr": 52.8
+        },
+        {
+          "c": "Vel'Koz",
+          "wr": 52.8
+        }
+      ]
     },
     "Zeri": {
-      "summoners": "Flash + Cleanse",
+      "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
       "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Last Stand · Cash Back · Triple Tonic",
       "core": [
@@ -1847,7 +6137,33 @@
         3046
       ],
       "boots": 3008,
-      "starting": "Doran's Bow + Health Potion"
+      "starting": "Doran's Bow + Health Potion",
+      "counters": [
+        {
+          "c": "Nilah",
+          "wr": 60.1
+        },
+        {
+          "c": "Vel'Koz",
+          "wr": 58.8
+        },
+        {
+          "c": "Hwei",
+          "wr": 55.4
+        },
+        {
+          "c": "Seraphine",
+          "wr": 54.4
+        },
+        {
+          "c": "Jinx",
+          "wr": 54.4
+        },
+        {
+          "c": "Brand",
+          "wr": 54
+        }
+      ]
     },
     "Ziggs": {
       "summoners": "Flash + Barrier",
@@ -1858,7 +6174,33 @@
         3152
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Hwei",
+          "wr": 53.9
+        },
+        {
+          "c": "Senna",
+          "wr": 52.6
+        },
+        {
+          "c": "Tristana",
+          "wr": 52.2
+        },
+        {
+          "c": "Draven",
+          "wr": 50.9
+        },
+        {
+          "c": "Vayne",
+          "wr": 50.5
+        },
+        {
+          "c": "Samira",
+          "wr": 50.2
+        }
+      ]
     },
     "Zilean": {
       "summoners": "Flash + Ignite",
@@ -1869,18 +6211,70 @@
         2065
       ],
       "boots": 3158,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Sona",
+          "wr": 55.1
+        },
+        {
+          "c": "Janna",
+          "wr": 54.1
+        },
+        {
+          "c": "Senna",
+          "wr": 52.5
+        },
+        {
+          "c": "Nautilus",
+          "wr": 51.2
+        },
+        {
+          "c": "Leona",
+          "wr": 51
+        },
+        {
+          "c": "Thresh",
+          "wr": 50.6
+        }
+      ]
     },
     "Zoe": {
       "summoners": "Flash + Ignite",
-      "keystone": "Dark Harvest",
-      "runes": "Dark Harvest · Taste of Blood · Deep Ward · Relentless Hunter · Presence of Mind · Cut Down",
+      "keystone": "Summon Aery",
+      "runes": "Summon Aery · Manaflow Band · Transcendence · Scorch · Presence of Mind · Cut Down",
       "core": [
         6655,
         3100
       ],
       "boots": 3158,
-      "starting": "Doran's Ring + Health Potion"
+      "starting": "Doran's Ring + Health Potion",
+      "counters": [
+        {
+          "c": "Kassadin",
+          "wr": 55.6
+        },
+        {
+          "c": "Malzahar",
+          "wr": 54.8
+        },
+        {
+          "c": "Aurora",
+          "wr": 54.6
+        },
+        {
+          "c": "Katarina",
+          "wr": 54.1
+        },
+        {
+          "c": "Annie",
+          "wr": 52.7
+        },
+        {
+          "c": "Fizz",
+          "wr": 52.2
+        }
+      ]
     },
     "Zyra": {
       "summoners": "Flash + Heal",
@@ -1891,7 +6285,33 @@
         2503
       ],
       "boots": 3020,
-      "starting": "World Atlas + Health Potion"
+      "starting": "World Atlas + Health Potion",
+      "counters": [
+        {
+          "c": "Braum",
+          "wr": 55.7
+        },
+        {
+          "c": "Senna",
+          "wr": 54.9
+        },
+        {
+          "c": "Lux",
+          "wr": 54.6
+        },
+        {
+          "c": "Leona",
+          "wr": 54.2
+        },
+        {
+          "c": "Soraka",
+          "wr": 53.4
+        },
+        {
+          "c": "Janna",
+          "wr": 53.4
+        }
+      ]
     }
   }
 }
