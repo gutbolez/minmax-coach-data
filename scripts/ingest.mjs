@@ -124,6 +124,65 @@ async function scrape(context, champ, bootsSet) {
   }
 }
 
+// ---- op.gg counters (real matchup winrates) ---------------------------------
+//
+// op.gg server-renders each champion's matchup table as structured JSON inside
+// the page's RSC flight data: { play, win, win_rate, champion: { key, name } }.
+// win_rate is the PAGE champion's winrate vs that opponent (verified: Yasuo vs
+// Annie 44.6, vs Riven 36.9). So this champion's COUNTERS are the opponents it
+// scores worst against, and the counter's winrate into it is 100 - win_rate.
+// Plain fetch, no browser needed.
+
+async function fetchCounters(ddId, keyToName) {
+  const url = `https://op.gg/lol/champions/${ddId.toLowerCase()}/counters?tier=${TIER}`;
+  let html;
+  try {
+    const r = await fetch(url, {
+      headers: { "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/126" },
+    });
+    if (!r.ok) return null;
+    html = await r.text();
+  } catch {
+    return null;
+  }
+  const chunks = [...html.matchAll(/self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)/g)].map((m) =>
+    JSON.parse('"' + m[1] + '"')
+  );
+  const flight = chunks.join("");
+  const idx = flight.indexOf('"data":[{"play"');
+  if (idx < 0) return null;
+  const start = flight.indexOf("[", idx);
+  let depth = 0;
+  let end = start;
+  for (let i = start; i < flight.length; i++) {
+    const ch = flight[i];
+    if (ch === "[") depth++;
+    else if (ch === "]") {
+      depth--;
+      if (!depth) {
+        end = i + 1;
+        break;
+      }
+    }
+  }
+  let rows;
+  try {
+    rows = JSON.parse(flight.slice(start, end));
+  } catch {
+    return null;
+  }
+  const counters = rows
+    .filter((e) => e && e.champion && typeof e.win_rate === "number" && e.play >= 150)
+    .sort((a, b) => a.win_rate - b.win_rate)
+    .slice(0, 6)
+    .filter((e) => e.win_rate < 50) // only real counters, not even matchups
+    .map((e) => ({
+      c: keyToName.get(String(e.champion.key).toLowerCase()) || e.champion.name,
+      wr: Math.round((100 - e.win_rate) * 10) / 10,
+    }));
+  return counters.length ? counters : null;
+}
+
 async function launchBrowser() {
   for (const opts of [{}, { channel: "chrome" }, { channel: "msedge" }]) {
     try {
@@ -143,13 +202,16 @@ async function main() {
       .map(([id]) => Number(id))
   );
   const curated = JSON.parse(readFileSync(CURATED, "utf8")).champions ?? {};
-  let champs = Object.values(champData.data).map((c) => ({
+  let champs = Object.entries(champData.data).map(([ddId, c]) => ({
+    ddId,
     name: c.name,
     tags: c.tags || [],
     attack: c.info?.attack ?? 0,
     magic: c.info?.magic ?? 0,
   }));
   champs.sort((a, b) => a.name.localeCompare(b.name));
+  // lowercase ddragon id -> display name, for resolving op.gg opponent keys.
+  const keyToName = new Map(champs.map((c) => [c.ddId.toLowerCase(), c.name]));
   if (Number.isFinite(LIMIT)) champs = champs.slice(0, LIMIT);
 
   console.log(`Patch ${ver}: scraping ${champs.length} champions @ ${TIER}, concurrency ${CONCURRENCY}`);
@@ -164,6 +226,7 @@ async function main() {
       const champ = champs[idx++];
       const base = archetype(champ);
       const live = await scrape(context, champ, bootsSet);
+      const counters = process.env.OPGG === "0" ? null : await fetchCounters(champ.ddId, keyToName);
       const override = curated[champ.name] || {};
       if (live.summoners || live.keystone || live.core) scraped++;
       out[champ.name] = {
@@ -173,6 +236,7 @@ async function main() {
         ...((override.core || live.core) ? { core: override.core || live.core } : {}),
         ...((override.boots || live.boots) ? { boots: override.boots || live.boots } : {}),
         ...((override.starting || live.starting) ? { starting: override.starting || live.starting } : {}),
+        ...(counters ? { counters } : {}),
       };
       if ((idx % 20) === 0) console.log(`  ${idx}/${champs.length}...`);
     }
@@ -185,7 +249,7 @@ async function main() {
   const file = {
     patch: ver,
     tier: TIER,
-    source: "lolalytics (scraped); champion roster from Riot Data Dragon",
+    source: "builds/runes from lolalytics; counters from op.gg; roster from Riot Data Dragon",
     note: "Every champion present. Live scrape overlays a class default; curated.json overrides both.",
     champions: ordered,
   };
