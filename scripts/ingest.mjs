@@ -80,6 +80,15 @@ const EXTRACT = () => {
   const runePage = [...primary, ...secondary].map((i) => i.alt);
   const coreBlock = findBlock("Core Build");
   const core = coreBlock ? [...coreBlock.querySelectorAll("img[src*='item64']")].map(idOf) : [];
+  // Items 4-6: the most-picked option in each later slot. Without these the
+  // app falls back to class stat-matching mid game, which misfires on champs
+  // whose class tag doesn't match their build (e.g. Gangplank: Fighter tag,
+  // crit build) — a real user report.
+  for (const label of ["Item 4", "Item 5", "Item 6"]) {
+    const b = findBlock(label);
+    const img = b && b.querySelector("img[src*='item64']");
+    if (img) core.push(idOf(img));
+  }
   const startBlock = findBlock("Starting Items");
   const starting = startBlock ? [...startBlock.querySelectorAll("img[src*='item64']")].map((i) => i.alt) : [];
   return { summoners, keystone: primary[0] ? primary[0].alt : null, runePage, core, starting, title: document.title };
@@ -110,8 +119,8 @@ async function scrape(context, champ, bootsSet) {
     if (d.keystone) out.keystone = d.keystone;
     // Full rune page (keystone + primary + secondary): a copyable summary.
     if (d.runePage && d.runePage.length > 1) out.runes = d.runePage.join(" · ");
-    const coreItems = d.core.filter((id) => !bootsSet.has(id));
-    if (coreItems.length) out.core = coreItems.slice(0, 3);
+    const coreItems = [...new Set(d.core.filter((id) => !bootsSet.has(id)))];
+    if (coreItems.length) out.core = coreItems.slice(0, 5);
     const boots = d.core.find((id) => bootsSet.has(id));
     if (boots) out.boots = boots;
     const start = (d.starting || []).filter(Boolean).slice(0, 3);
