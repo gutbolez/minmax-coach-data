@@ -19,6 +19,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Remember the patch BEFORE the scrape overwrites meta.json, so we can tell
+      # a real patch bump from a routine daily refresh.
+      - name: Capture current patch
+        run: echo "OLD_PATCH=$(jq -r '.patch // empty' meta.json)" >> "$GITHUB_ENV"
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -43,3 +48,20 @@ jobs:
           else
             echo "No change."
           fi
+
+      # Ping Discord ONLY when the patch number actually changed (not the daily
+      # no-op refresh). Uses the same DISCORD_WEBHOOK secret as the release
+      # announcer; inert until that secret is added to THIS repo.
+      - name: Announce patch change on Discord
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          NEW_PATCH=$(jq -r '.patch // empty' meta.json)
+          if [ -z "$WEBHOOK" ]; then echo "No DISCORD_WEBHOOK secret — skipping."; exit 0; fi
+          if [ -z "$NEW_PATCH" ] || [ "$NEW_PATCH" = "$OLD_PATCH" ]; then
+            echo "Patch unchanged ($OLD_PATCH -> $NEW_PATCH) — no ping."
+            exit 0
+          fi
+          echo "Patch changed: $OLD_PATCH -> $NEW_PATCH"
+          payload=$(jq -n --arg content "📊 **Builds are updated for patch $NEW_PATCH.** Min-Max Coach already has the new meta — no update needed, it pulls it automatically." '{content:$content}')
+          curl -sS -H "Content-Type: application/json" -X POST -d "$payload" "$WEBHOOK"
