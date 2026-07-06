@@ -91,7 +91,34 @@ const EXTRACT = () => {
   }
   const startBlock = findBlock("Starting Items");
   const starting = startBlock ? [...startBlock.querySelectorAll("img[src*='item64']")].map((i) => i.alt) : [];
-  return { summoners, keystone: primary[0] ? primary[0].alt : null, runePage, core, starting, title: document.title };
+
+  // Skill max priority (e.g. "E > Q > W"). lolalytics renders ability icons as
+  // <champ>_<qwer>.webp; the page's icon sequence is [Q W E R] legend, then the
+  // 3 abilities IN PRIORITY ORDER, then a [Q W E R] grid label row. The middle
+  // triplet is the max order (verified: Garen E>Q>W, LeBlanc W>Q>E, Janna
+  // E>W>Q). Only emit when the shape matches exactly, so a partial load can
+  // never produce a wrong order.
+  const abil = [...document.querySelectorAll("img")]
+    .map((i) => (i.src.match(/_([qwer])\.webp/i) || [])[1])
+    .filter(Boolean)
+    .map((s) => s.toUpperCase());
+  let skill = null;
+  if (abil.length === 11 && abil.slice(0, 4).join("") === "QWER" && abil.slice(7, 11).join("") === "QWER") {
+    const mid = abil.slice(4, 7);
+    if ([...mid].sort().join("") === "EQW") skill = mid.join(" > ");
+  }
+
+  // Stat shards (the three rune stat mods to pick): 3 rows x 3 options rendered
+  // as img[src*='statmod32']; the chosen one per row is full-opacity, not
+  // grayscale. Map ids to short names so the app shows "Adaptive · Adaptive ·
+  // Health" the way it shows the rune page.
+  const SHARD = { 5008: "Adaptive", 5005: "Attack Speed", 5007: "Ability Haste", 5010: "Move Speed", 5001: "Health Scaling", 5011: "Health", 5013: "Tenacity" };
+  const chosenShards = [...document.querySelectorAll("img[src*='statmod32']")]
+    .filter((i) => getComputedStyle(i).opacity === "1" && !i.className.includes("grayscale"))
+    .map((i) => Number((i.src.match(/statmod32\/(\d+)/) || [])[1]));
+  const shards = chosenShards.length === 3 ? chosenShards.map((id) => SHARD[id] || id).join(" · ") : null;
+
+  return { summoners, keystone: primary[0] ? primary[0].alt : null, runePage, core, starting, skill, shards, title: document.title };
 };
 
 async function scrape(context, champ, bootsSet) {
@@ -125,6 +152,8 @@ async function scrape(context, champ, bootsSet) {
     if (boots) out.boots = boots;
     const start = (d.starting || []).filter(Boolean).slice(0, 3);
     if (start.length) out.starting = start.join(" + ");
+    if (d.skill) out.skill = d.skill;
+    if (d.shards) out.shards = d.shards;
     return out;
   } catch {
     return {};
@@ -245,6 +274,8 @@ async function main() {
         ...((override.core || live.core) ? { core: override.core || live.core } : {}),
         ...((override.boots || live.boots) ? { boots: override.boots || live.boots } : {}),
         ...((override.starting || live.starting) ? { starting: override.starting || live.starting } : {}),
+        ...((override.skill || live.skill) ? { skill: override.skill || live.skill } : {}),
+        ...((override.shards || live.shards) ? { shards: override.shards || live.shards } : {}),
         ...(counters ? { counters } : {}),
       };
       if ((idx % 20) === 0) console.log(`  ${idx}/${champs.length}...`);
