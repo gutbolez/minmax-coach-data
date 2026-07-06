@@ -16,6 +16,10 @@
       ],
       "boots": 3111,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Tenacity",
       "counters": [
@@ -56,6 +60,10 @@
       ],
       "boots": 3158,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Move Speed · Health",
       "counters": [
@@ -96,6 +104,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Move Speed · Tenacity",
       "counters": [
@@ -127,8 +139,8 @@
     },
     "Akshan": {
       "summoners": "Flash + Ignite",
-      "keystone": "Electrocute",
-      "runes": "Electrocute · Sudden Impact · Deep Ward · Treasure Hunter · Shield Bash · Revitalize",
+      "keystone": "Press the Attack",
+      "runes": "Press the Attack · Presence of Mind · Legend: Alacrity · Cut Down · Shield Bash · Revitalize",
       "core": [
         6672,
         3097,
@@ -138,6 +150,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -180,8 +196,12 @@
       ],
       "boots": 3009,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "W > Q > E",
-      "shards": "Ability Haste · Move Speed · Tenacity",
+      "shards": "Attack Speed · Move Speed · Tenacity",
       "counters": [
         {
           "c": "Zilean",
@@ -221,6 +241,10 @@
       ],
       "boots": 3111,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Ability Haste · Adaptive · Health Scaling",
       "counters": [
@@ -263,6 +287,10 @@
       ],
       "boots": 3047,
       "starting": "Mosstomper Seedling + Health Potion",
+      "startingIds": [
+        1103,
+        2003
+      ],
       "skill": "E > W > Q",
       "shards": "Attack Speed · Health Scaling · Tenacity",
       "counters": [
@@ -304,6 +332,10 @@
       ],
       "boots": 3158,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "E > W > Q",
       "shards": "Adaptive · Move Speed · Health Scaling",
       "counters": [
@@ -344,6 +376,10 @@
       ],
       "boots": 3158,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "W > Q > E",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
@@ -385,6 +421,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -426,6 +466,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Bow + Health Potion",
+      "startingIds": [
+        1086,
+        2003
+      ],
       "skill": "W > Q > E",
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
@@ -467,6 +511,10 @@
       ],
       "boots": 3111,
       "starting": "Tear of the Goddess + Health Potion",
+      "startingIds": [
+        3070,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -507,6 +555,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Move Speed · Health",
       "counters": [
@@ -549,6 +601,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "W > Q > E",
       "shards": "Attack Speed · Health Scaling · Health",
       "counters": [
@@ -579,7 +635,7 @@
       ]
     },
     "Bard": {
-      "summoners": "Flash + Exhaust",
+      "summoners": "Flash + Heal",
       "keystone": "Electrocute",
       "runes": "Electrocute · Cheap Shot · Deep Ward · Treasure Hunter · Magical Footwear · Jack Of All Trades",
       "core": [
@@ -591,6 +647,10 @@
       ],
       "boots": 3009,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Health Scaling · Tenacity",
       "counters": [
@@ -623,7 +683,7 @@
     "Bel'Veth": {
       "summoners": "Ghost + Smite",
       "keystone": "Press the Attack",
-      "runes": "Press the Attack · Triumph · Legend: Bloodline · Last Stand · Magical Footwear · Triple Tonic",
+      "runes": "Press the Attack · Triumph · Legend: Bloodline · Last Stand · Magical Footwear · Biscuit Delivery",
       "core": [
         6672,
         6631,
@@ -632,6 +692,9 @@
         3026
       ],
       "starting": "Mosstomper Seedling",
+      "startingIds": [
+        1103
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -673,6 +736,10 @@
       ],
       "boots": 3009,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Attack Speed · Move Speed · Tenacity",
       "counters": [
@@ -714,6 +781,10 @@
       ],
       "boots": 3009,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "E > W > Q",
       "shards": "Adaptive · Move Speed · Health",
       "counters": [
@@ -755,6 +826,10 @@
       ],
       "boots": 3111,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Ability Haste · Move Speed · Health",
       "counters": [
@@ -796,6 +871,10 @@
         3026
       ],
       "starting": "Gustwalker Hatchling + Health Potion",
+      "startingIds": [
+        1102,
+        2003
+      ],
       "skill": "W > Q > E",
       "shards": "Attack Speed · Adaptive · Health",
       "counters": [
@@ -837,6 +916,10 @@
       ],
       "boots": 3006,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -874,10 +957,14 @@
         3877,
         6610,
         3053,
-        3050
+        6699
       ],
       "boots": 3158,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -920,6 +1007,10 @@
       ],
       "boots": 3009,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Ability Haste · Move Speed · Health",
       "counters": [
@@ -961,6 +1052,10 @@
       ],
       "boots": 3047,
       "starting": "Doran's Shield + Health Potion",
+      "startingIds": [
+        1054,
+        2003
+      ],
       "skill": "E > W > Q",
       "shards": "Attack Speed · Health Scaling · Tenacity",
       "counters": [
@@ -1003,6 +1098,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Bow + Health Potion",
+      "startingIds": [
+        1086,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
@@ -1044,6 +1143,10 @@
       ],
       "boots": 3111,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Attack Speed · Move Speed · Tenacity",
       "counters": [
@@ -1076,7 +1179,7 @@
     "Diana": {
       "summoners": "Flash + Smite",
       "keystone": "Conqueror",
-      "runes": "Conqueror · Triumph · Legend: Alacrity · Cut Down · Cash Back · Cosmic Insight",
+      "runes": "Conqueror · Triumph · Legend: Haste · Cut Down · Cash Back · Cosmic Insight",
       "core": [
         2510,
         4633,
@@ -1084,6 +1187,9 @@
       ],
       "boots": 3020,
       "starting": "Scorchclaw Pup",
+      "startingIds": [
+        1101
+      ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
@@ -1125,6 +1231,10 @@
       ],
       "boots": 3009,
       "starting": "Doran's Helm + Health Potion",
+      "startingIds": [
+        1120,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Ability Haste · Health Scaling · Health Scaling",
       "counters": [
@@ -1166,6 +1276,10 @@
         3036
       ],
       "starting": "Doran's Bow + Health Potion",
+      "startingIds": [
+        1086,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -1206,8 +1320,12 @@
         3041
       ],
       "starting": "Gustwalker Hatchling + Health Potion",
+      "startingIds": [
+        1102,
+        2003
+      ],
       "skill": "Q > E > W",
-      "shards": "Adaptive · Adaptive · Health",
+      "shards": "Adaptive · Adaptive · Tenacity",
       "counters": [
         {
           "c": "Kha'Zix",
@@ -1246,6 +1364,10 @@
       ],
       "boots": 3020,
       "starting": "Gustwalker Hatchling + Health Potion",
+      "startingIds": [
+        1102,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -1283,11 +1405,14 @@
         3100,
         3041,
         3089,
-        4646,
+        4645,
         3152
       ],
       "starting": "Scorchclaw Pup",
-      "skill": "Q > W > E",
+      "startingIds": [
+        1101
+      ],
+      "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
         {
@@ -1329,6 +1454,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -1364,13 +1493,16 @@
       "runes": "First Strike · Cash Back · Triple Tonic · Cosmic Insight · Cheap Shot · Ultimate Hunter",
       "core": [
         3118,
-        3152,
+        6653,
         3089,
         3102,
         4645
       ],
       "boots": 3020,
       "starting": "Scorchclaw Pup",
+      "startingIds": [
+        1101
+      ],
       "skill": "W > Q > E",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
@@ -1412,6 +1544,10 @@
       ],
       "boots": 3111,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Tenacity",
       "counters": [
@@ -1453,6 +1589,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "E > W > Q",
       "shards": "Ability Haste · Adaptive · Health Scaling",
       "counters": [
@@ -1493,6 +1633,10 @@
       ],
       "boots": 3111,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Health Scaling · Tenacity",
       "counters": [
@@ -1534,6 +1678,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Helm + Health Potion",
+      "startingIds": [
+        1120,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
@@ -1576,6 +1724,10 @@
       ],
       "boots": 3006,
       "starting": "Doran's Bow + Health Potion",
+      "startingIds": [
+        1086,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Adaptive · Adaptive · Tenacity",
       "counters": [
@@ -1608,7 +1760,7 @@
     "Gnar": {
       "summoners": "Flash + Barrier",
       "keystone": "Fleet Footwork",
-      "runes": "Fleet Footwork · Triumph · Legend: Alacrity · Last Stand · Bone Plating · Overgrowth",
+      "runes": "Fleet Footwork · Triumph · Legend: Alacrity · Last Stand · Second Wind · Overgrowth",
       "core": [
         3078,
         3071,
@@ -1618,6 +1770,10 @@
       ],
       "boots": 3047,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Move Speed · Tenacity",
       "counters": [
@@ -1659,6 +1815,10 @@
       ],
       "boots": 3020,
       "starting": "Sapphire Crystal + Refillable Potion",
+      "startingIds": [
+        1027,
+        2031
+      ],
       "skill": "Q > E > W",
       "shards": "Attack Speed · Adaptive · Tenacity",
       "counters": [
@@ -1700,6 +1860,9 @@
         2523
       ],
       "starting": "Scorchclaw Pup",
+      "startingIds": [
+        1101
+      ],
       "skill": "Q > E > W",
       "shards": "Attack Speed · Adaptive · Health",
       "counters": [
@@ -1742,6 +1905,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Tenacity",
       "counters": [
@@ -1783,6 +1950,9 @@
       ],
       "boots": 3158,
       "starting": "Gustwalker Hatchling",
+      "startingIds": [
+        1102
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Move Speed · Tenacity",
       "counters": [
@@ -1824,6 +1994,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "W > Q > E",
       "shards": "Adaptive · Adaptive · Tenacity",
       "counters": [
@@ -1856,6 +2030,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Ability Haste · Move Speed · Health",
       "counters": [
@@ -1898,6 +2076,10 @@
       ],
       "boots": 3047,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Ability Haste · Health Scaling · Health Scaling",
       "counters": [
@@ -1939,6 +2121,10 @@
       ],
       "boots": 3047,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -1979,6 +2165,9 @@
       ],
       "boots": 3158,
       "starting": "Gustwalker Hatchling",
+      "startingIds": [
+        1102
+      ],
       "skill": "E > Q > W",
       "shards": "Ability Haste · Move Speed · Health Scaling",
       "counters": [
@@ -2015,6 +2204,10 @@
       ],
       "boots": 3009,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "E > W > Q",
       "shards": "Ability Haste · Move Speed · Health",
       "counters": [
@@ -2055,6 +2248,9 @@
       ],
       "boots": 3047,
       "starting": "Scorchclaw Pup",
+      "startingIds": [
+        1101
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -2097,7 +2293,11 @@
       ],
       "boots": 3111,
       "starting": "Doran's Bow + Health Potion",
-      "skill": "W > E > Q",
+      "startingIds": [
+        1086,
+        2003
+      ],
+      "skill": "E > W > Q",
       "shards": "Adaptive · Adaptive · Tenacity",
       "counters": [
         {
@@ -2139,6 +2339,10 @@
       ],
       "boots": 3009,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -2169,9 +2373,9 @@
       ]
     },
     "Jhin": {
-      "summoners": "Flash + Barrier",
+      "summoners": "Flash + Ghost",
       "keystone": "Deathfire Touch",
-      "runes": "Deathfire Touch · Manaflow Band · Absolute Focus · Gathering Storm · Cash Back · Jack Of All Trades",
+      "runes": "Deathfire Touch · Manaflow Band · Celerity · Gathering Storm · Cash Back · Jack Of All Trades",
       "core": [
         6697,
         6676,
@@ -2181,6 +2385,10 @@
       ],
       "boots": 3009,
       "starting": "Doran's Helm + Health Potion",
+      "startingIds": [
+        1120,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Move Speed · Health",
       "counters": [
@@ -2223,6 +2431,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Bow + Health Potion",
+      "startingIds": [
+        1086,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
@@ -2255,7 +2467,7 @@
     "K'Sante": {
       "summoners": "Flash + Exhaust",
       "keystone": "Grasp of the Undying",
-      "runes": "Grasp of the Undying · Demolish · Conditioning · Unflinching · Legend: Haste · Last Stand",
+      "runes": "Grasp of the Undying · Demolish · Conditioning · Revitalize · Legend: Haste · Last Stand",
       "core": [
         6662,
         2502,
@@ -2264,6 +2476,10 @@
       ],
       "boots": 3111,
       "starting": "Doran's Helm + Health Potion",
+      "startingIds": [
+        1120,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Ability Haste · Move Speed · Tenacity",
       "counters": [
@@ -2306,6 +2522,10 @@
       ],
       "boots": 3006,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -2348,6 +2568,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Bow + Health Potion",
+      "startingIds": [
+        1086,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -2390,6 +2614,10 @@
       ],
       "boots": 3158,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Ability Haste · Move Speed · Health",
       "counters": [
@@ -2422,7 +2650,7 @@
     "Karthus": {
       "summoners": "Flash + Smite",
       "keystone": "Deathfire Touch",
-      "runes": "Deathfire Touch · Axiom Arcanist · Transcendence · Gathering Storm · Triumph · Last Stand",
+      "runes": "Deathfire Touch · Axiom Arcanist · Absolute Focus · Gathering Storm · Triumph · Last Stand",
       "core": [
         2503,
         6653,
@@ -2430,6 +2658,10 @@
       ],
       "boots": 3020,
       "starting": "Gustwalker Hatchling + Health Potion",
+      "startingIds": [
+        1102,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Ability Haste · Adaptive · Health",
       "counters": [
@@ -2470,6 +2702,10 @@
       ],
       "boots": 3111,
       "starting": "Dark Seal + Refillable Potion",
+      "startingIds": [
+        1082,
+        2031
+      ],
       "skill": "E > Q > W",
       "shards": "Ability Haste · Adaptive · Health Scaling",
       "counters": [
@@ -2510,6 +2746,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -2552,6 +2792,10 @@
       ],
       "boots": 3009,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Attack Speed · Move Speed · Tenacity",
       "counters": [
@@ -2584,7 +2828,7 @@
     "Kayn": {
       "summoners": "Smite + Ignite",
       "keystone": "Hail of Blades",
-      "runes": "Hail of Blades · Sudden Impact · Grisly Mementos · Relentless Hunter · Cash Back · Cosmic Insight",
+      "runes": "Hail of Blades · Sudden Impact · Grisly Mementos · Relentless Hunter · Cash Back · Triple Tonic",
       "core": [
         6699,
         3071,
@@ -2594,6 +2838,10 @@
       ],
       "boots": 3111,
       "starting": "Scorchclaw Pup + Health Potion",
+      "startingIds": [
+        1101,
+        2003
+      ],
       "skill": "W > Q > E",
       "shards": "Adaptive · Adaptive · Tenacity",
       "counters": [
@@ -2636,6 +2884,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "W > Q > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -2677,6 +2929,9 @@
       ],
       "boots": 3111,
       "starting": "Mosstomper Seedling",
+      "startingIds": [
+        1103
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
@@ -2719,6 +2974,10 @@
       ],
       "boots": 3047,
       "starting": "Mosstomper Seedling + Health Potion",
+      "startingIds": [
+        1103,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Adaptive · Tenacity",
       "counters": [
@@ -2761,6 +3020,10 @@
       ],
       "boots": 3047,
       "starting": "Doran's Helm + Health Potion",
+      "startingIds": [
+        1120,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -2793,7 +3056,7 @@
     "Kog'Maw": {
       "summoners": "Flash + Teleport",
       "keystone": "Press the Attack",
-      "runes": "Press the Attack · Triumph · Legend: Alacrity · Coup de Grace · Magical Footwear · Triple Tonic",
+      "runes": "Press the Attack · Triumph · Legend: Bloodline · Coup de Grace · Magical Footwear · Triple Tonic",
       "core": [
         3124,
         6675,
@@ -2802,6 +3065,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "W > E > Q",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
@@ -2844,6 +3111,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "W > Q > E",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
@@ -2885,6 +3156,10 @@
       ],
       "boots": 3111,
       "starting": "Scorchclaw Pup + Health Potion",
+      "startingIds": [
+        1101,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -2925,6 +3200,10 @@
       ],
       "boots": 3047,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "W > E > Q",
       "shards": "Ability Haste · Move Speed · Health",
       "counters": [
@@ -2965,6 +3244,10 @@
       ],
       "boots": 3009,
       "starting": "Mosstomper Seedling + Health Potion",
+      "startingIds": [
+        1103,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Adaptive · Health Scaling",
       "counters": [
@@ -3005,6 +3288,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Move Speed · Health Scaling",
       "counters": [
@@ -3046,6 +3333,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -3088,6 +3379,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -3129,6 +3424,10 @@
       ],
       "boots": 3158,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "W > E > Q",
       "shards": "Adaptive · Move Speed · Tenacity",
       "counters": [
@@ -3170,6 +3469,10 @@
         3041
       ],
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "E > W > Q",
       "shards": "Ability Haste · Move Speed · Tenacity",
       "counters": [
@@ -3212,6 +3515,10 @@
       ],
       "boots": 3047,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Health Scaling · Health",
       "counters": [
@@ -3244,7 +3551,7 @@
     "Malzahar": {
       "summoners": "Flash + Ignite",
       "keystone": "Deathfire Touch",
-      "runes": "Deathfire Touch · Manaflow Band · Transcendence · Gathering Storm · Legend: Haste · Cut Down",
+      "runes": "Deathfire Touch · Manaflow Band · Transcendence · Scorch · Legend: Haste · Cut Down",
       "core": [
         2503,
         3116,
@@ -3253,6 +3560,10 @@
       ],
       "boots": 3158,
       "starting": "Sapphire Crystal + Refillable Potion",
+      "startingIds": [
+        1027,
+        2031
+      ],
       "skill": "E > Q > W",
       "shards": "Ability Haste · Move Speed · Health Scaling",
       "counters": [
@@ -3295,6 +3606,10 @@
       ],
       "boots": 3009,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Ability Haste · Move Speed · Health",
       "counters": [
@@ -3337,6 +3652,9 @@
       ],
       "boots": 3008,
       "starting": "Mosstomper Seedling",
+      "startingIds": [
+        1103
+      ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
@@ -3377,6 +3695,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Attack Speed · Move Speed · Health",
       "counters": [
@@ -3409,7 +3731,7 @@
     "Milio": {
       "summoners": "Flash + Heal",
       "keystone": "Summon Aery",
-      "runes": "Summon Aery · Manaflow Band · Transcendence · Scorch · Bone Plating · Revitalize",
+      "runes": "Summon Aery · Manaflow Band · Transcendence · Gathering Storm · Bone Plating · Revitalize",
       "core": [
         3870,
         3504,
@@ -3418,6 +3740,10 @@
       ],
       "boots": 3158,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "E > W > Q",
       "shards": "Ability Haste · Adaptive · Tenacity",
       "counters": [
@@ -3459,6 +3785,10 @@
         3036
       ],
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -3500,6 +3830,10 @@
       ],
       "boots": 3047,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -3537,10 +3871,15 @@
         3871,
         3116,
         4005,
-        6653
+        6653,
+        3107
       ],
       "boots": 3158,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Ability Haste · Move Speed · Health",
       "counters": [
@@ -3582,6 +3921,9 @@
         3026
       ],
       "starting": "Scorchclaw Pup",
+      "startingIds": [
+        1101
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
@@ -3624,6 +3966,10 @@
       ],
       "boots": 3158,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "W > Q > E",
       "shards": "Ability Haste · Adaptive · Health Scaling",
       "counters": [
@@ -3666,6 +4012,9 @@
       ],
       "boots": 3009,
       "starting": "Gustwalker Hatchling",
+      "startingIds": [
+        1102
+      ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Move Speed · Tenacity",
       "counters": [
@@ -3696,19 +4045,8 @@
       ]
     },
     "Nautilus": {
-      "summoners": "Flash + Exhaust",
-      "keystone": "Aftershock",
-      "runes": "Aftershock · Shield Bash · Second Wind · Overgrowth · Triumph · Legend: Haste",
-      "core": [
-        3869,
-        3190,
-        3109,
-        2504
-      ],
-      "boots": 3009,
-      "starting": "World Atlas + Health Potion",
-      "skill": "Q > W > E",
-      "shards": "Ability Haste · Move Speed · Health",
+      "summoners": "Flash + Teleport",
+      "keystone": "Grasp of the Undying",
       "counters": [
         {
           "c": "Rell",
@@ -3749,6 +4087,10 @@
       ],
       "boots": 3020,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Attack Speed · Move Speed · Health",
       "counters": [
@@ -3789,6 +4131,9 @@
       ],
       "boots": 3020,
       "starting": "Scorchclaw Pup",
+      "startingIds": [
+        1101
+      ],
       "skill": "Q > E > W",
       "shards": "Ability Haste · Adaptive · Health",
       "counters": [
@@ -3827,9 +4172,13 @@
         3031,
         6673,
         3046,
-        2512
+        3036
       ],
       "starting": "Doran's Helm + Health Potion",
+      "startingIds": [
+        1120,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
@@ -3862,6 +4211,9 @@
         3026
       ],
       "starting": "Scorchclaw Pup",
+      "startingIds": [
+        1101
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
@@ -3903,6 +4255,10 @@
       ],
       "boots": 3047,
       "starting": "Scorchclaw Pup + Health Potion",
+      "startingIds": [
+        1101,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Adaptive · Health Scaling",
       "counters": [
@@ -3945,6 +4301,10 @@
       ],
       "boots": 3047,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -3985,6 +4345,10 @@
       ],
       "boots": 3158,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Move Speed · Health",
       "counters": [
@@ -4027,6 +4391,9 @@
       ],
       "boots": 3111,
       "starting": "Refillable Potion",
+      "startingIds": [
+        2031
+      ],
       "skill": "W > E > Q",
       "shards": "Ability Haste · Adaptive · Tenacity",
       "counters": [
@@ -4064,11 +4431,15 @@
         3877,
         6610,
         3071,
-        6699,
+        6692,
         3156
       ],
       "boots": 3111,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Move Speed · Tenacity",
       "counters": [
@@ -4110,6 +4481,10 @@
       ],
       "boots": 3009,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Move Speed · Tenacity",
       "counters": [
@@ -4126,7 +4501,7 @@
     "Pyke": {
       "summoners": "Flash + Heal",
       "keystone": "Hail of Blades",
-      "runes": "Hail of Blades · Sudden Impact · Deep Ward · Relentless Hunter · Cash Back · Cosmic Insight",
+      "runes": "Hail of Blades · Sudden Impact · Deep Ward · Relentless Hunter · Magical Footwear · Cosmic Insight",
       "core": [
         3869,
         3142,
@@ -4136,7 +4511,11 @@
       ],
       "boots": 3009,
       "starting": "World Atlas + Health Potion",
-      "skill": "Q > E > W",
+      "startingIds": [
+        3865,
+        2003
+      ],
+      "skill": "Q > W > E",
       "shards": "Ability Haste · Move Speed · Tenacity",
       "counters": [
         {
@@ -4178,6 +4557,10 @@
       ],
       "boots": 3158,
       "starting": "Gustwalker Hatchling + Health Potion",
+      "startingIds": [
+        1102,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -4220,8 +4603,11 @@
       ],
       "boots": 3009,
       "starting": "Mosstomper Seedling",
+      "startingIds": [
+        1103
+      ],
       "skill": "W > Q > E",
-      "shards": "Attack Speed · Adaptive · Health Scaling",
+      "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
         {
           "c": "Rengar",
@@ -4262,8 +4648,12 @@
       ],
       "boots": 3158,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "W > E > Q",
-      "shards": "Adaptive · Health Scaling · Health",
+      "shards": "Attack Speed · Health Scaling · Health",
       "counters": [
         {
           "c": "Neeko",
@@ -4303,6 +4693,10 @@
       ],
       "boots": 3111,
       "starting": "Scorchclaw Pup + Health Potion",
+      "startingIds": [
+        1101,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Adaptive · Tenacity",
       "counters": [
@@ -4344,6 +4738,9 @@
       ],
       "boots": 3111,
       "starting": "Scorchclaw Pup",
+      "startingIds": [
+        1101
+      ],
       "skill": "E > Q > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -4385,6 +4782,10 @@
       ],
       "boots": 3158,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "W > E > Q",
       "shards": "Ability Haste · Move Speed · Health",
       "counters": [
@@ -4427,6 +4828,10 @@
       ],
       "boots": 3158,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "E > W > Q",
       "shards": "Adaptive · Health Scaling · Health Scaling",
       "counters": [
@@ -4468,6 +4873,10 @@
       ],
       "boots": 3047,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Tenacity",
       "counters": [
@@ -4509,6 +4918,10 @@
         3036
       ],
       "starting": "Gustwalker Hatchling + Health Potion",
+      "startingIds": [
+        1102,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Attack Speed · Adaptive · Health",
       "counters": [
@@ -4551,6 +4964,10 @@
       ],
       "boots": 3158,
       "starting": "Doran's Helm + Health Potion",
+      "startingIds": [
+        1120,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Adaptive · Tenacity",
       "counters": [
@@ -4592,6 +5009,10 @@
       ],
       "boots": 3047,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Ability Haste · Move Speed · Tenacity",
       "counters": [
@@ -4633,6 +5054,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Move Speed · Tenacity",
       "counters": [
@@ -4674,6 +5099,10 @@
         3036
       ],
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Attack Speed · Adaptive · Health",
       "counters": [
@@ -4716,6 +5145,10 @@
       ],
       "boots": 3111,
       "starting": "Scorchclaw Pup + Health Potion",
+      "startingIds": [
+        1101,
+        2003
+      ],
       "skill": "E > W > Q",
       "shards": "Attack Speed · Health Scaling · Health",
       "counters": [
@@ -4757,6 +5190,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Helm + Health Potion",
+      "startingIds": [
+        1120,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Move Speed · Health Scaling",
       "counters": [
@@ -4799,6 +5236,10 @@
       ],
       "boots": 3158,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Ability Haste · Move Speed · Health Scaling",
       "counters": [
@@ -4841,6 +5282,10 @@
       ],
       "boots": 3009,
       "starting": "Doran's Bow + Health Potion",
+      "startingIds": [
+        1086,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
@@ -4883,6 +5328,9 @@
       ],
       "boots": 3158,
       "starting": "Gustwalker Hatchling",
+      "startingIds": [
+        1102
+      ],
       "skill": "W > E > Q",
       "shards": "Ability Haste · Move Speed · Tenacity",
       "counters": [
@@ -4924,6 +5372,10 @@
       ],
       "boots": 3047,
       "starting": "Doran's Helm + Health Potion",
+      "startingIds": [
+        1120,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Ability Haste · Health Scaling · Tenacity",
       "counters": [
@@ -4966,6 +5418,10 @@
       ],
       "boots": 3008,
       "starting": "Scorchclaw Pup + Health Potion",
+      "startingIds": [
+        1101,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
@@ -5007,6 +5463,10 @@
       ],
       "boots": 3009,
       "starting": "Dark Seal + Refillable Potion",
+      "startingIds": [
+        1082,
+        2031
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
@@ -5048,6 +5508,10 @@
       ],
       "boots": 3111,
       "starting": "Doran's Helm + Health Potion",
+      "startingIds": [
+        1120,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Move Speed · Tenacity",
       "counters": [
@@ -5090,6 +5554,10 @@
       ],
       "boots": 3008,
       "starting": "Cull + Health Potion",
+      "startingIds": [
+        1083,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -5131,6 +5599,10 @@
       ],
       "boots": 3047,
       "starting": "Gustwalker Hatchling + Health Potion",
+      "startingIds": [
+        1102,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Health Scaling · Health Scaling",
       "counters": [
@@ -5172,6 +5644,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Move Speed · Health Scaling",
       "counters": [
@@ -5214,6 +5690,10 @@
       ],
       "boots": 3009,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Move Speed · Health",
       "counters": [
@@ -5255,8 +5735,12 @@
       ],
       "boots": 3009,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "W > Q > E",
-      "shards": "Ability Haste · Health Scaling · Health",
+      "shards": "Ability Haste · Health Scaling · Tenacity",
       "counters": [
         {
           "c": "Blitzcrank",
@@ -5296,6 +5780,10 @@
       ],
       "boots": 3047,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Health Scaling · Health",
       "counters": [
@@ -5336,6 +5824,9 @@
         3041
       ],
       "starting": "Scorchclaw Pup",
+      "startingIds": [
+        1101
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -5370,13 +5861,17 @@
       "keystone": "First Strike",
       "runes": "First Strike · Cash Back · Triple Tonic · Jack Of All Trades · Presence of Mind · Legend: Haste",
       "core": [
-        6655,
-        4646,
+        2503,
+        4629,
         3157,
         3041
       ],
-      "boots": 3020,
+      "boots": 3158,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Move Speed · Health",
       "counters": [
@@ -5419,6 +5914,10 @@
       ],
       "boots": 3111,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Health Scaling · Health Scaling",
       "counters": [
@@ -5461,6 +5960,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Ability Haste · Move Speed · Health",
       "counters": [
@@ -5502,6 +6005,9 @@
         3026
       ],
       "starting": "Scorchclaw Pup",
+      "startingIds": [
+        1101
+      ],
       "skill": "W > Q > E",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
@@ -5544,6 +6050,10 @@
       ],
       "boots": 3158,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Adaptive · Move Speed · Health",
       "counters": [
@@ -5586,6 +6096,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "E > W > Q",
       "shards": "Attack Speed · Health Scaling · Health",
       "counters": [
@@ -5627,6 +6141,10 @@
       ],
       "boots": 3009,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Move Speed · Health",
       "counters": [
@@ -5668,6 +6186,10 @@
       ],
       "boots": 3006,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -5710,6 +6232,10 @@
       ],
       "boots": 3111,
       "starting": "Doran's Bow + Health Potion",
+      "startingIds": [
+        1086,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Health Scaling · Health",
       "counters": [
@@ -5751,6 +6277,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Attack Speed · Adaptive · Health",
       "counters": [
@@ -5791,6 +6321,10 @@
       ],
       "boots": 3158,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Move Speed · Tenacity",
       "counters": [
@@ -5832,6 +6366,10 @@
       ],
       "boots": 3006,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
@@ -5874,6 +6412,9 @@
       ],
       "boots": 3009,
       "starting": "Mosstomper Seedling",
+      "startingIds": [
+        1103
+      ],
       "shards": "Adaptive · Move Speed · Health",
       "counters": [
         {
@@ -5899,7 +6440,7 @@
       ]
     },
     "Urgot": {
-      "summoners": "Flash + Ghost",
+      "summoners": "Flash + Ignite",
       "keystone": "Press the Attack",
       "runes": "Press the Attack · Triumph · Legend: Bloodline · Last Stand · Magical Footwear · Triple Tonic",
       "core": [
@@ -5909,8 +6450,12 @@
         2501,
         2504
       ],
-      "boots": 3009,
+      "boots": 3008,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "W > Q > E",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -5953,6 +6498,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Helm + Health Potion",
+      "startingIds": [
+        1120,
+        2003
+      ],
       "skill": "W > Q > E",
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
@@ -5994,6 +6543,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Adaptive · Health",
       "counters": [
@@ -6036,6 +6589,10 @@
       ],
       "boots": 3111,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Move Speed · Tenacity",
       "counters": [
@@ -6078,6 +6635,10 @@
       ],
       "boots": 3158,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Move Speed · Tenacity",
       "counters": [
@@ -6119,6 +6680,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Move Speed · Health",
       "counters": [
@@ -6160,6 +6725,10 @@
       ],
       "boots": 3047,
       "starting": "Mosstomper Seedling + Health Potion",
+      "startingIds": [
+        1103,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
@@ -6192,7 +6761,7 @@
     "Viego": {
       "summoners": "Flash + Smite",
       "keystone": "Hail of Blades",
-      "runes": "Hail of Blades · Sudden Impact · Grisly Mementos · Treasure Hunter · Triumph · Legend: Alacrity",
+      "runes": "Hail of Blades · Sudden Impact · Sixth Sense · Treasure Hunter · Triumph · Legend: Alacrity",
       "core": [
         6676,
         6673,
@@ -6201,6 +6770,9 @@
         3026
       ],
       "starting": "Mosstomper Seedling",
+      "startingIds": [
+        1103
+      ],
       "skill": "Q > E > W",
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
@@ -6242,6 +6814,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Adaptive · Move Speed · Health Scaling",
       "counters": [
@@ -6283,6 +6859,10 @@
       ],
       "boots": 3158,
       "starting": "Dark Seal + Refillable Potion",
+      "startingIds": [
+        1082,
+        2031
+      ],
       "skill": "Q > E > W",
       "shards": "Ability Haste · Adaptive · Health Scaling",
       "counters": [
@@ -6323,6 +6903,10 @@
       ],
       "boots": 3111,
       "starting": "Doran's Bow + Health Potion",
+      "startingIds": [
+        1086,
+        2003
+      ],
       "skill": "W > Q > E",
       "shards": "Ability Haste · Move Speed · Tenacity",
       "counters": [
@@ -6359,12 +6943,15 @@
       "core": [
         6631,
         3153,
-        6333,
         3053,
         3065
       ],
       "boots": 3047,
       "starting": "Mosstomper Seedling + Health Potion",
+      "startingIds": [
+        1103,
+        2003
+      ],
       "skill": "W > Q > E",
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
@@ -6406,6 +6993,10 @@
         3053
       ],
       "starting": "Mosstomper Seedling + Health Potion",
+      "startingIds": [
+        1103,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Tenacity",
       "counters": [
@@ -6448,6 +7039,10 @@
       ],
       "boots": 3006,
       "starting": "Doran's Bow + Health Potion",
+      "startingIds": [
+        1086,
+        2003
+      ],
       "skill": "E > W > Q",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
@@ -6490,6 +7085,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Adaptive · Health",
       "counters": [
@@ -6530,6 +7129,9 @@
       ],
       "boots": 3111,
       "starting": "Scorchclaw Pup",
+      "startingIds": [
+        1101
+      ],
       "skill": "W > Q > E",
       "shards": "Attack Speed · Adaptive · Tenacity",
       "counters": [
@@ -6571,6 +7173,10 @@
       ],
       "boots": 3111,
       "starting": "Doran's Bow + Health Potion",
+      "startingIds": [
+        1086,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Attack Speed · Health Scaling · Tenacity",
       "counters": [
@@ -6612,6 +7218,10 @@
       ],
       "boots": 3006,
       "starting": "Doran's Bow + Health Potion",
+      "startingIds": [
+        1086,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
@@ -6653,7 +7263,11 @@
         3065
       ],
       "boots": 3047,
-      "starting": "Doran's Shield + Health Potion",
+      "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Move Speed · Tenacity",
       "counters": [
@@ -6696,6 +7310,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Bow + Health Potion",
+      "startingIds": [
+        1086,
+        2003
+      ],
       "skill": "Q > W > E",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
@@ -6737,6 +7355,10 @@
         6617
       ],
       "starting": "World Atlas + Control Ward",
+      "startingIds": [
+        3865,
+        2055
+      ],
       "skill": "E > Q > W",
       "shards": "Ability Haste · Adaptive · Health",
       "counters": [
@@ -6778,6 +7400,10 @@
       ],
       "boots": 3111,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
@@ -6818,6 +7444,9 @@
       ],
       "boots": 3158,
       "starting": "Scorchclaw Pup",
+      "startingIds": [
+        1101
+      ],
       "skill": "E > W > Q",
       "shards": "Ability Haste · Health Scaling · Health",
       "counters": [
@@ -6859,6 +7488,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Blade + Health Potion",
+      "startingIds": [
+        1055,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Ability Haste · Adaptive · Health",
       "counters": [
@@ -6901,6 +7534,10 @@
       ],
       "boots": 3008,
       "starting": "Doran's Bow + Health Potion",
+      "startingIds": [
+        1086,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Move Speed · Health Scaling",
       "counters": [
@@ -6943,6 +7580,10 @@
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
@@ -6985,6 +7626,10 @@
       ],
       "boots": 3158,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "E > Q > W",
       "shards": "Ability Haste · Move Speed · Health",
       "counters": [
@@ -7022,10 +7667,14 @@
         6655,
         3100,
         3041,
-        3089
+        3102
       ],
       "boots": 3158,
       "starting": "Doran's Ring + Health Potion",
+      "startingIds": [
+        1056,
+        2003
+      ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Move Speed · Health",
       "counters": [
@@ -7067,6 +7716,10 @@
       ],
       "boots": 3020,
       "starting": "World Atlas + Health Potion",
+      "startingIds": [
+        3865,
+        2003
+      ],
       "skill": "E > W > Q",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [

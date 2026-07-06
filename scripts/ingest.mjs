@@ -90,7 +90,9 @@ const EXTRACT = () => {
     if (img) core.push(idOf(img));
   }
   const startBlock = findBlock("Starting Items");
-  const starting = startBlock ? [...startBlock.querySelectorAll("img[src*='item64']")].map((i) => i.alt) : [];
+  const startImgs = startBlock ? [...startBlock.querySelectorAll("img[src*='item64']")] : [];
+  const starting = startImgs.map((i) => i.alt);
+  const startingIds = startImgs.map(idOf).filter(Boolean); // ids so the in-game coach can recommend the opener
 
   // Skill max priority (e.g. "E > Q > W"). lolalytics renders ability icons as
   // <champ>_<qwer>.webp; the page's icon sequence is [Q W E R] legend, then the
@@ -118,7 +120,7 @@ const EXTRACT = () => {
     .map((i) => Number((i.src.match(/statmod32\/(\d+)/) || [])[1]));
   const shards = chosenShards.length === 3 ? chosenShards.map((id) => SHARD[id] || id).join(" · ") : null;
 
-  return { summoners, keystone: primary[0] ? primary[0].alt : null, runePage, core, starting, skill, shards, title: document.title };
+  return { summoners, keystone: primary[0] ? primary[0].alt : null, runePage, core, starting, startingIds, skill, shards, title: document.title };
 };
 
 async function scrape(context, champ, bootsSet) {
@@ -152,6 +154,8 @@ async function scrape(context, champ, bootsSet) {
     if (boots) out.boots = boots;
     const start = (d.starting || []).filter(Boolean).slice(0, 3);
     if (start.length) out.starting = start.join(" + ");
+    const startIds = [...new Set(d.startingIds || [])].slice(0, 3);
+    if (startIds.length) out.startingIds = startIds;
     if (d.skill) out.skill = d.skill;
     if (d.shards) out.shards = d.shards;
     return out;
@@ -274,6 +278,7 @@ async function main() {
         ...((override.core || live.core) ? { core: override.core || live.core } : {}),
         ...((override.boots || live.boots) ? { boots: override.boots || live.boots } : {}),
         ...((override.starting || live.starting) ? { starting: override.starting || live.starting } : {}),
+        ...((override.startingIds || live.startingIds) ? { startingIds: override.startingIds || live.startingIds } : {}),
         ...((override.skill || live.skill) ? { skill: override.skill || live.skill } : {}),
         ...((override.shards || live.shards) ? { shards: override.shards || live.shards } : {}),
         ...(counters ? { counters } : {}),
