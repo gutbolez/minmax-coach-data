@@ -10,6 +10,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const DD = "https://ddragon.leagueoflegends.com";
+const BASE = "https://gutbolez.github.io/minmax-coach-data";
 const DOWNLOAD = "https://github.com/gutbolez/minmax-coach-releases/releases/latest";
 const DISCORD = "https://discord.gg/RXK9YhKQGX";
 const SITE = "Min-Max Coach";
@@ -62,10 +63,17 @@ footer{color:var(--dim);font-size:12px;border-top:1px solid var(--line);margin-t
 .search{width:100%;padding:10px 12px;background:var(--panel);border:1px solid var(--line);border-radius:8px;color:var(--ink);font-size:14px;margin:6px 0 14px}
 `;
 
-const head = (title, desc, rel) => `<!doctype html><html lang="en"><head>
+const head = (title, desc, rel, canonical, ogImage) => `<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
+<link rel="canonical" href="${canonical}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="${SITE}">
+<meta property="og:title" content="${esc(title)}">
+<meta property="og:description" content="${esc(desc)}">
+<meta property="og:url" content="${canonical}">
+${ogImage ? `<meta property="og:image" content="${ogImage}"><meta name="twitter:card" content="summary">` : ""}
 <link rel="stylesheet" href="${rel}styles.css">
 </head><body>
 <header class="top"><span class="dot"></span><b><a href="${rel}index.html" style="color:inherit">${SITE}</a></b><span class="sp"></span>
@@ -126,7 +134,13 @@ ${cta}
 </div>`;
     writeFileSync(
       path.join(outDir, "champion", `${slug(name)}.html`),
-      head(`${name} Build, Runes & Counters (Patch ${patch}, ${tier}) — ${SITE}`, desc, "../") + body + foot
+      head(
+        `${name} Build, Runes & Counters (Patch ${patch}, ${tier}) — ${SITE}`,
+        desc,
+        "../",
+        `${BASE}/champion/${slug(name)}.html`,
+        champIcon(name)
+      ) + body + foot
     );
   }
 
@@ -146,11 +160,22 @@ ${cta}
     head(
       `LoL Builds, Runes & Counters (Patch ${patch}, ${tier}) — ${SITE}`,
       `Free, always-current League of Legends builds, runes, skill orders and counters for every champion, from ${tier} ranked. Get them live in-game with the free Min-Max Coach app.`,
-      ""
+      "",
+      `${BASE}/`
     ) + indexBody + foot
   );
 
-  console.log(`Wrote docs/ site: ${names.length} champion pages + index (patch ${patch}).`);
+  // sitemap + robots so Google finds and crawls every champion page.
+  const urls = [`${BASE}/`, ...names.map((n) => `${BASE}/champion/${slug(n)}.html`)];
+  writeFileSync(
+    path.join(outDir, "sitemap.xml"),
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+      urls.map((u) => `  <url><loc>${u}</loc></url>`).join("\n") +
+      `\n</urlset>\n`
+  );
+  writeFileSync(path.join(outDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${BASE}/sitemap.xml\n`);
+
+  console.log(`Wrote docs/ site: ${names.length} champion pages + index + sitemap (patch ${patch}).`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gutbolez.github.io/minmax-coach-data/sitemap.xml
