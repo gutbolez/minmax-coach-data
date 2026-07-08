@@ -91,13 +91,18 @@ async function main() {
   const items = (await getJson(`${DD}/cdn/${ver}/data/en_US/item.json`)).data;
   const itemName = (id) => (items[id] ? items[id].name : `Item ${id}`);
   const itemIcon = (id) => `${DD}/cdn/${ver}/img/item/${id}.png`;
-  // name -> ddragon id (for icons/slugs)
+  // name -> ddragon id (for icons/slugs) + tags (for role pages)
   const nameToId = {};
-  for (const c of Object.values(champData)) nameToId[c.name] = c.id;
+  const nameToTags = {};
+  for (const c of Object.values(champData)) {
+    nameToId[c.name] = c.id;
+    nameToTags[c.name] = c.tags || [];
+  }
   const champIcon = (name) => `${DD}/cdn/${ver}/img/champion/${nameToId[name] || name}.png`;
 
   rmSync(outDir, { recursive: true, force: true });
   mkdirSync(path.join(outDir, "champion"), { recursive: true });
+  mkdirSync(path.join(outDir, "role"), { recursive: true });
   writeFileSync(path.join(outDir, "styles.css"), CSS.trim() + "\n");
   writeFileSync(path.join(outDir, ".nojekyll"), "");
 
@@ -111,7 +116,13 @@ async function main() {
       ? `<div class="items">${core.map((id) => `<img src="${itemIcon(id)}" alt="${esc(itemName(id))}" title="${esc(itemName(id))}" loading="lazy">`).join("")}</div>`
       : "<p class=sub>No core build data.</p>";
     const counters = (m.counters || [])
-      .map((c) => `<div class="ctr"><span>${esc(c.c)}</span><b>${c.wr}% vs ${esc(name)}</b></div>`)
+      .map((c) => {
+        // Link the counter to its own page (internal links → better crawl + pageviews).
+        const label = meta.champions[c.c] && nameToId[c.c]
+          ? `<a href="${slug(c.c)}.html">${esc(c.c)}</a>`
+          : esc(c.c);
+        return `<div class="ctr"><span>${label}</span><b>${c.wr}% vs ${esc(name)}</b></div>`;
+      })
       .join("");
     const desc = `${name} build, runes, skill order and counters for patch ${patch} (${tier}). ${m.keystone ? "Keystone " + m.keystone + ". " : ""}${m.skill ? "Max " + m.skill + "." : ""}`;
     const body = `<div class="wrap">
@@ -144,14 +155,51 @@ ${cta}
     );
   }
 
+  // Role pages — target "best <role> champions / <role> builds" searches, grouped
+  // by Data Dragon class tag. Honest groupings (no faked S/A/B tiers).
+  const ROLES = [
+    { tag: "Marksman", label: "Marksman (ADC)", kw: "ADC / marksman" },
+    { tag: "Mage", label: "Mage", kw: "mage" },
+    { tag: "Assassin", label: "Assassin", kw: "assassin" },
+    { tag: "Fighter", label: "Fighter (Bruiser)", kw: "fighter / bruiser" },
+    { tag: "Tank", label: "Tank", kw: "tank" },
+    { tag: "Support", label: "Support", kw: "support / enchanter" },
+  ];
+  const roleCards = (list) =>
+    list.map((n) => `<a class="champ" href="../champion/${slug(n)}.html"><img src="${champIcon(n)}" alt="${esc(n)}" loading="lazy"><span>${esc(n)}</span></a>`).join("");
+  const rolePages = [];
+  for (const r of ROLES) {
+    const list = names.filter((n) => (nameToTags[n] || []).includes(r.tag));
+    if (list.length < 3) continue;
+    const file = `${r.tag.toLowerCase()}.html`;
+    const body = `<div class="wrap">
+<h1>Best ${esc(r.label)} Champions</h1>
+<div class="sub">Builds, runes & counters · ${list.length} champions · patch ${esc(patch)} · ${esc(tier)} ranked · refreshed daily</div>
+${cta}
+<div class="grid">${roleCards(list)}</div>
+</div>`;
+    writeFileSync(
+      path.join(outDir, "role", file),
+      head(
+        `Best ${r.label} Champions — Builds & Runes (Patch ${patch}, ${tier}) — ${SITE}`,
+        `Every ${r.kw} champion in League of Legends with current ${tier} builds, runes, skill orders and counters (patch ${patch}). Free, refreshed daily.`,
+        "../",
+        `${BASE}/role/${file}`
+      ) + body + foot
+    );
+    rolePages.push({ file, label: r.label });
+  }
+
   // Index.
   const cards = names
     .map((n) => `<a class="champ" href="champion/${slug(n)}.html"><img src="${champIcon(n)}" alt="${esc(n)}" loading="lazy"><span>${esc(n)}</span></a>`)
     .join("");
+  const roleNav = rolePages.map((r) => `<a class="pill" href="role/${r.file}">${esc(r.label)}</a>`).join(" ");
   const indexBody = `<div class="wrap">
 <h1>League of Legends builds, runes & counters</h1>
 <div class="sub">Every champion · patch ${esc(patch)} · ${esc(tier)} ranked · refreshed daily</div>
 ${cta}
+<div style="margin:6px 0 12px">Browse by role: ${roleNav}</div>
 <input class="search" id="q" placeholder="Search champion…" oninput="var v=this.value.toLowerCase();document.querySelectorAll('.champ').forEach(function(e){e.style.display=e.innerText.toLowerCase().includes(v)?'':'none'})">
 <div class="grid" id="grid">${cards}</div>
 </div>`;
@@ -165,8 +213,12 @@ ${cta}
     ) + indexBody + foot
   );
 
-  // sitemap + robots so Google finds and crawls every champion page.
-  const urls = [`${BASE}/`, ...names.map((n) => `${BASE}/champion/${slug(n)}.html`)];
+  // sitemap + robots so Google finds and crawls every champion + role page.
+  const urls = [
+    `${BASE}/`,
+    ...rolePages.map((r) => `${BASE}/role/${r.file}`),
+    ...names.map((n) => `${BASE}/champion/${slug(n)}.html`),
+  ];
   writeFileSync(
     path.join(outDir, "sitemap.xml"),
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +

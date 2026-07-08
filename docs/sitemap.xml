@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://gutbolez.github.io/minmax-coach-data/</loc></url>
+  <url><loc>https://gutbolez.github.io/minmax-coach-data/role/marksman.html</loc></url>
+  <url><loc>https://gutbolez.github.io/minmax-coach-data/role/mage.html</loc></url>
+  <url><loc>https://gutbolez.github.io/minmax-coach-data/role/assassin.html</loc></url>
+  <url><loc>https://gutbolez.github.io/minmax-coach-data/role/fighter.html</loc></url>
+  <url><loc>https://gutbolez.github.io/minmax-coach-data/role/tank.html</loc></url>
+  <url><loc>https://gutbolez.github.io/minmax-coach-data/role/support.html</loc></url>
   <url><loc>https://gutbolez.github.io/minmax-coach-data/champion/aatrox.html</loc></url>
   <url><loc>https://gutbolez.github.io/minmax-coach-data/champion/ahri.html</loc></url>
   <url><loc>https://gutbolez.github.io/minmax-coach-data/champion/akali.html</loc></url>
