@@ -11,6 +11,7 @@ import path from "node:path";
 
 const DD = "https://ddragon.leagueoflegends.com";
 const BASE = "https://gutbolez.github.io/minmax-coach-data";
+const GSC_VERIFY = "sHxdIfc7lWuZv1m4YN6LDhNZCfQDWGfePeyQgI5hqdg"; // Google Search Console
 const DOWNLOAD = "https://github.com/gutbolez/minmax-coach-releases/releases/latest";
 const DISCORD = "https://discord.gg/RXK9YhKQGX";
 const SITE = "Min-Max Coach";
@@ -65,6 +66,7 @@ footer{color:var(--dim);font-size:12px;border-top:1px solid var(--line);margin-t
 
 const head = (title, desc, rel, canonical, ogImage) => `<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google-site-verification" content="${GSC_VERIFY}">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${canonical}">
