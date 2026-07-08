@@ -37,13 +37,18 @@ jobs:
       - name: Build meta.json
         run: node scripts/ingest.mjs
 
+      # Regenerate the public builds site (docs/) from the fresh meta so the
+      # GitHub Pages SEO site never goes stale.
+      - name: Build site
+        run: node scripts/build-site.mjs
+
       - name: Commit if changed
         run: |
-          if [ -n "$(git status --porcelain meta.json)" ]; then
+          if [ -n "$(git status --porcelain meta.json docs)" ]; then
             git config user.name "meta-bot"
             git config user.email "actions@github.com"
-            git add meta.json
-            git commit -m "Update meta.json ($(date -u +%Y-%m-%d))"
+            git add meta.json docs
+            git commit -m "Update meta.json + builds site ($(date -u +%Y-%m-%d))"
             git push
           else
             echo "No change."
