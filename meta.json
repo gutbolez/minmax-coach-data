@@ -7,7 +7,7 @@
     "Aatrox": {
       "summoners": "Flash + Ignite",
       "keystone": "Conqueror",
-      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Second Wind · Overgrowth",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Demolish · Unflinching",
       "core": [
         3161,
         6610,
@@ -25,27 +25,27 @@
       "counters": [
         {
           "c": "Warwick",
-          "wr": 55.7
+          "wr": 56.1
         },
         {
           "c": "Singed",
-          "wr": 55.2
+          "wr": 55.1
         },
         {
-          "c": "Teemo",
-          "wr": 54.7
+          "c": "Aurora",
+          "wr": 54.8
         },
         {
           "c": "Riven",
+          "wr": 54.7
+        },
+        {
+          "c": "Teemo",
           "wr": 54.4
         },
         {
           "c": "Kayle",
-          "wr": 54.1
-        },
-        {
-          "c": "Irelia",
-          "wr": 53.6
+          "wr": 53.9
         }
       ]
     },
@@ -69,27 +69,27 @@
       "counters": [
         {
           "c": "Garen",
-          "wr": 55.8
-        },
-        {
-          "c": "Vex",
-          "wr": 53.4
-        },
-        {
-          "c": "Veigar",
-          "wr": 52
-        },
-        {
-          "c": "Qiyana",
-          "wr": 52
-        },
-        {
-          "c": "Akshan",
-          "wr": 51.8
+          "wr": 56
         },
         {
           "c": "Jayce",
-          "wr": 51.8
+          "wr": 53
+        },
+        {
+          "c": "Vex",
+          "wr": 52.8
+        },
+        {
+          "c": "Veigar",
+          "wr": 52.2
+        },
+        {
+          "c": "Qiyana",
+          "wr": 52.1
+        },
+        {
+          "c": "Annie",
+          "wr": 52.1
         }
       ]
     },
@@ -112,28 +112,28 @@
       "shards": "Adaptive · Move Speed · Tenacity",
       "counters": [
         {
-          "c": "Veigar",
-          "wr": 56
+          "c": "Vex",
+          "wr": 55.8
         },
         {
           "c": "Lissandra",
-          "wr": 55.6
+          "wr": 55.8
         },
         {
           "c": "Sion",
-          "wr": 55.5
+          "wr": 55.7
         },
         {
-          "c": "Vex",
-          "wr": 55
+          "c": "Veigar",
+          "wr": 55.4
         },
         {
           "c": "Galio",
-          "wr": 54.3
+          "wr": 54.8
         },
         {
           "c": "Riven",
-          "wr": 54.2
+          "wr": 54.6
         }
       ]
     },
@@ -144,7 +144,7 @@
       "core": [
         6672,
         3097,
-        2523,
+        6673,
         3036,
         3072
       ],
@@ -158,28 +158,28 @@
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
         {
-          "c": "Katarina",
-          "wr": 55.4
+          "c": "Vex",
+          "wr": 55.1
         },
         {
-          "c": "Vex",
-          "wr": 54.6
+          "c": "Katarina",
+          "wr": 54.8
         },
         {
           "c": "Malphite",
-          "wr": 54.4
+          "wr": 54.8
         },
         {
           "c": "Yasuo",
-          "wr": 53.5
-        },
-        {
-          "c": "Naafiri",
-          "wr": 53.3
+          "wr": 53.6
         },
         {
           "c": "Riven",
           "wr": 53.3
+        },
+        {
+          "c": "Galio",
+          "wr": 52.4
         }
       ]
     },
@@ -204,27 +204,27 @@
       "counters": [
         {
           "c": "Janna",
-          "wr": 56.1
+          "wr": 55.7
         },
         {
           "c": "Senna",
-          "wr": 54.5
-        },
-        {
-          "c": "Zilean",
           "wr": 54
         },
         {
+          "c": "Zilean",
+          "wr": 53.8
+        },
+        {
           "c": "Soraka",
-          "wr": 53.2
+          "wr": 53.4
         },
         {
           "c": "Vel'Koz",
-          "wr": 53
+          "wr": 53.2
         },
         {
           "c": "Seraphine",
-          "wr": 53
+          "wr": 52.8
         }
       ]
     },
@@ -249,27 +249,27 @@
       "counters": [
         {
           "c": "Heimerdinger",
-          "wr": 61.2
+          "wr": 59.8
         },
         {
           "c": "Quinn",
-          "wr": 58.4
+          "wr": 57.7
         },
         {
           "c": "Irelia",
-          "wr": 55.6
+          "wr": 55.7
         },
         {
           "c": "Warwick",
-          "wr": 54.8
+          "wr": 55.4
+        },
+        {
+          "c": "Illaoi",
+          "wr": 54.6
         },
         {
           "c": "Shen",
           "wr": 54.5
-        },
-        {
-          "c": "Kayle",
-          "wr": 54.2
         }
       ]
     },
@@ -293,28 +293,28 @@
       "shards": "Attack Speed · Health Scaling · Tenacity",
       "counters": [
         {
-          "c": "Talon",
-          "wr": 58.8
-        },
-        {
           "c": "Shaco",
-          "wr": 58.6
+          "wr": 59.1
         },
         {
           "c": "Xin Zhao",
-          "wr": 58.2
+          "wr": 59
         },
         {
-          "c": "Shyvana",
-          "wr": 56.5
+          "c": "Talon",
+          "wr": 58.5
         },
         {
           "c": "Nasus",
+          "wr": 56.7
+        },
+        {
+          "c": "Shyvana",
           "wr": 56.4
         },
         {
           "c": "Sylas",
-          "wr": 55.4
+          "wr": 55.7
         }
       ]
     },
@@ -328,7 +328,7 @@
         3041,
         6653
       ],
-      "boots": 3158,
+      "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
       "startingIds": [
         1056,
@@ -338,28 +338,28 @@
       "shards": "Attack Speed · Move Speed · Health Scaling",
       "counters": [
         {
+          "c": "Riven",
+          "wr": 61.2
+        },
+        {
           "c": "Talon",
-          "wr": 56.2
+          "wr": 56.4
         },
         {
           "c": "Diana",
-          "wr": 53.8
-        },
-        {
-          "c": "Katarina",
-          "wr": 53.6
-        },
-        {
-          "c": "Hwei",
-          "wr": 53.2
+          "wr": 53.5
         },
         {
           "c": "Qiyana",
-          "wr": 53
+          "wr": 53.3
         },
         {
-          "c": "Ahri",
-          "wr": 52.1
+          "c": "Katarina",
+          "wr": 53.2
+        },
+        {
+          "c": "Hwei",
+          "wr": 53.1
         }
       ]
     },
@@ -372,7 +372,7 @@
         3152,
         3041
       ],
-      "boots": 3020,
+      "boots": 3158,
       "starting": "Doran's Ring + Health Potion",
       "startingIds": [
         1056,
@@ -383,27 +383,27 @@
       "counters": [
         {
           "c": "Qiyana",
-          "wr": 55.5
-        },
-        {
-          "c": "Talon",
-          "wr": 55.3
+          "wr": 55.9
         },
         {
           "c": "Kassadin",
           "wr": 55
         },
         {
-          "c": "Ekko",
-          "wr": 54.1
+          "c": "Talon",
+          "wr": 54.4
         },
         {
           "c": "Aurora",
-          "wr": 54
+          "wr": 54.3
+        },
+        {
+          "c": "Ekko",
+          "wr": 54.2
         },
         {
           "c": "Xerath",
-          "wr": 53.9
+          "wr": 54
         }
       ]
     },
@@ -412,7 +412,7 @@
       "keystone": "Conqueror",
       "runes": "Conqueror · Triumph · Legend: Alacrity · Cut Down · Magical Footwear · Jack Of All Trades",
       "core": [
-        3097,
+        6676,
         3031,
         3046,
         3026
@@ -428,22 +428,22 @@
       "counters": [
         {
           "c": "Yasuo",
-          "wr": 59.8
+          "wr": 59.6
         },
         {
           "c": "Aurelion Sol",
-          "wr": 59
-        },
-        {
-          "c": "Veigar",
-          "wr": 57.8
+          "wr": 58.4
         },
         {
           "c": "Xerath",
-          "wr": 57.5
+          "wr": 57.4
         },
         {
           "c": "Vel'Koz",
+          "wr": 57.3
+        },
+        {
+          "c": "Veigar",
           "wr": 57.1
         },
         {
@@ -473,27 +473,27 @@
       "counters": [
         {
           "c": "Katarina",
-          "wr": 59.7
+          "wr": 59.5
         },
         {
           "c": "Karthus",
-          "wr": 58.1
+          "wr": 57.8
         },
         {
           "c": "Yasuo",
-          "wr": 56.4
+          "wr": 56.2
         },
         {
           "c": "Nilah",
-          "wr": 55.7
+          "wr": 54.8
         },
         {
           "c": "Swain",
-          "wr": 54.1
+          "wr": 54.4
         },
         {
-          "c": "Lux",
-          "wr": 53.7
+          "c": "Seraphine",
+          "wr": 53
         }
       ]
     },
@@ -515,30 +515,30 @@
         2003
       ],
       "skill": "Q > W > E",
-      "shards": "Adaptive · Move Speed · Health",
+      "shards": "Adaptive · Adaptive · Health",
       "counters": [
         {
-          "c": "Irelia",
-          "wr": 58.2
-        },
-        {
           "c": "Akshan",
-          "wr": 57.2
+          "wr": 57.6
         },
         {
           "c": "Zed",
-          "wr": 56.6
+          "wr": 57
+        },
+        {
+          "c": "Irelia",
+          "wr": 56
         },
         {
           "c": "Galio",
-          "wr": 56.2
-        },
-        {
-          "c": "Yone",
-          "wr": 55.5
+          "wr": 55.6
         },
         {
           "c": "LeBlanc",
+          "wr": 55.5
+        },
+        {
+          "c": "Yone",
           "wr": 55.3
         }
       ]
@@ -562,28 +562,28 @@
       "shards": "Adaptive · Move Speed · Health",
       "counters": [
         {
-          "c": "Vex",
+          "c": "Fizz",
           "wr": 56.7
         },
         {
           "c": "Veigar",
-          "wr": 56.6
+          "wr": 56.7
         },
         {
-          "c": "Fizz",
-          "wr": 56.6
-        },
-        {
-          "c": "Talon",
-          "wr": 56
-        },
-        {
-          "c": "Riven",
-          "wr": 56
+          "c": "Vex",
+          "wr": 56.5
         },
         {
           "c": "Katarina",
-          "wr": 55.9
+          "wr": 55.6
+        },
+        {
+          "c": "Riven",
+          "wr": 55.4
+        },
+        {
+          "c": "Talon",
+          "wr": 55.2
         }
       ]
     },
@@ -608,28 +608,28 @@
       "shards": "Attack Speed · Health Scaling · Health",
       "counters": [
         {
-          "c": "Vladimir",
-          "wr": 59
+          "c": "Twisted Fate",
+          "wr": 58
         },
         {
-          "c": "Twisted Fate",
-          "wr": 58.8
+          "c": "Vladimir",
+          "wr": 58
         },
         {
           "c": "Zoe",
-          "wr": 58.6
+          "wr": 58
         },
         {
           "c": "Galio",
-          "wr": 56.9
+          "wr": 57.4
+        },
+        {
+          "c": "Ekko",
+          "wr": 57.1
         },
         {
           "c": "Xerath",
-          "wr": 56.8
-        },
-        {
-          "c": "Lissandra",
-          "wr": 56.8
+          "wr": 56.6
         }
       ]
     },
@@ -654,28 +654,28 @@
       "shards": "Attack Speed · Health Scaling · Tenacity",
       "counters": [
         {
-          "c": "Poppy",
-          "wr": 56.7
+          "c": "Fiddlesticks",
+          "wr": 56.2
         },
         {
-          "c": "Fiddlesticks",
-          "wr": 56.4
+          "c": "Poppy",
+          "wr": 56.1
         },
         {
           "c": "Tahm Kench",
-          "wr": 55.4
-        },
-        {
-          "c": "Rell",
-          "wr": 54.2
+          "wr": 55.5
         },
         {
           "c": "Maokai",
-          "wr": 54
+          "wr": 53.9
+        },
+        {
+          "c": "Rell",
+          "wr": 53.9
         },
         {
           "c": "Amumu",
-          "wr": 53.6
+          "wr": 53.7
         }
       ]
     },
@@ -690,36 +690,36 @@
         3036,
         3026
       ],
-      "starting": "Mosstomper Seedling",
+      "starting": "Gustwalker Hatchling",
       "startingIds": [
-        1103
+        1102
       ],
-      "skill": "Q > E > W",
+      "skill": "E > Q > W",
       "shards": "Attack Speed · Adaptive · Health",
       "counters": [
         {
           "c": "Skarner",
-          "wr": 55.7
-        },
-        {
-          "c": "Nidalee",
-          "wr": 53.7
+          "wr": 54.8
         },
         {
           "c": "Rek'Sai",
-          "wr": 53.6
+          "wr": 54
         },
         {
-          "c": "Udyr",
+          "c": "Nidalee",
           "wr": 52.8
         },
         {
           "c": "Diana",
-          "wr": 52.7
+          "wr": 52.6
         },
         {
-          "c": "Master Yi",
-          "wr": 51.1
+          "c": "Udyr",
+          "wr": 52.5
+        },
+        {
+          "c": "Taliyah",
+          "wr": 51.3
         }
       ]
     },
@@ -744,35 +744,35 @@
       "shards": "Ability Haste · Move Speed · Tenacity",
       "counters": [
         {
-          "c": "Zilean",
-          "wr": 55.7
-        },
-        {
           "c": "Poppy",
-          "wr": 55.6
-        },
-        {
-          "c": "Taric",
-          "wr": 55
+          "wr": 55.5
         },
         {
           "c": "Rakan",
+          "wr": 55.2
+        },
+        {
+          "c": "Zilean",
           "wr": 54.9
         },
         {
-          "c": "Alistar",
-          "wr": 54
+          "c": "Taric",
+          "wr": 54.8
         },
         {
           "c": "Braum",
-          "wr": 53.9
+          "wr": 54
+        },
+        {
+          "c": "Alistar",
+          "wr": 53.7
         }
       ]
     },
     "Brand": {
       "summoners": "Flash + Exhaust",
       "keystone": "Deathfire Touch",
-      "runes": "Deathfire Touch · Manaflow Band · Transcendence · Scorch · Cash Back · Cosmic Insight",
+      "runes": "Deathfire Touch · Manaflow Band · Transcendence · Scorch · Presence of Mind · Cut Down",
       "core": [
         3871,
         3116,
@@ -786,31 +786,31 @@
         2003
       ],
       "skill": "E > W > Q",
-      "shards": "Ability Haste · Move Speed · Health",
+      "shards": "Adaptive · Move Speed · Health",
       "counters": [
-        {
-          "c": "Zilean",
-          "wr": 57.8
-        },
         {
           "c": "Janna",
           "wr": 57.5
         },
         {
+          "c": "Zilean",
+          "wr": 56.9
+        },
+        {
           "c": "Milio",
-          "wr": 56.7
+          "wr": 56.8
         },
         {
           "c": "Braum",
-          "wr": 54.5
+          "wr": 54.7
         },
         {
           "c": "Karma",
-          "wr": 54.1
+          "wr": 54.4
         },
         {
-          "c": "Xerath",
-          "wr": 54.1
+          "c": "Leona",
+          "wr": 54.3
         }
       ]
     },
@@ -820,11 +820,11 @@
       "runes": "Guardian · Font of Life · Bone Plating · Overgrowth · Magical Footwear · Cosmic Insight",
       "core": [
         3876,
-        2524,
+        3190,
         2525,
-        3109
+        3110
       ],
-      "boots": 3047,
+      "boots": 3111,
       "starting": "World Atlas + Health Potion",
       "startingIds": [
         3865,
@@ -839,22 +839,22 @@
         },
         {
           "c": "Zilean",
-          "wr": 54.3
-        },
-        {
-          "c": "Seraphine",
-          "wr": 52.5
+          "wr": 53.2
         },
         {
           "c": "Galio",
-          "wr": 52.2
+          "wr": 52.7
         },
         {
-          "c": "Poppy",
-          "wr": 52.2
+          "c": "Seraphine",
+          "wr": 52.3
         },
         {
           "c": "Tahm Kench",
+          "wr": 52.1
+        },
+        {
+          "c": "Poppy",
           "wr": 51.7
         }
       ]
@@ -879,27 +879,27 @@
       "counters": [
         {
           "c": "Nunu & Willump",
-          "wr": 55.7
+          "wr": 56.3
         },
         {
           "c": "Nasus",
-          "wr": 54.6
+          "wr": 55.4
         },
         {
           "c": "Ivern",
-          "wr": 54.5
+          "wr": 54.4
         },
         {
           "c": "Wukong",
-          "wr": 53.9
+          "wr": 54.1
         },
         {
           "c": "Rammus",
-          "wr": 53.9
+          "wr": 54
         },
         {
           "c": "Olaf",
-          "wr": 53.7
+          "wr": 54
         }
       ]
     },
@@ -927,24 +927,24 @@
           "wr": 58.6
         },
         {
+          "c": "Viktor",
+          "wr": 57.6
+        },
+        {
           "c": "Karthus",
           "wr": 57.4
         },
         {
           "c": "Lux",
-          "wr": 56.9
-        },
-        {
-          "c": "Viktor",
-          "wr": 56.6
+          "wr": 56.3
         },
         {
           "c": "Syndra",
-          "wr": 56.5
+          "wr": 55.9
         },
         {
-          "c": "Nilah",
-          "wr": 55.3
+          "c": "Hwei",
+          "wr": 55.7
         }
       ]
     },
@@ -969,27 +969,27 @@
       "counters": [
         {
           "c": "Taric",
-          "wr": 56.9
+          "wr": 57
         },
         {
           "c": "Janna",
-          "wr": 56.4
-        },
-        {
-          "c": "Poppy",
-          "wr": 55.8
-        },
-        {
-          "c": "Thresh",
-          "wr": 55.5
+          "wr": 56.3
         },
         {
           "c": "Rell",
-          "wr": 55
+          "wr": 55.3
         },
         {
           "c": "Maokai",
-          "wr": 54.7
+          "wr": 55.2
+        },
+        {
+          "c": "Thresh",
+          "wr": 55.2
+        },
+        {
+          "c": "Poppy",
+          "wr": 55.1
         }
       ]
     },
@@ -1002,7 +1002,7 @@
         3003,
         3152,
         3116,
-        6653
+        3089
       ],
       "boots": 3009,
       "starting": "Doran's Ring + Health Potion",
@@ -1014,28 +1014,28 @@
       "shards": "Ability Haste · Move Speed · Health",
       "counters": [
         {
-          "c": "Qiyana",
-          "wr": 60.3
-        },
-        {
           "c": "Vex",
-          "wr": 59.2
+          "wr": 60.4
         },
         {
-          "c": "Syndra",
-          "wr": 58
+          "c": "Qiyana",
+          "wr": 60
         },
         {
           "c": "Diana",
-          "wr": 56.8
+          "wr": 57.3
+        },
+        {
+          "c": "Syndra",
+          "wr": 57.2
         },
         {
           "c": "Akali",
-          "wr": 56.1
+          "wr": 56
         },
         {
           "c": "Zed",
-          "wr": 55.7
+          "wr": 55.2
         }
       ]
     },
@@ -1046,7 +1046,8 @@
       "core": [
         3084,
         3068,
-        2502
+        2502,
+        6665
       ],
       "boots": 3047,
       "starting": "Doran's Shield + Health Potion",
@@ -1059,27 +1060,27 @@
       "counters": [
         {
           "c": "Kled",
-          "wr": 58.5
+          "wr": 57.6
         },
         {
           "c": "Dr. Mundo",
-          "wr": 55.7
-        },
-        {
-          "c": "Tahm Kench",
-          "wr": 55.3
+          "wr": 55.6
         },
         {
           "c": "Ornn",
-          "wr": 54.7
+          "wr": 54.5
         },
         {
           "c": "K'Sante",
-          "wr": 53.9
+          "wr": 54.4
+        },
+        {
+          "c": "Tahm Kench",
+          "wr": 54.2
         },
         {
           "c": "Nasus",
-          "wr": 53.5
+          "wr": 53.7
         }
       ]
     },
@@ -1104,27 +1105,27 @@
       "counters": [
         {
           "c": "Jinx",
-          "wr": 56
+          "wr": 56.7
         },
         {
           "c": "Senna",
-          "wr": 55.8
-        },
-        {
-          "c": "Ziggs",
-          "wr": 55.8
+          "wr": 55.4
         },
         {
           "c": "Vayne",
-          "wr": 55
+          "wr": 54.4
+        },
+        {
+          "c": "Ziggs",
+          "wr": 54
         },
         {
           "c": "Xayah",
-          "wr": 52.7
+          "wr": 53.8
         },
         {
-          "c": "Zeri",
-          "wr": 52.3
+          "c": "Caitlyn",
+          "wr": 52.2
         }
       ]
     },
@@ -1149,34 +1150,34 @@
       "counters": [
         {
           "c": "Anivia",
-          "wr": 56.6
+          "wr": 55.4
         },
         {
-          "c": "Ryze",
-          "wr": 54.1
+          "c": "Maokai",
+          "wr": 54.3
         },
         {
-          "c": "Wukong",
+          "c": "Urgot",
+          "wr": 53.6
+        },
+        {
+          "c": "Vayne",
           "wr": 53.5
         },
         {
           "c": "Gragas",
-          "wr": 53.4
+          "wr": 53.1
         },
         {
-          "c": "Urgot",
-          "wr": 53.4
-        },
-        {
-          "c": "Vayne",
-          "wr": 53.2
+          "c": "Ryze",
+          "wr": 53
         }
       ]
     },
     "Diana": {
       "summoners": "Flash + Smite",
       "keystone": "Conqueror",
-      "runes": "Conqueror · Triumph · Legend: Alacrity · Cut Down · Cash Back · Cosmic Insight",
+      "runes": "Conqueror · Triumph · Legend: Haste · Cut Down · Cash Back · Cosmic Insight",
       "core": [
         2510,
         4633,
@@ -1192,27 +1193,27 @@
       "counters": [
         {
           "c": "Poppy",
-          "wr": 58.2
+          "wr": 57.9
         },
         {
           "c": "Evelynn",
-          "wr": 58.1
+          "wr": 57.1
         },
         {
           "c": "Udyr",
-          "wr": 57.8
+          "wr": 56.6
         },
         {
           "c": "Nasus",
           "wr": 55.1
         },
         {
-          "c": "Warwick",
-          "wr": 54.6
+          "c": "Quinn",
+          "wr": 54.4
         },
         {
-          "c": "Kindred",
-          "wr": 54.3
+          "c": "Zac",
+          "wr": 54.2
         }
       ]
     },
@@ -1236,35 +1237,35 @@
       "shards": "Ability Haste · Health Scaling · Health Scaling",
       "counters": [
         {
-          "c": "Yorick",
-          "wr": 56.4
+          "c": "Quinn",
+          "wr": 57.3
         },
         {
           "c": "Kled",
-          "wr": 56.1
+          "wr": 57
         },
         {
           "c": "Vayne",
-          "wr": 56
+          "wr": 55.9
         },
         {
-          "c": "Olaf",
-          "wr": 55.5
+          "c": "Yorick",
+          "wr": 55.9
         },
         {
           "c": "Gwen",
           "wr": 55.3
         },
         {
-          "c": "Irelia",
-          "wr": 55.2
+          "c": "Olaf",
+          "wr": 55.3
         }
       ]
     },
     "Draven": {
       "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
-      "runes": "Lethal Tempo · Triumph · Legend: Bloodline · Coup de Grace · Biscuit Delivery · Cosmic Insight",
+      "runes": "Lethal Tempo · Triumph · Legend: Bloodline · Last Stand · Biscuit Delivery · Cosmic Insight",
       "core": [
         6697,
         2523,
@@ -1282,71 +1283,70 @@
       "counters": [
         {
           "c": "Vel'Koz",
-          "wr": 61.9
+          "wr": 61
         },
         {
           "c": "Lux",
-          "wr": 60.4
+          "wr": 60.2
         },
         {
           "c": "Hwei",
-          "wr": 59.1
+          "wr": 58.9
         },
         {
           "c": "Syndra",
-          "wr": 59
+          "wr": 58.2
         },
         {
           "c": "Viktor",
-          "wr": 58.5
+          "wr": 57
         },
         {
-          "c": "Swain",
-          "wr": 57.2
+          "c": "Kog'Maw",
+          "wr": 56.7
         }
       ]
     },
     "Ekko": {
       "summoners": "Flash + Smite",
       "keystone": "Hail of Blades",
-      "runes": "Hail of Blades · Sudden Impact · Sixth Sense · Relentless Hunter · Triumph · Coup de Grace",
+      "runes": "Hail of Blades · Sudden Impact · Sixth Sense · Relentless Hunter · Legend: Haste · Coup de Grace",
       "core": [
         2510,
         4645,
         3089,
         3041
       ],
-      "starting": "Gustwalker Hatchling + Health Potion",
+      "starting": "Scorchclaw Pup",
       "startingIds": [
-        1102,
-        2003
+        1101
       ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Tenacity",
       "counters": [
         {
           "c": "Rammus",
-          "wr": 55.4
+          "wr": 55
         },
         {
           "c": "Kha'Zix",
-          "wr": 54.7
-        },
-        {
-          "c": "Evelynn",
-          "wr": 53.6
+          "wr": 54.2
         },
         {
           "c": "Zyra",
-          "wr": 53.4
+          "wr": 53
         },
         {
-          "c": "Warwick",
-          "wr": 52.9
+          "c": "Elise",
+          "wr": 52.7
         },
         {
-          "c": "Talon",
-          "wr": 52.8
+          "c": "Nunu & Willump",
+          "wr": 52.7
+        },
+        {
+          "c": "Rengar",
+          "wr": 52.7
         }
       ]
     },
@@ -1370,27 +1370,27 @@
       "counters": [
         {
           "c": "Shyvana",
-          "wr": 58.8
-        },
-        {
-          "c": "Nocturne",
-          "wr": 55.2
+          "wr": 59.2
         },
         {
           "c": "Nidalee",
-          "wr": 54.9
+          "wr": 56.1
         },
         {
-          "c": "Nunu & Willump",
-          "wr": 54.7
+          "c": "Nocturne",
+          "wr": 55
         },
         {
           "c": "Shaco",
+          "wr": 54.1
+        },
+        {
+          "c": "Nunu & Willump",
           "wr": 54
         },
         {
-          "c": "Nasus",
-          "wr": 53.5
+          "c": "Kayn",
+          "wr": 52.8
         }
       ]
     },
@@ -1414,27 +1414,27 @@
       "counters": [
         {
           "c": "Hecarim",
-          "wr": 59.1
+          "wr": 58.9
         },
         {
           "c": "Udyr",
-          "wr": 58.5
-        },
-        {
-          "c": "Warwick",
-          "wr": 57.3
+          "wr": 58.7
         },
         {
           "c": "Bel'Veth",
-          "wr": 56.8
+          "wr": 56.9
+        },
+        {
+          "c": "Warwick",
+          "wr": 56
         },
         {
           "c": "Shaco",
-          "wr": 55.9
+          "wr": 55.4
         },
         {
           "c": "Rek'Sai",
-          "wr": 54.2
+          "wr": 54.7
         }
       ]
     },
@@ -1459,27 +1459,27 @@
       "counters": [
         {
           "c": "Vladimir",
-          "wr": 57
+          "wr": 57.1
+        },
+        {
+          "c": "Katarina",
+          "wr": 56.9
         },
         {
           "c": "Yasuo",
-          "wr": 56.8
-        },
-        {
-          "c": "Seraphine",
-          "wr": 56.8
+          "wr": 56.9
         },
         {
           "c": "Nilah",
           "wr": 56.6
         },
         {
-          "c": "Lux",
+          "c": "Seraphine",
           "wr": 56.5
         },
         {
-          "c": "Katarina",
-          "wr": 56.3
+          "c": "Lux",
+          "wr": 56.4
         }
       ]
     },
@@ -1504,27 +1504,27 @@
       "counters": [
         {
           "c": "Nidalee",
-          "wr": 56.5
+          "wr": 57.1
         },
         {
           "c": "Rek'Sai",
-          "wr": 55.8
+          "wr": 55.1
         },
         {
           "c": "Warwick",
-          "wr": 53.9
-        },
-        {
-          "c": "Nasus",
-          "wr": 52.2
+          "wr": 52.9
         },
         {
           "c": "Elise",
-          "wr": 52
+          "wr": 52.7
         },
         {
-          "c": "Aatrox",
-          "wr": 52
+          "c": "Nasus",
+          "wr": 52.6
+        },
+        {
+          "c": "Jarvan IV",
+          "wr": 51.9
         }
       ]
     },
@@ -1548,27 +1548,27 @@
       "counters": [
         {
           "c": "Malphite",
+          "wr": 55.9
+        },
+        {
+          "c": "Anivia",
           "wr": 55.6
         },
         {
-          "c": "Kennen",
-          "wr": 54.6
+          "c": "Warwick",
+          "wr": 54.2
         },
         {
           "c": "Heimerdinger",
-          "wr": 54.1
+          "wr": 53.9
         },
         {
           "c": "Rumble",
-          "wr": 54
+          "wr": 53.8
         },
         {
-          "c": "Wukong",
-          "wr": 53.7
-        },
-        {
-          "c": "Kayle",
-          "wr": 53.4
+          "c": "Kennen",
+          "wr": 53.6
         }
       ]
     },
@@ -1593,27 +1593,27 @@
       "counters": [
         {
           "c": "Riven",
-          "wr": 57.1
+          "wr": 57.6
         },
         {
           "c": "Diana",
-          "wr": 56.2
+          "wr": 55.5
         },
         {
           "c": "Vex",
-          "wr": 54.1
-        },
-        {
-          "c": "Talon",
-          "wr": 52.9
-        },
-        {
-          "c": "Lissandra",
-          "wr": 52.5
+          "wr": 53.1
         },
         {
           "c": "Kassadin",
-          "wr": 52.4
+          "wr": 52.5
+        },
+        {
+          "c": "Talon",
+          "wr": 52.1
+        },
+        {
+          "c": "Lissandra",
+          "wr": 52.1
         }
       ]
     },
@@ -1641,23 +1641,23 @@
         },
         {
           "c": "Garen",
-          "wr": 56.3
+          "wr": 56.9
         },
         {
           "c": "Hwei",
-          "wr": 55.7
+          "wr": 55.6
         },
         {
           "c": "Veigar",
-          "wr": 55.1
-        },
-        {
-          "c": "Vel'Koz",
-          "wr": 54.8
+          "wr": 54.3
         },
         {
           "c": "Vex",
-          "wr": 54.3
+          "wr": 54
+        },
+        {
+          "c": "Vel'Koz",
+          "wr": 54
         }
       ]
     },
@@ -1672,9 +1672,9 @@
         3026
       ],
       "boots": 3008,
-      "starting": "Doran's Bow + Health Potion",
+      "starting": "Doran's Blade + Health Potion",
       "startingIds": [
-        1086,
+        1055,
         2003
       ],
       "skill": "Q > E > W",
@@ -1689,20 +1689,20 @@
           "wr": 53.8
         },
         {
+          "c": "Riven",
+          "wr": 52.8
+        },
+        {
+          "c": "Olaf",
+          "wr": 52.7
+        },
+        {
           "c": "Kayle",
           "wr": 52.4
         },
         {
           "c": "Ryze",
-          "wr": 52.4
-        },
-        {
-          "c": "Xin Zhao",
-          "wr": 52.4
-        },
-        {
-          "c": "Olaf",
-          "wr": 52.2
+          "wr": 52.3
         }
       ]
     },
@@ -1713,7 +1713,7 @@
       "core": [
         6631,
         3046,
-        3161,
+        3142,
         3031,
         3053
       ],
@@ -1727,28 +1727,28 @@
       "shards": "Adaptive · Adaptive · Tenacity",
       "counters": [
         {
-          "c": "Anivia",
-          "wr": 55.5
-        },
-        {
           "c": "Kayle",
-          "wr": 55.3
-        },
-        {
-          "c": "Fiora",
-          "wr": 54.3
+          "wr": 55.1
         },
         {
           "c": "Quinn",
-          "wr": 54.2
+          "wr": 55
         },
         {
-          "c": "Ryze",
-          "wr": 54.1
+          "c": "Fiora",
+          "wr": 54.5
         },
         {
-          "c": "Tryndamere",
+          "c": "Anivia",
+          "wr": 54.3
+        },
+        {
+          "c": "Camille",
           "wr": 53.1
+        },
+        {
+          "c": "Gangplank",
+          "wr": 53
         }
       ]
     },
@@ -1760,6 +1760,7 @@
         3078,
         3071,
         3053,
+        3091,
         3026
       ],
       "boots": 3047,
@@ -1773,27 +1774,27 @@
       "counters": [
         {
           "c": "Xin Zhao",
-          "wr": 59.3
+          "wr": 58.7
         },
         {
           "c": "Cassiopeia",
-          "wr": 57.8
-        },
-        {
-          "c": "Warwick",
-          "wr": 56.8
-        },
-        {
-          "c": "Olaf",
-          "wr": 55.6
-        },
-        {
-          "c": "Anivia",
-          "wr": 55.4
+          "wr": 57.9
         },
         {
           "c": "Locke",
-          "wr": 55.3
+          "wr": 56.2
+        },
+        {
+          "c": "Wukong",
+          "wr": 56.1
+        },
+        {
+          "c": "Warwick",
+          "wr": 56
+        },
+        {
+          "c": "Olaf",
+          "wr": 55.9
         }
       ]
     },
@@ -1819,39 +1820,39 @@
       "counters": [
         {
           "c": "Singed",
-          "wr": 57.8
+          "wr": 58.2
         },
         {
           "c": "Zaahen",
-          "wr": 55.8
+          "wr": 56.4
         },
         {
           "c": "Urgot",
-          "wr": 54.8
-        },
-        {
-          "c": "Vladimir",
-          "wr": 52.6
+          "wr": 55
         },
         {
           "c": "Gangplank",
-          "wr": 52.5
+          "wr": 53.1
         },
         {
-          "c": "Ornn",
-          "wr": 52.4
+          "c": "Vladimir",
+          "wr": 53
+        },
+        {
+          "c": "Shen",
+          "wr": 52.9
         }
       ]
     },
     "Graves": {
       "summoners": "Flash + Smite",
-      "keystone": "Dark Harvest",
-      "runes": "Dark Harvest · Sudden Impact · Sixth Sense · Treasure Hunter · Cash Back · Triple Tonic",
+      "keystone": "Fleet Footwork",
+      "runes": "Fleet Footwork · Triumph · Legend: Alacrity · Cut Down · Cash Back · Triple Tonic",
       "core": [
         6697,
         6676,
         6673,
-        3071,
+        3031,
         3036
       ],
       "starting": "Scorchclaw Pup",
@@ -1863,40 +1864,40 @@
       "counters": [
         {
           "c": "Zyra",
-          "wr": 55.8
+          "wr": 55.4
         },
         {
           "c": "Darius",
-          "wr": 54.6
-        },
-        {
-          "c": "Bel'Veth",
-          "wr": 54.2
+          "wr": 54.5
         },
         {
           "c": "Gwen",
-          "wr": 54.1
+          "wr": 54.2
         },
         {
           "c": "Taliyah",
-          "wr": 54.1
+          "wr": 53.9
         },
         {
-          "c": "Evelynn",
-          "wr": 54.1
+          "c": "Bel'Veth",
+          "wr": 53.8
+        },
+        {
+          "c": "Rammus",
+          "wr": 53.8
         }
       ]
     },
     "Gwen": {
       "summoners": "Teleport + Ignite",
       "keystone": "First Strike",
-      "runes": "First Strike · Cash Back · Biscuit Delivery · Jack Of All Trades · Absolute Focus · Gathering Storm",
+      "runes": "First Strike · Cash Back · Biscuit Delivery · Jack Of All Trades · Transcendence · Gathering Storm",
       "core": [
         2510,
         3115,
         4633,
         3089,
-        4645
+        3135
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
@@ -1908,28 +1909,28 @@
       "shards": "Adaptive · Move Speed · Tenacity",
       "counters": [
         {
-          "c": "Singed",
+          "c": "Yasuo",
           "wr": 60.9
         },
         {
-          "c": "Akali",
+          "c": "Singed",
           "wr": 60.2
         },
         {
-          "c": "Yasuo",
-          "wr": 59.5
-        },
-        {
-          "c": "Teemo",
-          "wr": 58
+          "c": "Akali",
+          "wr": 59.9
         },
         {
           "c": "Riven",
-          "wr": 56.9
+          "wr": 58.3
         },
         {
-          "c": "Pantheon",
-          "wr": 55.5
+          "c": "Teemo",
+          "wr": 56.7
+        },
+        {
+          "c": "Warwick",
+          "wr": 55.4
         }
       ]
     },
@@ -1948,31 +1949,31 @@
         1102
       ],
       "skill": "Q > W > E",
-      "shards": "Ability Haste · Move Speed · Tenacity",
+      "shards": "Adaptive · Move Speed · Tenacity",
       "counters": [
         {
-          "c": "Warwick",
-          "wr": 54.6
+          "c": "Amumu",
+          "wr": 54.9
         },
         {
           "c": "Nasus",
+          "wr": 54.5
+        },
+        {
+          "c": "Volibear",
           "wr": 54.4
         },
         {
-          "c": "Amumu",
-          "wr": 54.2
+          "c": "Darius",
+          "wr": 53.9
+        },
+        {
+          "c": "Bel'Veth",
+          "wr": 53.6
         },
         {
           "c": "Nidalee",
           "wr": 53.5
-        },
-        {
-          "c": "Darius",
-          "wr": 53.3
-        },
-        {
-          "c": "Sejuani",
-          "wr": 52.9
         }
       ]
     },
@@ -1997,27 +1998,27 @@
       "counters": [
         {
           "c": "Gangplank",
-          "wr": 58.7
+          "wr": 59.5
         },
         {
           "c": "Gnar",
-          "wr": 55.7
+          "wr": 55.2
         },
         {
           "c": "Renekton",
           "wr": 53.7
         },
         {
-          "c": "K'Sante",
-          "wr": 52.3
+          "c": "Teemo",
+          "wr": 51.8
         },
         {
           "c": "Malphite",
-          "wr": 52.1
+          "wr": 51.7
         },
         {
           "c": "Jayce",
-          "wr": 51.3
+          "wr": 51.2
         }
       ]
     },
@@ -2028,7 +2029,6 @@
       "core": [
         2503,
         3152,
-        3157,
         4645,
         3041
       ],
@@ -2043,27 +2043,27 @@
       "counters": [
         {
           "c": "Katarina",
-          "wr": 55.2
+          "wr": 55.3
         },
         {
           "c": "Ziggs",
-          "wr": 54.1
+          "wr": 54.2
         },
         {
           "c": "Vel'Koz",
-          "wr": 53.6
+          "wr": 53.7
         },
         {
           "c": "Locke",
-          "wr": 53.3
+          "wr": 53.2
         },
         {
           "c": "Talon",
-          "wr": 52.2
+          "wr": 52.3
         },
         {
-          "c": "Xerath",
-          "wr": 52.1
+          "c": "Kayle",
+          "wr": 52.2
         }
       ]
     },
@@ -2089,27 +2089,27 @@
       "counters": [
         {
           "c": "Varus",
-          "wr": 60.4
+          "wr": 59.1
         },
         {
           "c": "Kled",
-          "wr": 58.1
+          "wr": 57.6
         },
         {
           "c": "Gangplank",
-          "wr": 57.1
+          "wr": 57
         },
         {
           "c": "Fiora",
-          "wr": 56.5
+          "wr": 55.7
+        },
+        {
+          "c": "Teemo",
+          "wr": 55.2
         },
         {
           "c": "Singed",
-          "wr": 54.8
-        },
-        {
-          "c": "Mordekaiser",
-          "wr": 54.3
+          "wr": 54.4
         }
       ]
     },
@@ -2138,23 +2138,23 @@
         },
         {
           "c": "Malphite",
-          "wr": 57.3
-        },
-        {
-          "c": "Tryndamere",
-          "wr": 56.5
-        },
-        {
-          "c": "Jax",
-          "wr": 56.2
+          "wr": 56.9
         },
         {
           "c": "Riven",
-          "wr": 56.2
+          "wr": 56.5
         },
         {
           "c": "Zaahen",
+          "wr": 56.3
+        },
+        {
+          "c": "Tryndamere",
           "wr": 56.1
+        },
+        {
+          "c": "Jax",
+          "wr": 55.9
         }
       ]
     },
@@ -2176,28 +2176,28 @@
       "shards": "Adaptive · Move Speed · Health Scaling",
       "counters": [
         {
+          "c": "Bel'Veth",
+          "wr": 53.7
+        },
+        {
           "c": "Diana",
-          "wr": 53.9
+          "wr": 53.5
         },
         {
           "c": "Rek'Sai",
-          "wr": 53.6
-        },
-        {
-          "c": "Nidalee",
-          "wr": 52.3
-        },
-        {
-          "c": "Bel'Veth",
-          "wr": 51.8
+          "wr": 52.5
         },
         {
           "c": "Kha'Zix",
-          "wr": 51.8
+          "wr": 52.2
+        },
+        {
+          "c": "Nidalee",
+          "wr": 51.4
         },
         {
           "c": "Nocturne",
-          "wr": 51.3
+          "wr": 51.1
         }
       ]
     },
@@ -2221,27 +2221,27 @@
       "counters": [
         {
           "c": "Taric",
-          "wr": 53
-        },
-        {
-          "c": "Thresh",
-          "wr": 52.8
+          "wr": 53.5
         },
         {
           "c": "Sona",
-          "wr": 52.8
+          "wr": 52.6
         },
         {
-          "c": "Galio",
-          "wr": 52
+          "c": "Thresh",
+          "wr": 52.4
         },
         {
           "c": "Seraphine",
           "wr": 52
         },
         {
-          "c": "Renata Glasc",
-          "wr": 51.3
+          "c": "Leona",
+          "wr": 51.4
+        },
+        {
+          "c": "Galio",
+          "wr": 51.1
         }
       ]
     },
@@ -2264,12 +2264,16 @@
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
         {
-          "c": "Fizz",
-          "wr": 54.8
+          "c": "Zaahen",
+          "wr": 54.7
         },
         {
-          "c": "Zaahen",
-          "wr": 54.6
+          "c": "Fizz",
+          "wr": 53.4
+        },
+        {
+          "c": "Kindred",
+          "wr": 53.3
         },
         {
           "c": "Rammus",
@@ -2277,15 +2281,11 @@
         },
         {
           "c": "Talon",
-          "wr": 53.2
-        },
-        {
-          "c": "Zyra",
-          "wr": 53
+          "wr": 53.1
         },
         {
           "c": "Aatrox",
-          "wr": 52.9
+          "wr": 52.5
         }
       ]
     },
@@ -2311,15 +2311,19 @@
       "counters": [
         {
           "c": "Quinn",
-          "wr": 60.3
-        },
-        {
-          "c": "Vladimir",
-          "wr": 56.4
+          "wr": 59.5
         },
         {
           "c": "Cassiopeia",
-          "wr": 55.9
+          "wr": 57.3
+        },
+        {
+          "c": "Vladimir",
+          "wr": 56.7
+        },
+        {
+          "c": "Lissandra",
+          "wr": 55.6
         },
         {
           "c": "Heimerdinger",
@@ -2328,17 +2332,13 @@
         {
           "c": "Singed",
           "wr": 55.4
-        },
-        {
-          "c": "Lissandra",
-          "wr": 55
         }
       ]
     },
     "Jayce": {
       "summoners": "Flash + Ignite",
       "keystone": "Electrocute",
-      "runes": "Electrocute · Sudden Impact · Grisly Mementos · Treasure Hunter · Cash Back · Jack Of All Trades",
+      "runes": "Electrocute · Sudden Impact · Grisly Mementos · Treasure Hunter · Triple Tonic · Jack Of All Trades",
       "core": [
         3142,
         3004,
@@ -2356,28 +2356,28 @@
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
         {
-          "c": "Quinn",
-          "wr": 56.3
+          "c": "Lissandra",
+          "wr": 56.6
         },
         {
           "c": "Dr. Mundo",
-          "wr": 56.2
+          "wr": 55.9
         },
         {
-          "c": "Lissandra",
-          "wr": 55.7
-        },
-        {
-          "c": "Pantheon",
-          "wr": 54.8
-        },
-        {
-          "c": "Poppy",
-          "wr": 54.6
+          "c": "Quinn",
+          "wr": 55.6
         },
         {
           "c": "Ornn",
           "wr": 54.5
+        },
+        {
+          "c": "Gragas",
+          "wr": 54.5
+        },
+        {
+          "c": "Pantheon",
+          "wr": 54.1
         }
       ]
     },
@@ -2403,27 +2403,27 @@
       "counters": [
         {
           "c": "Katarina",
-          "wr": 56.1
+          "wr": 56.8
         },
         {
           "c": "Veigar",
-          "wr": 54.5
-        },
-        {
-          "c": "Hwei",
-          "wr": 54.3
-        },
-        {
-          "c": "Aurelion Sol",
-          "wr": 54.2
+          "wr": 54.7
         },
         {
           "c": "Karthus",
-          "wr": 54.2
+          "wr": 54.1
+        },
+        {
+          "c": "Yasuo",
+          "wr": 54.1
         },
         {
           "c": "Vel'Koz",
-          "wr": 54.1
+          "wr": 53.8
+        },
+        {
+          "c": "Senna",
+          "wr": 53.6
         }
       ]
     },
@@ -2448,16 +2448,16 @@
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
         {
-          "c": "Lux",
-          "wr": 54.3
+          "c": "Seraphine",
+          "wr": 54.2
         },
         {
-          "c": "Seraphine",
-          "wr": 54.1
+          "c": "Lux",
+          "wr": 54.2
         },
         {
           "c": "Karthus",
-          "wr": 53.7
+          "wr": 53.5
         },
         {
           "c": "Vel'Koz",
@@ -2465,16 +2465,16 @@
         },
         {
           "c": "Viktor",
-          "wr": 52.5
+          "wr": 51.7
         },
         {
           "c": "Yasuo",
-          "wr": 51.3
+          "wr": 51.2
         }
       ]
     },
     "K'Sante": {
-      "summoners": "Flash + Exhaust",
+      "summoners": "Flash + Ignite",
       "keystone": "Grasp of the Undying",
       "runes": "Grasp of the Undying · Demolish · Conditioning · Unflinching · Legend: Haste · Last Stand",
       "core": [
@@ -2494,27 +2494,27 @@
       "counters": [
         {
           "c": "Lissandra",
-          "wr": 63.9
+          "wr": 62.7
         },
         {
           "c": "Kennen",
-          "wr": 60.8
+          "wr": 61.3
         },
         {
           "c": "Wukong",
-          "wr": 58
+          "wr": 57.6
         },
         {
           "c": "Kled",
-          "wr": 57.7
+          "wr": 57.1
         },
         {
           "c": "Fiora",
-          "wr": 56.2
+          "wr": 56.4
         },
         {
           "c": "Singed",
-          "wr": 55.9
+          "wr": 56.1
         }
       ]
     },
@@ -2540,32 +2540,32 @@
       "counters": [
         {
           "c": "Nilah",
-          "wr": 60.5
+          "wr": 60.3
         },
         {
           "c": "Karthus",
-          "wr": 57.2
+          "wr": 57.4
         },
         {
           "c": "Kog'Maw",
-          "wr": 57
+          "wr": 57.3
         },
         {
           "c": "Swain",
-          "wr": 55.8
+          "wr": 56.4
         },
         {
           "c": "Seraphine",
-          "wr": 55.1
+          "wr": 55.4
         },
         {
           "c": "Xayah",
-          "wr": 54.8
+          "wr": 54.7
         }
       ]
     },
     "Kalista": {
-      "summoners": "Flash + Barrier",
+      "summoners": "Flash + Exhaust",
       "keystone": "Lethal Tempo",
       "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Coup de Grace · Bone Plating · Overgrowth",
       "core": [
@@ -2581,32 +2581,32 @@
         1086,
         2003
       ],
-      "skill": "Q > E > W",
+      "skill": "E > Q > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
         {
-          "c": "Vel'Koz",
-          "wr": 57.8
+          "c": "Draven",
+          "wr": 57.1
         },
         {
           "c": "Syndra",
-          "wr": 57.8
+          "wr": 56.5
         },
         {
-          "c": "Draven",
-          "wr": 56.3
+          "c": "Vel'Koz",
+          "wr": 56.1
         },
         {
           "c": "Xayah",
-          "wr": 55.4
+          "wr": 55.6
+        },
+        {
+          "c": "Brand",
+          "wr": 53.3
         },
         {
           "c": "Seraphine",
-          "wr": 53
-        },
-        {
-          "c": "Sivir",
-          "wr": 52.5
+          "wr": 52.9
         }
       ]
     },
@@ -2632,27 +2632,27 @@
       "counters": [
         {
           "c": "Galio",
-          "wr": 56.6
+          "wr": 56.5
         },
         {
           "c": "Fiddlesticks",
-          "wr": 56
+          "wr": 56.2
         },
         {
           "c": "Rell",
-          "wr": 55.4
+          "wr": 55.1
         },
         {
           "c": "Nautilus",
-          "wr": 54.4
+          "wr": 54.3
         },
         {
           "c": "Leona",
-          "wr": 54.1
+          "wr": 54.2
         },
         {
           "c": "Poppy",
-          "wr": 53.8
+          "wr": 53.6
         }
       ]
     },
@@ -2662,7 +2662,7 @@
       "runes": "Deathfire Touch · Axiom Arcanist · Absolute Focus · Gathering Storm · Triumph · Last Stand",
       "core": [
         2503,
-        6653,
+        4645,
         3041
       ],
       "boots": 3020,
@@ -2676,27 +2676,27 @@
       "counters": [
         {
           "c": "Nasus",
-          "wr": 58.4
+          "wr": 59
+        },
+        {
+          "c": "Shyvana",
+          "wr": 57
         },
         {
           "c": "Kayn",
-          "wr": 55.3
+          "wr": 55.6
         },
         {
           "c": "Rengar",
-          "wr": 54.8
-        },
-        {
-          "c": "Briar",
           "wr": 54.4
         },
         {
-          "c": "Nocturne",
-          "wr": 53.7
+          "c": "Briar",
+          "wr": 53.8
         },
         {
-          "c": "Lee Sin",
-          "wr": 52.7
+          "c": "Nocturne",
+          "wr": 53.3
         }
       ]
     },
@@ -2719,28 +2719,28 @@
       "shards": "Ability Haste · Adaptive · Health Scaling",
       "counters": [
         {
-          "c": "Riven",
+          "c": "Tristana",
           "wr": 56.4
         },
         {
-          "c": "Tristana",
-          "wr": 55.9
+          "c": "Riven",
+          "wr": 56.3
         },
         {
           "c": "Talon",
           "wr": 53.8
         },
         {
-          "c": "Zed",
-          "wr": 53.8
+          "c": "Akshan",
+          "wr": 53.5
         },
         {
-          "c": "Akshan",
+          "c": "Zed",
           "wr": 53.4
         },
         {
-          "c": "Xerath",
-          "wr": 53.3
+          "c": "Taliyah",
+          "wr": 53
         }
       ]
     },
@@ -2754,37 +2754,37 @@
         3041
       ],
       "boots": 3008,
-      "starting": "Dark Seal + Refillable Potion",
+      "starting": "Doran's Ring + Health Potion",
       "startingIds": [
-        1082,
-        2031
+        1056,
+        2003
       ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
         {
           "c": "Kayle",
-          "wr": 58.8
+          "wr": 57.8
         },
         {
           "c": "Riven",
           "wr": 53.7
         },
         {
-          "c": "Vladimir",
-          "wr": 52.1
+          "c": "Cho'Gath",
+          "wr": 52.4
         },
         {
-          "c": "Jayce",
-          "wr": 52
+          "c": "Vladimir",
+          "wr": 52.4
         },
         {
           "c": "Galio",
-          "wr": 51.8
+          "wr": 51.5
         },
         {
-          "c": "Cho'Gath",
-          "wr": 51.7
+          "c": "Twisted Fate",
+          "wr": 51.5
         }
       ]
     },
@@ -2809,28 +2809,28 @@
       "shards": "Attack Speed · Move Speed · Tenacity",
       "counters": [
         {
+          "c": "Kennen",
+          "wr": 57.1
+        },
+        {
           "c": "Irelia",
-          "wr": 56.5
+          "wr": 56.8
         },
         {
           "c": "Malphite",
-          "wr": 55.8
+          "wr": 56.1
+        },
+        {
+          "c": "Camille",
+          "wr": 54
         },
         {
           "c": "Gragas",
-          "wr": 54.5
+          "wr": 54
         },
         {
-          "c": "Yasuo",
-          "wr": 53.7
-        },
-        {
-          "c": "Vladimir",
-          "wr": 53.1
-        },
-        {
-          "c": "Vayne",
-          "wr": 53
+          "c": "Warwick",
+          "wr": 52.9
         }
       ]
     },
@@ -2846,44 +2846,43 @@
         3026
       ],
       "boots": 3111,
-      "starting": "Scorchclaw Pup + Health Potion",
+      "starting": "Scorchclaw Pup",
       "startingIds": [
-        1101,
-        2003
+        1101
       ],
       "skill": "W > Q > E",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
         {
           "c": "Bel'Veth",
-          "wr": 57.4
+          "wr": 57.2
         },
         {
           "c": "Darius",
-          "wr": 55.9
+          "wr": 56.7
         },
         {
           "c": "Gragas",
-          "wr": 55.7
-        },
-        {
-          "c": "Nunu & Willump",
-          "wr": 55
+          "wr": 55.4
         },
         {
           "c": "Ivern",
-          "wr": 54.8
+          "wr": 55.1
         },
         {
-          "c": "Taliyah",
-          "wr": 54.6
+          "c": "Nunu & Willump",
+          "wr": 53.7
+        },
+        {
+          "c": "Ambessa",
+          "wr": 53.5
         }
       ]
     },
     "Kennen": {
       "summoners": "Flash + Ignite",
       "keystone": "First Strike",
-      "runes": "First Strike · Cash Back · Triple Tonic · Cosmic Insight · Nimbus Cloak · Scorch",
+      "runes": "First Strike · Cash Back · Triple Tonic · Cosmic Insight · Nimbus Cloak · Transcendence",
       "core": [
         3152,
         3157,
@@ -2901,35 +2900,35 @@
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
         {
-          "c": "Malphite",
-          "wr": 57.3
-        },
-        {
           "c": "Camille",
-          "wr": 56.8
+          "wr": 57.6
         },
         {
-          "c": "Gangplank",
-          "wr": 56
+          "c": "Malphite",
+          "wr": 56.7
         },
         {
           "c": "Dr. Mundo",
-          "wr": 55.7
+          "wr": 55.9
+        },
+        {
+          "c": "Gangplank",
+          "wr": 55.6
+        },
+        {
+          "c": "Mordekaiser",
+          "wr": 54.9
         },
         {
           "c": "Cho'Gath",
-          "wr": 55
-        },
-        {
-          "c": "Vladimir",
-          "wr": 54.9
+          "wr": 54.5
         }
       ]
     },
     "Kha'Zix": {
       "summoners": "Flash + Smite",
       "keystone": "Stormraider's Surge",
-      "runes": "Stormraider's Surge · Nimbus Cloak · Transcendence · Waterwalking · Cash Back · Triple Tonic",
+      "runes": "Stormraider's Surge · Nimbus Cloak · Transcendence · Waterwalking · Sudden Impact · Treasure Hunter",
       "core": [
         3179,
         6699,
@@ -2937,29 +2936,24 @@
         2520,
         3026
       ],
-      "starting": "Mosstomper Seedling + Health Potion",
+      "starting": "Mosstomper Seedling",
       "startingIds": [
-        1103,
-        2003
+        1103
       ],
       "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
         {
           "c": "Sejuani",
-          "wr": 58.6
-        },
-        {
-          "c": "Karthus",
-          "wr": 54.6
+          "wr": 57.9
         },
         {
           "c": "Nunu & Willump",
-          "wr": 53.8
+          "wr": 54.1
         },
         {
-          "c": "Warwick",
-          "wr": 53.5
+          "c": "Karthus",
+          "wr": 54
         },
         {
           "c": "Naafiri",
@@ -2968,6 +2962,10 @@
         {
           "c": "Wukong",
           "wr": 53
+        },
+        {
+          "c": "Rengar",
+          "wr": 52.8
         }
       ]
     },
@@ -2990,28 +2988,28 @@
       "shards": "Attack Speed · Adaptive · Tenacity",
       "counters": [
         {
-          "c": "Zyra",
-          "wr": 57.6
+          "c": "Nunu & Willump",
+          "wr": 56.8
         },
         {
-          "c": "Nunu & Willump",
+          "c": "Zyra",
           "wr": 56.3
         },
         {
           "c": "Ivern",
-          "wr": 55.9
+          "wr": 56
         },
         {
           "c": "Shaco",
-          "wr": 54.7
+          "wr": 54.1
+        },
+        {
+          "c": "Elise",
+          "wr": 53.6
         },
         {
           "c": "Sejuani",
-          "wr": 54.6
-        },
-        {
-          "c": "Nidalee",
-          "wr": 53.3
+          "wr": 53.2
         }
       ]
     },
@@ -3037,27 +3035,27 @@
       "counters": [
         {
           "c": "Rumble",
-          "wr": 54.9
+          "wr": 55.5
         },
         {
           "c": "Ornn",
-          "wr": 54.7
-        },
-        {
-          "c": "Singed",
-          "wr": 53.2
+          "wr": 54.1
         },
         {
           "c": "Kayle",
-          "wr": 53.2
+          "wr": 53.9
+        },
+        {
+          "c": "Singed",
+          "wr": 53.5
         },
         {
           "c": "Shen",
-          "wr": 52.8
+          "wr": 53
         },
         {
           "c": "Fiora",
-          "wr": 52.7
+          "wr": 52.3
         }
       ]
     },
@@ -3068,6 +3066,7 @@
       "core": [
         3124,
         6675,
+        3089,
         3085,
         3302
       ],
@@ -3082,27 +3081,27 @@
       "counters": [
         {
           "c": "Hwei",
-          "wr": 57
-        },
-        {
-          "c": "Senna",
-          "wr": 52.5
+          "wr": 55.2
         },
         {
           "c": "Seraphine",
-          "wr": 52
+          "wr": 53.2
+        },
+        {
+          "c": "Syndra",
+          "wr": 52.2
+        },
+        {
+          "c": "Senna",
+          "wr": 52.2
         },
         {
           "c": "Jinx",
-          "wr": 51.4
-        },
-        {
-          "c": "Twitch",
           "wr": 51.3
         },
         {
           "c": "Ziggs",
-          "wr": 50.9
+          "wr": 51.1
         }
       ]
     },
@@ -3128,27 +3127,27 @@
       "counters": [
         {
           "c": "Fizz",
-          "wr": 56.1
+          "wr": 56.4
         },
         {
           "c": "Annie",
-          "wr": 55.9
-        },
-        {
-          "c": "Naafiri",
-          "wr": 55.6
+          "wr": 56.1
         },
         {
           "c": "Akshan",
-          "wr": 55.4
+          "wr": 55.7
+        },
+        {
+          "c": "Naafiri",
+          "wr": 55.7
         },
         {
           "c": "Taliyah",
-          "wr": 55
+          "wr": 55.2
         },
         {
-          "c": "Anivia",
-          "wr": 54.5
+          "c": "Vex",
+          "wr": 54.6
         }
       ]
     },
@@ -3173,27 +3172,27 @@
       "counters": [
         {
           "c": "Bel'Veth",
-          "wr": 54.6
+          "wr": 54.4
         },
         {
           "c": "Skarner",
-          "wr": 53.9
+          "wr": 53.8
         },
         {
           "c": "Zaahen",
-          "wr": 53.9
+          "wr": 53.7
         },
         {
           "c": "Naafiri",
-          "wr": 53.7
+          "wr": 53.6
         },
         {
-          "c": "Taliyah",
-          "wr": 53.7
+          "c": "Aatrox",
+          "wr": 53.5
         },
         {
           "c": "Nunu & Willump",
-          "wr": 53.5
+          "wr": 53.4
         }
       ]
     },
@@ -3218,26 +3217,26 @@
       "counters": [
         {
           "c": "Taric",
-          "wr": 52.8
+          "wr": 52.9
         },
         {
           "c": "LeBlanc",
-          "wr": 51.6
-        },
-        {
-          "c": "Maokai",
-          "wr": 51.5
+          "wr": 51.8
         },
         {
           "c": "Rakan",
           "wr": 51.4
         },
         {
-          "c": "Morgana",
+          "c": "Maokai",
           "wr": 51.2
         },
         {
-          "c": "Elise",
+          "c": "Morgana",
+          "wr": 51.1
+        },
+        {
+          "c": "Renata Glasc",
           "wr": 51
         }
       ]
@@ -3252,37 +3251,36 @@
         3041
       ],
       "boots": 3009,
-      "starting": "Mosstomper Seedling + Health Potion",
+      "starting": "Mosstomper Seedling",
       "startingIds": [
-        1103,
-        2003
+        1103
       ],
       "skill": "Q > W > E",
       "shards": "Ability Haste · Adaptive · Tenacity",
       "counters": [
         {
           "c": "Jayce",
-          "wr": 57.2
+          "wr": 56.5
         },
         {
           "c": "Rengar",
-          "wr": 56.6
-        },
-        {
-          "c": "Talon",
-          "wr": 54.6
+          "wr": 56.2
         },
         {
           "c": "Kha'Zix",
-          "wr": 54.4
+          "wr": 54.6
+        },
+        {
+          "c": "Talon",
+          "wr": 54.5
+        },
+        {
+          "c": "Jarvan IV",
+          "wr": 53.3
         },
         {
           "c": "Kindred",
-          "wr": 53.7
-        },
-        {
-          "c": "Master Yi",
-          "wr": 53.4
+          "wr": 53.2
         }
       ]
     },
@@ -3306,27 +3304,27 @@
       "counters": [
         {
           "c": "Zoe",
-          "wr": 56.7
+          "wr": 56.9
         },
         {
           "c": "Qiyana",
-          "wr": 53.6
-        },
-        {
-          "c": "Lux",
-          "wr": 52.9
-        },
-        {
-          "c": "Hwei",
-          "wr": 52.7
+          "wr": 53.9
         },
         {
           "c": "Xerath",
+          "wr": 52.8
+        },
+        {
+          "c": "Swain",
           "wr": 52.7
         },
         {
-          "c": "Cassiopeia",
-          "wr": 52.1
+          "c": "Hwei",
+          "wr": 52.4
+        },
+        {
+          "c": "Lux",
+          "wr": 52.3
         }
       ]
     },
@@ -3352,26 +3350,26 @@
       "counters": [
         {
           "c": "Garen",
-          "wr": 56.3
-        },
-        {
-          "c": "Katarina",
-          "wr": 52.6
+          "wr": 55.7
         },
         {
           "c": "Riven",
-          "wr": 52.5
+          "wr": 52.6
+        },
+        {
+          "c": "Katarina",
+          "wr": 52.2
         },
         {
           "c": "Gragas",
-          "wr": 52.5
-        },
-        {
-          "c": "Kassadin",
-          "wr": 51
+          "wr": 52.1
         },
         {
           "c": "Akali",
+          "wr": 51
+        },
+        {
+          "c": "Kassadin",
           "wr": 51
         }
       ]
@@ -3398,26 +3396,26 @@
       "counters": [
         {
           "c": "Viktor",
-          "wr": 58.3
-        },
-        {
-          "c": "Veigar",
-          "wr": 58.3
+          "wr": 58
         },
         {
           "c": "Seraphine",
-          "wr": 56.9
+          "wr": 57.5
         },
         {
-          "c": "Hwei",
-          "wr": 56.5
-        },
-        {
-          "c": "Senna",
-          "wr": 55.8
+          "c": "Veigar",
+          "wr": 57.5
         },
         {
           "c": "Swain",
+          "wr": 56.3
+        },
+        {
+          "c": "Hwei",
+          "wr": 55.8
+        },
+        {
+          "c": "Senna",
           "wr": 55.8
         }
       ]
@@ -3443,38 +3441,38 @@
       "counters": [
         {
           "c": "Amumu",
-          "wr": 56.1
-        },
-        {
-          "c": "Zilean",
-          "wr": 54.5
+          "wr": 56.2
         },
         {
           "c": "Rell",
-          "wr": 54.5
+          "wr": 54.4
+        },
+        {
+          "c": "Zilean",
+          "wr": 54.1
         },
         {
           "c": "Senna",
-          "wr": 53.8
+          "wr": 53.9
         },
         {
           "c": "Thresh",
-          "wr": 53.6
+          "wr": 53.7
         },
         {
           "c": "Maokai",
-          "wr": 53.1
+          "wr": 53.6
         }
       ]
     },
     "Lux": {
       "summoners": "Flash + Heal",
       "keystone": "Arcane Comet",
-      "runes": "Arcane Comet · Manaflow Band · Transcendence · Scorch · Magical Footwear · Cosmic Insight",
+      "runes": "Arcane Comet · Manaflow Band · Transcendence · Gathering Storm · Magical Footwear · Cosmic Insight",
       "core": [
         3871,
         6655,
-        4628,
+        3157,
         4646,
         3041
       ],
@@ -3489,23 +3487,23 @@
       "counters": [
         {
           "c": "LeBlanc",
-          "wr": 63.2
+          "wr": 63.8
         },
         {
           "c": "Poppy",
-          "wr": 60.7
+          "wr": 59.7
         },
         {
           "c": "Maokai",
-          "wr": 57.4
+          "wr": 57.5
         },
         {
           "c": "Taric",
-          "wr": 56.4
+          "wr": 57.2
         },
         {
           "c": "Rell",
-          "wr": 55.7
+          "wr": 56.1
         },
         {
           "c": "Sona",
@@ -3533,40 +3531,40 @@
       "shards": "Attack Speed · Health Scaling · Health Scaling",
       "counters": [
         {
-          "c": "Udyr",
-          "wr": 56.9
-        },
-        {
-          "c": "Dr. Mundo",
-          "wr": 56.5
+          "c": "Anivia",
+          "wr": 56.6
         },
         {
           "c": "Sion",
           "wr": 56.2
         },
         {
-          "c": "Anivia",
+          "c": "Dr. Mundo",
           "wr": 56.1
         },
         {
-          "c": "Olaf",
-          "wr": 54.9
+          "c": "Udyr",
+          "wr": 56
         },
         {
-          "c": "Singed",
-          "wr": 54.4
+          "c": "Olaf",
+          "wr": 54.5
+        },
+        {
+          "c": "Shen",
+          "wr": 54.3
         }
       ]
     },
     "Malzahar": {
       "summoners": "Flash + Ignite",
       "keystone": "Deathfire Touch",
-      "runes": "Deathfire Touch · Manaflow Band · Transcendence · Gathering Storm · Legend: Haste · Cut Down",
+      "runes": "Deathfire Touch · Manaflow Band · Transcendence · Gathering Storm · Magical Footwear · Cosmic Insight",
       "core": [
         2503,
         3116,
         3089,
-        3135
+        3157
       ],
       "boots": 3158,
       "starting": "Sapphire Crystal + Refillable Potion",
@@ -3579,27 +3577,27 @@
       "counters": [
         {
           "c": "Sion",
-          "wr": 57.7
-        },
-        {
-          "c": "Diana",
-          "wr": 56
+          "wr": 57.1
         },
         {
           "c": "Talon",
-          "wr": 55.4
+          "wr": 56.5
         },
         {
-          "c": "Riven",
-          "wr": 55.4
-        },
-        {
-          "c": "Swain",
-          "wr": 55.3
+          "c": "Diana",
+          "wr": 55.5
         },
         {
           "c": "Irelia",
-          "wr": 55
+          "wr": 54.9
+        },
+        {
+          "c": "Riven",
+          "wr": 54.5
+        },
+        {
+          "c": "Fizz",
+          "wr": 54.2
         }
       ]
     },
@@ -3611,7 +3609,7 @@
         3876,
         2524,
         3109,
-        2525,
+        3190,
         2502
       ],
       "boots": 3009,
@@ -3633,19 +3631,19 @@
         },
         {
           "c": "Soraka",
-          "wr": 53.9
-        },
-        {
-          "c": "Sona",
-          "wr": 52.5
+          "wr": 54.4
         },
         {
           "c": "Rell",
-          "wr": 52.3
+          "wr": 52.6
         },
         {
-          "c": "Janna",
-          "wr": 52.1
+          "c": "Morgana",
+          "wr": 52.4
+        },
+        {
+          "c": "Swain",
+          "wr": 52.3
         }
       ]
     },
@@ -3669,28 +3667,28 @@
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
         {
-          "c": "Udyr",
-          "wr": 54.5
-        },
-        {
           "c": "Ivern",
-          "wr": 54.5
+          "wr": 55.4
         },
         {
-          "c": "Kindred",
-          "wr": 54
-        },
-        {
-          "c": "Rek'Sai",
-          "wr": 54
+          "c": "Udyr",
+          "wr": 54.7
         },
         {
           "c": "Shaco",
-          "wr": 53.7
+          "wr": 53.4
+        },
+        {
+          "c": "Kindred",
+          "wr": 53.3
+        },
+        {
+          "c": "Rek'Sai",
+          "wr": 53.3
         },
         {
           "c": "Wukong",
-          "wr": 53.3
+          "wr": 53.2
         }
       ]
     },
@@ -3714,27 +3712,27 @@
       "counters": [
         {
           "c": "Viktor",
-          "wr": 61.5
-        },
-        {
-          "c": "Zeri",
-          "wr": 59.3
-        },
-        {
-          "c": "Veigar",
-          "wr": 58.6
-        },
-        {
-          "c": "Kog'Maw",
-          "wr": 58.5
-        },
-        {
-          "c": "Hwei",
-          "wr": 58.4
+          "wr": 61.7
         },
         {
           "c": "Syndra",
-          "wr": 57.8
+          "wr": 59.2
+        },
+        {
+          "c": "Yasuo",
+          "wr": 58.3
+        },
+        {
+          "c": "Zeri",
+          "wr": 58.1
+        },
+        {
+          "c": "Kog'Maw",
+          "wr": 57.6
+        },
+        {
+          "c": "Kalista",
+          "wr": 57.5
         }
       ]
     },
@@ -3746,7 +3744,8 @@
         3870,
         3504,
         6620,
-        6621
+        6621,
+        6617
       ],
       "boots": 3158,
       "starting": "World Atlas + Health Potion",
@@ -3759,27 +3758,27 @@
       "counters": [
         {
           "c": "Blitzcrank",
-          "wr": 55.6
-        },
-        {
-          "c": "Fiddlesticks",
           "wr": 55.3
         },
         {
-          "c": "Poppy",
-          "wr": 55
+          "c": "Fiddlesticks",
+          "wr": 55.1
         },
         {
-          "c": "Zilean",
-          "wr": 54.2
+          "c": "Poppy",
+          "wr": 54.4
         },
         {
           "c": "Sona",
-          "wr": 53.8
+          "wr": 54
+        },
+        {
+          "c": "Zilean",
+          "wr": 53.9
         },
         {
           "c": "Taric",
-          "wr": 53.8
+          "wr": 53.9
         }
       ]
     },
@@ -3804,27 +3803,27 @@
       "counters": [
         {
           "c": "Viktor",
-          "wr": 60
+          "wr": 59.5
         },
         {
           "c": "Lux",
-          "wr": 57.6
+          "wr": 58
         },
         {
           "c": "Yasuo",
-          "wr": 57.6
+          "wr": 57.7
         },
         {
           "c": "Katarina",
-          "wr": 57.3
+          "wr": 56.3
         },
         {
-          "c": "Nilah",
+          "c": "Hwei",
           "wr": 55.4
         },
         {
-          "c": "Xerath",
-          "wr": 55
+          "c": "Nilah",
+          "wr": 55.3
         }
       ]
     },
@@ -3835,6 +3834,7 @@
       "core": [
         3116,
         4633,
+        6653,
         3065
       ],
       "boots": 3047,
@@ -3848,34 +3848,34 @@
       "counters": [
         {
           "c": "Heimerdinger",
-          "wr": 60.9
+          "wr": 61.5
         },
         {
           "c": "Gragas",
-          "wr": 57.2
+          "wr": 56.7
         },
         {
           "c": "Urgot",
-          "wr": 56.6
-        },
-        {
-          "c": "Kayle",
           "wr": 56.4
         },
         {
-          "c": "Anivia",
-          "wr": 56.2
+          "c": "Singed",
+          "wr": 55.9
         },
         {
           "c": "Fiora",
           "wr": 55.9
+        },
+        {
+          "c": "Yone",
+          "wr": 55.7
         }
       ]
     },
     "Morgana": {
       "summoners": "Flash + Heal",
-      "keystone": "Deathfire Touch",
-      "runes": "Deathfire Touch · Nimbus Cloak · Celerity · Gathering Storm · Magical Footwear · Approach Velocity",
+      "keystone": "Arcane Comet",
+      "runes": "Arcane Comet · Manaflow Band · Transcendence · Scorch · Magical Footwear · Approach Velocity",
       "core": [
         3871,
         6653,
@@ -3897,18 +3897,18 @@
         },
         {
           "c": "Milio",
-          "wr": 56.4
+          "wr": 55.8
         },
         {
           "c": "Janna",
           "wr": 55.4
         },
         {
-          "c": "Neeko",
-          "wr": 54.4
+          "c": "Zilean",
+          "wr": 54.7
         },
         {
-          "c": "Zilean",
+          "c": "Neeko",
           "wr": 54.2
         },
         {
@@ -3920,7 +3920,7 @@
     "Naafiri": {
       "summoners": "Flash + Smite",
       "keystone": "Conqueror",
-      "runes": "Conqueror · Triumph · Legend: Haste · Coup de Grace · Cash Back · Triple Tonic",
+      "runes": "Conqueror · Triumph · Legend: Haste · Cut Down · Cash Back · Triple Tonic",
       "core": [
         6699,
         3071,
@@ -3937,28 +3937,28 @@
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
         {
-          "c": "Shyvana",
-          "wr": 55.9
-        },
-        {
           "c": "Udyr",
-          "wr": 55.8
+          "wr": 56.4
         },
         {
-          "c": "Diana",
-          "wr": 55.3
+          "c": "Shyvana",
+          "wr": 55.5
         },
         {
           "c": "Nocturne",
+          "wr": 55.3
+        },
+        {
+          "c": "Diana",
           "wr": 55.2
         },
         {
           "c": "Hecarim",
-          "wr": 54.8
+          "wr": 54.9
         },
         {
-          "c": "Nunu & Willump",
-          "wr": 53.8
+          "c": "Taliyah",
+          "wr": 53.7
         }
       ]
     },
@@ -3983,28 +3983,28 @@
       "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
         {
-          "c": "Amumu",
-          "wr": 55.4
-        },
-        {
-          "c": "Poppy",
-          "wr": 55
-        },
-        {
-          "c": "Maokai",
-          "wr": 55
-        },
-        {
           "c": "Braum",
           "wr": 54.6
         },
         {
+          "c": "Poppy",
+          "wr": 54.5
+        },
+        {
+          "c": "Maokai",
+          "wr": 54.5
+        },
+        {
+          "c": "Neeko",
+          "wr": 54.1
+        },
+        {
           "c": "Sona",
-          "wr": 54.4
+          "wr": 54.1
         },
         {
           "c": "Anivia",
-          "wr": 54.1
+          "wr": 54
         }
       ]
     },
@@ -4028,38 +4028,39 @@
       "counters": [
         {
           "c": "Ivern",
-          "wr": 55.2
+          "wr": 55.8
         },
         {
           "c": "Nidalee",
-          "wr": 52.8
+          "wr": 53.2
         },
         {
-          "c": "Lillia",
+          "c": "Zyra",
+          "wr": 52.9
+        },
+        {
+          "c": "Volibear",
           "wr": 52.7
         },
         {
-          "c": "Bel'Veth",
+          "c": "Lillia",
           "wr": 52.4
         },
         {
           "c": "Shaco",
           "wr": 51.9
-        },
-        {
-          "c": "Master Yi",
-          "wr": 51.4
         }
       ]
     },
     "Nautilus": {
-      "summoners": "Flash + Exhaust",
+      "summoners": "Flash + Heal",
       "keystone": "Aftershock",
-      "runes": "Aftershock · Shield Bash · Second Wind · Overgrowth · Biscuit Delivery · Cosmic Insight",
+      "runes": "Aftershock · Shield Bash · Second Wind · Overgrowth · Triumph · Legend: Haste",
       "core": [
         3869,
         3190,
         3109,
+        2525,
         2504
       ],
       "boots": 3009,
@@ -4077,23 +4078,23 @@
         },
         {
           "c": "Galio",
-          "wr": 54.8
+          "wr": 55.2
         },
         {
           "c": "Shen",
-          "wr": 54.7
+          "wr": 54.8
         },
         {
           "c": "Tahm Kench",
-          "wr": 54
+          "wr": 53.9
         },
         {
           "c": "Braum",
-          "wr": 54
+          "wr": 53.9
         },
         {
           "c": "Leona",
-          "wr": 53.7
+          "wr": 53.6
         }
       ]
     },
@@ -4104,7 +4105,6 @@
       "core": [
         3871,
         3152,
-        4005,
         3110,
         3165
       ],
@@ -4119,27 +4119,27 @@
       "counters": [
         {
           "c": "Soraka",
-          "wr": 58.9
+          "wr": 59.7
         },
         {
           "c": "Sona",
-          "wr": 58.4
+          "wr": 58.7
         },
         {
           "c": "Rell",
-          "wr": 55.3
+          "wr": 55.1
         },
         {
           "c": "Leona",
-          "wr": 54.7
+          "wr": 54.9
         },
         {
           "c": "Vel'Koz",
-          "wr": 54.5
+          "wr": 54.8
         },
         {
-          "c": "Alistar",
-          "wr": 54.5
+          "c": "Tahm Kench",
+          "wr": 54.6
         }
       ]
     },
@@ -4163,15 +4163,15 @@
       "counters": [
         {
           "c": "Rammus",
-          "wr": 57.3
+          "wr": 57.2
         },
         {
           "c": "Taliyah",
-          "wr": 56.4
+          "wr": 56.5
         },
         {
           "c": "Udyr",
-          "wr": 54.7
+          "wr": 54.6
         },
         {
           "c": "Nocturne",
@@ -4179,18 +4179,18 @@
         },
         {
           "c": "Zac",
-          "wr": 52.7
+          "wr": 52.6
         },
         {
           "c": "Shyvana",
-          "wr": 51.6
+          "wr": 51.7
         }
       ]
     },
     "Nilah": {
       "summoners": "Flash + Ignite",
       "keystone": "Conqueror",
-      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Magical Footwear · Jack Of All Trades",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Cash Back · Jack Of All Trades",
       "core": [
         6676,
         3031,
@@ -4208,27 +4208,27 @@
       "counters": [
         {
           "c": "Seraphine",
-          "wr": 58.5
-        },
-        {
-          "c": "Kalista",
-          "wr": 55.6
+          "wr": 59
         },
         {
           "c": "Xayah",
           "wr": 55.2
         },
         {
-          "c": "Sivir",
-          "wr": 52.5
+          "c": "Kalista",
+          "wr": 53.9
         },
         {
           "c": "Jinx",
+          "wr": 53.2
+        },
+        {
+          "c": "Sivir",
           "wr": 52.2
         },
         {
-          "c": "Ziggs",
-          "wr": 51.5
+          "c": "Senna",
+          "wr": 50.3
         }
       ]
     },
@@ -4251,27 +4251,27 @@
       "counters": [
         {
           "c": "Gwen",
-          "wr": 53.8
+          "wr": 54.1
         },
         {
           "c": "Aatrox",
-          "wr": 53.5
+          "wr": 53.7
         },
         {
-          "c": "Fiddlesticks",
-          "wr": 53.2
+          "c": "Nasus",
+          "wr": 53
         },
         {
           "c": "Wukong",
           "wr": 52.9
         },
         {
-          "c": "Nunu & Willump",
-          "wr": 52.5
+          "c": "Fiddlesticks",
+          "wr": 52.6
         },
         {
-          "c": "Sylas",
-          "wr": 52.2
+          "c": "Volibear",
+          "wr": 52.4
         }
       ]
     },
@@ -4296,27 +4296,27 @@
       "counters": [
         {
           "c": "Bel'Veth",
-          "wr": 57
+          "wr": 57.8
         },
         {
           "c": "Fiddlesticks",
-          "wr": 54
+          "wr": 53.6
         },
         {
           "c": "Ivern",
-          "wr": 52.7
-        },
-        {
-          "c": "Rek'Sai",
-          "wr": 52.2
+          "wr": 52.9
         },
         {
           "c": "Zac",
-          "wr": 52
+          "wr": 52.6
+        },
+        {
+          "c": "Rek'Sai",
+          "wr": 52.1
         },
         {
           "c": "Viego",
-          "wr": 51.4
+          "wr": 52
         }
       ]
     },
@@ -4342,38 +4342,39 @@
       "counters": [
         {
           "c": "Kled",
-          "wr": 55.2
-        },
-        {
-          "c": "Jax",
-          "wr": 54.4
+          "wr": 55.1
         },
         {
           "c": "Camille",
-          "wr": 53.9
+          "wr": 54.6
+        },
+        {
+          "c": "Jax",
+          "wr": 54.6
+        },
+        {
+          "c": "Illaoi",
+          "wr": 53.8
         },
         {
           "c": "Trundle",
-          "wr": 53.6
+          "wr": 53.8
         },
         {
-          "c": "Kayle",
-          "wr": 53.5
-        },
-        {
-          "c": "Ambessa",
-          "wr": 53.3
+          "c": "Tahm Kench",
+          "wr": 53.7
         }
       ]
     },
     "Orianna": {
       "summoners": "Flash + Ghost",
       "keystone": "Arcane Comet",
-      "runes": "Arcane Comet · Manaflow Band · Celerity · Gathering Storm · Legend: Haste · Cut Down",
+      "runes": "Arcane Comet · Manaflow Band · Celerity · Scorch · Legend: Haste · Cut Down",
       "core": [
         2503,
         3152,
-        3041
+        3041,
+        3089
       ],
       "boots": 3158,
       "starting": "Doran's Ring + Health Potion",
@@ -4390,23 +4391,23 @@
         },
         {
           "c": "Vel'Koz",
-          "wr": 59.2
-        },
-        {
-          "c": "Veigar",
-          "wr": 57.9
+          "wr": 58.3
         },
         {
           "c": "Irelia",
-          "wr": 57.4
+          "wr": 57.9
+        },
+        {
+          "c": "Veigar",
+          "wr": 57.8
         },
         {
           "c": "Locke",
-          "wr": 57.3
+          "wr": 57.1
         },
         {
-          "c": "Kassadin",
-          "wr": 56.6
+          "c": "Annie",
+          "wr": 56
         }
       ]
     },
@@ -4431,27 +4432,27 @@
       "counters": [
         {
           "c": "Wukong",
-          "wr": 55.3
+          "wr": 56.3
         },
         {
           "c": "Shen",
-          "wr": 54.9
-        },
-        {
-          "c": "Yone",
-          "wr": 53.5
-        },
-        {
-          "c": "Zaahen",
-          "wr": 53.5
-        },
-        {
-          "c": "Camille",
-          "wr": 53.4
+          "wr": 54.7
         },
         {
           "c": "Warwick",
+          "wr": 53.5
+        },
+        {
+          "c": "Kayle",
           "wr": 53.2
+        },
+        {
+          "c": "Anivia",
+          "wr": 53.2
+        },
+        {
+          "c": "Zaahen",
+          "wr": 52.8
         }
       ]
     },
@@ -4463,8 +4464,7 @@
         3877,
         6610,
         3071,
-        6692,
-        3026
+        6699
       ],
       "boots": 3009,
       "starting": "World Atlas + Health Potion",
@@ -4476,39 +4476,40 @@
       "shards": "Attack Speed · Move Speed · Tenacity",
       "counters": [
         {
-          "c": "Poppy",
-          "wr": 56.9
+          "c": "Janna",
+          "wr": 56.3
         },
         {
           "c": "Taric",
-          "wr": 56.7
+          "wr": 56.2
         },
         {
-          "c": "Janna",
-          "wr": 56.4
+          "c": "Poppy",
+          "wr": 55.9
+        },
+        {
+          "c": "Galio",
+          "wr": 54.9
         },
         {
           "c": "Renata Glasc",
-          "wr": 55.2
-        },
-        {
-          "c": "Leona",
-          "wr": 55
+          "wr": 54.7
         },
         {
           "c": "Thresh",
-          "wr": 54.6
+          "wr": 54.7
         }
       ]
     },
     "Poppy": {
-      "summoners": "Flash + Ignite",
+      "summoners": "Flash + Heal",
       "keystone": "Hail of Blades",
       "runes": "Hail of Blades · Sudden Impact · Deep Ward · Relentless Hunter · Triumph · Coup de Grace",
       "core": [
         3877,
         3190,
         2524,
+        3109,
         2525
       ],
       "boots": 3009,
@@ -4521,20 +4522,28 @@
       "shards": "Adaptive · Move Speed · Tenacity",
       "counters": [
         {
+          "c": "Galio",
+          "wr": 55.6
+        },
+        {
           "c": "Janna",
-          "wr": 51.2
-        },
-        {
-          "c": "Leona",
-          "wr": 50.8
-        },
-        {
-          "c": "Alistar",
-          "wr": 50.3
+          "wr": 52.2
         },
         {
           "c": "Maokai",
-          "wr": 50.2
+          "wr": 51.4
+        },
+        {
+          "c": "Renata Glasc",
+          "wr": 51.3
+        },
+        {
+          "c": "Tahm Kench",
+          "wr": 51.2
+        },
+        {
+          "c": "Morgana",
+          "wr": 50.5
         }
       ]
     },
@@ -4559,28 +4568,28 @@
       "shards": "Ability Haste · Move Speed · Tenacity",
       "counters": [
         {
-          "c": "Amumu",
-          "wr": 57.3
-        },
-        {
           "c": "Renata Glasc",
           "wr": 56
         },
         {
+          "c": "Amumu",
+          "wr": 55.6
+        },
+        {
           "c": "Maokai",
-          "wr": 54
+          "wr": 53.9
         },
         {
           "c": "Leona",
-          "wr": 53.6
+          "wr": 53.8
+        },
+        {
+          "c": "Soraka",
+          "wr": 53.2
         },
         {
           "c": "Shaco",
-          "wr": 53.4
-        },
-        {
-          "c": "Rell",
-          "wr": 53.2
+          "wr": 53.1
         }
       ]
     },
@@ -4596,36 +4605,36 @@
         3026
       ],
       "boots": 3158,
-      "starting": "Gustwalker Hatchling",
+      "starting": "Scorchclaw Pup",
       "startingIds": [
-        1102
+        1101
       ],
-      "skill": "Q > W > E",
+      "skill": "Q > E > W",
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
         {
-          "c": "Nasus",
-          "wr": 55.3
-        },
-        {
           "c": "Warwick",
-          "wr": 55.2
+          "wr": 55.9
         },
         {
-          "c": "Rengar",
-          "wr": 55.1
+          "c": "Nasus",
+          "wr": 55.7
         },
         {
           "c": "Rek'Sai",
-          "wr": 54.9
+          "wr": 55.3
         },
         {
-          "c": "Sejuani",
-          "wr": 54.8
+          "c": "Rengar",
+          "wr": 55.3
         },
         {
           "c": "Fiddlesticks",
-          "wr": 54.7
+          "wr": 55.2
+        },
+        {
+          "c": "Sejuani",
+          "wr": 55.2
         }
       ]
     },
@@ -4634,10 +4643,10 @@
       "keystone": "First Strike",
       "runes": "First Strike · Cash Back · Triple Tonic · Cosmic Insight · Legend: Alacrity · Cut Down",
       "core": [
-        6697,
+        6698,
+        3814,
         6676,
-        3031,
-        3036,
+        6673,
         3026
       ],
       "boots": 3009,
@@ -4646,31 +4655,31 @@
         1103
       ],
       "skill": "W > Q > E",
-      "shards": "Adaptive · Adaptive · Health Scaling",
+      "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
         {
           "c": "Evelynn",
-          "wr": 58.7
+          "wr": 57.9
+        },
+        {
+          "c": "Nasus",
+          "wr": 56.2
         },
         {
           "c": "Ekko",
-          "wr": 56
+          "wr": 55.8
         },
         {
           "c": "Rengar",
-          "wr": 55.3
+          "wr": 54.5
         },
         {
           "c": "Nidalee",
-          "wr": 54.2
-        },
-        {
-          "c": "Shaco",
           "wr": 54.1
         },
         {
-          "c": "Naafiri",
-          "wr": 52.8
+          "c": "Shaco",
+          "wr": 53.6
         }
       ]
     },
@@ -4694,28 +4703,28 @@
       "shards": "Attack Speed · Health Scaling · Tenacity",
       "counters": [
         {
+          "c": "Shen",
+          "wr": 58.4
+        },
+        {
           "c": "Neeko",
-          "wr": 54.7
+          "wr": 54.2
         },
         {
           "c": "Senna",
           "wr": 53.8
         },
         {
-          "c": "Brand",
-          "wr": 53.1
-        },
-        {
-          "c": "Tahm Kench",
+          "c": "Sona",
           "wr": 53
         },
         {
-          "c": "Janna",
-          "wr": 52.9
+          "c": "Seraphine",
+          "wr": 52.7
         },
         {
-          "c": "Seraphine",
-          "wr": 52.9
+          "c": "Zyra",
+          "wr": 52.7
         }
       ]
     },
@@ -4730,36 +4739,37 @@
         6665
       ],
       "boots": 3047,
-      "starting": "Mosstomper Seedling",
+      "starting": "Scorchclaw Pup + Health Potion",
       "startingIds": [
-        1103
+        1101,
+        2003
       ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Health Scaling · Health Scaling",
       "counters": [
         {
           "c": "Shyvana",
-          "wr": 60.2
+          "wr": 60.4
         },
         {
           "c": "Wukong",
-          "wr": 54.7
-        },
-        {
-          "c": "Hecarim",
-          "wr": 53
+          "wr": 53.6
         },
         {
           "c": "Vi",
-          "wr": 52
+          "wr": 52.7
+        },
+        {
+          "c": "Hecarim",
+          "wr": 52.7
         },
         {
           "c": "Nasus",
-          "wr": 51.5
+          "wr": 52.6
         },
         {
           "c": "Lillia",
-          "wr": 51.3
+          "wr": 51.6
         }
       ]
     },
@@ -4786,24 +4796,24 @@
           "wr": 55.6
         },
         {
-          "c": "Olaf",
-          "wr": 54.6
-        },
-        {
-          "c": "Nidalee",
-          "wr": 52.7
-        },
-        {
           "c": "Kindred",
-          "wr": 52.6
+          "wr": 53.1
         },
         {
           "c": "Vi",
-          "wr": 52.4
+          "wr": 52.9
+        },
+        {
+          "c": "Olaf",
+          "wr": 52.8
         },
         {
           "c": "Nocturne",
-          "wr": 52.3
+          "wr": 52
+        },
+        {
+          "c": "Nidalee",
+          "wr": 51.8
         }
       ]
     },
@@ -4828,34 +4838,34 @@
       "counters": [
         {
           "c": "Sona",
-          "wr": 53.5
+          "wr": 53.7
         },
         {
           "c": "Senna",
-          "wr": 52.9
+          "wr": 52.4
         },
         {
           "c": "Zilean",
-          "wr": 52.3
+          "wr": 51.7
         },
         {
           "c": "Zyra",
           "wr": 51.4
         },
         {
-          "c": "Taric",
-          "wr": 51.3
+          "c": "Seraphine",
+          "wr": 50.7
         },
         {
           "c": "Poppy",
-          "wr": 51
+          "wr": 50.6
         }
       ]
     },
     "Renata Glasc": {
       "summoners": "Flash + Exhaust",
       "keystone": "Summon Aery",
-      "runes": "Summon Aery · Manaflow Band · Transcendence · Scorch · Font of Life · Bone Plating",
+      "runes": "Summon Aery · Manaflow Band · Transcendence · Scorch · Sixth Sense · Ultimate Hunter",
       "core": [
         3870,
         3190,
@@ -4873,27 +4883,27 @@
       "counters": [
         {
           "c": "Blitzcrank",
-          "wr": 56.4
+          "wr": 56.9
         },
         {
           "c": "Soraka",
-          "wr": 55.9
+          "wr": 55.6
         },
         {
           "c": "Sona",
           "wr": 55.4
         },
         {
-          "c": "Rell",
-          "wr": 54.9
-        },
-        {
           "c": "Senna",
-          "wr": 52.7
+          "wr": 54.3
         },
         {
-          "c": "Thresh",
-          "wr": 51.8
+          "c": "Rell",
+          "wr": 54
+        },
+        {
+          "c": "Nami",
+          "wr": 52.1
         }
       ]
     },
@@ -4914,31 +4924,31 @@
         2003
       ],
       "skill": "W > Q > E",
-      "shards": "Adaptive · Adaptive · Tenacity",
+      "shards": "Adaptive · Adaptive · Health",
       "counters": [
         {
-          "c": "Dr. Mundo",
-          "wr": 57.2
-        },
-        {
           "c": "Illaoi",
-          "wr": 57
+          "wr": 57.3
         },
         {
-          "c": "Urgot",
+          "c": "Dr. Mundo",
           "wr": 56.9
         },
         {
           "c": "Vayne",
-          "wr": 56.1
+          "wr": 56.8
+        },
+        {
+          "c": "Urgot",
+          "wr": 56.3
         },
         {
           "c": "Teemo",
-          "wr": 55.9
+          "wr": 56
         },
         {
-          "c": "Aurora",
-          "wr": 55.6
+          "c": "Gragas",
+          "wr": 55.8
         }
       ]
     },
@@ -4950,7 +4960,7 @@
         3179,
         6698,
         6699,
-        3814,
+        3031,
         3036
       ],
       "starting": "Gustwalker Hatchling",
@@ -4961,28 +4971,28 @@
       "shards": "Adaptive · Adaptive · Health",
       "counters": [
         {
-          "c": "Aatrox",
-          "wr": 55.5
+          "c": "Darius",
+          "wr": 56.1
         },
         {
-          "c": "Rammus",
-          "wr": 55.1
+          "c": "Aatrox",
+          "wr": 55.7
         },
         {
           "c": "Naafiri",
-          "wr": 54.6
+          "wr": 54.5
         },
         {
-          "c": "Darius",
+          "c": "Rammus",
           "wr": 54.4
         },
         {
-          "c": "Bel'Veth",
-          "wr": 54
+          "c": "Jax",
+          "wr": 54.3
         },
         {
-          "c": "Ivern",
-          "wr": 53.4
+          "c": "Kindred",
+          "wr": 53.6
         }
       ]
     },
@@ -4992,43 +5002,43 @@
       "runes": "Conqueror · Triumph · Legend: Haste · Last Stand · Triple Tonic · Jack Of All Trades",
       "core": [
         6696,
-        2517,
         6333,
+        2517,
         6694,
         3026
       ],
-      "boots": 3008,
+      "boots": 3158,
       "starting": "Doran's Blade + Health Potion",
       "startingIds": [
         1055,
         2003
       ],
       "skill": "Q > W > E",
-      "shards": "Ability Haste · Adaptive · Tenacity",
+      "shards": "Ability Haste · Adaptive · Health",
       "counters": [
         {
-          "c": "Zaahen",
-          "wr": 56.2
-        },
-        {
-          "c": "Wukong",
-          "wr": 55.8
+          "c": "Kennen",
+          "wr": 56
         },
         {
           "c": "Trundle",
-          "wr": 55.5
+          "wr": 55.9
         },
         {
-          "c": "Kennen",
-          "wr": 55
+          "c": "Zaahen",
+          "wr": 55.7
         },
         {
           "c": "Jayce",
+          "wr": 54.5
+        },
+        {
+          "c": "Wukong",
           "wr": 54.3
         },
         {
-          "c": "Urgot",
-          "wr": 53.8
+          "c": "Poppy",
+          "wr": 54.1
         }
       ]
     },
@@ -5038,9 +5048,10 @@
       "runes": "Deathfire Touch · Nimbus Cloak · Transcendence · Scorch · Second Wind · Overgrowth",
       "core": [
         6653,
-        8010,
+        3157,
         3089,
-        4645
+        8010,
+        3041
       ],
       "boots": 3047,
       "starting": "Doran's Ring + Health Potion",
@@ -5053,27 +5064,27 @@
       "counters": [
         {
           "c": "Ornn",
-          "wr": 58
-        },
-        {
-          "c": "Kennen",
-          "wr": 57.2
-        },
-        {
-          "c": "Teemo",
-          "wr": 56.3
+          "wr": 58.1
         },
         {
           "c": "Singed",
+          "wr": 57.8
+        },
+        {
+          "c": "Teemo",
+          "wr": 56.2
+        },
+        {
+          "c": "Kennen",
           "wr": 56.1
         },
         {
           "c": "Yone",
-          "wr": 54.8
+          "wr": 55.3
         },
         {
-          "c": "Ambessa",
-          "wr": 54.6
+          "c": "Zaahen",
+          "wr": 55
         }
       ]
     },
@@ -5085,7 +5096,7 @@
         6657,
         3003,
         3089,
-        3102
+        3110
       ],
       "boots": 3008,
       "starting": "Doran's Ring + Health Potion",
@@ -5097,28 +5108,28 @@
       "shards": "Ability Haste · Move Speed · Tenacity",
       "counters": [
         {
-          "c": "Malzahar",
-          "wr": 58.5
+          "c": "Zoe",
+          "wr": 58.3
         },
         {
-          "c": "Zoe",
-          "wr": 58.2
+          "c": "Malzahar",
+          "wr": 58
         },
         {
           "c": "Hwei",
           "wr": 57.6
         },
         {
-          "c": "Anivia",
-          "wr": 56.3
-        },
-        {
           "c": "Syndra",
-          "wr": 56.3
+          "wr": 56.5
         },
         {
-          "c": "Ahri",
-          "wr": 55.8
+          "c": "Anivia",
+          "wr": 56.1
+        },
+        {
+          "c": "Veigar",
+          "wr": 56
         }
       ]
     },
@@ -5130,7 +5141,7 @@
         6676,
         3031,
         6673,
-        3072,
+        3156,
         3036
       ],
       "starting": "Doran's Blade + Health Potion",
@@ -5143,27 +5154,27 @@
       "counters": [
         {
           "c": "Karthus",
-          "wr": 60.9
-        },
-        {
-          "c": "Syndra",
-          "wr": 58.6
+          "wr": 60.8
         },
         {
           "c": "Veigar",
-          "wr": 57.5
+          "wr": 58.5
         },
         {
-          "c": "Xerath",
-          "wr": 54.7
+          "c": "Syndra",
+          "wr": 57.6
         },
         {
-          "c": "Yasuo",
-          "wr": 53.6
+          "c": "Nilah",
+          "wr": 53.7
         },
         {
-          "c": "Viktor",
-          "wr": 53.5
+          "c": "Senna",
+          "wr": 53.7
+        },
+        {
+          "c": "Seraphine",
+          "wr": 53.4
         }
       ]
     },
@@ -5187,35 +5198,35 @@
       "shards": "Attack Speed · Health Scaling · Health",
       "counters": [
         {
-          "c": "Nidalee",
-          "wr": 56.2
-        },
-        {
-          "c": "Lillia",
-          "wr": 55.5
-        },
-        {
-          "c": "Zac",
+          "c": "Nunu & Willump",
           "wr": 55.3
         },
         {
-          "c": "Evelynn",
-          "wr": 55
+          "c": "Nidalee",
+          "wr": 55.2
         },
         {
-          "c": "Jarvan IV",
+          "c": "Zac",
+          "wr": 55.1
+        },
+        {
+          "c": "Evelynn",
+          "wr": 54.6
+        },
+        {
+          "c": "Lillia",
           "wr": 54.2
         },
         {
-          "c": "Kayn",
-          "wr": 53.6
+          "c": "Jarvan IV",
+          "wr": 53.7
         }
       ]
     },
     "Senna": {
       "summoners": "Flash + Barrier",
       "keystone": "Deathfire Touch",
-      "runes": "Deathfire Touch · Manaflow Band · Celerity · Gathering Storm · Magical Footwear · Jack Of All Trades",
+      "runes": "Deathfire Touch · Manaflow Band · Celerity · Scorch · Magical Footwear · Jack Of All Trades",
       "core": [
         3087,
         3071,
@@ -5232,24 +5243,24 @@
       "shards": "Adaptive · Move Speed · Health Scaling",
       "counters": [
         {
-          "c": "Seraphine",
-          "wr": 53.5
+          "c": "Aurelion Sol",
+          "wr": 53.9
         },
         {
           "c": "Brand",
-          "wr": 53.3
-        },
-        {
-          "c": "Aurelion Sol",
-          "wr": 53.3
-        },
-        {
-          "c": "Veigar",
           "wr": 53.1
         },
         {
+          "c": "Seraphine",
+          "wr": 53
+        },
+        {
+          "c": "Veigar",
+          "wr": 52.9
+        },
+        {
           "c": "Hwei",
-          "wr": 51.8
+          "wr": 51.6
         },
         {
           "c": "Tristana",
@@ -5274,20 +5285,20 @@
         3865,
         2003
       ],
-      "skill": "E > Q > W",
+      "skill": "E > W > Q",
       "shards": "Ability Haste · Move Speed · Health Scaling",
       "counters": [
         {
           "c": "Fiddlesticks",
-          "wr": 56.9
+          "wr": 56
         },
         {
           "c": "Poppy",
-          "wr": 54
+          "wr": 53.7
         },
         {
           "c": "Galio",
-          "wr": 53.1
+          "wr": 53.5
         },
         {
           "c": "Zilean",
@@ -5295,11 +5306,11 @@
         },
         {
           "c": "Amumu",
-          "wr": 51.9
+          "wr": 51.8
         },
         {
-          "c": "Taric",
-          "wr": 51.7
+          "c": "Maokai",
+          "wr": 51.5
         }
       ]
     },
@@ -5325,27 +5336,27 @@
       "counters": [
         {
           "c": "Warwick",
-          "wr": 54.8
+          "wr": 55
         },
         {
           "c": "Singed",
-          "wr": 54.7
+          "wr": 54.6
         },
         {
           "c": "Malphite",
-          "wr": 54.2
+          "wr": 54.4
         },
         {
-          "c": "Vayne",
-          "wr": 54.1
+          "c": "Heimerdinger",
+          "wr": 53.9
         },
         {
-          "c": "Riven",
-          "wr": 53.7
+          "c": "Gragas",
+          "wr": 53.8
         },
         {
-          "c": "Akali",
-          "wr": 53.6
+          "c": "Kayle",
+          "wr": 53.8
         }
       ]
     },
@@ -5357,40 +5368,40 @@
         2503,
         4005,
         6653,
-        3036,
+        3137,
         3026
       ],
       "boots": 3158,
-      "starting": "Scorchclaw Pup",
+      "starting": "Gustwalker Hatchling",
       "startingIds": [
-        1101
+        1102
       ],
       "skill": "W > E > Q",
       "shards": "Ability Haste · Adaptive · Tenacity",
       "counters": [
         {
-          "c": "Diana",
-          "wr": 53.1
-        },
-        {
           "c": "Talon",
-          "wr": 52.8
+          "wr": 53.4
         },
         {
-          "c": "Nunu & Willump",
-          "wr": 52.7
+          "c": "Nidalee",
+          "wr": 52.9
         },
         {
           "c": "Nocturne",
           "wr": 52.7
         },
         {
-          "c": "Nidalee",
-          "wr": 52.7
+          "c": "Nunu & Willump",
+          "wr": 52.6
+        },
+        {
+          "c": "Diana",
+          "wr": 52.5
         },
         {
           "c": "Ivern",
-          "wr": 52.2
+          "wr": 51.9
         }
       ]
     },
@@ -5415,27 +5426,27 @@
       "counters": [
         {
           "c": "Kennen",
-          "wr": 55.1
+          "wr": 54.9
         },
         {
-          "c": "Riven",
-          "wr": 52.1
-        },
-        {
-          "c": "Aatrox",
-          "wr": 51.8
+          "c": "Anivia",
+          "wr": 52.5
         },
         {
           "c": "Singed",
-          "wr": 51.8
-        },
-        {
-          "c": "Zaahen",
-          "wr": 51.8
+          "wr": 52.1
         },
         {
           "c": "Olaf",
-          "wr": 51.7
+          "wr": 51.9
+        },
+        {
+          "c": "Zaahen",
+          "wr": 51.9
+        },
+        {
+          "c": "Riven",
+          "wr": 51.8
         }
       ]
     },
@@ -5461,27 +5472,27 @@
       "counters": [
         {
           "c": "Ivern",
-          "wr": 61
+          "wr": 60
         },
         {
           "c": "Sylas",
-          "wr": 59.2
+          "wr": 58.9
         },
         {
           "c": "Jax",
-          "wr": 55.2
+          "wr": 56.3
         },
         {
           "c": "Udyr",
-          "wr": 55.1
+          "wr": 55.3
         },
         {
           "c": "Nasus",
-          "wr": 54.5
+          "wr": 53.6
         },
         {
           "c": "Nunu & Willump",
-          "wr": 54
+          "wr": 53.2
         }
       ]
     },
@@ -5510,19 +5521,19 @@
         },
         {
           "c": "Gangplank",
-          "wr": 55.4
+          "wr": 54.9
         },
         {
           "c": "Teemo",
-          "wr": 54.1
+          "wr": 54.2
         },
         {
           "c": "Olaf",
-          "wr": 53.9
+          "wr": 53.6
         },
         {
           "c": "Darius",
-          "wr": 52.9
+          "wr": 52.6
         },
         {
           "c": "Ryze",
@@ -5533,7 +5544,7 @@
     "Sion": {
       "summoners": "Flash + Ignite",
       "keystone": "Grasp of the Undying",
-      "runes": "Grasp of the Undying · Shield Bash · Second Wind · Revitalize · Manaflow Band · Scorch",
+      "runes": "Grasp of the Undying · Shield Bash · Second Wind · Revitalize · Manaflow Band · Gathering Storm",
       "core": [
         6664,
         2502,
@@ -5546,16 +5557,16 @@
         1120,
         2003
       ],
-      "skill": "W > Q > E",
+      "skill": "Q > W > E",
       "shards": "Ability Haste · Move Speed · Tenacity",
       "counters": [
         {
-          "c": "Shen",
-          "wr": 57.9
+          "c": "Poppy",
+          "wr": 57.4
         },
         {
-          "c": "Poppy",
-          "wr": 57
+          "c": "Shen",
+          "wr": 57.3
         },
         {
           "c": "Zaahen",
@@ -5563,22 +5574,22 @@
         },
         {
           "c": "Fiora",
-          "wr": 55.8
+          "wr": 56.4
         },
         {
-          "c": "Trundle",
-          "wr": 55.8
+          "c": "Kled",
+          "wr": 55.4
         },
         {
           "c": "Singed",
-          "wr": 55.2
+          "wr": 54.9
         }
       ]
     },
     "Sivir": {
       "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
-      "runes": "Lethal Tempo · Presence of Mind · Legend: Alacrity · Cut Down · Magical Footwear · Cosmic Insight",
+      "runes": "Lethal Tempo · Presence of Mind · Legend: Alacrity · Cut Down · Biscuit Delivery · Jack Of All Trades",
       "core": [
         3508,
         6675,
@@ -5597,27 +5608,27 @@
       "counters": [
         {
           "c": "Viktor",
-          "wr": 61.7
+          "wr": 61.3
         },
         {
           "c": "Twitch",
-          "wr": 55.1
-        },
-        {
-          "c": "Jinx",
-          "wr": 54.6
+          "wr": 54.9
         },
         {
           "c": "Kog'Maw",
-          "wr": 54.6
+          "wr": 54.8
+        },
+        {
+          "c": "Jinx",
+          "wr": 54.5
         },
         {
           "c": "Zeri",
-          "wr": 53.5
+          "wr": 53.4
         },
         {
           "c": "Draven",
-          "wr": 53.5
+          "wr": 53.3
         }
       ]
     },
@@ -5641,27 +5652,27 @@
       "counters": [
         {
           "c": "Rek'Sai",
-          "wr": 58.8
-        },
-        {
-          "c": "Ekko",
-          "wr": 56.4
+          "wr": 58.2
         },
         {
           "c": "Shaco",
-          "wr": 54.5
-        },
-        {
-          "c": "Nunu & Willump",
-          "wr": 53.7
+          "wr": 54.6
         },
         {
           "c": "Shyvana",
-          "wr": 53.5
+          "wr": 54.3
+        },
+        {
+          "c": "Ekko",
+          "wr": 53.4
+        },
+        {
+          "c": "Master Yi",
+          "wr": 53
         },
         {
           "c": "Lillia",
-          "wr": 52.8
+          "wr": 52.6
         }
       ]
     },
@@ -5672,8 +5683,7 @@
       "core": [
         6697,
         3508,
-        2517,
-        3026
+        2517
       ],
       "boots": 3008,
       "starting": "Doran's Blade + Health Potion",
@@ -5685,28 +5695,28 @@
       "shards": "Adaptive · Move Speed · Health Scaling",
       "counters": [
         {
-          "c": "Aurelion Sol",
-          "wr": 56.9
+          "c": "Vel'Koz",
+          "wr": 57.1
         },
         {
-          "c": "Vel'Koz",
-          "wr": 56.6
+          "c": "Aurelion Sol",
+          "wr": 57
         },
         {
           "c": "Syndra",
-          "wr": 55.9
+          "wr": 56.2
         },
         {
           "c": "Brand",
-          "wr": 55.3
+          "wr": 55.7
+        },
+        {
+          "c": "Seraphine",
+          "wr": 54.3
         },
         {
           "c": "Senna",
-          "wr": 54.5
-        },
-        {
-          "c": "Lux",
-          "wr": 54.4
+          "wr": 54
         }
       ]
     },
@@ -5721,37 +5731,36 @@
         3041
       ],
       "boots": 3009,
-      "starting": "World Atlas + Health Potion",
+      "starting": "World Atlas",
       "startingIds": [
-        3865,
-        2003
+        3865
       ],
       "skill": "Q > W > E",
       "shards": "Attack Speed · Move Speed · Tenacity",
       "counters": [
         {
+          "c": "Galio",
+          "wr": 56.3
+        },
+        {
           "c": "Poppy",
-          "wr": 56.2
+          "wr": 54.8
         },
         {
           "c": "Senna",
-          "wr": 53
+          "wr": 52.7
         },
         {
           "c": "Nautilus",
-          "wr": 51.6
+          "wr": 51.5
+        },
+        {
+          "c": "Alistar",
+          "wr": 51.2
         },
         {
           "c": "Thresh",
-          "wr": 51.4
-        },
-        {
-          "c": "Zyra",
-          "wr": 50.9
-        },
-        {
-          "c": "Leona",
-          "wr": 50.9
+          "wr": 51.2
         }
       ]
     },
@@ -5776,23 +5785,23 @@
       "counters": [
         {
           "c": "Blitzcrank",
-          "wr": 53.4
-        },
-        {
-          "c": "Elise",
-          "wr": 53
-        },
-        {
-          "c": "Morgana",
-          "wr": 52.8
-        },
-        {
-          "c": "Vel'Koz",
-          "wr": 52.7
+          "wr": 53.6
         },
         {
           "c": "Senna",
+          "wr": 52.8
+        },
+        {
+          "c": "Morgana",
           "wr": 52.7
+        },
+        {
+          "c": "Elise",
+          "wr": 52.6
+        },
+        {
+          "c": "Vel'Koz",
+          "wr": 52
         },
         {
           "c": "Thresh",
@@ -5809,7 +5818,7 @@
         3116,
         2502
       ],
-      "boots": 3111,
+      "boots": 3047,
       "starting": "World Atlas + Health Potion",
       "startingIds": [
         3865,
@@ -5819,28 +5828,28 @@
       "shards": "Ability Haste · Health Scaling · Health",
       "counters": [
         {
-          "c": "Brand",
-          "wr": 58.8
-        },
-        {
           "c": "Poppy",
-          "wr": 58.4
+          "wr": 59.8
         },
         {
           "c": "Vel'Koz",
-          "wr": 58.4
+          "wr": 59.2
+        },
+        {
+          "c": "Brand",
+          "wr": 58.8
         },
         {
           "c": "Sona",
           "wr": 57.1
         },
         {
-          "c": "Rell",
-          "wr": 56.6
+          "c": "Morgana",
+          "wr": 55.9
         },
         {
-          "c": "Janna",
-          "wr": 56.4
+          "c": "Rell",
+          "wr": 55.3
         }
       ]
     },
@@ -5866,31 +5875,31 @@
           "wr": 57
         },
         {
-          "c": "Taliyah",
+          "c": "Poppy",
           "wr": 55.8
         },
         {
-          "c": "Poppy",
-          "wr": 55.5
+          "c": "Taliyah",
+          "wr": 55.7
         },
         {
           "c": "Udyr",
-          "wr": 54.3
+          "wr": 54.2
+        },
+        {
+          "c": "Briar",
+          "wr": 53.1
         },
         {
           "c": "Kindred",
-          "wr": 52.7
-        },
-        {
-          "c": "Shaco",
           "wr": 52.7
         }
       ]
     },
     "Syndra": {
       "summoners": "Flash + Ghost",
-      "keystone": "Arcane Comet",
-      "runes": "Arcane Comet · Manaflow Band · Transcendence · Scorch · Cash Back · Jack Of All Trades",
+      "keystone": "First Strike",
+      "runes": "First Strike · Cash Back · Triple Tonic · Jack Of All Trades · Presence of Mind · Legend: Haste",
       "core": [
         6655,
         4646,
@@ -5908,34 +5917,34 @@
       "counters": [
         {
           "c": "Garen",
-          "wr": 55.7
+          "wr": 55.4
         },
         {
           "c": "Locke",
-          "wr": 54.7
+          "wr": 54.3
         },
         {
           "c": "Katarina",
-          "wr": 53.8
-        },
-        {
-          "c": "Irelia",
-          "wr": 53.3
+          "wr": 54.2
         },
         {
           "c": "Fizz",
-          "wr": 53.2
+          "wr": 53.3
+        },
+        {
+          "c": "Irelia",
+          "wr": 52.9
         },
         {
           "c": "Ekko",
-          "wr": 52.8
+          "wr": 52.6
         }
       ]
     },
     "Tahm Kench": {
       "summoners": "Flash + Heal",
       "keystone": "Grasp of the Undying",
-      "runes": "Grasp of the Undying · Shield Bash · Second Wind · Revitalize · Triumph · Legend: Alacrity",
+      "runes": "Grasp of the Undying · Shield Bash · Second Wind · Unflinching · Triumph · Legend: Alacrity",
       "core": [
         3877,
         3084,
@@ -5950,31 +5959,31 @@
         2003
       ],
       "skill": "Q > W > E",
-      "shards": "Ability Haste · Health Scaling · Health Scaling",
+      "shards": "Ability Haste · Move Speed · Health Scaling",
       "counters": [
         {
           "c": "Senna",
-          "wr": 55
-        },
-        {
-          "c": "Blitzcrank",
-          "wr": 53.9
-        },
-        {
-          "c": "Swain",
-          "wr": 53
+          "wr": 55.7
         },
         {
           "c": "Sona",
-          "wr": 52.8
+          "wr": 53.6
+        },
+        {
+          "c": "Blitzcrank",
+          "wr": 53.3
         },
         {
           "c": "Alistar",
-          "wr": 52.7
+          "wr": 52.6
+        },
+        {
+          "c": "Swain",
+          "wr": 52.3
         },
         {
           "c": "Janna",
-          "wr": 52.3
+          "wr": 52.2
         }
       ]
     },
@@ -5989,9 +5998,9 @@
         3041
       ],
       "boots": 3020,
-      "starting": "Doran's Ring + Health Potion",
+      "starting": "Tear of the Goddess + Health Potion",
       "startingIds": [
-        1056,
+        3070,
         2003
       ],
       "skill": "Q > E > W",
@@ -5999,27 +6008,27 @@
       "counters": [
         {
           "c": "Katarina",
-          "wr": 58.1
+          "wr": 57.8
         },
         {
           "c": "Annie",
-          "wr": 57.9
+          "wr": 57.1
         },
         {
           "c": "Talon",
-          "wr": 56.3
+          "wr": 55.7
         },
         {
           "c": "Veigar",
-          "wr": 54.9
+          "wr": 55.3
         },
         {
-          "c": "Lissandra",
+          "c": "Locke",
           "wr": 54.4
         },
         {
-          "c": "Ekko",
-          "wr": 54.3
+          "c": "Zed",
+          "wr": 54
         }
       ]
     },
@@ -6043,27 +6052,27 @@
       "counters": [
         {
           "c": "Fiddlesticks",
-          "wr": 54.5
-        },
-        {
-          "c": "Bel'Veth",
-          "wr": 53.6
-        },
-        {
-          "c": "Aatrox",
-          "wr": 53
-        },
-        {
-          "c": "Darius",
-          "wr": 53
-        },
-        {
-          "c": "Kindred",
-          "wr": 53
+          "wr": 54.8
         },
         {
           "c": "Fizz",
+          "wr": 54.3
+        },
+        {
+          "c": "Bel'Veth",
+          "wr": 53.4
+        },
+        {
+          "c": "Rammus",
           "wr": 52.9
+        },
+        {
+          "c": "Darius",
+          "wr": 52.6
+        },
+        {
+          "c": "Aatrox",
+          "wr": 52.5
         }
       ]
     },
@@ -6085,23 +6094,23 @@
         2003
       ],
       "skill": "Q > W > E",
-      "shards": "Ability Haste · Move Speed · Health",
+      "shards": "Attack Speed · Move Speed · Health",
       "counters": [
         {
-          "c": "Sona",
-          "wr": 52.6
+          "c": "Nami",
+          "wr": 52.9
         },
         {
-          "c": "Nami",
-          "wr": 52.4
+          "c": "Sona",
+          "wr": 52.9
         },
         {
           "c": "Rakan",
-          "wr": 51.9
+          "wr": 51.4
         },
         {
           "c": "Karma",
-          "wr": 51.3
+          "wr": 51.2
         },
         {
           "c": "Zilean",
@@ -6109,7 +6118,7 @@
         },
         {
           "c": "Braum",
-          "wr": 51.2
+          "wr": 50.8
         }
       ]
     },
@@ -6122,7 +6131,7 @@
         6653,
         3115,
         3089,
-        4645
+        3165
       ],
       "boots": 3008,
       "starting": "Doran's Blade + Health Potion",
@@ -6135,27 +6144,27 @@
       "counters": [
         {
           "c": "Ornn",
-          "wr": 57.2
+          "wr": 56.5
         },
         {
           "c": "Urgot",
-          "wr": 56.6
+          "wr": 56
         },
         {
           "c": "Malphite",
           "wr": 54.9
         },
         {
-          "c": "Pantheon",
-          "wr": 54.3
+          "c": "Olaf",
+          "wr": 54
         },
         {
           "c": "Yasuo",
-          "wr": 54.2
+          "wr": 54
         },
         {
-          "c": "Olaf",
-          "wr": 53.9
+          "c": "Pantheon",
+          "wr": 53.3
         }
       ]
     },
@@ -6180,11 +6189,11 @@
       "counters": [
         {
           "c": "Fiddlesticks",
-          "wr": 55.9
+          "wr": 56
         },
         {
           "c": "Amumu",
-          "wr": 54.8
+          "wr": 55.1
         },
         {
           "c": "Taric",
@@ -6192,11 +6201,11 @@
         },
         {
           "c": "Alistar",
-          "wr": 51.4
+          "wr": 51.2
         },
         {
           "c": "Rell",
-          "wr": 51.1
+          "wr": 50.9
         },
         {
           "c": "Poppy",
@@ -6225,32 +6234,32 @@
       "counters": [
         {
           "c": "Veigar",
-          "wr": 56.4
+          "wr": 57.6
         },
         {
           "c": "Karthus",
-          "wr": 56.1
+          "wr": 56.4
         },
         {
           "c": "Nilah",
-          "wr": 54.7
+          "wr": 53.9
         },
         {
           "c": "Xerath",
-          "wr": 52.2
-        },
-        {
-          "c": "Viktor",
-          "wr": 52.1
+          "wr": 52.9
         },
         {
           "c": "Vladimir",
-          "wr": 52.1
+          "wr": 51.6
+        },
+        {
+          "c": "Aurelion Sol",
+          "wr": 51.5
         }
       ]
     },
     "Trundle": {
-      "summoners": "Flash + Ignite",
+      "summoners": "Flash + Exhaust",
       "keystone": "Lethal Tempo",
       "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Coup de Grace · Second Wind · Overgrowth",
       "core": [
@@ -6258,24 +6267,28 @@
         3078,
         6333,
         3181,
-        3065
+        3075
       ],
       "boots": 3111,
-      "starting": "Doran's Helm + Health Potion",
+      "starting": "Doran's Bow + Health Potion",
       "startingIds": [
-        1120,
+        1086,
         2003
       ],
       "skill": "W > Q > E",
-      "shards": "Adaptive · Health Scaling · Health",
+      "shards": "Attack Speed · Health Scaling · Health",
       "counters": [
         {
           "c": "Gnar",
-          "wr": 58.4
+          "wr": 58.1
         },
         {
           "c": "Irelia",
           "wr": 57.9
+        },
+        {
+          "c": "Aatrox",
+          "wr": 56.6
         },
         {
           "c": "Shen",
@@ -6283,15 +6296,11 @@
         },
         {
           "c": "Gragas",
-          "wr": 55.7
+          "wr": 55.9
         },
         {
           "c": "Fiora",
-          "wr": 55.2
-        },
-        {
-          "c": "Aatrox",
-          "wr": 55.2
+          "wr": 54.6
         }
       ]
     },
@@ -6315,34 +6324,34 @@
       "counters": [
         {
           "c": "Kled",
-          "wr": 54.4
+          "wr": 54.8
         },
         {
           "c": "Gragas",
-          "wr": 54.1
+          "wr": 54.4
         },
         {
-          "c": "Kennen",
-          "wr": 54.1
+          "c": "Poppy",
+          "wr": 54
         },
         {
           "c": "Malphite",
           "wr": 53.9
         },
         {
-          "c": "Pantheon",
-          "wr": 53.4
+          "c": "Kennen",
+          "wr": 53.9
         },
         {
           "c": "Darius",
-          "wr": 53.2
+          "wr": 53.4
         }
       ]
     },
     "Twisted Fate": {
       "summoners": "Flash + Ghost",
       "keystone": "Unsealed Spellbook",
-      "runes": "Unsealed Spellbook · Cash Back · Triple Tonic · Jack Of All Trades · Second Wind · Overgrowth",
+      "runes": "Unsealed Spellbook · Cash Back · Triple Tonic · Jack Of All Trades · Demolish · Second Wind",
       "core": [
         6657,
         3100,
@@ -6359,34 +6368,34 @@
       "counters": [
         {
           "c": "Talon",
-          "wr": 54.7
-        },
-        {
-          "c": "Fizz",
-          "wr": 52.7
-        },
-        {
-          "c": "Ziggs",
-          "wr": 52.1
-        },
-        {
-          "c": "Lissandra",
-          "wr": 51.9
-        },
-        {
-          "c": "Ekko",
-          "wr": 51.9
+          "wr": 54.2
         },
         {
           "c": "Swain",
-          "wr": 51.9
+          "wr": 53.3
+        },
+        {
+          "c": "Fizz",
+          "wr": 53.1
+        },
+        {
+          "c": "Lissandra",
+          "wr": 51.7
+        },
+        {
+          "c": "Sion",
+          "wr": 51.7
+        },
+        {
+          "c": "Yasuo",
+          "wr": 51.4
         }
       ]
     },
     "Twitch": {
       "summoners": "Flash + Barrier",
       "keystone": "Lethal Tempo",
-      "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Coup de Grace · Cash Back · Cosmic Insight",
+      "runes": "Lethal Tempo · Triumph · Legend: Alacrity · Coup de Grace · Sudden Impact · Treasure Hunter",
       "core": [
         6676,
         2512,
@@ -6405,27 +6414,27 @@
       "counters": [
         {
           "c": "Katarina",
-          "wr": 60.2
+          "wr": 59.4
         },
         {
           "c": "Swain",
-          "wr": 56.6
+          "wr": 56.2
         },
         {
           "c": "Yasuo",
-          "wr": 55.6
+          "wr": 56.1
         },
         {
-          "c": "Aurelion Sol",
-          "wr": 54.6
-        },
-        {
-          "c": "Viktor",
-          "wr": 54
+          "c": "Vladimir",
+          "wr": 54.9
         },
         {
           "c": "Samira",
-          "wr": 54
+          "wr": 54.2
+        },
+        {
+          "c": "Aurelion Sol",
+          "wr": 53.8
         }
       ]
     },
@@ -6436,6 +6445,7 @@
       "core": [
         3161,
         6333,
+        3053,
         3742,
         3041
       ],
@@ -6448,7 +6458,7 @@
       "counters": [
         {
           "c": "Aatrox",
-          "wr": 56.9
+          "wr": 57.4
         },
         {
           "c": "Nunu & Willump",
@@ -6456,19 +6466,19 @@
         },
         {
           "c": "Ekko",
-          "wr": 52.3
+          "wr": 51.8
         },
         {
           "c": "Jarvan IV",
-          "wr": 52.1
+          "wr": 51.6
         },
         {
           "c": "Nasus",
-          "wr": 51.1
+          "wr": 51.2
         },
         {
           "c": "Lee Sin",
-          "wr": 50.3
+          "wr": 50.1
         }
       ]
     },
@@ -6494,27 +6504,27 @@
       "counters": [
         {
           "c": "Wukong",
-          "wr": 58.2
-        },
-        {
-          "c": "Kennen",
-          "wr": 52.8
+          "wr": 55.5
         },
         {
           "c": "Kayle",
-          "wr": 52.4
+          "wr": 53.2
         },
         {
-          "c": "Pantheon",
-          "wr": 52
-        },
-        {
-          "c": "Malphite",
-          "wr": 51.7
+          "c": "Kennen",
+          "wr": 52.9
         },
         {
           "c": "Illaoi",
-          "wr": 51.6
+          "wr": 52
+        },
+        {
+          "c": "Pantheon",
+          "wr": 51.8
+        },
+        {
+          "c": "Malphite",
+          "wr": 51.5
         }
       ]
     },
@@ -6526,7 +6536,7 @@
         3087,
         3124,
         2510,
-        6665,
+        3157,
         3026
       ],
       "boots": 3008,
@@ -6539,10 +6549,6 @@
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
         {
-          "c": "Kog'Maw",
-          "wr": 59.3
-        },
-        {
           "c": "Nilah",
           "wr": 59.2
         },
@@ -6551,12 +6557,16 @@
           "wr": 58.6
         },
         {
-          "c": "Ziggs",
-          "wr": 56.2
+          "c": "Lux",
+          "wr": 56.4
         },
         {
-          "c": "Lux",
-          "wr": 56.2
+          "c": "Ziggs",
+          "wr": 56
+        },
+        {
+          "c": "Kog'Maw",
+          "wr": 55.9
         },
         {
           "c": "Senna",
@@ -6585,27 +6595,27 @@
       "counters": [
         {
           "c": "Kog'Maw",
-          "wr": 56.4
+          "wr": 56.1
         },
         {
           "c": "Aphelios",
-          "wr": 55.6
+          "wr": 55.5
         },
         {
           "c": "Draven",
-          "wr": 54.5
-        },
-        {
-          "c": "Seraphine",
-          "wr": 54.4
+          "wr": 54.8
         },
         {
           "c": "Vladimir",
-          "wr": 54
+          "wr": 54.2
         },
         {
           "c": "Tristana",
-          "wr": 53.8
+          "wr": 54.1
+        },
+        {
+          "c": "Veigar",
+          "wr": 53.7
         }
       ]
     },
@@ -6617,7 +6627,7 @@
         6657,
         3003,
         4646,
-        3157,
+        3089,
         3137
       ],
       "boots": 3020,
@@ -6630,28 +6640,28 @@
       "shards": "Attack Speed · Move Speed · Tenacity",
       "counters": [
         {
-          "c": "Katarina",
-          "wr": 57
-        },
-        {
-          "c": "Naafiri",
+          "c": "Riven",
           "wr": 56.8
         },
         {
+          "c": "Katarina",
+          "wr": 56.6
+        },
+        {
+          "c": "Naafiri",
+          "wr": 56.1
+        },
+        {
           "c": "Xerath",
-          "wr": 54.9
+          "wr": 55.1
         },
         {
           "c": "LeBlanc",
-          "wr": 54.8
-        },
-        {
-          "c": "Hwei",
-          "wr": 54.1
+          "wr": 54.6
         },
         {
           "c": "Locke",
-          "wr": 53.7
+          "wr": 54.3
         }
       ]
     },
@@ -6666,7 +6676,7 @@
         4645,
         3157
       ],
-      "boots": 3020,
+      "boots": 3158,
       "starting": "World Atlas + Health Potion",
       "startingIds": [
         3865,
@@ -6677,26 +6687,26 @@
       "counters": [
         {
           "c": "Shaco",
-          "wr": 56.8
+          "wr": 56.9
         },
         {
           "c": "Braum",
-          "wr": 54.8
-        },
-        {
-          "c": "Elise",
-          "wr": 54.6
-        },
-        {
-          "c": "Camille",
-          "wr": 53.9
+          "wr": 54.7
         },
         {
           "c": "Poppy",
-          "wr": 53.4
+          "wr": 53.9
         },
         {
-          "c": "Blitzcrank",
+          "c": "Camille",
+          "wr": 53.7
+        },
+        {
+          "c": "Karma",
+          "wr": 53.3
+        },
+        {
+          "c": "Elise",
           "wr": 53.1
         }
       ]
@@ -6718,31 +6728,31 @@
         2003
       ],
       "skill": "Q > W > E",
-      "shards": "Adaptive · Move Speed · Health",
+      "shards": "Adaptive · Adaptive · Health",
       "counters": [
         {
           "c": "Annie",
-          "wr": 54.8
+          "wr": 55
         },
         {
           "c": "Xerath",
-          "wr": 54.5
+          "wr": 54.3
         },
         {
           "c": "Taliyah",
-          "wr": 54.2
-        },
-        {
-          "c": "Orianna",
-          "wr": 53.5
+          "wr": 54.3
         },
         {
           "c": "Zoe",
-          "wr": 53.4
+          "wr": 53.3
+        },
+        {
+          "c": "Veigar",
+          "wr": 53
         },
         {
           "c": "Twisted Fate",
-          "wr": 52.7
+          "wr": 52.9
         }
       ]
     },
@@ -6755,7 +6765,7 @@
         6610,
         3026,
         3053,
-        6673
+        6333
       ],
       "boots": 3047,
       "starting": "Mosstomper Seedling + Health Potion",
@@ -6767,28 +6777,28 @@
       "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
         {
+          "c": "Nunu & Willump",
+          "wr": 55.8
+        },
+        {
           "c": "Ivern",
-          "wr": 55
+          "wr": 55.1
         },
         {
           "c": "Udyr",
           "wr": 54.8
         },
         {
-          "c": "Nunu & Willump",
-          "wr": 54.7
+          "c": "Zyra",
+          "wr": 54.6
+        },
+        {
+          "c": "Gragas",
+          "wr": 54.5
         },
         {
           "c": "Shyvana",
-          "wr": 53.7
-        },
-        {
-          "c": "Zyra",
-          "wr": 53.6
-        },
-        {
-          "c": "Wukong",
-          "wr": 53.5
+          "wr": 54.2
         }
       ]
     },
@@ -6797,10 +6807,10 @@
       "keystone": "Hail of Blades",
       "runes": "Hail of Blades · Sudden Impact · Sixth Sense · Treasure Hunter · Triumph · Legend: Alacrity",
       "core": [
+        6672,
         6676,
         6673,
         3031,
-        3036,
         3026
       ],
       "starting": "Mosstomper Seedling + Health Potion",
@@ -6813,11 +6823,11 @@
       "counters": [
         {
           "c": "Darius",
-          "wr": 55.4
+          "wr": 54.9
         },
         {
           "c": "Nasus",
-          "wr": 54.7
+          "wr": 54.6
         },
         {
           "c": "Rek'Sai",
@@ -6825,7 +6835,7 @@
         },
         {
           "c": "Nidalee",
-          "wr": 54.3
+          "wr": 54.5
         },
         {
           "c": "Fiddlesticks",
@@ -6833,14 +6843,14 @@
         },
         {
           "c": "Rengar",
-          "wr": 53.3
+          "wr": 53.5
         }
       ]
     },
     "Viktor": {
       "summoners": "Flash + Ignite",
       "keystone": "Deathfire Touch",
-      "runes": "Deathfire Touch · Manaflow Band · Celerity · Scorch · Legend: Haste · Cut Down",
+      "runes": "Deathfire Touch · Manaflow Band · Transcendence · Scorch · Legend: Haste · Cut Down",
       "core": [
         2503,
         3100,
@@ -6858,34 +6868,34 @@
       "counters": [
         {
           "c": "Brand",
-          "wr": 55.5
+          "wr": 55.9
         },
         {
           "c": "Talon",
-          "wr": 54.9
+          "wr": 54.7
         },
         {
           "c": "Locke",
-          "wr": 54.5
+          "wr": 54.7
         },
         {
           "c": "Zoe",
-          "wr": 53.8
+          "wr": 54
         },
         {
           "c": "Pantheon",
-          "wr": 53.4
+          "wr": 53.6
         },
         {
           "c": "Veigar",
-          "wr": 53.2
+          "wr": 53.3
         }
       ]
     },
     "Vladimir": {
       "summoners": "Flash + Ignite",
       "keystone": "Deathfire Touch",
-      "runes": "Deathfire Touch · Nimbus Cloak · Transcendence · Scorch · Legend: Haste · Last Stand",
+      "runes": "Deathfire Touch · Nimbus Cloak · Transcendence · Scorch · Legend: Haste · Cut Down",
       "core": [
         3152,
         3041,
@@ -6902,35 +6912,35 @@
       "shards": "Ability Haste · Adaptive · Health Scaling",
       "counters": [
         {
-          "c": "Diana",
-          "wr": 54.3
-        },
-        {
           "c": "Riven",
-          "wr": 54.2
+          "wr": 54.6
         },
         {
-          "c": "Malzahar",
-          "wr": 52.7
+          "c": "Diana",
+          "wr": 54
         },
         {
           "c": "Galio",
-          "wr": 52.6
+          "wr": 52.9
         },
         {
-          "c": "Fizz",
-          "wr": 51.5
+          "c": "Malzahar",
+          "wr": 52.4
         },
         {
           "c": "Syndra",
-          "wr": 51.5
+          "wr": 51.2
+        },
+        {
+          "c": "Fizz",
+          "wr": 51.2
         }
       ]
     },
     "Volibear": {
-      "summoners": "Flash + Ignite",
-      "keystone": "Press the Attack",
-      "runes": "Press the Attack · Presence of Mind · Legend: Alacrity · Last Stand · Cash Back · Jack Of All Trades",
+      "summoners": "Flash + Exhaust",
+      "keystone": "Grasp of the Undying",
+      "runes": "Grasp of the Undying · Shield Bash · Second Wind · Revitalize · Legend: Alacrity · Last Stand",
       "core": [
         2510,
         6675,
@@ -6947,27 +6957,27 @@
       "counters": [
         {
           "c": "Jax",
-          "wr": 60
+          "wr": 60.1
         },
         {
           "c": "Teemo",
-          "wr": 56
+          "wr": 56.6
         },
         {
           "c": "Vayne",
-          "wr": 55.9
-        },
-        {
-          "c": "Cho'Gath",
-          "wr": 55.7
+          "wr": 56
         },
         {
           "c": "Shen",
-          "wr": 55.2
+          "wr": 55.6
         },
         {
-          "c": "Garen",
-          "wr": 54.6
+          "c": "Illaoi",
+          "wr": 55
+        },
+        {
+          "c": "Ornn",
+          "wr": 54.5
         }
       ]
     },
@@ -6979,7 +6989,6 @@
         6631,
         3153,
         3053,
-        6333,
         3065
       ],
       "boots": 3047,
@@ -6993,27 +7002,27 @@
       "counters": [
         {
           "c": "Lillia",
-          "wr": 56.5
+          "wr": 55.9
         },
         {
-          "c": "Rek'Sai",
-          "wr": 55.1
-        },
-        {
-          "c": "Nasus",
-          "wr": 54.8
-        },
-        {
-          "c": "Nunu & Willump",
-          "wr": 54.6
+          "c": "Rammus",
+          "wr": 55.6
         },
         {
           "c": "Nidalee",
-          "wr": 54
+          "wr": 54.9
+        },
+        {
+          "c": "Nasus",
+          "wr": 54.3
+        },
+        {
+          "c": "Nunu & Willump",
+          "wr": 54.3
         },
         {
           "c": "Nocturne",
-          "wr": 53.9
+          "wr": 53.1
         }
       ]
     },
@@ -7038,7 +7047,11 @@
       "counters": [
         {
           "c": "Zyra",
-          "wr": 56.9
+          "wr": 57.1
+        },
+        {
+          "c": "Volibear",
+          "wr": 56.8
         },
         {
           "c": "Jax",
@@ -7046,19 +7059,15 @@
         },
         {
           "c": "Aatrox",
-          "wr": 56.4
+          "wr": 56.2
         },
         {
           "c": "Skarner",
           "wr": 54.4
         },
         {
-          "c": "Shyvana",
-          "wr": 54
-        },
-        {
-          "c": "Taliyah",
-          "wr": 53.9
+          "c": "Ivern",
+          "wr": 54.2
         }
       ]
     },
@@ -7083,15 +7092,15 @@
       "counters": [
         {
           "c": "Vladimir",
-          "wr": 57.7
-        },
-        {
-          "c": "Lux",
-          "wr": 57.3
+          "wr": 58.1
         },
         {
           "c": "Vel'Koz",
-          "wr": 57
+          "wr": 57.5
+        },
+        {
+          "c": "Lux",
+          "wr": 56.9
         },
         {
           "c": "Karthus",
@@ -7099,11 +7108,11 @@
         },
         {
           "c": "Seraphine",
-          "wr": 55.5
+          "wr": 55.8
         },
         {
           "c": "Hwei",
-          "wr": 54.4
+          "wr": 53.8
         }
       ]
     },
@@ -7129,34 +7138,34 @@
       "counters": [
         {
           "c": "Ekko",
-          "wr": 54.8
-        },
-        {
-          "c": "Katarina",
-          "wr": 54.6
+          "wr": 55.5
         },
         {
           "c": "Talon",
-          "wr": 54.1
+          "wr": 55.4
         },
         {
-          "c": "Riven",
-          "wr": 53.6
-        },
-        {
-          "c": "Fizz",
-          "wr": 53.3
+          "c": "Katarina",
+          "wr": 54.3
         },
         {
           "c": "Locke",
-          "wr": 53.3
+          "wr": 53.7
+        },
+        {
+          "c": "Riven",
+          "wr": 53.7
+        },
+        {
+          "c": "Fizz",
+          "wr": 53.4
         }
       ]
     },
     "Xin Zhao": {
       "summoners": "Flash + Smite",
       "keystone": "Conqueror",
-      "runes": "Conqueror · Triumph · Legend: Alacrity · Last Stand · Magical Footwear · Cosmic Insight",
+      "runes": "Conqueror · Triumph · Legend: Alacrity · Coup de Grace · Magical Footwear · Cosmic Insight",
       "core": [
         6610,
         3071,
@@ -7169,31 +7178,31 @@
         1101
       ],
       "skill": "W > Q > E",
-      "shards": "Attack Speed · Adaptive · Tenacity",
+      "shards": "Attack Speed · Adaptive · Health Scaling",
       "counters": [
         {
           "c": "Olaf",
-          "wr": 61.3
+          "wr": 62.3
         },
         {
           "c": "Briar",
-          "wr": 57.5
-        },
-        {
-          "c": "Warwick",
-          "wr": 56.9
+          "wr": 57.8
         },
         {
           "c": "Udyr",
-          "wr": 56.7
+          "wr": 56.9
         },
         {
-          "c": "Bel'Veth",
+          "c": "Warwick",
           "wr": 55.9
         },
         {
+          "c": "Bel'Veth",
+          "wr": 55.8
+        },
+        {
           "c": "Nidalee",
-          "wr": 55.3
+          "wr": 55.4
         }
       ]
     },
@@ -7214,19 +7223,15 @@
         2003
       ],
       "skill": "Q > E > W",
-      "shards": "Attack Speed · Health Scaling · Health",
+      "shards": "Attack Speed · Health Scaling · Tenacity",
       "counters": [
         {
           "c": "Riven",
-          "wr": 61.8
+          "wr": 61.3
         },
         {
           "c": "Gragas",
-          "wr": 58
-        },
-        {
-          "c": "Cho'Gath",
-          "wr": 58
+          "wr": 58.3
         },
         {
           "c": "Lissandra",
@@ -7234,11 +7239,15 @@
         },
         {
           "c": "Vladimir",
-          "wr": 57.1
+          "wr": 56.6
+        },
+        {
+          "c": "Cho'Gath",
+          "wr": 56.4
         },
         {
           "c": "Annie",
-          "wr": 55.5
+          "wr": 55.3
         }
       ]
     },
@@ -7263,26 +7272,26 @@
       "counters": [
         {
           "c": "Quinn",
-          "wr": 58.8
+          "wr": 60.2
         },
         {
           "c": "Anivia",
-          "wr": 56.8
+          "wr": 56.9
         },
         {
           "c": "Akali",
           "wr": 55.9
         },
         {
-          "c": "Tryndamere",
-          "wr": 55.8
-        },
-        {
-          "c": "Gangplank",
+          "c": "Master Yi",
           "wr": 55.6
         },
         {
-          "c": "Master Yi",
+          "c": "Tryndamere",
+          "wr": 55.5
+        },
+        {
+          "c": "Riven",
           "wr": 55.5
         }
       ]
@@ -7308,11 +7317,11 @@
       "shards": "Ability Haste · Move Speed · Tenacity",
       "counters": [
         {
-          "c": "Anivia",
-          "wr": 58
+          "c": "Kayle",
+          "wr": 57.7
         },
         {
-          "c": "Shen",
+          "c": "Anivia",
           "wr": 57.1
         },
         {
@@ -7320,16 +7329,16 @@
           "wr": 57
         },
         {
-          "c": "Kayle",
-          "wr": 56.9
+          "c": "Locke",
+          "wr": 56.7
         },
         {
-          "c": "Singed",
+          "c": "Olaf",
           "wr": 56.6
         },
         {
-          "c": "Locke",
-          "wr": 56.2
+          "c": "Kled",
+          "wr": 56.6
         }
       ]
     },
@@ -7355,27 +7364,27 @@
       "counters": [
         {
           "c": "Hwei",
-          "wr": 59.8
-        },
-        {
-          "c": "Viktor",
-          "wr": 57.3
+          "wr": 58.6
         },
         {
           "c": "Seraphine",
-          "wr": 56.9
+          "wr": 57.1
+        },
+        {
+          "c": "Viktor",
+          "wr": 56.4
         },
         {
           "c": "Lux",
-          "wr": 56.2
+          "wr": 55.9
         },
         {
           "c": "Ziggs",
-          "wr": 56.2
+          "wr": 55.8
         },
         {
-          "c": "Swain",
-          "wr": 55.6
+          "c": "Karthus",
+          "wr": 55.8
         }
       ]
     },
@@ -7400,27 +7409,27 @@
       "counters": [
         {
           "c": "Galio",
-          "wr": 61.2
+          "wr": 61.8
         },
         {
           "c": "Taric",
-          "wr": 60.2
+          "wr": 59.7
         },
         {
           "c": "Elise",
-          "wr": 58.8
+          "wr": 59.5
         },
         {
           "c": "Poppy",
-          "wr": 58.3
+          "wr": 58.9
         },
         {
           "c": "Thresh",
-          "wr": 58.2
+          "wr": 58
         },
         {
-          "c": "Nautilus",
-          "wr": 58
+          "c": "Braum",
+          "wr": 57.8
         }
       ]
     },
@@ -7445,27 +7454,27 @@
       "counters": [
         {
           "c": "Teemo",
-          "wr": 56
-        },
-        {
-          "c": "Vladimir",
-          "wr": 53.7
+          "wr": 55.3
         },
         {
           "c": "Warwick",
           "wr": 53.7
         },
         {
-          "c": "Kayle",
+          "c": "Olaf",
           "wr": 53.4
         },
         {
-          "c": "Olaf",
-          "wr": 52.8
+          "c": "Vladimir",
+          "wr": 53.1
         },
         {
-          "c": "Gwen",
-          "wr": 52.7
+          "c": "Kayle",
+          "wr": 53
+        },
+        {
+          "c": "Kled",
+          "wr": 52.6
         }
       ]
     },
@@ -7492,22 +7501,22 @@
         },
         {
           "c": "Aatrox",
-          "wr": 57.6
+          "wr": 59.1
         },
         {
           "c": "Zed",
-          "wr": 55.3
-        },
-        {
-          "c": "Lillia",
-          "wr": 55.2
-        },
-        {
-          "c": "Evelynn",
-          "wr": 54.6
+          "wr": 55.4
         },
         {
           "c": "Skarner",
+          "wr": 54.8
+        },
+        {
+          "c": "Lillia",
+          "wr": 54.7
+        },
+        {
+          "c": "Warwick",
           "wr": 54.1
         }
       ]
@@ -7534,26 +7543,26 @@
       "counters": [
         {
           "c": "Garen",
-          "wr": 57.9
+          "wr": 58.1
         },
         {
           "c": "Riven",
-          "wr": 56.7
+          "wr": 56.5
         },
         {
           "c": "Gragas",
-          "wr": 55.8
+          "wr": 56.2
         },
         {
           "c": "Katarina",
-          "wr": 54.2
+          "wr": 53.8
         },
         {
           "c": "Pantheon",
-          "wr": 53.1
+          "wr": 53.5
         },
         {
-          "c": "Talon",
+          "c": "Qiyana",
           "wr": 52.9
         }
       ]
@@ -7567,7 +7576,7 @@
         3046,
         3031,
         2523,
-        3139
+        3026
       ],
       "boots": 3008,
       "starting": "Doran's Bow + Health Potion",
@@ -7580,27 +7589,27 @@
       "counters": [
         {
           "c": "Hwei",
-          "wr": 56.5
-        },
-        {
-          "c": "Nilah",
-          "wr": 53.9
+          "wr": 56.2
         },
         {
           "c": "Kog'Maw",
-          "wr": 53.6
+          "wr": 54.4
         },
         {
-          "c": "Syndra",
-          "wr": 53.5
+          "c": "Nilah",
+          "wr": 54
+        },
+        {
+          "c": "Seraphine",
+          "wr": 53
         },
         {
           "c": "Vel'Koz",
-          "wr": 53.2
+          "wr": 53
         },
         {
           "c": "Jinx",
-          "wr": 52.7
+          "wr": 52.9
         }
       ]
     },
@@ -7609,8 +7618,8 @@
       "keystone": "Arcane Comet",
       "runes": "Arcane Comet · Manaflow Band · Transcendence · Gathering Storm · Magical Footwear · Biscuit Delivery",
       "core": [
-        6655,
-        3152,
+        2503,
+        6653,
         3003,
         4628,
         3089
@@ -7622,19 +7631,19 @@
         2003
       ],
       "skill": "Q > E > W",
-      "shards": "Attack Speed · Adaptive · Health Scaling",
+      "shards": "Adaptive · Adaptive · Health Scaling",
       "counters": [
-        {
-          "c": "Hwei",
-          "wr": 54
-        },
         {
           "c": "Karthus",
           "wr": 53
         },
         {
+          "c": "Hwei",
+          "wr": 52.9
+        },
+        {
           "c": "Tristana",
-          "wr": 52.3
+          "wr": 51.9
         },
         {
           "c": "Senna",
@@ -7642,11 +7651,11 @@
         },
         {
           "c": "Vladimir",
-          "wr": 51.4
+          "wr": 51.7
         },
         {
-          "c": "Yasuo",
-          "wr": 51.1
+          "c": "Viktor",
+          "wr": 51.2
         }
       ]
     },
@@ -7656,10 +7665,9 @@
       "runes": "Guardian · Font of Life · Bone Plating · Overgrowth · Magical Footwear · Jack Of All Trades",
       "core": [
         3876,
-        3190,
         2065,
-        2524,
-        4005
+        3222,
+        2524
       ],
       "boots": 3158,
       "starting": "World Atlas + Health Potion",
@@ -7672,27 +7680,27 @@
       "counters": [
         {
           "c": "Shaco",
-          "wr": 54.6
+          "wr": 56.1
         },
         {
           "c": "Sona",
-          "wr": 54.6
+          "wr": 53.9
         },
         {
           "c": "Janna",
-          "wr": 53.8
+          "wr": 53.7
         },
         {
           "c": "Poppy",
-          "wr": 52.9
+          "wr": 52.7
         },
         {
           "c": "Leona",
-          "wr": 51.5
+          "wr": 51.4
         },
         {
           "c": "Senna",
-          "wr": 51.4
+          "wr": 51.3
         }
       ]
     },
@@ -7703,8 +7711,7 @@
       "core": [
         6655,
         3100,
-        3041,
-        3102
+        3041
       ],
       "boots": 3020,
       "starting": "Doran's Ring + Health Potion",
@@ -7716,27 +7723,27 @@
       "shards": "Adaptive · Move Speed · Health",
       "counters": [
         {
+          "c": "Katarina",
+          "wr": 54.7
+        },
+        {
           "c": "Malzahar",
           "wr": 54.1
         },
         {
-          "c": "Katarina",
-          "wr": 54
-        },
-        {
           "c": "Naafiri",
-          "wr": 53.9
+          "wr": 53.5
         },
         {
           "c": "Kassadin",
-          "wr": 53.2
+          "wr": 52.3
         },
         {
           "c": "Talon",
-          "wr": 51.5
+          "wr": 51.8
         },
         {
-          "c": "Akshan",
+          "c": "Syndra",
           "wr": 51.2
         }
       ]
@@ -7744,7 +7751,7 @@
     "Zyra": {
       "summoners": "Flash + Heal",
       "keystone": "Arcane Comet",
-      "runes": "Arcane Comet · Manaflow Band · Transcendence · Scorch · Presence of Mind · Coup de Grace",
+      "runes": "Arcane Comet · Manaflow Band · Transcendence · Scorch · Presence of Mind · Cut Down",
       "core": [
         3871,
         6653,
@@ -7762,27 +7769,27 @@
       "counters": [
         {
           "c": "Braum",
-          "wr": 55.9
-        },
-        {
-          "c": "Leona",
-          "wr": 55.2
+          "wr": 56.7
         },
         {
           "c": "Tahm Kench",
-          "wr": 55.2
+          "wr": 56.3
+        },
+        {
+          "c": "Leona",
+          "wr": 55.4
         },
         {
           "c": "Maokai",
-          "wr": 53.9
+          "wr": 54.3
+        },
+        {
+          "c": "Janna",
+          "wr": 53.2
         },
         {
           "c": "Milio",
           "wr": 53.2
-        },
-        {
-          "c": "Janna",
-          "wr": 53
         }
       ]
     }
