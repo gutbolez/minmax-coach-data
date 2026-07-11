@@ -25,7 +25,7 @@ const TIER = process.env.TIER || "diamond_plus";
 const LIMIT = process.env.LIMIT ? Number(process.env.LIMIT) : Infinity;
 const CONCURRENCY = Number(process.env.CONCURRENCY || 4);
 const CURATED = new URL("../curated.json", import.meta.url);
-const OUT = new URL("../meta.json", import.meta.url);
+const OUT = new URL(process.env.OUT || "../meta.json", import.meta.url);
 
 const getJson = async (u) => {
   const r = await fetch(u, { headers: { "user-agent": "minmax-coach-data/1.0" } });
@@ -120,8 +120,48 @@ const EXTRACT = () => {
     .map((i) => Number((i.src.match(/statmod32\/(\d+)/) || [])[1]));
   const shards = chosenShards.length === 3 ? chosenShards.map((id) => SHARD[id] || id).join(" · ") : null;
 
-  return { summoners, keystone: primary[0] ? primary[0].alt : null, runePage, core, starting, startingIds, skill, shards, title: document.title };
+  // Lane picture: which lane THIS page shows (title says "for jungle Nasus"),
+  // and the other lanes' pick shares from the lane-switch nav. Lets the
+  // ingester scrape every meaningfully-played lane — a Nasus TOP player must
+  // not be handed the jungle build because jungle is the most-played lane.
+  const currentLane = ((document.title.match(/for (top|jungle|middle|bottom|support)/i) || [])[1] || "").toLowerCase() || null;
+  const laneShares = [...document.querySelectorAll("a[href*='/build/?lane=']")]
+    .filter((a) => !a.getAttribute("href").includes("/vs/"))
+    .map((a) => {
+      const m = a.getAttribute("href").match(/lane=(top|jungle|middle|bottom|support)/);
+      const pct = parseFloat((a.textContent || "").trim());
+      return m ? { lane: m[1], pct: Number.isFinite(pct) ? pct : 0 } : null;
+    })
+    .filter(Boolean);
+
+  return { summoners, keystone: primary[0] ? primary[0].alt : null, runePage, core, starting, startingIds, skill, shards, currentLane, laneShares, title: document.title };
 };
+
+/// Extracted page data -> the meta.json entry shape.
+function pack(d, bootsSet) {
+  const out = {};
+  if (d.summoners.length === 2) {
+    d.summoners.sort((a, b) => (a === "Flash" ? -1 : b === "Flash" ? 1 : 0));
+    out.summoners = `${d.summoners[0]} + ${d.summoners[1]}`;
+  }
+  if (d.keystone) out.keystone = d.keystone;
+  // Full rune page (keystone + primary + secondary): a copyable summary.
+  if (d.runePage && d.runePage.length > 1) out.runes = d.runePage.join(" · ");
+  const coreItems = [...new Set(d.core.filter((id) => !bootsSet.has(id)))];
+  if (coreItems.length) out.core = coreItems.slice(0, 5);
+  const boots = d.core.find((id) => bootsSet.has(id));
+  if (boots) out.boots = boots;
+  const start = (d.starting || []).filter(Boolean).slice(0, 3);
+  if (start.length) out.starting = start.join(" + ");
+  const startIds = [...new Set(d.startingIds || [])].slice(0, 3);
+  if (startIds.length) out.startingIds = startIds;
+  if (d.skill) out.skill = d.skill;
+  if (d.shards) out.shards = d.shards;
+  return out;
+}
+
+// A lane matters if this share of the champion's games happen there.
+const LANE_MIN_PCT = 8;
 
 async function scrape(context, champ, bootsSet) {
   const page = await context.newPage();
@@ -131,33 +171,31 @@ async function scrape(context, champ, bootsSet) {
     if (["media", "font"].includes(t)) return route.abort();
     route.continue();
   });
+  const base = `https://lolalytics.com/lol/${slug(champ.name)}/build/?tier=${TIER}`;
   try {
-    await page.goto(`https://lolalytics.com/lol/${slug(champ.name)}/build/?tier=${TIER}`, {
-      waitUntil: "domcontentloaded",
-      timeout: 40000,
-    });
+    await page.goto(base, { waitUntil: "domcontentloaded", timeout: 40000 });
     await page.waitForSelector("text=Core Build", { timeout: 15000 }).catch(() => {});
     await page.waitForTimeout(500);
     const d = await page.evaluate(EXTRACT);
+    const out = pack(d, bootsSet);
 
-    const out = {};
-    if (d.summoners.length === 2) {
-      d.summoners.sort((a, b) => (a === "Flash" ? -1 : b === "Flash" ? 1 : 0));
-      out.summoners = `${d.summoners[0]} + ${d.summoners[1]}`;
+    // Per-lane builds for every lane with a real pick share. The top-level
+    // fields stay = the most-played lane (backward compatible); `lanes` adds
+    // the rest so the app can serve the build for the role actually played.
+    const lanes = {};
+    if (d.currentLane) lanes[d.currentLane] = { ...out };
+    for (const l of d.laneShares || []) {
+      if (l.pct < LANE_MIN_PCT || l.lane === d.currentLane) continue;
+      try {
+        await page.goto(`${base}&lane=${l.lane}`, { waitUntil: "domcontentloaded", timeout: 40000 });
+        await page.waitForSelector("text=Core Build", { timeout: 15000 }).catch(() => {});
+        await page.waitForTimeout(400);
+        const dl = await page.evaluate(EXTRACT);
+        const pl = pack(dl, bootsSet);
+        if (pl.core || pl.keystone) lanes[l.lane] = pl;
+      } catch {}
     }
-    if (d.keystone) out.keystone = d.keystone;
-    // Full rune page (keystone + primary + secondary): a copyable summary.
-    if (d.runePage && d.runePage.length > 1) out.runes = d.runePage.join(" · ");
-    const coreItems = [...new Set(d.core.filter((id) => !bootsSet.has(id)))];
-    if (coreItems.length) out.core = coreItems.slice(0, 5);
-    const boots = d.core.find((id) => bootsSet.has(id));
-    if (boots) out.boots = boots;
-    const start = (d.starting || []).filter(Boolean).slice(0, 3);
-    if (start.length) out.starting = start.join(" + ");
-    const startIds = [...new Set(d.startingIds || [])].slice(0, 3);
-    if (startIds.length) out.startingIds = startIds;
-    if (d.skill) out.skill = d.skill;
-    if (d.shards) out.shards = d.shards;
+    if (Object.keys(lanes).length > 1) out.lanes = lanes;
     return out;
   } catch {
     return {};
@@ -252,6 +290,11 @@ async function main() {
     magic: c.info?.magic ?? 0,
   }));
   champs.sort((a, b) => a.name.localeCompare(b.name));
+  // ONLY=Nasus,Locke — targeted runs for testing / hotfixing single champions.
+  if (process.env.ONLY) {
+    const names = process.env.ONLY.split(",").map((s) => s.trim().toLowerCase());
+    champs = champs.filter((c) => names.includes(c.name.toLowerCase()));
+  }
   // lowercase ddragon id -> display name, for resolving op.gg opponent keys.
   const keyToName = new Map(champs.map((c) => [c.ddId.toLowerCase(), c.name]));
   if (Number.isFinite(LIMIT)) champs = champs.slice(0, LIMIT);
@@ -281,6 +324,7 @@ async function main() {
         ...((override.startingIds || live.startingIds) ? { startingIds: override.startingIds || live.startingIds } : {}),
         ...((override.skill || live.skill) ? { skill: override.skill || live.skill } : {}),
         ...((override.shards || live.shards) ? { shards: override.shards || live.shards } : {}),
+        ...(live.lanes ? { lanes: live.lanes } : {}),
         ...(counters ? { counters } : {}),
       };
       if ((idx % 20) === 0) console.log(`  ${idx}/${champs.length}...`);
